@@ -1,0 +1,7 @@
+#+TITLE: beardytron
+# TAGS #music
+
+https://www.redbulletin.com/int/en/lifestyle/beardytron5000mkiii
+
+Explains what seems to be the core functionality. Samples input and allocates it to a range of keys (with pitch modification) 
+Another input is used to trigger the various keys

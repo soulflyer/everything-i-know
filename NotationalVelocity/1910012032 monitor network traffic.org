@@ -1,0 +1,14 @@
+#+TITLE: monitor network traffic
+# TAGS
+
+wireshark
+nettop -m route
+lsof -i
+
+https://radiosilenceapp.com/
+
+nettop , then hit 
+p   to deselect all the noise
+c   collapse the sections
+e   expand them again
+h   get some help

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2402032018 calipers-images
+:END:
+#+TITLE: calipers
+# Tags #tools
+
+[[file:2402032018 calipers-images/calipers.png]]
+[[file:2402032018 calipers-images/calipers2.png]]
+[[file:2402032018 calipers-images/calipers3.png]]
+[[file:2402032018 calipers-images/calipers4.png]]

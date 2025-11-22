@@ -1,0 +1,6 @@
+#+TITLE: xml pretty print
+# TAGS
+
+Turn a compact into something more readable:
+M-x sgml-mode
+M-x sgml-pretty-print

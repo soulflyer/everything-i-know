@@ -1,0 +1,6 @@
+#+TITLE: photo delivery
+# TAGS #photo
+
+
+Log in to google as photos@soulflyer.co.uk and use the spreadsheet Photo-Deliveries. 
+Yet Another Mail Merge does the mailing and the template is in gmail drafts folder

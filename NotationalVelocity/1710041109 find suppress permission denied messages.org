@@ -1,0 +1,8 @@
+#+TITLE: find suppress permission denied messages
+# TAGS #shell
+
+find {params} 2>/dev/null 
+
+or:
+
+find {params} 2>&1 | grep -v "Permission denied"

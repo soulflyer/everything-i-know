@@ -1,0 +1,6 @@
+#+TITLE: pdf link
+# TAGS #pdf
+
+You can link to a specific PDF page by appending '#page=N' to the URL
+
+*org-store-link* will do this for you. Insert a link as normal and uparrow to find the stored link

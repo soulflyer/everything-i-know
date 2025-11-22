@@ -1,0 +1,6 @@
+#+TITLE: find grep
+# TAGS #find #grep
+
+find .  -type f  -name "*.sh"-exec grep osascript {} \; -print
+
+looks for the string "osascript" in all shell script files

@@ -1,0 +1,11 @@
+#+TITLE: mutt archive messages
+# TAGS #mutt
+
+:set date_format="%Y"
+:save-hook . INBOX.Archives.%d
+s
+
+Sets format of date string to be just the year, sets the default pattern to be the correct archive, then saves
+
+set date_format="%Y"; :save-hook . INBOX.Archives.%d; push <save-message>
+

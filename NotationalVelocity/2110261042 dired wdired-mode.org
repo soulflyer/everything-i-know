@@ -1,0 +1,4 @@
+#+TITLE: dired wdired-mode
+# Tags #emacs #dired
+
+Try using it with visual-regexp to rename multiple files at once: https://github.com/benma/visual-regexp.el

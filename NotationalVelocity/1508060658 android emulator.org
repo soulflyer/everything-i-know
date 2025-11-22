@@ -1,0 +1,4 @@
+#+TITLE: android emulator
+# TAGS #android
+
+genymotion

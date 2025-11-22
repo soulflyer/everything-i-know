@@ -1,0 +1,4 @@
+#+TITLE: iterm blinking cursor (including emacs)
+# TAGS
+
+Preferences : Profiles : Default Text : Blinking Cursor

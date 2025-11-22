@@ -1,0 +1,4 @@
+#+TITLE: find time range
+# TAGS #find
+
+find . -newermt "-31 hours" -not -newermt "-27 hours"

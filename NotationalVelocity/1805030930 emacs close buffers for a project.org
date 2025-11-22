@@ -1,0 +1,4 @@
+#+TITLE: emacs close buffers for a project
+# TAGS
+
+projectile has a command to close all buffers for a project

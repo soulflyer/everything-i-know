@@ -1,0 +1,15 @@
+#+TITLE: ionic ion-nav-title
+# TAGS #ionic
+
+<ion-view view-title="{{whatever}}">
+
+the title doesn't appear until after a refresh
+
+<ion-view>
+  <ion-nav-title>{{whatever}}</ion-nav-title>
+  
+fixes this.
+
+resolve in the .state was also suggested, but may cause excessive delays because it makes the page being rendered wait for {{whatever}} to complete. 
+
+afterEnter in the .controller was also suggested

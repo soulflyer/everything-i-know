@@ -1,0 +1,3 @@
+#+TITLE: mac globe key
+# Tags #mac
+This was doing a "application windows" every time which meant I had to double tap to use it as the fn key. Fixed by going to the Mission Control panel in system preferences. Some of the keyboard shortcuts were set to "-" and some were just empty. Selecting "-" fixed it.

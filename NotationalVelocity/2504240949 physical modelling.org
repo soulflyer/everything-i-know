@@ -1,0 +1,18 @@
+#+TITLE: physical modelling
+# Tags #music
+
+* VCV
+[[file:~/Code/vcvrack/patches/Physical-Modelling.vcv][VCV Patch]]
+* Theory
+** Bookshelf
+[[file:~/Documents/books/bookshelf/Musical-Instruments/Synthesizer/Physical-Modelling/][Physical-Modelling Folder]]
+[[pdf:/Volumes/Crucial/bookshelf/Musical-Instruments/Synthesizer/Developing Virtual Synthesizers with VCV Rack .pdf::190++0.00][Developing Virtual Synthesizers with VCV Rack Chapter 8]] Starts with a section on resonators. Ch7 has a bit about building filters using delays.
+[[pdf:/Volumes/Crucial/bookshelf/Musical-Instruments/Synthesizer/Physical Audio Signal Processing.pdf::227++0.00][Physical Audio Signal Processing Chapter 6]] Models of Strings and straight tubes. Heavy duty maths.
+
+** Waveguide blog post 
+[[https://www.osar.fr/notes/waveguides/][Waveguide blog post]] with interactive models to play with.
+These are written in [[https://audiomasher.org/learn/what_is_sporth][Sporth]] , a stack based language. [[https://paulbatchelor.github.io/proj/cook/][Sporth Cookbook]]
+[[file:2504240949 physical modelling/Notes on Waveguide Synthesis.webarchive][Safari webarchive]]
+
+* Commercial
+[[https://www.youtube.com/watch?v=hw9bWnDei-k][Benn Jordan review]]

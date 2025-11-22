@@ -1,0 +1,5 @@
+#+TITLE: Lindenmeyer operating an engine lathe
+# Tags #book
+[[pdf:/Volumes/bookshelf/Turning/OperatingAnEngineLathe.pdf::1++0.00][OperatingAnEngineLathe.pdf: Page 1]]
+
+Practical instructions on metal lathe use, old enough to be useful.

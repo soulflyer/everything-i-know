@@ -1,0 +1,4 @@
+#+TITLE: ios simulator memory
+# TAGS
+
+/Users/iain/Library/Developer/CoreSimulator/Devices/F39457D7-2ADC-4543-9B3B-2350670EA8B3/data/Containers/Data/Application/98B4ED57-D0FF-4021-BCD9-A313B7D8A699/Library/NoCloud

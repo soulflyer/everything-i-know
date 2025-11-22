@@ -1,0 +1,6 @@
+#+TITLE: clojure clojurescript data visualisation
+# TAGS #clojure
+
+https://github.com/eggsyntax/datawalk
+https://clojure.github.io/clojure/clojure.inspector-api.html
+https://docs.cider.mx/en/latest/miscellaneous_features/#value-inspection

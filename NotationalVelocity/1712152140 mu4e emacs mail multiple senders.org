@@ -1,0 +1,33 @@
+#+TITLE: mu4e emacs mail multiple senders
+# TAGS #linux #mail
+
+Details of automatically selecting sender addr:
+http://zmalltalker.com/linux/mu.html
+
+#+begin_src lisp
+(add-hook 'mu4e-compose-pre-hook
+          (defun my-set-from-address ()
+            "Set the From address based on the To address of the original."
+            (let ((msg mu4e-compose-parent-message)) ;; msg is shorter...
+              (if msg
+                  (setq user-mail-address
+                        (cond
+                         ((mu4e-message-contact-field-matches msg :to "@gitorious")
+                          "marius@gitorious.com")
+                         ((mu4e-message-contact-field-matches msg :to "marius@shortcut.no")
+                          "marius@shortcut.no")
+                         ((mu4e-message-contact-field-matches msg :to "marius.mathiesen@gmail.com")
+                          "zmalltalker@zmalltalker.com")
+                         ((mu4e-message-contact-field-matches msg :to "zmalltalker@zmalltalker.com")
+                          "zmalltalker@zmalltalker.com")
+                         (t "marius.mathiesen@gmail.com")))))))
+#+end_src
+
+also useful:
+https://vxlabs.com/2014/06/06/configuring-emacs-mu4e-with-nullmailer-offlineimap-and-multiple-identities/
+
+and the manual:
+http://www.djcbsoftware.nl/code/mu/mu4e/index.html
+
+also:
+http://cachestocaches.com/2017/3/complete-guide-email-emacs-using-mu-and-/#using-mu4e-to-send-mail

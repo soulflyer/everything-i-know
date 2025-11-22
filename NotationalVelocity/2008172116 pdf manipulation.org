@@ -1,0 +1,6 @@
+#+TITLE: pdf manipulation
+# TAGS #pdf
+
+http://qpdf.sourceforge.net/ Not entirely sure what this can do, but it may be able to help crack a locked pdf
+
+http://blog.rubypdf.com/pdfcrack/ Cracks user or owner password on a pdf

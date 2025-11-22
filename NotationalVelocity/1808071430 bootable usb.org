@@ -1,0 +1,7 @@
+#+TITLE: bootable usb
+# TAGS
+
+SD Card Formatter
+reformats so the usb can be used again
+Etcher (Balena Etcher on recent Mac)
+creates the bootable usb

@@ -1,0 +1,6 @@
+#+TITLE: emacs don't save before compile
+# TAGS #emacs
+
+(setq compilation-save-buffers-predicate 'ignore)
+
+https://emacs.stackexchange.com/questions/40593/automatically-dont-save-buffers-before-compiling

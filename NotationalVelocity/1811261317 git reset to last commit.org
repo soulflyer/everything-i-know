@@ -1,0 +1,4 @@
+#+TITLE: git reset to last commit
+# TAGS #git
+
+git reset --hard HEAD

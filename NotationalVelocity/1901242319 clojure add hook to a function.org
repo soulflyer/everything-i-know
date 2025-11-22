@@ -1,0 +1,28 @@
+#+TITLE: clojure add hook to a function
+# TAGS #clojure
+
+https://github.com/technomancy/robert-hooke
+
+Robert Hooke provides a flexible, composable mechanism by which you can extend behaviour of functions after they've been defined.
+
+#+begin_src clojure
+(defn examine [x]
+  (println x))
+
+(defn microscope
+  "The keen powers of observation enabled by Robert Hooke allow
+  for a closer look at any object!"
+  [f x]
+  (f (.toUpperCase x)))
+
+(examine "something")
+> something
+
+(with-scope
+  (add-hook #'examine #'microscope)
+  (examine "something"))
+> SOMETHING
+
+(examine "something")
+> something
+#+end_src

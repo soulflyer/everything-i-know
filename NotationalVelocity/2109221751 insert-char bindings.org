@@ -1,0 +1,158 @@
+#+TITLE: insert-char bindings
+# Tags # #emacs #unicode
+§2109110841 Unicode Characters
+
+Some of the chars that are useful have direct bindings all starting with *C-x 8* so it isn't neccessary to type in the name. *which-key* doesn't seem to know about these although they do (mostly) work anyway. There is a list at: http://ergoemacs.org/emacs/gnu_emacs_keybinding_C-x_8.txt (Gone, but [[https://web.archive.org/web/20191223021553/http://ergoemacs.org:80/emacs/gnu_emacs_keybinding_C-x_8.txt][archive]] has it. Looks ok in 2019 capture)
+
+Some highlights:
+°   *C-x 8 * o*
+©   *C-x 8 C*
+
+½   *C-x 8 1 / 2*
+¼   *C-x 8 1 / 4*
+¾   *C-x 8 3 / 4*
+
+²   *C-x 8 ^ 2*
+³   *C-x 8 ^ 3*
+
+-*- coding: utf-8 -*-
+2012-05-13
+
+C-x 8 SPC	 
+C-x 8 !		¡
+C-x 8 "		Prefix Command
+C-x 8 $		¤
+C-x 8 '		Prefix Command
+C-x 8 *		Prefix Command
+C-x 8 +		±
+C-x 8 ,		Prefix Command
+C-x 8 -		­
+C-x 8 .		·
+C-x 8 /		Prefix Command
+C-x 8 1		Prefix Command
+C-x 8 3		Prefix Command
+C-x 8 <		«
+C-x 8 =		¯
+C-x 8 >		»
+C-x 8 ?		¿
+C-x 8 C		©
+C-x 8 L		£
+C-x 8 P		¶
+C-x 8 R		®
+C-x 8 S		§
+C-x 8 Y		¥
+C-x 8 ^		Prefix Command
+C-x 8 _		Prefix Command
+C-x 8 `		Prefix Command
+C-x 8 c		¢
+C-x 8 m		µ
+C-x 8 o		°
+C-x 8 u		µ
+C-x 8 x		×
+C-x 8 |		¦
+C-x 8 ~		Prefix Command
+C-x 8 ~ SPC	~
+C-x 8 ~ A	Ã
+C-x 8 ~ D	Ð
+C-x 8 ~ N	Ñ
+C-x 8 ~ O	Õ
+C-x 8 ~ T	Þ
+C-x 8 ~ a	ã
+C-x 8 ~ d	ð
+C-x 8 ~ n	ñ
+C-x 8 ~ o	õ
+C-x 8 ~ t	þ
+C-x 8 ~ ~	¬
+C-x 8 ` SPC	`
+C-x 8 ` A	À
+C-x 8 ` E	È
+C-x 8 ` I	Ì
+C-x 8 ` O	Ò
+C-x 8 ` U	Ù
+C-x 8 ` a	à
+C-x 8 ` e	è
+C-x 8 ` i	ì
+C-x 8 ` o	ò
+C-x 8 ` u	ù
+C-x 8 _ a	ª
+C-x 8 _ o	º
+C-x 8 ^ SPC	^
+C-x 8 ^ 1	¹
+C-x 8 ^ 2	²
+C-x 8 ^ 3	³
+C-x 8 ^ A	Â
+C-x 8 ^ E	Ê
+C-x 8 ^ I	Î
+C-x 8 ^ O	Ô
+C-x 8 ^ U	Û
+C-x 8 ^ a	â
+C-x 8 ^ e	ê
+C-x 8 ^ i	î
+C-x 8 ^ o	ô
+C-x 8 ^ u	û
+C-x 8 3 /	Prefix Command
+C-x 8 1 /	Prefix Command
+C-x 8 / /	÷
+C-x 8 / A	Å
+C-x 8 / E	Æ
+C-x 8 / O	Ø
+C-x 8 / a	å
+C-x 8 / e	æ
+C-x 8 / o	ø
+C-x 8 , ,	¸
+C-x 8 , C	Ç
+C-x 8 , c	ç
+C-x 8 ' SPC	'
+C-x 8 ' '	´
+C-x 8 ' A	Á
+C-x 8 ' E	É
+C-x 8 ' I	Í
+C-x 8 ' O	Ó
+C-x 8 ' U	Ú
+C-x 8 ' Y	Ý
+C-x 8 ' a	á
+C-x 8 ' e	é
+C-x 8 ' i	í
+C-x 8 ' o	ó
+C-x 8 ' u	ú
+C-x 8 ' y	ý
+C-x 8 " SPC	"
+C-x 8 " "	¨
+C-x 8 " A	Ä
+C-x 8 " E	Ë
+C-x 8 " I	Ï
+C-x 8 " O	Ö
+C-x 8 " U	Ü
+C-x 8 " a	ä
+C-x 8 " e	ë
+C-x 8 " i	ï
+C-x 8 " o	ö
+C-x 8 " s	ß
+C-x 8 " u	ü
+C-x 8 " y	ÿ
+C-x 8 * SPC	 
+C-x 8 * !	¡
+C-x 8 * $	¤
+C-x 8 * +	±
+C-x 8 * -	­
+C-x 8 * .	·
+C-x 8 * <	«
+C-x 8 * =	¯
+C-x 8 * >	»
+C-x 8 * ?	¿
+C-x 8 * C	©
+C-x 8 * L	£
+C-x 8 * P	¶
+C-x 8 * R	®
+C-x 8 * S	§
+C-x 8 * Y	¥
+C-x 8 * c	¢
+C-x 8 * m	µ
+C-x 8 * o	°
+C-x 8 * u	µ
+C-x 8 * x	×
+C-x 8 * |	¦
+C-x 8 3 / 4	¾
+C-x 8 1 / 2	½
+C-x 8 1 / 4	¼
+C-x 8 RET	ucs-insert

@@ -1,0 +1,19 @@
+#+TITLE: file creation date
+# Tags #shell #bash
+
+To find the ceation date of a file use *stat*. This is an extract from a script that was designed to rename deft notes to zetteldeft format. This version creates the string representing the creation date given a file:
+#+begin_src bash
+zetteldeft_id () {
+    stat -f "%SB" -t"%y%m%d%H%M" $1
+}
+#+end_src
+This version gets the creation time and creates the new filename using it:
+#+begin_src bash
+file_name () {
+    local original_file_name=$1
+    local bare_file_name=`basename $original_file_name .txt`
+    local zdid=$(stat -f "%SB" -t"%y%m%d%H%M" "$1")
+    echo $zdid$bare_file_name
+}
+file_name $1
+#+end_src

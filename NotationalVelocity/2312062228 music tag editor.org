@@ -1,0 +1,4 @@
+#+TITLE: music tag editor
+# Tags #music
+
+[[https://mutagen.readthedocs.io/en/latest/man/mid3v2.html][mid3v2]] python program.

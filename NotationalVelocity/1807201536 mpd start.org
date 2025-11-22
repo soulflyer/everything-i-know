@@ -1,0 +1,4 @@
+#+TITLE: mpd start
+# TAGS
+
+mpd /usr/local/etc/mpd/mpd.conf

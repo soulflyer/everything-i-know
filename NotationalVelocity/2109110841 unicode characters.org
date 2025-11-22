@@ -1,0 +1,96 @@
+#+TITLE: unicode characters
+# Tags #emacs #unicode
+
+M-x describe-char
+ will give all the info you might want about a char at point.
+
+C-u C-x = 
+Calls *what-cursor-position* with a parameter which does something similar
+
+Use M-x insert-char followed by name or hex unicode value. (C-x 8 RET)
+
+more info here: https://emacs.stackexchange.com/a/61388/2666
+
+Use of unicode/utf-8 on POSIX systems. Lots of useful info: https://www.cl.cam.ac.uk/~mgk25/unicode.html
+Current Unicode standard (2021): https://www.unicode.org/versions/Unicode14.0.0/
+See also:
+§2109221751 insert-char bindings (invisible to which key)
+§2110162017 inserting unicode chars (adding new bindings)
+§2110161431 setting specific fonts for specific chars
+§2110181630 font setup using unicode-fonts
+§2110281149 font debuggery
+
+** Useful characters
+GREEK SMALL LETTER PI π
+DEGREE SIGN °
+GREEK PI SYMBOL ϖ
+QUARTER NOTE ♩
+EIGHTH NOTE  ♪
+MERCURY     ☿
+FEMALE SIGN ♀
+EARTH       ♁
+MALE SIGN   ♂
+JUPITER     ♃
+SATURN      ♄
+URANUS      ♅
+NEPTUNE     ♆
+PLUTO       ♇
+SKULL AND CROSSBONES ☠
+PEACE SYMBOL         ☮
+TRIGRAM FOR HEAVEN   ☰
+TRIGRAM FOR LAKE     ☱
+TRIGRAM FOR FIRE     ☲
+TRIGRAM FOR THUNDER  ☳
+TRIGRAM FOR WIND     ☴
+TRIGRAM FOR WATER    ☵
+TRIGRAM FOR MOUNTAIN ☶
+TRIGRAM FOR EARTH    ☷
+
+FRACTION ONE HALF    ½
+
+PLAYING CARD ACE OF SPADES 🂡
+PLAYING CARD TRUMP-12 🃬
+
+LARGE BLUE SQUARE   🟦
+LARGE GREEN SQUARE  🟩
+LARGE RED SQUARE    🟥
+LARGE YELLOW SQUARE 🟨
+WHITE LARGE SQUARE  ⬜
+BLACK LARGE SQUARE  ⬛
+LIGHT SHADE         ░
+MEDIUM SHADE        ▒
+DARK SHADE          ▓
+TURNED BLACK PENTAGON ⯂
+
+LEFTWARDS BLACK ARROW  ⬅
+RIGHTWARDS BLACK ARROW ⮕
+UPWARDS BLACK ARROW    ⬆
+DOWNWARDS BLACK ARROW  ⬇
+
+Stars 🞲⯪＊ ⯪⯨ ★⯨ ✮⛧
+🞜⬖
+note that emacs will accept lowercase although the actual names are UPPERCASE
+Also note that cutting and pasting screws up the inserted char.
+
+The trumps are not particularly useful, having little relationship to the tarot trumps.
+
+** Arrows
+revisit these at some point. ATM text mode displays them full width, but overlapping the next char. Adding a space betwen makes them look right. GUI mode doesn't need the space and adding it distorts the diagram.
+⮕⬛⬅⬛
+⬛⬆⬛⬇
+⬛⬛⬛⬛
+⤴ ⤵
+↖ ↗ ↙ ↘
+🔄🔃↩↪
+** Shortcuts
+§2109111443 Abbreviations, Not as fast as direct keybinds.
+
+** Notes
+Note that terminal doesn't set fonts like gui emacs. They need to be set in the profile options for iTerm. Currently set there to monaco and symbola for the non ascii characters which appears to work reasonably well.
+
+Some info came from http://xahlee.info/comp/unicode_index.html
+Installed juliamono font and set it as the standard (and fixedwidth) font in the browser to get it to display more characters. Still doesn't get all of them.
+
+§2109111456 Unicode Table
+** Video
+[[https://www.youtube.com/watch?v=gd5uJ7Nlvvo][NDC Talk]] from Dylan Beattie explaining Unicode amongst other things

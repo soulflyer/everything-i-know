@@ -1,0 +1,24 @@
+#+TITLE: lathe emulator
+# Tags #turning
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2505172359 lathe emulator-images
+:END:
+* Useful Tools
+Check out [[https://openscad.org/][openscad]]
+and [[https://github.com/hellonico/origami][origami]]
+* References
+** Bergeron 1792
+[[https://archive.org/details/manueldutourneur02berg/page/n511/mode/2up][Volume II]]
+[[https://archive.org/details/manueldutourneur01berg/page/n445/mode/2up][Volume I]]
+** Plumier 1701
+[[https://archive.org/details/bub_gb_yRsLuVCA2y0C/mode/2up][L'Art Du Tourner]]
+** Diderot 1762
+[[https://archive.org/details/RecueildeplanchXDide/page/n393/mode/2up][Recueil de planches]] volume 10
+This is one small part of a huge work (35 volumes) intended to cover all of human knowledge, representing the thoughts and principles of *The Enlightenment* This was a philosophy/movement that moved away from religeous dogma and into a more rational view of the world. 
+* Background
+In the years leading up to the industrial revolution there was considerable exploration of the use of the lathe, and the development from it of other machines. Eventually this was to settle out to a predictable range of machine tools: Lathe, shaper, drill press, horizontal mill, vertical mill, surface grinder. But before that all sorts of variations were tried. Many of these involved movement of the headstock shaft along one or 2 axes (As far as I am aware never 3 axes). A simple example of this is the old method of cutting screw threads using a headstock shaft free to move along its axis, constrained by a threaded section cut into the shaft and a half nut mounted in the headstock. The tool is held stationary on the tool rest, often hand held. This method relies on having a reciprocal action which is easily provided by a pole lathe, or by rocking a treadle back and forth. I believe it was also fairly common to disconnect the treadle drive and use a pole lathe mechanism on later machines. Once machines became motor driven, this fell out of favour and systems using a moving tool were developed. This is a plate from Bergeron showing a simple screw cutting lathe using this method:
+[[file:2505172359 lathe emulator-images/screenshot-20250527-114442.png]]
+The slots in the headstock allow a wedge to be inserted to engage with the threads on the headstock shaft (labelled b-h in fig2).
+This picture is one of the first in the series and represents a very basic machine as starting point for all sorts of weird and wonderful mechanisms designed to impart some complex movement to the headstock shaft or other parts of the mechanism.
+[[file:2505172359 lathe emulator-images/screenshot-20250527-115353.png]]
+In this illustration longitudinal motion of the headstock shaft is given by a disk mounted on the end of the shaft and a hefty spring that holds the shaft against the disk. There is also an oval chuck which causes the workpiece surface to describe an oval rather than a circular trajectory. Note that the screw cutting mechanism described earlier is also present, but all the followers are disengaged.

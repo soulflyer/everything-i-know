@@ -1,0 +1,55 @@
+#+TITLE: library
+# Tags #book
+* Computing
+§2112102338 how to design programs
+§2207021331 The art of readable code
+§2209281639 beautiful code
+§2209281648 97 things evey programmer should know
+
+** Clojure
+§2206220748 elements of clojure
+
+* Craft
+** Woodwork
+§2207300559 Hasluck cabinetmakers handybook
+§2110071246 Noyes: Handwork in wood 1910
+§2205191730 Cassels carpentry
+§2205201637 Ruobo, L'art du Menuisier
+§2206241553 Denning, the art and craft of cabinet-making
+
+** Turning
+§2207081532 Hasluck wood turners handybook
+§2205200937 Lukin, the lathe and its uses
+§2206241526 Martin, the circle of the mechanical arts
+§2110071257 Perrigo: Lathe design construction and operation 1919
+§2205200839 first year lathe work
+§2209050858 The Missing Shop Manual, Lathe
+§2209051252 500 Wood Bowls
+§2209051313 Teubers-Mechanici
+
+** Metalwork
+§2205201022 Camm, practical mechanics handbook
+§2205191554 Hasluck smiths work
+§2209112003 Horner, Practical Metal Turning
+§2206180713 enamelling book
+§2205200955 Watson, modern practice
+§2205200932 Lukin, toys and toy making
+§2209050808 Precision Locating and Dividing
+
+** Encyclopedic
+§2201211202 Descriptio instrumenti cujusdam astronomici
+§1704150741 Diderot encyclopedie
+§2206241526 Martin, the circle of the mechanical arts
+
+* Fiction
+§2110102202 Haunted Chuck Poluniuk
+§1608061112 sci-fi read
+
+* Maths
+§1810231107 L-Systems book
+
+* Art
+§1612302131 book of lindisfarne
+
+* Other
+§2110091202 How to Take Smart Notes

@@ -1,0 +1,16 @@
+#+TITLE: set up babashka
+# Tags #clojure #babashka
+
+Need to have a bb.edn file to use requires that come with babashka like these:
+#+begin_src clojure
+(require '[clojure.java.shell :as sh]
+         '[cheshire.core :as json])
+#+end_src
+
+It must contain a map, but the map can be empty
+
+Jacking in works, but complains about not knowing what the version of clojure is, and that there is no project. Adding a deps.edn file likle this fixes it, but breaks compilation:
+#+begin_src clojure
+{:deps {org.clojure/clojure {:mvn/version "1.10.1"}}}
+#+end_src
+This isn't surprising, babashka is not clojure...

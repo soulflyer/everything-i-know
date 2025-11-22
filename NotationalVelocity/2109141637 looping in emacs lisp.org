@@ -1,0 +1,22 @@
+#+TITLE: looping in emacs lisp
+# Tags #lisp #emacs
+
+given:
+#+begin_src emacs-lisp
+(defun fortune-string ()
+  (shell-command-to-string "fortune"))
+#+end_src
+
+This will call fortune-string once and make a list of 5 identical copies.
+#+begin_src emacs-lisp
+  (make-list 5 (fortune-string))
+#+end_src
+
+This will call fortune-string 5 times and return a list of 5 different results
+#+begin_src emacs-lisp
+  (loop for i
+        below 5
+        collect (fortune-string))
+#+end_src
+
+https://kitchingroup.cheme.cmu.edu/blog/2014/11/20/The-loop-macro-in-emacs-lisp/

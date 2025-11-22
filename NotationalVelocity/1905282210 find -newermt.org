@@ -1,0 +1,6 @@
+#+TITLE: find -newermt
+# TAGS
+
+find . -type f -newermt '-30 minutes'
+
+finds any file modified in the last 30 mins

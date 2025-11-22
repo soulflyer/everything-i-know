@@ -1,0 +1,10 @@
+#+TITLE: local copy of clojure library with lein install
+# Tags #clojure #leiningen
+
+git clone overtone source
+run lein install
+change ns dependancy in the dependant project to [overtone "0.10-SNAPSHOT"]
+
+without the lein install lein will go to clojars and pull 0.10-SNAPSHOT from there.
+
+For image-lib, do lein install in the image-lib dir, then C-c C-k to recompile when it changes. Other project with image-lib as a requirement should automatically get the changes.

@@ -1,0 +1,14 @@
+#+TITLE: open
+# Tags #mac
+
+Use *?* (surrounded by spaces) in a command if the file to be opened is not the last param
+
+To open a file using a particular app, use the -a option, ie:
+#+begin_src shell
+open -a audacity
+#+end_src
+
+Emacs remembers this and offers it again as an option when using openwith (only until emacs shuts down)
+Doesn't always remember. If not just select the file in *dired*  hit *1* to trigger *dired-do-shell-command* and type the above in.
+
+*browse-url-of-dired-file* bound to *W* is also useful. It seems to pick the correct aplication to open a file, including opening it inside the current *emacs* window. Might rebind this to *Return*

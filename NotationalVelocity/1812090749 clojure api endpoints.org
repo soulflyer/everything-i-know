@@ -1,0 +1,5 @@
+#+TITLE: clojure api endpoints
+# TAGS #clojure
+
+https://github.com/oliyh/martian
+automatically generates urls from swagger interface

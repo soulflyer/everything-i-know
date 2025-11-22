@@ -1,0 +1,4 @@
+#+TITLE: clojure spec blog
+# Tags #clojure
+
+https://corfield.org/blog/2019/09/13/using-spec/

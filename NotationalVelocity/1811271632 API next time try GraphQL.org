@@ -1,0 +1,14 @@
+#+TITLE: API next time try GraphQL
+# TAGS #clojurescript
+
+http://graphql.org/
+https://github.com/tendant/graphql-clj
+https://github.com/tendant/graphql-clj-starter
+~/Code/Clojure/GraphQL/graphql-clj-starter
+
+or 
+https://github.com/walmartlabs/lacinia
+
+and the client end:
+https://github.com/oliyh/re-graph
+https://github.com/retro/graphql-builder

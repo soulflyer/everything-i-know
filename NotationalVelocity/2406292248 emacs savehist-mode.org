@@ -1,0 +1,19 @@
+#+TITLE: emacs savehist-mode
+# Tags #emacs
+Savehist was not working because I was doing this:
+#+begin_src elisp
+(setq savehist-mode t)
+#+end_src
+ie setting the variable rather than calling the function :-/
+
+From *savehist.el*
+
+;; To use savehist, turn on savehist-mode by putting the following in
+;; `~/.emacs':
+;;
+;;     (savehist-mode 1)
+;;
+;; or with customize: `M-x customize-option RET savehist-mode RET'.
+;;
+;; You can also explicitly save history with `M-x savehist-save' and
+;; load it by loading the `savehist-file' with `M-x load-file'.

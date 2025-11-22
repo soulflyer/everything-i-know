@@ -1,0 +1,6 @@
+#+TITLE: L-Systems inkscape
+# TAGS #inkscape
+
+extensions - render - l-systems
+
+has live preview and can specify rules

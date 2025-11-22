@@ -1,0 +1,26 @@
+#+TITLE: git magit emacs
+# TAGS #git #emacs
+
+Open magit window:
+C-x g
+
+s to stage
+c c to commit
+P to push
+
+#+begin_src emacs-lisp
+;; This will change the key in the Push map from *p* to *v* 
+(transient-suffix-put 'magit-push "p" :key "v")
+
+;; and this will show the details of the magit-push option
+(transient-get-suffix 'magit-push "p")
+
+;; and this will add an f entry in the magit-pull menu immediately
+;; after the u entry
+(transient-append-suffix 'magit-pull "u"
+  '("f"  magit-pull-from-pushremote))
+
+;; And this will add an entry for time machine in the dispatch menu
+(transient-insert-suffix 'magit-file-dispatch "B"
+  '("x" "Time Machine" git-timemachine))
+#+end_src

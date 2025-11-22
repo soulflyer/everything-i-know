@@ -1,0 +1,8 @@
+#+TITLE: Hasluck wood turners handybook
+# Tags #book
+
+Published 1901
+
+[[file:~/Documents/books/bookshelf/Woodwork/Old-Books/Hasluck/woodturnershandybook.pdf][Wood Turners Hndybook]]
+
+Largely concerned with automation of turning. Doesn't cover the machinery used in much detail, it seems to be only about using the machines not building them.

@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2408292329 nord modular midi-images
+:END:
+#+TITLE: nord modular midi
+# Tags #nord
+
+** Midi Monitor
+Checking midi is recieved ok can be done using the *automate* module in the *midi* section
+[[file:2408292329 nord modular midi-images/screenshot-20240829-233059.png]]
+When the channel and controller are set correctly the value and value knob will change with the incoming midi signal.
+
+** Missing Controllers
+It is not possible to assign some controllers directly to a knob, but the midi *CtrlRcv* module can be set to these and passed to a *CtrlSend* to redirect the signal to another *CC* and then mapped to a morph group [[https://electro-music.com/forum/topic-2348-0.html][electro-music forum post]] 
+*** Missing CCs
+1
+7
+11
+17
+18
+32
+64
+70
+96
+97
+120+

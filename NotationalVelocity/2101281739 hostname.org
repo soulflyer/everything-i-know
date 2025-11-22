@@ -1,0 +1,13 @@
+#+TITLE: hostname
+# TAGS
+
+hostname can be silently changed when using a vpn. This breaks my profile setup.
+
+scutil --get HostName
+
+if it doesn't show the hostname then:
+
+sudo scutil --set HostName 'subversion'
+
+This takes precedence and hostname should now stay fixed. Setting it in preferences is not enough.
+from https://apple.stackexchange.com/a/381513/323876

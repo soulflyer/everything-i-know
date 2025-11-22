@@ -1,0 +1,13 @@
+#+TITLE: tmux control key
+# TAGS #tmux
+
+tmux now supports custom key bindings via user-keys - since August 2017, so if you can build tmux yourself, or once a new tmux version is released, it's possible like so:
+
+set -s user-keys[0] "\e[1;5I"
+set -s user-keys[1] "\e[1;6I"
+bind-key -n User0 select-pane -t+
+bind-key -n User1 select-pane -t-
+
+from:
+
+https://stackoverflow.com/questions/35533839/how-to-bind-ctrl-tab-and-ctrl-shift-tab-in-tmux-for-mintty?rq=1

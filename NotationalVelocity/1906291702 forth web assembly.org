@@ -1,0 +1,5 @@
+#+TITLE: forth web assembly
+# TAGS 
+
+https://el-tramo.be/blog/waforth/
+https://github.com/stefano/wasm-forth

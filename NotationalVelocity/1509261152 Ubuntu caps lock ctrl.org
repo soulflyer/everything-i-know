@@ -1,0 +1,4 @@
+#+TITLE: Ubuntu caps lock ctrl
+# TAGS #linux #capslock
+
+Install gnome-tweak-tool

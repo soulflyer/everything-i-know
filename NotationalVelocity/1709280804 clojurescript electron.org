@@ -1,0 +1,9 @@
+#+TITLE: clojurescript electron
+# TAGS #clojurescript #electron
+
+https://owensd.io/2017/02/06/clojurescript-electron/ 3 part blog on setting up electron/clojurescript build (feb 2017)
+
+https://www.youtube.com/watch?v=tBnu2JmK4p0 Video and git repo of clojurescript/electron project. Basic. (2015)
+https://github.com/martinklepsch/electron-and-clojurescript
+
+https://github.com/Gonzih/cljs-electron alternative to descjop

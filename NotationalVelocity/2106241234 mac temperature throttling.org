@@ -1,0 +1,5 @@
+#+TITLE: mac temperature throttling
+# TAGS #mac
+
+pmset -g thermlog
+sudo powermetrics –s thermal

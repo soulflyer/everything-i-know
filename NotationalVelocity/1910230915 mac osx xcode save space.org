@@ -1,0 +1,4 @@
+#+TITLE: mac osx xcode save space
+# TAGS
+
+https://macperformanceguide.com/blog/2016/20161031_1600-XCode-saving-space.html

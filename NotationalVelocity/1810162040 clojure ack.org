@@ -1,0 +1,6 @@
+#+TITLE: clojure ack
+# TAGS #clojure
+
+https://github.com/clumsyjedi/clack
+
+Clack can be thought of as a replacement to sed, awk, grep etc. 

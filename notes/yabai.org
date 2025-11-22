@@ -1,0 +1,87 @@
+* Yabai TODOs
+* Archive                                                           :ARCHIVE:
+** DONE [#B] Fix yabai command to cycle through spaces
+CLOSED: [2022-04-19 Tue 23:23]
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-19 Tue 23:23
+:END:
+Should only cycle through spaces on the current display. Get the list with a command something like this:
+yabai -m query --spaces --display 2 | jq 'map(select(.index))[].index'
+
+or check display number matches and return to the begining if it doesn't.
+#+begin_src shell
+current_display="$(yabai -m query --displays --display | jq '.index')"
+current_space="$(yabai -m query --spaces --space | jq '.index')"
+next_space=$((current_space + 1))
+spaces="$(yabai -m query --spaces --display 1 | jq 'map(select(.index))[].index')"
+spaces_array=($spaces) 
+first_space=${spaces_array[0]}
+spaces_count=${#spaces_array[@]}
+last_space_index=$((spaces_count - 1))
+last_space=${spaces_array[$last_space_index]}
+# ((spaces_count++)) also works, but is changing the value of spaces_count
+echo $first_space
+echo $spaces_count
+echo $last_space
+
+#+end_src
+
+#+RESULTS:
+| 1 |
+| 2 |
+| 2 |
+#+begin_src clojure
+(* 30 9)
+#+end_src
+
+#+RESULTS:
+: 270
+
+#+begin_src clojure
+(require '[clojure.java.shell :as sh]
+         '[cheshire.core :as json])
+
+(println "Hello!")
+
+(defn current-space
+  "Returns the currently active space"
+  []
+  (get
+   (json/parse-string
+     (:out (sh/sh "yabai" "-m" "query" "--spaces" "--space") true))
+   "index"))
+
+(defn current-display
+  "Returns the currently active display number"
+  []
+  (get
+   (json/parse-string
+     (:out (sh/sh "yabai" "-m" "query" "--displays" "--display") true))
+   "index"))
+
+(defn spaces
+  "Given a display number, returns a list of all the spaces on it."
+  [current-display]
+  (map
+    #(get % "index")
+    (json/parse-string
+      (:out (sh/sh "yabai" "-m" "query" "--spaces" "--display" (str current-display))))))
+
+(comment
+  (get (json/parse-string (:out (sh/sh "yabai" "-m" "query" "--spaces" "--space") true)) "index")
+  space
+  (current-space)
+  (current-display)
+  (spaces 1)
+  (spaces (current-display))
+  
+  )
+
+#+end_src
+
+#+RESULTS:
+| class java.io.FileNotFoundException           |
+| class clojure.lang.Compiler$CompilerException |
+| class clojure.lang.Compiler$CompilerException |
+| class clojure.lang.Compiler$CompilerException |
+

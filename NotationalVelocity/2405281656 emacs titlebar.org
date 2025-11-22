@@ -1,0 +1,13 @@
+#+TITLE: emacs titlebar
+# Tags #emacs
+
+#+begin_src emacs-lisp
+(setq ns-auto-hide-menu-bar t)
+(set-frame-position nil 0 -24)
+(tool-bar-mode 0)
+(set-frame-size nil 150 80)     ;; Pick values matching your screen.
+#+end_src
+
+This will move the window up so the title bar is where the menubar would have been. Not ideal, but better than the light mode titlebar of emacs for mac remaining visible under the menubar. Full screen is no good, it is not possible to leave the full screen window as background when another app is frontmost.
+
+from https://stackoverflow.com/a/24024504/1671119

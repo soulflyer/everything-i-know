@@ -1,0 +1,6 @@
+#+TITLE: bash ##
+# TAGS #bash
+
+${string##substring}
+
+Deletes longest match of substring from front of $string.

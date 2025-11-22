@@ -1,0 +1,22 @@
+#+TITLE: ssh tunnel nrepl on aws docker image
+# TAGS #docker #ssh
+
+add port in AWS task definition 40000 40000
+docker exec -ti <docker container> bash
+lein repl :start :port 40000 :host 0.0.0.0
+
+locally:
+ssh -i "henrik-mbp-keypair.pem" ec2-user@ec2-18-197-57-56.eu-central-1.compute.amazonaws.com -NL 40000:localhost:40000
+lein repl :connect localhost:40000
+
+or C-c M-c from emacs and connect to localhost port 40000
+
+Should have these, but still connects:
+nrepl
+cider-nrepl
+refactor-nrepl
+
+
+https://serverfault.com/questions/714340/ssh-tunnel-to-docker-container
+https://stackoverflow.com/questions/52459671/clojure-how-to-connect-to-running-repl-process-remotely/53453666#53453666
+https://nrepl.org/nrepl/usage/clients.html#_talking_to_an_nrepl_endpoint_programmatically

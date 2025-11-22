@@ -1,0 +1,9 @@
+#+TITLE: google update
+# TAGS
+
+tried this:
+
+defaults write com.google.Keystone.Agent checkInterval 0
+
+tried this too:
+https://applehelpwriter.com/2014/07/13/how-to-remove-googles-secret-update-software-from-your-mac/

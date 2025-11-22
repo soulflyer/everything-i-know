@@ -1,0 +1,6 @@
+#+TITLE: clojure require from the repl
+# Tags #clojure #repl
+
+(require '[clojure.string :as string])
+
+Used when doing clojure-koans to try out stuff in a repl started by running *clj*

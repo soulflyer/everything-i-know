@@ -1,0 +1,10 @@
+#+TITLE: linux media user permissions
+# TAGS #linux
+
+set using access control lists
+
+getfacl /media/iain
+
+sudo setfacl ..........
+
+https://wiki.archlinux.org/index.php/Access_Control_Lists

@@ -1,0 +1,4 @@
+#+TITLE: Android studio vagabond
+# TAGS
+
+Install KVM for faster emulator

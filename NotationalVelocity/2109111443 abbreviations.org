@@ -1,0 +1,11 @@
+#+TITLE: abbreviations
+# Tags #emacs
+
+# Backlink: §2109110841 Unicode Characters
+
+pi works as an abbreviation, set using *add-global-abbrev* after the symbol then inserting it with *expand-abbrev*
+degree also works but insists on including something before it, but that can be deleted in the table of abbreviations.
+
+C-x a g          records an abbreviation
+C-x a e          expands a previously recorded one..
+M-x (list-abbrevs) shows all the recorded abbreviations

@@ -1,0 +1,20 @@
+#+TITLE: html scroll file from program
+# TAGS #javascript
+
+ "document.getElementById('tries').scrollIntoView() works. This works better than window.location.hash when you have fixed positioning."
+ from https://stackoverflow.com/questions/3656467/is-it-possible-to-focus-on-a-div-using-javascript-focus-function
+ 
+ try it out here https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_element_scrollintoview2
+ 
+ docs: https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView#Syntax
+ 
+ npm package: https://www.npmjs.com/package/scroll-into-view 
+ and: https://scroll-into-view-if-needed.netlify.com/
+ 
+ jquery version https://github.com/litera/jquery-scrollintoview
+
+clojurescript scroll:
+https://gist.github.com/jasich/21ab25db923e85e1252bed13cf65f0d8
+https://github.com/circleci/frontend/blob/master/src-cljs/frontend/utils.cljs
+
+in the book "Reactive with Clojurescript recipes", dommy details:

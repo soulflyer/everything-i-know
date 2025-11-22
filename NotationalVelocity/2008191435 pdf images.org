@@ -1,0 +1,5 @@
+#+TITLE: pdf images
+# TAGS #pdf
+
+use command line program pdfimages from:
+http://www.xpdfreader.com/about.html

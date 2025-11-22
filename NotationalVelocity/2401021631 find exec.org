@@ -1,0 +1,12 @@
+#+TITLE: find exec
+# Tags #shell
+[[https://www.baeldung.com/linux/find-exec-command][blog]]
+
+We should note that this isn’t our shell executing the command, rather we’re using Linux’s exec directly to execute the command. This means that any shell expansion won’t work here, as we don’t have a shell. Another effect is the unavailability of shell functions or aliases.
+
+As a workaround for our missing shell functions, we can export them and call bash -c with our requested function on our file.
+
+This command was to move a bunch of tracks that were each in a single artist/album folder into a single folder under *Compilations*
+#+begin_src shell
+find /Volumes/Collection -name Breaking-Bad -exec bash -c "mv \"{}\"/*.mp3 /Volumes/Collection/Compilations/Breaking-Bad" \;
+#+end_src

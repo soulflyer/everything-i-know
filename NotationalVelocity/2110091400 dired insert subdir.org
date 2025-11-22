@@ -1,0 +1,8 @@
+#+TITLE: dired insert subdir
+# Tags #emacs #dired
+
+
+in dired hit:
+*i* (dired-maybe-insert-subdir) to insert the contents of a subdirectory into the current buffer
+*C-x u* (dired-undo) to remove it again or: (dired-kill-subdir)
+*$* to toggle its visibility

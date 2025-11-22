@@ -1,0 +1,10 @@
+#+TITLE: emacs shell commands
+# Tags #emacs #shell #lisp
+
+#+begin_src emacs-lisp
+; call a shell command
+(shell-command "ls")
+
+; call a shell command and get its output
+(shell-command-to-string "ls")
+#+end_src

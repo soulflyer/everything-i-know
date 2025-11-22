@@ -1,0 +1,5 @@
+#+TITLE: Lens in water
+# TAGS #diving #lens
+
+http://hyperphysics.phy-astr.gsu.edu/hbase/geoopt/lenmak.html
+need about +6 in water to give the equivalent of +1.75 in air

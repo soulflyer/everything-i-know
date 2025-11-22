@@ -1,0 +1,6 @@
+#+TITLE: paredit over-ride next keystroke with C-u
+# TAGS #emacs #paredit
+
+great for fixing up after yank an incomplete sexp
+may not work
+Use M-x quoted-insert if not

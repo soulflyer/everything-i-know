@@ -1,0 +1,6 @@
+#+TITLE: emacs lisp call-process
+# TAGS #emacs #elisp
+
+This will read the given .rc file and return all the lines that start with export:
+
+(call-process "grep" "~/Code/Flexiana/Data-42/d42one-release-conf/d42one-conf.d/d42one.rc" t nil "^export")

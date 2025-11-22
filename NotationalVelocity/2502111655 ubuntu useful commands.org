@@ -1,0 +1,4 @@
+#+TITLE: ubuntu useful commands
+# Tags #linux
+* findmnt
+gives a listing of where everything is mounted.

@@ -1,0 +1,4 @@
+#+TITLE: emacs auto highlight
+# TAGS #emacs
+
+m-x auto-highlight-symbol-mode

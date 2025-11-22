@@ -1,0 +1,6 @@
+#+TITLE: palette from jpg
+# TAGS
+
+https://lokeshdhakar.com/projects/color-thief/
+
+https://github.com/dylanaraps/pywal

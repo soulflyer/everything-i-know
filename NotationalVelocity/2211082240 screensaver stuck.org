@@ -1,0 +1,4 @@
+#+TITLE: screensaver stuck
+# Tags #mac
+
+Try C-S-<power> ESC

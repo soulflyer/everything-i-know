@@ -1,0 +1,6 @@
+#+TITLE: node web server
+# Tags #node
+#+begin_src bash
+npx http-server -p 8080 public/
+#+end_src
+

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2406011544 wireless mic-images
+:END:
+#+TITLE: wireless mic
+[[file:2406011544 wireless mic-images/screenshot-20240601-154425.png]]
+
+from the Sampson CR77 [[https://www.manua.ls/samson/cr77/manual?p=11][manual]]

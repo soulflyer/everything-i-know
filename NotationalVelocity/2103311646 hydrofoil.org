@@ -1,0 +1,10 @@
+#+TITLE: hydrofoil
+# TAGS #hydrofoil #webbookmark #book
+
+This is the book that I regularly borrowed from the University Library. So far I haven't found a copy online, except on dodgy sites that want a credit card number. 1972 is not the first edition.
+Hydrofoil Sailing, Alan John Alexander. James Lyon Grogono; Donald J. Nigg. 1972
+
+Hydrofoils: Design, Build, Fly, Ray Vellinga https://archive.org/details/hydrofoilsailing0000alex/
+
+Heavy duty info on hydrofoils. Looks like it has been scanned from paper copy of something, and fed into an OCR
+https://www.boatbuilding.xyz/high-speed-sailing/hydrofoil-applications.html

@@ -1,0 +1,4 @@
+#+TITLE: clojurescript evaluate in browser
+# TAGS #clojurescript
+
+https://yogthos.net/posts/2015-11-12-ClojureScript-Eval.html

@@ -1,0 +1,19 @@
+#+TITLE: applescript file exists
+# TAGS #applescript #shell
+
+Done this 2 ways:
+
+1) shell script with if ls
+on fileExists(posixPath)
+    set returnval to ((do shell script "if ls " & posixPath & " &>/dev/null; then echo 1; else echo 0;fi") as integer) as boolean
+    return returnval
+end fileExists
+
+2) pure applescript
+tell application "Finder"
+    if exists file pathToNotes then
+        set fullExportDate to get creation date of file pathToNotes
+    end if
+end tell
+
+Using a shell script with if test -e fails when given *.jpg......

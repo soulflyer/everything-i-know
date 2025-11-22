@@ -1,0 +1,5 @@
+#+TITLE: string tension calculator
+# TAGS #instrument
+
+https://www.cs.helsinki.fi/u/wikla/mus/Calcs/wwwscalc.html
+http://www.niskanenlutes.com/index.php?p=stringcalc

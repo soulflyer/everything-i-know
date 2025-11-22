@@ -1,0 +1,6 @@
+#+TITLE: emacs load theme without asking
+# Tags #emacs #theme
+#+begin_src emacs-lisp
+(load-theme 'solarized-dark t)
+#+end_src
+from https://emacs.stackexchange.com/a/18936/2666

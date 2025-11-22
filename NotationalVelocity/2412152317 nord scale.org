@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2412152317 nord scale-images
+:END:
+#+TITLE: nord scale
+# Tags #music
+
+I made a performance that used 2 slots, one with a sequencer and another that set the scale the sequencer would use. Comunication between the slots was done by control valuse multiplexed onto an audi cable and demultiplexed at the sequencer end. Posted [[https://electro-music.com/forum/topic-50261.html][here]]
+
+Here is the scale generator patch:
+[[file:2412152317 nord scale-images/screenshot-20241215-232516.png]]
+
+and the sequencer:
+[[file:2412152317 nord scale-images/screenshot-20241215-232639.png]]
+
+This can't be run on the emulator, as that will only run a single patch. Load the performance to the *Nord* and check that the sequencer is receiving on the bus, as this seems to get switched to the external input. It needs a clock too. I think I was using a master clock from the *MPC* when I wrote it. Switching to the internal clock works. The scale in use is set using the pink constant module labelled *Set Scale*

@@ -1,0 +1,13 @@
+#+TITLE: clojure web
+# TAGS #clojure
+
+Om
+
+http://zaiste.net/2014/02/web_applications_in_clojure_all_the_way_with_compojure_and_om/
+https://github.com/omcljs/om
+https://facebook.github.io/react/
+
+also:
+
+http://pedestal.io/
+http://hoplon.io/

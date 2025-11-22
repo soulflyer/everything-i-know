@@ -1,0 +1,6 @@
+#+TITLE: bash {}
+# Tags #bash
+
+#+begin_src shell
+cp -v template.{edn,clj}
+#+end_src

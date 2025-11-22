@@ -1,0 +1,25 @@
+#+TITLE: Emacs which-key slowdown
+# TAGS #emacs
+
+
+M-x tips
+@iLemming
+·
+12h
+So, I just found out that disabling which-key-mode in Emacs significantly reduces the latency (by like 30%). 
+Now, I'm wondering if I even need it on all the time.
+Or maybe I should try tweaking some which-key vars?
+
+Wanderson Ferreira
+@bartuka_
+Replying to 
+@iLemming
+I have been using `which-key` this way:
+
+(setq which-key-show-early-on-C-h t)
+(setq which-key-idle-delay 10000)
+(setq which-key-idle-secondary-delay 0.05)
+(which-key-mode)
+
+Therefore, the which-key pane only appears if I hit C-h explicitly. C-c <C-h> for example
+5:18 AM · Nov 14, 2020·Twitter Web App

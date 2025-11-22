@@ -1,0 +1,4 @@
+#+TITLE: fileNotFound not on classpath
+# Tags #clojure
+
+Check you are in the right directory dumbass

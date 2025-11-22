@@ -1,0 +1,17 @@
+#+TITLE: ixus hack
+# Tags #camera
+
+CHDK won't boot unless you do this:
+#+begin_src shell
+cd /Volumes/CANON_DC
+xattr -d com.apple.quarantine DISKBOOT.BIN PS.FI2
+#+end_src
+(might be FIS instead of FI2)
+
+Had to create a FAT16 partition by hand. Using CHDK utilities didn't work and disk-utility wont create a FAT16 file system on an 8G card:
+#+begin_src shell
+sudo newfs_msdos -F 16 -v MYSDCARD -b 4096 -c 128 /dev/disk4s1
+#+end_src
+4G is wasted space but I don't think it is worth the hassle of trying to get dual partitions to work.
+
+Next problem is that the alt button no longer works to change aperture size in manual mode. Given the limitations of this camera this may not be such a big deal. Using P mode and adjusting the exposure might be the best way to go anyway.

@@ -1,0 +1,707 @@
+#    -*- mode: org -*-
+
+
+Archived entries from file /Users/iain/Documents/org-mode/notes/emacs.org
+
+
+* TODO [#A] Window should not resize when opening calendar
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-10-21 Fri 13:08
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: TODO
+:END:
+Bypassed by using a tab instead
+* DONE [#D] Fix highlighting of grep results.
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2021-10-09 Sat 12:44
+   :END:
+ Not the first level of results, but click on one of those and it highlights the result with black on dark grey.
+* DONE [#F] Clean up org popup buffers
+   CLOSED: [2021-09-30 Thu 01:33]
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2021-10-09 Sat 12:44
+   :END:
+    [2021-09-27 Mon]
+ See note §2109271033
+ This is probably related to getting *undo-tree* to display next to the file rather than below. Org appears to be doing the same thing. The problem only appears in wider windows. In narrow windows the org buffer appears below the main one and that is ok.
+* DONE [#H] Add a command to turn beacon red, blink it and turn back to regular beacon colour
+   CLOSED: [2021-10-09 Sat 12:24]
+   :PROPERTIES:
+* DONE [#E] check on font colour for org src code blocks
+CLOSED: [2021-09-29 Wed 23:01]
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-10-09 Sat 12:44
+It should be really pale gray
+
+* DONE [#C] Fix bindings for expand-region
+CLOSED: [2021-09-30 Thu 01:33]
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-10-09 Sat 12:45
+   :END:
+They should work the same in gui and terminal emacs
+* DONE [#C] Compare bookmark and bm packages.
+CLOSED: [2021-09-28 Tue 15:40]
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-10-09 Sat 12:45
+
+* DONE [#D] Check answer yes or no works on acceptance
+CLOSED: [2021-09-28 Tue 15:41]
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-10-10 Sun 12:17
+
+*Get a list using contents of (org-agenda-files)
+*build a buffer using dired? ido? [[https://stackoverflow.com/a/19775371/1671119][completing-read]] *(ido-completing-read)*
+*Not necessary, use (org-todo-list) and open them from there.
+   :END:
+* DONE [#C] Add shortcut to open org files
+CLOSED: [2021-10-10 Sun 12:16]
+CLOSED: [2021-09-28 Tue 15:41]
+* DONE [#C] Add C-c d 3 as a binding for setteldeft insert tag
+   CLOSED: [2021-10-10 Sun 14:35]
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2021-10-10 Sun 14:35
+   :END:
+
+* DONE [#E] Switch zetteldeft bindings C-c-d r and C-c d R
+CLOSED: [2021-10-10 Sun 14:35]
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-10-10 Sun 14:35
+:END:
+* DONE [#D] zetteldeft-return
+CLOSED: [2021-10-11 Mon 16:49]
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-10-10 Sun 14:35
+:END:
+* DONE [#D] Add function to run a shell command on the file associated with the current buffer
+CLOSED: [2021-10-12 Tue 16:42]
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-10-12 Tue 16:43
+:END:
+Based on ! in dired
+Try something like:
+#+begin_src emacs-lisp
+   (shell-command "<insert command here>"(buffer-file-name))
+#+end_src
+Or perhaps just make this specific to nv-zd
+#+begin_src emacs-lisp
+   (defun iw-nv-zd ()
+     (interactive)
+     (let ((command (format "nv-zd '%s'" (buffer-file-name))))
+       (zetteldeft-find-file (shell-command-to-string command))
+       (deft-refresh)))
+#+end_src
+This is not passing the file name to nv-zd. Hmmm. (FIXED with format)
+
+This should help: [[https://emacs.stackexchange.com/a/68839/2666][stack exchange link]] (it did)
+
+Doesn't display output in minibuffer. (FIXED Use shell-command-to-string instead of shell-command)
+
+
+* DONE [#G] Fix cursor in GUI Emacs
+CLOSED: [2021-10-21 Thu 10:24]
+    :PROPERTIES:
+    :ARCHIVE_TIME: 2021-10-21 Thu 10:27
+    :END:
+* DONE [#C] Investigate faces. Can a face be applied to a block?
+CLOSED: [2021-10-23 Sat 23:40]
+:PROPERTIES:
+     :ARCHIVE_TIME: 2021-10-21 Thu 10:35
+     :END:
+ Yes it can. §2110211034 Applying a face to a block
+* DONE [#D] make iw-zetteldeft-return recognise that it is in a link when at the §
+CLOSED: [2021-10-24 Sun 12:09]
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-10-24 Sun 12:09
+:END:
+* DONE [#C] Make iw-zetteldeft-return recognise when it is at the end of a tag
+CLOSED: [2021-10-25 Mon 20:35]
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-10-25 Mon 20:36
+:END:
+Should just do org-return when the cursor is at the end of a tag
+try checking char-after and see if it is whitespace. Or use a regex with eow or \> or symbol-end \_> see (info "(elisp)Rx Constructs")
+Or use bounds-of-thing-at-point and compare with point
+* DONE [#C] Fix colour of window separator in GUI Emacs
+CLOSED: [2021-10-26 Tue 20:24]
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-10-26 Tue 20:24
+:END:
+* DONE [#A] Add init file for aa2u
+CLOSED: [2021-10-28 Thu 17:50]
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-10-28 Thu 17:51
+:END:
+The package is ascii-art-to-unicode
+* DONE [#A] add unicode-font over-rides to iw-gui-emacs.el
+CLOSED: [2021-10-28 Thu 17:50]
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-10-28 Thu 17:51
+:END:
+They're in etc/emacs-custom.el
+* DONE [#H] create a face for outlines
+CLOSED: [2021-10-28 Thu 17:51]
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-10-28 Thu 17:51
+:END:
+Need to use HEAVY VERTICAL etc because gui emacs insists on using the default font for LIGHT VERTICAL etc even when told not to. Make a face that causes these characters to be a nice pale gray.
+Don't eally need this now, the relevant characters are rendered in font-lock-comment-face
+* DONE [#C] Change auto-insert contents for elisp file
+CLOSED: [2021-11-03 Wed 13:12]
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-11-04 Thu 09:01
+:END:
+* DONE [#C] investigate comment-dwim
+CLOSED: [2021-11-30 Tue 23:24]
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-11-30 Tue 23:25
+:END:
+Maybe bind it to C-M-/  I don't think I need both this and comment-uncomment-region
+* DONE [#C] Make return work the same in *zetteldeft-tag-buffer* as it does in org files
+CLOSED: [2021-11-30 Tue 23:41]
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-11-30 Tue 23:41
+:END:
+It already does, but tags behave differently to links. Fixed
+* DONE [#D] advise deft to refresh
+CLOSED: [2021-12-01 Wed 12:13]
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-12-01 Wed 12:13
+:END:
+Or create a function that does both and bind that to C-c d d instead
+#+begin_src elisp
+  (advice-add 'deft :after #'deft-refresh)
+#+end_src
+* DONE [#G] Convert colour names to hex values
+CLOSED: [2022-09-29 Thu 23:39]
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-09-30 Fri 12:34
+:END:
+* DONE [#G] Stop org-capture from creating bookmarks
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-09-30 Fri 12:35
+:END:
+I don't remember fixing this, but it isn't happening now.
+CLOSED: [2022-09-30 Fri 12:34]
+
+* DONE [#I] Get GUI Emacs colours right
+CLOSED: [2022-09-30 Fri 16:20]
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-09-30 Fri 16:23
+:END:
+They're way too bright compared to the terminal version. Don't really care anymore. Command line is better.
+Colours look the same now. No idea what changed.
+* DONE [#I] Add commands to swap windows in GUI Emacs
+CLOSED: [2022-09-30 Fri 17:09]
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-09-30 Fri 17:09
+:END:
+* DONE [#G] Clean up margin/fringe
+CLOSED: [2022-10-01 Sat 20:41]
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-10-01 Sat 20:42
+:END:
+(setq-default fringes-outside-margins t) might do it
+* DONE [#G] Bind C-q to a keymap of useful nav fns
+CLOSED: [2022-10-01 Sat 20:41]
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-10-01 Sat 20:42
+:END:
+* DONE [#C] Display undo-tree to the right of the current window in GUI Emacs
+CLOSED: [2022-10-01 Sat 20:41]
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-10-01 Sat 20:42
+:END:
+It's appearing on the right of the frame.
+* DONE [#C] Make same window stuff stricter. 
+CLOSED: [2022-10-08 Sat 21:08]
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-10-08 Sat 21:09
+:END:
+Help opens in the wrong window
+* DONE [#G] Make cljstyle fn store and return to point.
+CLOSED: [2022-10-08 Sat 21:09]
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-10-08 Sat 21:16
+:END:
+Or remove it. Removed it and replaced it with version from elpa which behaves better.
+* DONE [#D] Find how to pop a window out of a frame and return it
+CLOSED: [2022-10-08 Sat 21:16]
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-10-08 Sat 21:16
+:END:
+Can use tab-new
+* DONE [#E] make org todo reuse an org agenda window
+CLOSED: [2022-10-21 Fri 00:51]
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-10-21 Fri 00:52
+:END:
+The buffer gets reused so it doesn't seem to be possible to have both open at the same time. Might as well reuse the open one as have 2 windows showing the same thing.
+* DONE [#G] Find out why the clojure icon is gone from the headline
+CLOSED: [2022-10-21 Fri 11:30]
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-10-21 Fri 11:32
+:END:
+
+* TODO [#G] Add commands run by shortcut to M-x history
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-10-21 Fri 13:37
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: TODO
+:END:
+Can access commands using (command-history) and this appears to show both commands run by M-x and by shortcut. (post-command-hook) may be useful.
+It is only the commands run using M-x
+Too many things run by shortcuts. What about all the movement keys :thinking:
+
+
+
+* DONE [#B] Increase line spacing in GUI Emacs
+CLOSED: [2022-11-20 Sun 00:31]
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-11-20 Sun 00:31
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE [#C] Set up xwidget packages with use-package
+CLOSED: [2022-11-20 Sun 00:47]
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-11-20 Sun 00:47
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: TODO
+:END:
+
+* TODO [#C] Sometimes get 2 documentation popups on hover
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-11-20 Sun 00:47
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: DONE
+:END:
+This is probably cider and lsp. Don't need both (either?)
+
+
+* DONE [#G] Get C-c C-b to mount bookshelf before going to it
+CLOSED: [2022-11-20 Sun 17:45]
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-11-20 Sun 17:45
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE [#D] Make org-mode headers use a larger font
+CLOSED: [2022-12-02 Fri 12:59]
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-12-02 Fri 12:59
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE [#D] Make org mode pdf links open in emacs when in gui emacs
+CLOSED: [2022-12-18 Sun 21:55]
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-12-18 Sun 22:28
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE [#B] make eshell show red/yellow/green acording to git status 
+CLOSED: [2022-12-18 Sun 22:45]
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-12-18 Sun 22:46
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE [#B] make eshell show red/yellow/green acording to git status 
+CLOSED: [2022-12-18 Sun 22:45]
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-12-18 Sun 22:46
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE [#D] Make M-Ret use helpful
+CLOSED: [2022-12-18 Sun 22:46]
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-12-18 Sun 22:47
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE [#C] make new-tab-workspace ask for a pathname (prefilled with current directory)
+CLOSED: [2022-12-19 Mon 14:22]
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-12-19 Mon 14:22
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE [#C] make new-tab-workspace ask for a pathname (prefilled with current directory)
+CLOSED: [2022-12-19 Mon 14:22]
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-12-19 Mon 14:23
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE [#B] make eshell show red/yellow/green acording to git status 
+CLOSED: [2022-12-19 Mon 14:23]
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-12-19 Mon 14:23
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE [#D] Make M-Ret use helpful
+CLOSED: [2022-12-19 Mon 14:23]
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-12-19 Mon 14:24
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE [#G] Add hook so open-with-mode is only on in dired buffers not org-mode
+CLOSED: [2022-12-19 Mon 14:23]
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-12-19 Mon 14:31
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: DONE
+:END:
+Hold off on this. Might be better to view pdfs and images in emacs?
+
+
+* DONE [#C] *org-links* buffer should open in the same window
+CLOSED: [2022-12-19 Mon 14:35]
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-12-19 Mon 14:35
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE [#C] Set font for J
+CLOSED: [2022-12-27 Tue 10:55]
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-12-27 Tue 10:55
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: DONE
+:END:
+Maybe other buffers too. Keep monacoB2 for program files but make the box drawings used in some things looking right. Monaco leaves gaps.
+[[https://stackoverflow.com/a/25259166/1671119][This might work]] *M-x buffer-face-set*
+
+
+* DONE [#D] add browser bindings
+CLOSED: [2022-12-27 Tue 11:01]
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-12-27 Tue 11:02
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: DONE
+:END:
+*ewwp-follow-link* and *xwidget-webkit-copy-selection-as-kill*
+
+
+* TODO [#C] Sometimes get 2 documentation popups on hover
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-01-05 Thu 20:56
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: TODO
+:END:
+This is probably cider and lsp. Don't need both (either?)
+The colourful one is *lsp-ui*
+The one with the pale yellow background disappears when I kill *cider*
+It's *cider-use-tooltips*
+
+* TODO [#C] Sometimes get 2 documentation popups on hover
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-01-05 Thu 21:00
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: TODO
+:END:
+This is probably cider and lsp. Don't need both (either?)
+The colourful one is *lsp-ui*
+The one with the pale yellow background disappears when I kill *cider*
+It's *cider-use-tooltips*
+
+* TODO [#G] Open PDF in external
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-01-05 Thu 21:08
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: TODO
+:END:
+should be able to hit x in *PDFView* mode to see the file in *Preview*
+
+* TODO [#G] setup markdown with showdown
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-01-05 Thu 21:38
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: TODO
+:END:
+*markdown-mode* does previews, need to check if it updates. Use *impatient-showdown-mode* in the md file buffer.
+
+
+* DONE [#G] set default browser to be webkit
+CLOSED: [2023-01-06 Fri 21:36]
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-01-06 Fri 21:37
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE [#G] make f5 work for words that are part of a path
+CLOSED: [2023-01-23 Mon 14:44]
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-01-23 Mon 14:44
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: DONE
+:END:
+F5 searches through a project for the string at point. If it is a separate word, it will find it. Great for re-frame subscriptions etc, but not good for things that are part of a path like *components/button-set* Can probably get emacs to split up the word at point if it contains a */* and just search for the last component
+Not necessary, just select it first. F5 will search for a selection.
+
+* DONE [#G] Add timemachine and blame bindings to magit-map
+CLOSED: [2023-04-01 Sat 15:54]
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-04-01 Sat 15:55
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE [#G] Clean up the kill ring
+CLOSED: [2023-04-01 Sat 15:54]
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-04-01 Sat 15:55
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: DONE
+:END:
+The kill ring ends up with lots of duplicates. Either remove the thing that is adding them, alter add-kill-ring (or whatever) to check the previous entry before adding a new one, or have a separate fn to remove consecutive duplicates either on demand or after adding every new kill ring entry.
+
+* DONE [#E] Make tab-bar-tab-new read a local file
+CLOSED: [2023-11-06 Mon 23:16]
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-11-06 Mon 23:17
+:ARCHIVE_FILE: ~/Dropbox/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: DONE
+:END:
+config file should set layout, or maybe a variable in dir-locals
+Don't think I want this...
+
+* DONE [#G] explore zettteldeft alternative
+CLOSED: [2023-11-06 Mon 23:41]
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-11-06 Mon 23:41
+:ARCHIVE_FILE: ~/Dropbox/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: DONE
+:END:
+it is mentioned in the discontinuation notice on github
+Looks good, but Doesn't seem to have the same easy search that zetteldeft does. Not switching, not while things work well.
+
+* DONE [#G] Clean up modeline for emms
+CLOSED: [2023-12-18 Mon 12:54]
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-12-18 Mon 12:54
+:ARCHIVE_FILE: ~/Dropbox/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: DONE
+:END:
+#+begin_src elisp
+;; Default value
+(setq mode-line-format
+      '("%e"
+        mode-line-front-space
+        (:propertize
+         ("" mode-line-mule-info mode-line-client mode-line-modified
+          mode-line-remote mode-line-auto-compile)
+         display (min-width (5.0)))
+        mode-line-frame-identification
+        mode-line-buffer-identification "   "
+        mode-line-position (vc-mode vc-mode) "  "
+        mode-line-modes
+        mode-line-misc-info mode-line-end-spaces))
+;; Move track info to the left
+(setq mode-line-format
+      '("%e"
+        mode-line-misc-info
+        mode-line-buffer-identification
+        mode-line-end-spaces))
+#+end_src
+
+* DONE [#G] Make emms window appear in any current emms window
+CLOSED: [2023-12-18 Mon 13:03]
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-12-18 Mon 13:03
+:ARCHIVE_FILE: ~/Dropbox/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: DONE
+:END:
+It doesn't select a playlist window
+
+* DONE [#G] Add spacebar as a binding for emms pause
+CLOSED: [2023-12-19 Tue 13:10]
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-12-19 Tue 13:10
+:ARCHIVE_FILE: ~/Dropbox/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE [#G] Add E binding to dired for emms-add-dired
+CLOSED: [2023-12-25 Mon 19:54]
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-12-25 Mon 19:54
+:ARCHIVE_FILE: ~/Dropbox/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE [#G] add fn to run after playlist clear
+CLOSED: [2023-12-29 Fri 23:01]
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-12-29 Fri 23:01
+:ARCHIVE_FILE: ~/Dropbox/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: DONE
+:END:
+Command needed is *mpc crop* so that the playlist is cleared from mpd as well as from emms.
+Use *emms-playlist-cleared-hook*
+
+* DONE [#G] make *C-s* in emms behave as it does in dired
+CLOSED: [2023-12-29 Fri 23:13]
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-12-29 Fri 23:13
+:ARCHIVE_FILE: ~/Dropbox/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: DONE
+:END:
+ie the search is not prefilled by whatever is under the cursor
+
+* DONE [#G] Apply emms-mark-mode automatically
+CLOSED: [2023-12-29 Fri 23:14]
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-12-29 Fri 23:14
+:ARCHIVE_FILE: ~/Dropbox/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE [#G] Investigate Image manipulation with *Blimp* 
+CLOSED: [2025-09-24 Wed 08:50]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-09-24 Wed 08:50
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: DONE
+:END:
+I think this should say *Bimp*
+
+* DONE [#E] Debug unison save of org buffers
+CLOSED: [2025-10-03 Fri 18:16]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-10-04 Sat 12:46
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: DONE
+:END:
+The buffer isn't always removed
+
+* DONE [#C] Investigate org-agenda layout
+CLOSED: [2025-09-25 Thu 19:56]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-10-04 Sat 12:46
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: DONE
+:END:
+Get rid of the other days in the habits section
+
+* DONE [#G] Try removing paradox
+CLOSED: [2025-10-05 Sun 11:12]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-10-05 Sun 11:12
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE [#E] Investigate orderless
+CLOSED: [2025-10-05 Sun 00:48]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-10-05 Sun 11:12
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/emacs.org
+:ARCHIVE_OLPATH: Emacs TODOs
+:ARCHIVE_CATEGORY: emacs
+:ARCHIVE_TODO: DONE
+:END:
+This is a completion package that will find results even if the pieces are given out of order

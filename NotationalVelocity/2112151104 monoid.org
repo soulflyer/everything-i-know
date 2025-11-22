@@ -1,0 +1,17 @@
+#+TITLE: monoid
+# Tags #monad
+
+“a bunch of things” and “some way of combining them”
+
+A monoid is a system (combining function and set of things to combine) that obeys 3 rules
+
+** closure
+If a function returns something of the same type it has closure
+** associativity
+If order doesn't matter the fn is associative
+** identity element
+An element that can be combined with another and return the same value
+
+An example would be *Addition on the set of Integers*
+
+https://fsharpforfunandprofit.com/posts/monoids-without-tears/

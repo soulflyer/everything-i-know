@@ -1,0 +1,17 @@
+#+TITLE: Mac app switcher display on all monitors
+# Tags #mac
+
+#+begin_src shell
+defaults write com.apple.Dock appswitcher-all-displays -bool true
+killall Dock
+#+end_src
+
+https://gist.github.com/jthodge/c4ba15a78fb29671dfa072fe279355f0
+
+also some useful extra keybindings for switcher
+
+cmd-tab q  quit the selected app
+cmd-tab 1  show all the windows of the selected app. Tab steps through the apps
+cmd-tab ctrl-down does the same
+
+Can also hit cmd-tab while dragging a file to open it in some app or other.

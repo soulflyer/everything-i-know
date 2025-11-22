@@ -1,0 +1,12 @@
+#+TITLE: swiftbar setup
+# Tags
+
+Scripts are currently in *~/.swiftbar/*
+
+The name format is *whatever.nnaa.sh* where *nnaa* controls the refresh rate:
+
+ms - milliseconds, e.g. 1ms - refresh every millisecond
+s - seconds, e.g. 1s - refresh every second
+m - minute, e.g. 10m - refresh every ten minutes
+h - hour, e.g. 3h - refresh every three hours
+d - day, e.g. 1d - refresh every day

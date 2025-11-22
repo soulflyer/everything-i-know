@@ -1,0 +1,8 @@
+#+TITLE: emacs debug on specified output
+# Tags #emacs #debug
+
+#+begin_src emacs-lisp
+(setq debug-on-message "\\`No docstring slot for")
+#+end_src
+
+from https://stackoverflow.com/a/52136850/1671119

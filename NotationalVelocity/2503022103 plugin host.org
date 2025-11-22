@@ -1,0 +1,3 @@
+#+TITLE: plugin host
+# Tags #music
+[[https://shop.zynthian.org/][Zynthian]] rapberry pi based vst plugin host kit. Comes with sooperlooper. Latency might not be good enough to handle guitar amp modelling though. It does claim to be able to do low latency, but I haven't found a figure on that yet.

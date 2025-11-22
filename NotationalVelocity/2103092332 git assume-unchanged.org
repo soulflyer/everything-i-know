@@ -1,0 +1,6 @@
+#+TITLE: git assume-unchanged
+# TAGS #git
+
+Make changes to a file but don't want them to be commited, ie dev commands in user.clj:
+
+git update-index --assume-unchanged <file>

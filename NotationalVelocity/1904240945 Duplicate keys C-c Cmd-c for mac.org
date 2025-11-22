@@ -1,0 +1,4 @@
+#+TITLE: Duplicate keys C-c Cmd-c for mac
+# TAGS
+
+ukelele can probably do it, as could karabiner. Both complex.

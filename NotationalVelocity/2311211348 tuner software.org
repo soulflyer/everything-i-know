@@ -1,0 +1,4 @@
+#+TITLE: tuner software
+# Tags #flute
+[[http://www.mcgee-flutes.com/RTTA/setup.htm][RTTA]]
+[[https://www.cs.otago.ac.nz/graphics/Geoff/tartini/download.html][Tartini]]

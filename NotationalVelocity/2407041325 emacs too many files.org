@@ -1,0 +1,10 @@
+#+TITLE: emacs too many files
+# Tags #emacs
+
+Run:
+#+begin_src elisp
+  (file-notify-rm-all-watches)
+#+end_src
+from [[https://www.blogbyben.com/2022/05/gotcha-emacs-on-mac-os-too-many-files.html][blogbyben]]
+also [[https://www.reddit.com/r/emacs/comments/ty5i2l/emacs_28_29_watching_eln_files_and_causing_too/][reddit thread]]
+also [[https://en.liujiacai.net/2022/09/03/emacs-maxopenfiles/][liujiacai]] need to build emacs from source and include *CFLAGS="-DFD_SETSIZE=10000 -DDARWIN_UNLIMITED_SELECT"* amongst other things.

@@ -1,0 +1,34 @@
+#+TITLE: setting specific fonts for specific chars
+# Tags #emacs
+# Backlink: §2109110841 unicode characters
+*unicode-fonts overrides* does this better.
+§2110181630 font setup using unicode-fonts
+
+This is for gui emacs. Terminal emacs with tmux handles it already.
+
+*(set-fontset-font)* can set the font for all of a group (ie symbol) or just a range. Symbola looks better, but doesn't cover the large squares. Apple color emoji has these.
+#+begin_src emacs-lisp
+(set-fontset-font t 'symbol "Apple Color Emoji")
+(set-fontset-font t 'symbol "Symbola")
+(set-fontset-font t '(#x1F7E0 . #x1F7EB) "Apple Color Emoji 9")
+(set-fontset-font t '(#x2B1B . #x2B1C) "Apple Color Emoji")
+#+end_src
+
+The 9 is there because Apple Color Emoji is larger and causes any line with these chars to be taller than the monaco-12 I have set for the rest of the text. Unfortunately it means the characters won't resize...
+
+This works, although the width is still wrong. Line heights are correct with a 0.91 multiplier, but tables still get messed up as the width is too small. Width would need to be increased, rough guess by a factor of 1.4. Using 0.91 doesn't make the width obviously any worse.
+#+begin_src emacs-lisp
+(add-to-list 'face-font-rescale-alist (cons (font-spec :family "Apple Color Emoji") 0.91) t)
+#+end_src
+https://emacs.stackexchange.com/a/5549/2666
+
+* 2022/11/19
+A combination of *face-font-rescale* , removing *emojify-mode* and setting the *'emoji* characters group to Apple-Color-Emoji as below gets the rubiks cube diagrams in order.
+
+#+begin_src emacs-lisp
+  (set-fontset-font t 'emoji (font-spec :family "Apple Color Emoji") nil 'prepend)
+  (setq face-font-rescale-alist nil)
+  (add-to-list 'face-font-rescale-alist (cons (font-spec :family "Apple Color Emoji") 0.8) t)
+#+end_src
+
+[[https://idiocy.org/emacs-fonts-and-fontsets.html][Interesting blog]]

@@ -1,0 +1,28 @@
+#+TITLE: perfection and good are enemies
+# Tags #blog
+
+But who is the bad guy?
+The expression used to be "Good enough is the enemy of perfection."
+Somehow it got changed to "Perfection is the enemy of good."
+
+The original intent was always to warn against lazy approach and the message was clear and unambiguous. If you are satisfied with "good enough" you will never achieve perfection. 
+
+Nothing has changed. The need for perfection is core to achieving anything. Without it, standards slip. Or projects don't even get started. The passion for our craft dies and we end up with a chore we do to earn a crust.
+
+BUT the need for perfection needs to be pointed in the right direction.
+
+In any art form it is the limitations of the instrument or medium that lead to the real beauty. A simple example is the synth. Almost without limitations in the sounds it can produce. Truly moving music is rarely to be found written or played on a synth. The rare virtuosos[fn:1] that have cracked it all have somehow adopted artifical limitations and that, I believe, is the key...
+
+Set the limitations!
+
+Trying to achieve perfection by endlessly repeating the same task is a bottomless pit when it comes to time management. Worse it is unlikely to actually achieve perfection. I would be fed up by the 3rd time round creating the same thing and unlikely to have the passion left to make a good attempt.
+
+So this is what I propose:
+
+Development has to be a single shot. The perfection is in the process, every shot we take can get us closer to the ideal of finding the best answer first time round. That is where the real creativity is. That is where we can satisfy the perfectionist that is present in every good artist/craftsman/developer.
+
+This is no different from a craftsman cutting into a new board of precious timber to create something beautiful. Once the saw touches the board there is no going back. Same for a performer. You can practice all you like, but on the night you only get one shot.
+
+* Footnotes
+
+[fn:1][[https://www.youtube.com/watch?v=M2sqKPlMSeU][Jan Hammer]] is the only one that comes to mind at the moment. 

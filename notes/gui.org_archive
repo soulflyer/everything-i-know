@@ -1,0 +1,32 @@
+#    -*- mode: org -*-
+
+
+Archived entries from file /Users/iain/Documents/org-mode/notes/gui.org
+
+
+
+Archived entries from file /Users/iain/Documents/org-mode/notes/gui.org
+
+
+* DONE Install cljs-devtools
+   CLOSED: [2018-06-16 Sat 08:50]
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-01-18 Wed 12:01
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/gui.org
+:ARCHIVE_OLPATH: re-frame
+:ARCHIVE_CATEGORY: gui
+:ARCHIVE_TODO: DONE
+:END:
+   https://github.com/binaryage/cljs-devtools/blob/master/docs/installation.md
+
+* DONE [#I] Try out fulcro
+CLOSED: [2025-09-26 Fri 11:34]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-09-26 Fri 11:34
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/gui.org
+:ARCHIVE_CATEGORY: gui
+:ARCHIVE_TODO: DONE
+:END:
+   Fulcro provides full stack, clojure backend cljs front end
+   http://fulcro.fulcrologic.com/index.html
+

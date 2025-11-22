@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2305211258 dividing wheel-images
+:END:
+#+TITLE: dividing wheel
+# Tags #lathe
+
+[[pdf:/Volumes/bookshelf/Turning/Holtzapffel/h4.pdf::145++0.00][h4.pdf: Page 145]] has a table of divisions.
+[[pdf:/Volumes/bookshelf/Turning/precision_locating_and_dividing_MRS_No135_1914.pdf::29++0.00][precision_locating_and_dividing_MRS_No135_1914.pdf: Page 29]] has a method that might be useful
+
+[[file:2305211258 dividing wheel-images/dividing.png]]
+
+[[pdf:/Volumes/bookshelf/Turning/precision_locating_and_dividing_MRS_No135_1914.pdf::25++0.00][precision_locating_and_dividing_MRS_No135_1914.pdf: Page 25]] has a method which might be possible to adapt to angle divisions:
+[[file:2305211258 dividing wheel-images/ruler.png]]
+
+[[https://www.youtube.com/watch?v=UqpN3_G5fZ4][Italian video]] marking out a wheel using a variation of the above technique and a printed dial. 2:41
+[[https://www.youtube.com/watch?v=MWs1Ieo35XQ][Video]] using a phone app to measure angle.
+[[https://www.youtube.com/watch?v=QChCppBxIl0][Video]] makes a dividing wheel as part of a crude gearcutting machine.
+[[https://www.youtube.com/watch?v=BIUAdINXZmQ][Video]] speculating on how the teeth of the wheels in the Antikythera mechanism might have been made. This is the way to do it. Basically make a huge version in order to mark out the smaller wheels.
+[[file:2305211258 dividing wheel-images/03.png]]
+[[file:2305211258 dividing wheel-images/01.jpg]] This one matches the table given in H4
+
+* Angle division
+Bisection is easy, as is trisection of 90° but other angles are tricky. Most practical method that doesn't involve using a protractor would seem to be this from [[https://demonstrations.wolfram.com/TrisectionBySlidingALine/][wolfram]]:
+  [[file:2305211258 dividing wheel-images/screenshot-20240808-164444.png]] [[file:2305211258 dividing wheel-images/screenshot-20240808-164337.png]]
+The distance *OA* is marked and the parallel and the perpendicular drawn. Then the ruler which is marked at *C* and *D* where *CD* is double *OA* is moved until it passes through *O* while keeping *C* on the perpendicular and *O* on the parallel.
+
+Another possibility is the *Tomahawk* method [[https://en.wikipedia.org/wiki/Angle_trisection#cite_ref-trisectors_1-0][(wikipedia)]]:
+[[file:2305211258 dividing wheel-images/screenshot-20240808-175112.png]]
+
+[[https://archive.org/details/trisectors0000dudl/mode/2up?view=theater][The trisectors]] book has lots of approximations

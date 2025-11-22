@@ -1,0 +1,13 @@
+#+TITLE: clojure fnil
+# TAGS #clojure
+
+fnil can be used to guard against nil inputs:
+
+user=> (+ nil 1)
+java.lang.NullPointerException (NO_SOURCE_FILE:0)
+user=> (def new+ (fnil + 0))
+#'user/new+
+user=> (new+ nil 1)
+1
+
+from https://dzone.com/articles/clojure-fnil

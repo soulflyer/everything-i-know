@@ -1,0 +1,45 @@
+#+TITLE: audio output mac
+# TAGS #audio #mac
+
+https://github.com/ExistentialAudio/BlackHole
+Allows applications to pass audio to other applications
+
+https://github.com/ExistentialAudio/BlackHole/wiki/Multi-Output-Device
+MOD allows for listening to 2 outputs at once. Necessary for me to hear the mp3 I'm playing to a class over discord
+
+************
+MOD appears as "system sound output device" in VLC
+toggle between built in microphone and blackhole as input device in discord
+************
+
+https://rogueamoeba.com/loopback/
+Looks like a neater way to do this but it costs $100
+
+https://www.youtube.com/watch?v=vLLjKjsqxG4 Another way, using https://www.vb-audio.com/Cable/
+
+* Record video with audio
+from [[https://dailymactips.com/how-to-screen-record-on-mac-with-audio/][dailymactips]]
+
+For high-quality internal audio recording, including system sounds and mouse clicks, you can use the BlackHole audio driver.
+
+** Step 1: Install BlackHole
+
+Download and install the BlackHole 16 channel driver from the GitHub repository.
+
+** Step 2: Set Up Aggregate Devices
+
+Open Audio MIDI Setup (found in the Utilities folder within Applications).
+
+Click the plus button at the bottom left corner and select Create Aggregate Device. Name it BlackHole Audio Input and select the BlackHole 16 Channel.
+Create another aggregate device by clicking the plus button again and select Multi-Output Device. Name it Screen Recording with Audio and ensure it includes your speakers and the BlackHole device.
+
+** Step 3: Configure Audio Settings
+
+Go to System Settings > Sound > Output, and select the Screen Recording with Audio device you created.
+
+** Step 4: Start Recording
+
+Press Shift + Command + 5 to open the Screenshot toolbar. In the Options menu, select the BlackHole Audio Input as your microphone and start recording.
+Step 5: Stop Recording
+
+To end the recording, click the Stop button on the menu bar or press Command + Control + Escape.

@@ -1,0 +1,12 @@
+#+TITLE: org-mode table insert column
+# Tags #emacs #org-mode
+
+to insert a complete column, first make the data into a single column table with rectangle insert | etc., then select the whole column and use these:
+
+C-c C-x C-w
+C-c C-x M-w
+C-c C-x C-y
+
+to paste it in to the table
+
+Try: create a table by selecting the data and using *M-x org-table-create-or-convert-from-region* (C-c |)

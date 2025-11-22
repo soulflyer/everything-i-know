@@ -1,0 +1,6 @@
+#+TITLE: bookbinder printout signatures
+# TAGS #book-binding
+
+http://www.quantumelephant.co.uk/bookbinder/bookbinder.html
+
+pdfsam (free version) will also do it

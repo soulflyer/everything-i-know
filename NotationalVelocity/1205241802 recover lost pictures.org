@@ -1,0 +1,4 @@
+#+TITLE: recover lost pictures
+# TAGS #photo
+
+testdisk and photorec can recover files from a corrupted memory card. Get it from cgsecurity.org

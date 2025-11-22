@@ -1,0 +1,9 @@
+#+TITLE: emacs bookmarks
+# TAGS #emacs
+
+Use these instead of registers, they are persistent
+
+C-x r m   set a bookmark
+C-x r b    jump to a bookmark
+
+M-x bookmark-save to save them. Should autosave on quit anyway

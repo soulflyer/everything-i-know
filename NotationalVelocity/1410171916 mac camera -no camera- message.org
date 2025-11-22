@@ -1,0 +1,4 @@
+#+TITLE: mac camera -no camera- message
+# TAGS
+
+sudo killall VDCAssistant

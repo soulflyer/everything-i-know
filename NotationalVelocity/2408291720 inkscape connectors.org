@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2408291720 inkscape connectors-images
+:END:
+#+TITLE: inkscape connectors
+# Tags #inkscape
+
+Useful for creating wiring diagrams like this one:
+[[file:2408291720 inkscape connectors-images/screenshot-20240829-172131.png]]
+
+The process is not exactly obvious:
+
+- Ungroup the end connectors from the device *Shift Command G*
+- create the connection using the *connector tool* (press *o*)
+- make sure the correct connection point is visible in the tooltip when clicking for the start and releasing for the end
+- Re-group by drag selecting the device and its connection boxes then press *Command G*
+
+To adjust when this goes wrong, which it often seems to do 
+
+- Un-group
+- Select the connector
+- Select the *connector tool*
+- Drag the little white squares to the correct place, watch for the tiny white box to go green.
+- Re-group

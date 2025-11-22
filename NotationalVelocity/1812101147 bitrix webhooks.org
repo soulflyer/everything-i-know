@@ -1,0 +1,140 @@
+#+TITLE: bitrix webhooks
+# TAGS
+
+https://training.bitrix24.com/rest_help/rest_sum/webhooks.php
+
+# Incoming Webhook
+
+Set up an incoming webhook, then call to it by browsing this address:
+https://b24-zvl4w1.bitrix24.com/rest/1/ryq7i639av269ud3/log.blogpost.add.json?POST_MESSAGE=Hello%2C%20world!
+
+b24-zvl4w1 is the name of the bitrix installation. In this case the soulflyer test install
+
+**rest** specifies this is a webhook
+
+**1** is the user id 
+
+**ryq7i639av269ud3** is the authorisation provided when the webhook is created
+
+**log.blogpost.add.json?POST_MESSAGE=Hello%2C%20world!** is the API command to be executed. In this case send a hello world message to all employees. API calls can be found here https://training.bitrix24.com/rest_help/, but the auth token on the end is not needed for webhooks
+
+# Outgoing Webhook
+
+First setup a script at a URL to do something... bitrix example just logs to a file:
+
+```php
+<?
+
+print_r($_REQUEST);
+writeToLog($_REQUEST, 'incoming*');
+
+/**
+ * Write data to log file.
+ *
+ * @param mixed $data
+ * @param string $title
+ *
+ * @return bool
+ */
+function writeToLog($data, $title = '') {
+    $log = "\n------------------------\n";
+    $log .= date("Y.m.d G:i:s") . "\n";
+    $log .= (strlen($title) > 0 ? $title : 'DEBUG') . "\n";
+    $log .= print_r($data, 1);
+    $log .= "\n------------------------\n";
+    file_put_contents('/Users/iain/Code/Wiserobot/bitrix/hook.log', $log, FILE_APPEND);
+    return true;
+} ?>
+```
+
+Stick this somewhere it can be accessed from a webserver and call it like this:
+
+```curl -i -X POST http://127.0.0.1/~iain/bitrix/bin/logger.php?_REQUEST=hello```
+
+This works to test the script, but bitrix ignores it at 127.0.0.1 or localhost. Works fine if the same script is put on soulflyer ie:
+
+http://soulflyer.co.uk/logger.php
+
+This is because the bitrix server needs to be able to see the script. It has to be externally visible.
+
+##This one gets the details of task 122:
+
+https://b24-zvl4w1.bitrix24.com/rest/1/ucowesq1cb3flfoy/task.item.getdata?TASKID=122
+
+##And this one gets a simplified version:
+
+https://b24-zvl4w1.bitrix24.com/rest/1/ucowesq1cb3flfoy/task.item.getdescription?TASKID=122&FORMAT=3
+
+##This one gets a filtered list of tasks
+
+In this case its filtered to be where task = 122 Note that there has to be an ORDER specified even though there is only one item.
+
+https://b24-zvl4w1.bitrix24.com/rest/1/ucowesq1cb3flfoy/task.item.list.xml?ORDER%5BTITLE%5D=desc&FILTER%5BID%5D=122
+the url was built by calling the following code:
+
+```php
+<?php
+// echo(4+2);
+// Example of working with php
+// // Receiving GET-request for data selection.
+$appParams = array(
+  "ORDER" => array("TITLE" => "desc"),
+  "FILTER" => array("ID" => 122),
+);
+$appRequestUrl = 'https://b24-zvl4w1.bitrix24.com/rest/1/ucowesq1cb3flfoy/task.item.list.xml?'.http_build_query($appParams);
+echo $appRequestUrl;
+?>
+```
+##All tasks that are in progress for employee_id 1
+
+https://b24-zvl4w1.bitrix24.com/rest/1/ucowesq1cb3flfoy/task.item.list.xml?ORDER%5BTITLE%5D=desc&FILTER%5BRESPONSIBLE_ID%5D=1&FILTER%5BREAL_STATUS%5D=3
+
+```php
+<?php
+$appParams = array(
+   "ORDER" => array("TITLE" => "desc"),
+   "FILTER" => array("RESPONSIBLE_ID" => 1,
+                    "REAL_STATUS" => 3),
+);
+```
+$appRequestUrl = 'https://b24-zvl4w1.bitrix24.com/rest/1/ucowesq1cb3flfoy/task.item.list.xml?'.http_build_query($appParams);
+
+echo $appRequestUrl;
+?>
+
+##Example that is triggered by webhook, calls the API and writes stuff to the log
+
+This example can be triggered whenever a task is moved to in-progress. It calls the api to get the details of the task and writes the task id and title to the log:
+
+```php
+<?php
+$task=$_REQUEST["document_id"][2];
+$taskDetails=taskDetails ($task);
+$taskDetailsArray=json_decode($taskDetails, 1);
+$taskTitle=$taskDetailsArray["result"]["TITLE"];
+writeToLog("Task $task, \"$taskTitle\" moved to in-progress");
+
+// This needs to check the user and then send a request to the bitrix API for all that users tasks
+// Start by logging the task ID and the user ID
+
+function taskDetails ($taskID){
+    $ch=curl_init ();
+    curl_setopt($ch, CURLOPT_URL, "https://b24-zvl4w1.bitrix24.com/rest/1/ucowesq1cb3flfoy/task.item.getdata?TASKID=$taskID");
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    $output=curl_exec ($ch);
+    curl_close ($ch);
+    return $output;
+}
+
+function writeToLog($data = '') {
+    //    $log = "\n-------------------------\n";
+    $log .= date("Y.m.d G:i:s") . "  ";
+    $log .= (strlen($data) > 0 ? $data : 'DEBUG') . "\n";
+    //$log .= "\n-------------------------\n";
+    file_put_contents('/home/iain/bitrix.wiserobot.io/logs/in-progress.log', $log, FILE_APPEND);
+    return true;
+} ?>
+```
+
+# TODO
+work out how to get employee details. Just substituting user.get for task.item.getdata doesn't do it. Probably needs to have a different authorisation code.

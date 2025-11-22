@@ -1,0 +1,12 @@
+#+TITLE: org-capture window arrangement
+# Tags #org-mode #emacs
+
+From [[https://stackoverflow.com/a/54251825/1671119][Stack Overflow]]
+#+begin_src emacs-lisp
+(defun my-org-capture-place-template-dont-delete-windows (oldfun &rest args)
+  (cl-letf (((symbol-function 'delete-other-windows) 'ignore))
+    (apply oldfun args)))
+
+(with-eval-after-load "org-capture"
+  (advice-add 'org-capture-place-template :around 'my-org-capture-place-template-dont-delete-windows))
+#+end_src

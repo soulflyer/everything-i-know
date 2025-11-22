@@ -1,0 +1,6 @@
+#+TITLE: mac osx port listeners
+# TAGS #port
+
+sudo lsof -iTCP -sTCP:LISTEN -n -P
+
+gives a list of open ports and the processes listening on them

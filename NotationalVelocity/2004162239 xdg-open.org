@@ -1,0 +1,4 @@
+#+TITLE: xdg-open
+# TAGS #linux
+
+linux equivalent of the open command

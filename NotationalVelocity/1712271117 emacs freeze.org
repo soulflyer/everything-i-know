@@ -1,0 +1,7 @@
+#+TITLE: emacs freeze
+# TAGS #emacs
+
+try:
+killall -USR2 emacs
+or
+kill -USR2 <emacs-pid>

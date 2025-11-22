@@ -1,0 +1,4 @@
+#+TITLE: clojure code quality tools
+# TAGS #clojure
+
+https://blog.jeaye.com/2017/08/31/clojure-code-quality/

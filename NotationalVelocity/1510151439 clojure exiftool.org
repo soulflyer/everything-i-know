@@ -1,0 +1,16 @@
+#+TITLE: clojure exiftool
+# TAGS
+
+  #+begin_src clojure
+    (:import            com.thebuzzmedia.exiftool.ExifTool
+                        com.thebuzzmedia.exiftool.ExifTool$Tag))
+
+    (def exiftool (ExifTool.))
+    (def file (java.io.File. "/Users/iain/Pictures/Published/fullsize/2015/09/01-Dragon/IMG_6666.jpg"))
+    (def tag (ExifTool$Tag/APERTURE))
+    (.getImageMeta exiftool file (into-array ExifTool$Tag [tag]))
+
+    (seq (. ExifTool$Tag values))
+
+    (map (fn [n] (.getName n)) (seq (. ExifTool$Tag values)))
+  #+end_src

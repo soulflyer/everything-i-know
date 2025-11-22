@@ -1,0 +1,60 @@
+#+TITLE: teaching clojure from the clojure-koans
+# Tags #clojure #school
+
+* Setup
+Not sure what stage to bring in *cider* and/or *lsp*. Repl might be handy early on, can start it by using *lein repl* which means connecting to cider is easy using *(cider-connect-clj)* so the documentation will work, and code can be run from the src file. Don't forget that the file must be compiled. In the early stages http://clojuredocs.com will be far more useful.
+*lsp* provides an easier access to the basic docs than cider, but not the repl.
+* Existing Koans 
+** 01
+*** true false
+*** (= x y)
+concept of a function and how it is called using the first item of a list
+*** integers and floats
+1.0 and 1 are not equal
+*** "strings" :keywords and 'symbols
+
+** 02 Strings
+Strings and characters
+
+** 03 Lists
+*** lists and functions
+How the quote changes a list from being a fn and parameters to just a list of things.
+*** first and rest
+*** count
+*** cons and conj
+For a simple list they do the same, although it looks like they should be different.
+*** Stacks
+peek and pop.
+*** try and catch
+This shows a bit about the differences betweeen rest and pop. Don't need to remember how, just remember that you can catch errors if you need to.
+
+** 04 Vectors
+A type of list. 
+Note the differences between *vec* and *vector*. 
+Note how *conj* and *cons* behave correctly with vectors.
+Use of *count*, *first*, *last*, *nth*, *subvec* 
+Note that *(= x y)* works even if x and y are not the same type of list, as long as the values are the same.
+
+** 05 Sets
+Another type of collection. Introduce the ideas of *union*, *intersection*, and *difference*
+
+** 06 Maps
+Another kind of collection. Explore the ways of building them and accessing members. *count*, *get*, *into*, *merge*, *merge-with*, *vals*, *keys*. Also intro to *map*, point out this is a different thing to the list type.
+
+** 07 Functions
+Getting tricky here. Defining functions inline and passing them around as params.
+
+** 09 Map Filter Reduce
+This is where i stopped taking notes, thinking we wouldn't get this far, but Pen charged on and figured out maps with no help
+
+* Creating new Koans
+Add the template to ~/.lein/profile.clj
+#+begin_src clojure
+{:user {:plugins [[koan/lein-template "0.1.3"]]}}
+#+end_src
+Create a new project using the template:
+#+begin_src shell
+lein new koan <your-project-name>
+cd <your-project-name>
+chmod +x script/*
+#+end_src

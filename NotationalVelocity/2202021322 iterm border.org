@@ -1,0 +1,3 @@
+#+TITLE: iterm border
+# Tags #iterm
+Setting the border under preferences:window:appearance doesn't work unless the window has some transparency.

@@ -1,0 +1,11 @@
+#+TITLE: mimi mac osx 10.6 command line internet sharing
+# TAGS 
+
+Try /usr/libexec/InternetSharing
+
+from http://hints.macworld.com/article.php?story=200210280525440
+
+or possibly 
+sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.InternetSharing.plist
+
+from https://apple.stackexchange.com/questions/2488/start-stop-internet-sharing-from-a-script

@@ -1,0 +1,45 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2408271919 connections-images
+:END:
+#+TITLE: connections
+# Tags #midi #music
+
+Old connections at <2024-08-27 Tue>
+
+[[file:2408271919 connections-images/screenshot-20240827-191934.png]]
+[[file:~/Documents/Connection Diagrams/Connections.svg][svg file]]
+
+I want to rearrange this so that the synth output of the *Nord* and the *MPC* don't go through the *looper*
+[[file:2408271919 connections-images/screenshot-20240827-194530.png]]
+
+rearranged on <2024-08-29 Thu> 
+ [[file:2408271919 connections-images/screenshot-20240829-171746.png]]
+[[file:~/Documents/Connection Diagrams/Connections-Aug-24.svg][svg file]]
+
+rearranged sometime in sept 24
+[[file:2408271919 connections-images/screenshot-20241001-162650.png]]
+
+It might be possible to put the looper on the mixer effects loop instead. This would allow for looping the synth without having to rewire anything. I probably don't need this, but it might be good to be able to loop a mic input without having to go through the effects processor. Not sure how this would affect volumes. I suspect that it could be a problem as the looper will be passing the signal through as well as recording it. I don't think it can remove the dry signal.
+
+Adding the *VL70m*
+[[file:2408271919 connections-images/screenshot-20240928-131613.png]]
+
+this would work, and allow for effectively having 4 loops by making use of the 2 channels in each loop, controlled by using the mixer levels for *L* and *R* separately.
+Would be even better if I could add a microphone and loop *Guitar* *Windsynth* and *Voice* The *Nord* can probably handle this. Maybe connect *Out3* and *Out4* to the looper and use the remaining inputs for *GX700* main out, *Mic* and *VL70m* output. I will probably loose the stereo effects, except from the *Nord* outputs that go directly to the mixer. This will require some reprogramming of the *GX700* but I don't think anyone except me will hear any difference. 
+An alternative would be to lose the bi-amp thing and use the first input to the *Nord* as an extra channel for the *GX700* 
+The bi-amp thing is much less necessary with the looper in use. Or go back to using an external amp for the dirty channel.
+[[file:2408271919 connections-images/screenshot-20241001-202604.png]]
+
+Better to think in separate units for *Guitar* and *Windsynth* with the ability to dock with the mixer and/or the *Looper* as required.
+
+Also the guitar effects case needs to have a single mono output for live use:
+[[file:2408271919 connections-images/screenshot-20241117-105738.png]]
+This allows for easy reconnection in stereo for the effects processor and the *Nord* synth output, or connection via a single mono channel for both.
+=Note= This is not yet implemented fully. Midi is going directly from footpedal to GX700, and via the *MPC* from the *PC1600x* to the *Nord*
+
+<2024-12-19 Thu> Update to make use of a single output with bi-amp using *GX700* and *Nord*, plus the *Nord* synth slot giving the drone and wind noises. 
+[[file:2408271919 connections-images/screenshot-20241219-162135.png]]
+
+Routing is done inside the Nord like this:
+[[file:2408271919 connections-images/screenshot-20241219-162338.png]]
+Most of the left hand column is the effects for the clean sound of the guitar.

@@ -1,0 +1,27 @@
+#+TITLE: specter video
+# Tags #clojure #specter #webbookmark
+
+https://www.youtube.com/watch?v=rh5J4vacG98
+
+[[https://github.com/redplanetlabs/specter][github]]
+[[https://github.com/redplanetlabs/specter/wiki/Cheat-Sheet][cheatsheet]]
+
+[[https://www.youtube.com/watch?v=9fhnJpCgtUw][meander]] Another way of manipulating complex data structures [[https://github.com/noprompt/meander][github]]
+
+* Specter Notes
+** Removing Map entries
+#+begin_src clojure
+;;Remove nils from a nested sequence:
+(setval [:a ALL nil?] NONE {:a [1 2 nil 3 nil]})
+;; =>{:a [1 2 3]}
+
+;; Remove key/value pair from nested map:
+(setval [:a :b :c] NONE {:a {:b {:c 1}}})
+;; =>{:a {:b {}}}
+
+;; Remove key/value pair from nested map, removing maps that become empty along the way:
+(setval [:a (compact :b :c)] NONE {:a {:b {:c 1}}})
+;; =>{}
+#+end_src
+from the specter [[https://github.com/redplanetlabs/specter?tab=readme-ov-file][examples]]
+* 

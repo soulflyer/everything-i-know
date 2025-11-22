@@ -1,0 +1,9 @@
+#+TITLE: 500 Wood Bowls
+# Tags #book
+
+EDITOR: Katherine Duncan Aimone
+ISBN 1-57990-483-1
+
+[[file:~/Documents/books/bookshelf/Woodwork/Turning/500_wood_bowls_bold.PDF][500 Wood Bowls]]
+
+pg 130 and 131 have bowls turned on the inside at 90° to the outside so they appear as a mesh.

@@ -1,0 +1,10 @@
+#+TITLE: sed find and replace
+# TAGS #sed
+
+sed -e s/alphadive.center/divealpha.com/ -i delete 1710*
+rm *delete
+
+or try 
+
+sed -e s/alphadive.center/divealpha.com/ -i '' 1710*
+<that is 2 quotes, an empty string, not a double quote>

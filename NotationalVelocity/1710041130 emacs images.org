@@ -1,0 +1,9 @@
+#+TITLE: emacs images
+# TAGS #emacs
+
+Gui emacs, won't work in terminal:
+
+try (setq openwith-associations nil) C-x C-e
+The openwith associations cause the images to be opened externaly rather than inline.
+
+C-c C-x C-v to toggle inline image display

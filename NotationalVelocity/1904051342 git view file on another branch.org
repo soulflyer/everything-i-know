@@ -1,0 +1,4 @@
+#+TITLE: git view file on another branch
+# TAGS #git
+
+git show branch:file

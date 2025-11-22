@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2306241721 predators and prey-images
+:END:
+#+TITLE: predators and prey
+# Tags #book
+
+[[file:2306241721 predators and prey-images/comic.png]]
+
+From R Crumb facebook post of this:
+[[file:2306241721 predators and prey-images/yellow.png]]

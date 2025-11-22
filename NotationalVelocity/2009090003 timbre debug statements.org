@@ -1,0 +1,6 @@
+#+TITLE: timbre debug statements
+# TAGS #clojure #debug
+
+Check out https://www.demystifyfp.com/clojure/marketplace-middleware/configuring-logging-using-timbre/ for instructions.
+
+(taoensso.timbre/set-level! :debug)

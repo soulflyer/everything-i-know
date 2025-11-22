@@ -1,0 +1,4 @@
+#+TITLE: 432hz
+# Tags #musixs
+To change fro *A=440hz* to *A=432Hz* detune by *31.77 Cents*
+On the *vl70m* this is under the *Utilty:System* menu as *Master Tune*

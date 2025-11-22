@@ -1,0 +1,5 @@
+#+TITLE: git-annex open-source dropbox substitute
+
+[[https://git-annex.branchable.com/][git-annex]]
+
+Uses git to store references but not all the files. Written in Haskell.

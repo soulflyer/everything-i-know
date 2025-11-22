@@ -1,0 +1,29 @@
+|-----------------------------------+--------+---------+-----------+--------+---------+------+---------------------|
+| English                           | Weight | Stance  | Direction | Repeat | Section | Step | Chinese             |
+|-----------------------------------+--------+---------+-----------+--------+---------+------+---------------------|
+| Open                              | eq     | Ma-bu   | S         |      1 |       1 |    1 | Qi-shi              |
+| Wild horse parts mane             | L      | Gong-bu | E         |      3 |       1 |    2 | Yi ma feng sun      |
+| White crane spreads wings         | R      | Xiu-bu  | E         |      1 |       1 |    3 | Bai he liang chi    |
+| Brush knee twist step             | R      | Gong-bu | E         |      3 |       2 |    4 | Lou xi ao bu        |
+| Strum the lute                    | R      | Xiu-bu  | E         |      1 |       2 |    5 | Shui hi pi-pa       |
+| Repulse the monkey                | L      | Xiu-bu  | E         |      4 |       2 |    6 | Dao juan hong       |
+| Grasp the birds tail              | L      | Gong-bu | E         |      1 |       3 |    7 | Zuo lan que wei     |
+| Grasp the birds tail              | R      | Gong-bu | W         |      1 |       3 |    8 | You lan que wei     |
+| Single whip                       | L      | Gong-bu | E         |      1 |       4 |    9 | Dan bien            |
+| Wave hands like clouds            | ?      | ?       | S         |      3 |       4 |   10 | Yun shou            |
+| Single whip                       | L      | Gong-bu | E         |      1 |       4 |   11 | Dan bien            |
+| High pat on horse                 | R      | Xiu-bu  | E         |      1 |       5 |   12 | Gao tan ma          |
+| Right heel kick                   | L      | Xiu-bu  | SE        |      1 |       5 |   13 | You deng jiao       |
+| Double strike                     | R      | Gong-bu | SE        |      1 |       5 |   14 | Shuang feng guan er |
+| Left heel kick                    | R      | Xiu-bu  | NW        |      1 |       5 |   15 | Zuo deng jiao       |
+| Snake creeps down                 | L      | Gong-bu | W         |      2 |       6 |   16 | Zuo xia shi         |
+| Golden cockerel stands on one leg | L      | Xiu-bu  | W         |      2 |       6 |   17 | You du li shi       |
+| Fair lady works the shuttles      | L      | Gong-bu | SW        |      2 |       7 |   18 | Yu nu chuan shou    |
+| Needle to sea bottom              | R      | Xiu-bu  | W         |      1 |       7 |   19 | Hai di zhen         |
+| Fan through the back              | L      | Gong-bu | W         |      1 |       7 |   20 | Shan tong bei       |
+| Turn parry and punch              | R      | Gong-bu | E         |      1 |       8 |   21 | Ban lan chui        |
+| Draw back and push                | L      | Gong-bu | E         |      1 |       8 |   22 | Ru feng shi bi      |
+| Cross arms                        | eq     | Ma-bu   | S         |      1 |       8 |   23 | Shi zi shou         |
+| Close                             | eq     | ?       | S         |      1 |       8 |   24 | Shou shi            |
+|-----------------------------------+--------+---------+-----------+--------+---------+------+---------------------|
+

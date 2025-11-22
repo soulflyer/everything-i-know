@@ -1,0 +1,7 @@
+#+TITLE: yabai resize
+# Tags #yabai
+
+If the focused window is on the left, frame.x will be 0. Might be able to use this to implement a resize that works ok from any window. Wrap this in an if:
+#+begin_src shell
+yabai -m query --windows --window | jq '.frame.x'
+#+end_src

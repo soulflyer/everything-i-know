@@ -1,0 +1,7 @@
+#+TITLE: spreadsheet freeze columns,rows
+# TAGS
+
+In libre office:
+select the cell to the right and below where the fix line should be ie the first cell that still should move.
+view:freeze cells:freeze rows and columns
+(May need to be unselected first)

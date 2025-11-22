@@ -1,0 +1,13 @@
+#+TITLE: emacs start gui or terminal script
+# TAGS #emacs
+
+From https://medium.com/really-learn-programming/configuring-emacs-on-macos-a6c5a0a8b9fa
+
+#!/bin/bash
+if [ -n "$SSH_CLIENT" ] || [ -n "$SSH_TTY" ]; then
+  emacsclient -a "" -t "$@"
+else
+  emacsclient -a "" -c "$@"
+fi
+
+The script creates an emacs frame in the current terminal if it is called from an SSH session, otherwise it creates a new GUI Emacs frame. Suppose you save it at ~/bin/ec, you can then set the EDITOR environment variable to $HOME/bin/ec in your shell.

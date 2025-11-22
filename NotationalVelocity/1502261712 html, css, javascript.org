@@ -1,0 +1,22 @@
+#+TITLE: html, css, javascript
+# TAGS  #html #css #javascript #clojurescript
+
+Javascript:
+---------------
+
+angular.js: Gives the ability to include code inline in html. Also easier testing.
+bootstrap:      Does responsive design.
+jasmine:        BDD recomended by angular.
+karma:      Automatic test runner. Used by angular for unit tests
+protractor:     end to end tests.
+ui-router:      improved routing for angular
+
+Phonegap/Cordova:
+----------------------------
+
+ngCordova:  angular wrappers to access cordova plugins
+
+Clojurescript:
+------------------
+jayq:           Clojure interface to jQuery
+Om:         Clojure interface to facebook React

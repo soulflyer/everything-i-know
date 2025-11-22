@@ -1,0 +1,3 @@
+#+TITLE: ripgrep
+# Tags #emacs
+*counsel-projectile-ripgrep* doesn't search in dotfiles by default. *C-u* before the command (f4) will ask for options to pass to ripgrep. Give it *--hidden*

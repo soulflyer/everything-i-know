@@ -1,0 +1,11 @@
+#+TITLE: emacs write file filename completion
+# TAGS #emacs
+
+From https://www.emacswiki.org/emacs/InteractivelyDoThings
+
+Disable ido mode for particular commands, e.g. write-file
+While ido is a great thing, it is totally annoying when trying to write a new file. Of course you can cancel the useles completion prompt anytime with ‘C-f’. However, I do this every single time when I hot ‘C-x C-w’. So I decided to turn ido off for write-file.
+
+ido-mode’s remapping keys are defined in ido-minor-mode-map-entry, this is not the keymap, but its ‘cdr’ is the keymap. So to disable the ‘C-x C-w’ remapping:
+
+    (define-key (cdr ido-minor-mode-map-entry) [remap write-file] nil)

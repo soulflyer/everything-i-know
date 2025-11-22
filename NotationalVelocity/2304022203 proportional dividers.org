@@ -1,0 +1,8 @@
+#+TITLE: proportional dividers
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2304022203 proportional dividers-images
+:END:
+
+[[file:2304022203 proportional dividers-images/dividers.jpg]]
+
+[[pdf:/Volumes/bookshelf/Musical-Instruments/FOMRHI/Fomrhi-043.pdf::71++0.00][Fomrhi Article]]

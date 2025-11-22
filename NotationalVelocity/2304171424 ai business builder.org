@@ -1,0 +1,4 @@
+#+TITLE: ai business builder
+# Tags #AI
+[[https://thestudio1.notion.site/265-HustleGPT-Startups-1737b59d19b745ceacb8aeefe8462737][HustleGPT]] a notion page listing startups built with hustlegpt
+[[https://twitter.com/aminblm/status/1644285323390734338?s=61&t=5ofnksvp8lwM26UycuPabQ][twitter thread]]

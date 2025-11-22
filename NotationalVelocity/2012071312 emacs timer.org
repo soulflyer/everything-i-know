@@ -1,0 +1,4 @@
+#+TITLE: emacs timer
+# TAGS #emacs #webbookmark
+
+https://sachachua.com/blog/2007/12/clocking-time-with-emacs-org/

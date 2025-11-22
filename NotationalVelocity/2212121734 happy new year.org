@@ -1,0 +1,8 @@
+#+TITLE: happy new year
+# Tags #clojure
+#+begin_src clojure
+  (defn greetings []
+    "Happy New Year")
+
+  (greetings)
+#+end_src

@@ -1,0 +1,5 @@
+#+TITLE: UI design with state machines
+# TAGS #re-frame #clojurescript
+
+http://blog.cognitect.com/blog/2017/8/14/restate-your-ui-creating-a-user-interface-with-re-frame-and-state-machines
+https://github.com/tomasd/statecharts

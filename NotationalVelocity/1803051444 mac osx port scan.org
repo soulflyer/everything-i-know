@@ -1,0 +1,8 @@
+#+TITLE: mac osx port scan
+# TAGS
+
+stroke, in /System/Library/CoreServices/Applications/Network Utility.app/Contents/Resources 
+or for the gui run:
+Network Utility
+
+nmap is also good for this

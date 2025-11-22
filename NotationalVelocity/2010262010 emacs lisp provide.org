@@ -1,0 +1,8 @@
+#+TITLE: emacs lisp provide
+# TAGS #emacs #elisp
+
+(provide <something>)
+adds <something> to the global variable feaures
+
+(require 'something)
+checks features for something and if it's not there, tries to load it using load-path guessing at likely suffixes.

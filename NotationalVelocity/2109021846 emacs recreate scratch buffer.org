@@ -1,0 +1,9 @@
+#+TITLE: emacs recreate scratch buffer
+# Tags #emacs
+#+begin_src emacs-lisp
+  (switch-to-buffer "*scratch*")
+#+end_src
+
+or M-x switch-to-buffer *scratch* RET
+
+recreates the scratch buffer if it has been closed.

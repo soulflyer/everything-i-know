@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2412212031 scales-images
+:END:
+#+TITLE: scales
+# Tags #music
+[[file:2412212031 scales-images/screenshot-20241221-203140.png]]
+from vicpiano
+[[file:2412212031 scales-images/screenshot-20241221-220724.png]]
+from wikipedia
+
+From the root not go up: =3 2 1 1 3 2=
+This is the hexatonic, or =minor blues= scale, ie the =minor pentatonic= plus the =b5=

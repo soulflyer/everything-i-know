@@ -1,0 +1,4 @@
+#+TITLE: typescript types
+# TAGS #typescript
+
+https://2ality.com/2018/04/type-notation-typescript.html

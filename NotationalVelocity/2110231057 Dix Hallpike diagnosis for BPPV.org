@@ -1,0 +1,15 @@
+#+TITLE: Dix Hallpike diagnosis for BPPV
+# Tags #health
+Dizziness due to
+
+https://www.youtube.com/watch?v=wgWOmuB1VFY
+
+nystagmus - eye twitching
+ * torsional - rotating
+ * horizontal - side to side
+ * vertical - up and down
+Head turned to 45°, lie flat back, shoulders raised by a pillow so head is sloping back 20° to 30°.
+Look for nystagmus. Repeat on the other side. Repeat several times:
+ * torsional nystagmus - Epley manoeuver
+ * horizontal nystagmus - Lempert Manoeuver
+ * vertical nystagmus - Deep head hanging manoeuver

@@ -1,0 +1,5 @@
+#+TITLE: flexiana internal project
+# TAGS
+
+Investigate duct config system:
+https://github.com/duct-framework/duct

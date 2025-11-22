@@ -1,0 +1,6 @@
+#+TITLE: track tabindex
+# TAGS
+
+js console:
+
+document.addEventListener('keyup', function() {console.log(document.activeElement)})

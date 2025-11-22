@@ -1,0 +1,4 @@
+#+TITLE: synergy, one mouse 2 mqchines
+# TAGS #mouse
+
+https://github.com/debauchee/barrier

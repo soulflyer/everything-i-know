@@ -1,0 +1,120 @@
+#+CATEGORY: harp
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/agenda/harp-images
+:END:
+From [[https://www.learntheharmonica.com/post/harmonica-positions-what-are-1st-2nd-3rd-pos][learntheharmonica.com]]
+[[file:harp-images/screenshot-20241215-120430.png]]
+** Scales and positions
+
+1st position is great for the major scale, 2nd for blues scales, and 3rd for minor scales. Here are some useful scales to start with:
+
+1st position major scale: 4 -4  5  -5   6   -6   -7   7
+
+2nd position blues scale: -2   -3/   4  -4/   -4    -5   6
+
+3rd position minor scale: -1     2    -2//  -2   -3//   -3/   4     -4
+
+3rd position blues scale: -1  -2//  -2   -3//  -3/   4   -4
+
+
+|----+----+----+----+----+----+----|
+| C  | Eb | F  | F# | G  | Bb | C  |
+| C# | E  | F# | G  | G# | B  | C# |
+| D  | F  | G  | G# | A  | C  | D  |
+| Eb | F# | G# | A  | Bb | C# | Eb |
+| E  | G  | A  | Bb | B  | D  | E  |
+| F  | G# | Bb | B  | C  | Eb | F  |
+| F# | A  | B  | C  | C# | E  | F# |
+| G  | Bb | C  | C# | D  | F  | G  |
+| G# | B  | C# | D  | Eb | F# | G# |
+| A  | C  | D  | Eb | E  | G  | A  |
+| Bb | C# | Eb | E  | F  | G# | Bb |
+|----+----+----+----+----+----+----|
+
+Positions:
+ [[file:harp-images/screenshot-20241224-192627.png]]
+from [[https://www.harmonica.com/harmonica-keys-positions/][harmonica.com]]
+
+Scale and chord explorer from [[https://harmonica.dev/position-layout-explorer/][harmonica.dev]]
+[[file:harp-images/screenshot-20241224-194018.png]]
+
+** Overblows
+[[https://overblow.com/][overblow.com]]
+
+** Setup
+[[https://www.youtube.com/watch?v=eI3aS_5HD34][Harpsmith]] Talks slow, play at 1.75x.
+[[https://harpsmith.com/benchcraft][Harpsmith Site]] has some pics of a reed blocking modification:
+[[file:harp-images/screenshot-20250204-125049.png]][[file:harp-images/screenshot-20250204-125109.png]][[file:harp-images/screenshot-20250204-125134.png]]
+
+** links
+[[https://www.harmonica.com/bending-tool/][bend it better tool]] to assist and evaluate bends
+[[https://www.modernbluesharmonica.com/home.html][Adam Gussow]]
+
+** Summertime
+G harp, 3rd position [[https://www.tomlinharmonicalessons.com/how-to-play-summertime-in-3rd-position/][Tomlin Harmonica School]]
+#+ATTR_ORG: :width 800
+[[file:harp-images/screenshot-20250922-103010.png]]
+[[file:harp-images/screenshot-20250922-103100.png]]
+[[file:harp-images/screenshot-20250922-103136.png]]
+[[file:harp-images/screenshot-20250922-103213.png]]
+** TODO [#I] Practice
+  SCHEDULED:   <2025-11-25 Tue .+10d>
+  #+begin_quote
+  #+end_quote
+  :PROPERTIES:
+  :STYLE:    habit
+  :LAST_REPEAT: [2025-11-15 Sat 15:47]
+  :END:
+  - State "DONE"       from "TODO"       [2025-11-15 Sat 15:47]
+  - State "DONE"       from "TODO"       [2025-11-08 Sat 11:10]
+  - State "DONE"       from "TODO"       [2025-10-31 Fri 17:06]
+  - State "DONE"       from "TODO"       [2025-10-24 Fri 17:35]
+  - State "DONE"       from "TODO"       [2025-10-17 Fri 11:12]
+  - State "DONE"       from "TODO"       [2025-10-10 Fri 11:33]
+  - State "DONE"       from "TODO"       [2025-10-03 Fri 18:16]
+  - State "DONE"       from "TODO"       [2025-09-26 Fri 15:33]
+  - State "DONE"       from "TODO"       [2025-09-22 Mon 21:54]
+  - State "DONE"       from "TODO"       [2025-09-17 Wed 12:54]
+  - State "DONE"       from "TODO"       [2025-09-16 Tue 19:04]
+  - State "DONE"       from "TODO"       [2025-09-15 Mon 18:26]
+  - State "DONE"       from "TODO"       [2025-09-08 Mon 17:59]
+  - State "DONE"       from "TODO"       [2025-09-01 Mon 17:32]
+  - State "DONE"       from "TODO"       [2025-08-27 Wed 16:03]
+  - State "DONE"       from "TODO"       [2025-08-18 Mon 19:04]
+  - State "DONE"       from "TODO"       [2025-08-11 Mon 19:31]
+  - State "DONE"       from "TODO"       [2025-07-30 Wed 17:10]
+  - State "DONE"       from "TODO"       [2025-07-23 Wed 17:06]
+  - State "DONE"       from "TODO"       [2025-07-16 Wed 19:01]
+  - State "DONE"       from "TODO"       [2025-07-08 Tue 19:08]
+  - State "DONE"       from "TODO"       [2025-07-01 Tue 10:32]
+  - State "DONE"       from "TODO"       [2025-06-24 Tue 20:59]
+  - State "DONE"       from "TODO"       [2025-06-17 Tue 19:56]
+  - State "DONE"       from "TODO"       [2025-06-10 Tue 17:00]
+  - State "DONE"       from "TODO"       [2025-06-03 Tue 16:34]
+  - State "DONE"       from "TODO"       [2025-05-27 Tue 19:37]
+  - State "DONE"       from "TODO"       [2025-05-20 Tue 19:11]
+  - State "DONE"       from "TODO"       [2025-05-13 Tue 16:42]
+  - State "DONE"       from "TODO"       [2025-05-06 Tue 17:33]
+  - State "DONE"       from "TODO"       [2025-04-29 Tue 19:41]
+  - State "DONE"       from "TODO"       [2025-04-22 Tue 10:53]
+  - State "DONE"       from "TODO"       [2025-04-15 Tue 18:01]
+  - State "DONE"       from "TODO"       [2025-04-08 Tue 11:41]
+  - State "DONE"       from "TODO"       [2025-04-01 Tue 16:24]
+  - State "DONE"       from "TODO"       [2025-03-25 Tue 11:28]
+  - State "DONE"       from "TODO"       [2025-03-19 Wed 10:04]
+  - State "DONE"       from "TODO"       [2025-03-12 Wed 10:03]
+  - State "DONE"       from "TODO"       [2025-03-05 Wed 11:05]
+  - State "DONE"       from "TODO"       [2025-02-26 Wed 11:50]
+  - State "DONE"       from "TODO"       [2025-02-24 Mon 16:44]
+  - State "DONE"       from "TODO"       [2025-02-18 Tue 10:16]
+  - State "DONE"       from "TODO"       [2025-02-11 Tue 09:23]
+  - State "DONE"       from "TODO"       [2025-02-04 Tue 12:52]
+  - State "DONE"       from "TODO"       [2025-02-03 Mon 08:16]
+  - State "DONE"       from "TODO"       [2025-01-28 Tue 23:07]
+  - State "DONE"       from "TODO"       [2025-01-21 Tue 21:33]
+  - State "DONE"       from "TODO"       [2025-01-15 Wed 11:21]
+  - State "DONE"       from "TODO"       [2024-12-31 Tue 16:14]
+  - State "DONE"       from "TODO"       [2024-12-24 Tue 19:20]
+  - State "DONE"       from "TODO"       [2024-12-23 Mon 16:56]
+  - State "DONE"       from "TODO"       [2024-12-18 Wed 09:59]
+  - State "DONE"       from "TODO"       [2024-12-15 Sun 11:54]

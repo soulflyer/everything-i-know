@@ -1,0 +1,7 @@
+#+TITLE: Lukin, toys and toy making
+# Tags #woodwork #metalwork #Lukin #book
+
+[[file:~/Documents/books/bookshelf/Woodwork/Turning/Lukin/toysandtoymakin00lukigoog.pdf][Toys and Toy Making]]
+
+Published 1882
+Toys includes things driven by steam. Also has a section on generating static electricity, and a section on automata driven by falling sand.

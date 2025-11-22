@@ -1,0 +1,50 @@
+#+TITLE: Developer evaluation
+# Tags
+
+** Peter
++ good technical skills, good supporting skills (code management, ticket systems etc), good soft skills too. Also able to organize and inspire others. Calm, presentable, and likeable. A scan of completed tickets suggests he is quite productive too.
+- lacks self confidence, maybe needs a bit more practice to help build that up.
+
+** Sandu
++ good technical skills, good supporting skills, and good soft skills. 
+- 
+
+On a more instinctive level I would say:
+ Sandu, Vladimir, Stas, Giga are all potentially ready, probably J.P too
+Ian is talented, but a bit of a "loose canon" Proceed with caution, but given the right project might be ok. 
+Eduardo is an experienced dev who just needs more practice with clojure.
+Fabricio has made significant progress, but I need to take a closer look to say if its enough yet.
+I'm afraid I don't know much about the Simion brothers or Arthur yet.
+
+__________
+Eduardo: is technically strong, experienced and it shows. Good to work with. I don't think the switch to clojure(script) will be a problem for him when the time comes.
+Sandu: Strong on all counts. 
+Vladymir: Also strong.
+Stas: Technically strong and very easy to work with.
+
+I have been watching how each dev handles having different opinions. All so far are positive, this is a great bunch of people to work with. What I'm particularly looking for is the ability to challenge without causing offence, or to get an idea across that is new or different without any aggression. Sandu, Peter and Vladymir are all good at this and would make great team members or potentially team leaders. Not sure, but I suspect Stas might also fit this category.
+
+As for the others, some I have a partial understanding of:
+Ion seems capable technically. I don't have an in depth understanding of how he works in a team yet but seems good.
+Arthur seems to be quiet but capable. Might need a bit more experience yet.
+Fabricio probably needs a bit longer.
+___________
+Nothing concrete to add but on an instinctive level:
+Ion: His experience is becoming more and more apparant. Regularly solves challenges quickly and correctly and makes useful contributions to mob sessions.
+Mihai: Developing, but still got a way to go. Seems to lack experience generally, but more important lacks Clojure specific skills and appears to be thinking in a way more appropriate for non functional programming. Would benefit from something that relies on thinking in terms of functions lists and comprehensions rather than variables and loops. A trip through the clojure koans might fit the bill.
+Gonzalo: Looks very promising. Seems to be making the transition to clojure well. Will know more once we get started on the front-end end to end testing sessions next week. 
+Fabricio: Not sure he needs to study anything in particular, just keep going with the coding challenges of working on Frankie.
+___________
+A) can be a person who will kick-off a new project
+B) can already join running project or can be 3rd, 4th team member
+C) is not ready for a project yet but is getting better
+D) is not ready for a project and not likely to get good enough in 3 months
+
+Sandu   A
+Peter   A
+Giga    A/B
+Vlad    B
+Stas    B
+Gonzalo B
+Seckin  C
+Mihai   C/D

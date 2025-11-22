@@ -1,0 +1,6 @@
+#+TITLE: boot manager
+# Tags #linux #mac
+
+Boot manager to allow access to different OSs on Mac hardware:
+
+[[https://www.rodsbooks.com/refind/][refind]]

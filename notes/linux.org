@@ -1,0 +1,10 @@
+* Linux TODOs
+** DONE [#B] Setup Unison for bookshelf
+Not done, *rsync* is ok for now
+CLOSED: [2025-10-23 Thu 22:33]
+** TODO [#E] Get spacemouse working (try blender)
+** TODO [#G] Backup user settings
+** DONE [#B] Add a background again
+CLOSED: [2025-10-09 Thu 19:44]
+** DONE [#B] Fix window resize key shortcuts
+CLOSED: [2025-10-07 Tue 17:20]

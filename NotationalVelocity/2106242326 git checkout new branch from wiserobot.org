@@ -1,0 +1,6 @@
+#+TITLE: git checkout new branch from wiserobot
+# TAGS #git
+
+git checkout -b swipe-to-refresh wiserobot/swipe-to-refesh
+
+creates a local branch tracking the remote branch wiserobot/swipe-to-refesh

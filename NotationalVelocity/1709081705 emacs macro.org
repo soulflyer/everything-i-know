@@ -1,0 +1,6 @@
+#+TITLE: emacs macro
+# TAGS #emacs
+
+record: C-x (
+stop:     C-x )
+run:       C-x e

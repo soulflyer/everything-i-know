@@ -1,0 +1,14 @@
+#+TITLE: mutt-kz
+# TAGS #mutt
+
+Some errors produced doing autoconf; ./configure:
+
+Macro missing, use m4_pattern_allow
+configure: error: cannot find install-sh, install.sh, or shtool in “.” “./..” “./../..”
+
+fixes:
+
+aclocal
+autoconf
+autoreconf -f -i -Wall,no-obsolete
+./configure

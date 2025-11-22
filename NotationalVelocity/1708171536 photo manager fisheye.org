@@ -1,0 +1,6 @@
+#+TITLE: photo manager fisheye
+# TAGS #photo
+
+DxO Viewpoint
+
+Looks very promising as a substitute for fisheye-hemi. More flexible too.

@@ -1,0 +1,20 @@
+#+TITLE: download complete web page
+# TAGS 
+
+Use wget:
+
+wget -m -p -E -k www.example.com
+The options explained:
+
+-m, --mirror            Turns on recursion and time-stamping, sets infinite 
+                          recursion depth, and keeps FTP directory listings.
+-p, --page-requisites   Get all images, etc. needed to display HTML page.
+-E, --adjust-extension  Save HTML/CSS files with .html/.css extensions.
+-k, --convert-links     Make links in downloaded HTML point to local files.
+
+from: https://superuser.com/questions/14403/how-can-i-download-an-entire-website
+
+Or use safari abd save as *webarchive*
+
+[[https://www.httrack.com/][httrack]] might also be ok sometimes. Didn't work with [[https://www.osar.fr/notes/waveguides/][https://www.osar.fr/notes/waveguides/]] Page looks fine but the inline code sections wont run.
+

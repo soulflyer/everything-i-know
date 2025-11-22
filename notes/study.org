@@ -1,0 +1,64 @@
+* Things to study
+* Archive                                                           :ARCHIVE:
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2021-10-10 Sun 22:46
+   :END:
+** DONE [#B] Find plaintext of Plumier l'Art du Tourner
+   CLOSED: [2021-10-02 Sat 19:18]
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2021-10-10 Sun 22:43
+   :END:
+***** TODO [6] The happiness hypothesis
+      Jonathan Haidt
+** MacRuby
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2021-10-10 Sun 22:46
+   :END:
+*** Archive                                                         :ARCHIVE:
+**** DONE [#F] Read "Macruby"
+     CLOSED: [2014-04-11 Fri 11:39]
+     :PROPERTIES:
+     :ARCHIVE_TIME: 2021-10-10 Sun 22:41
+     :END:
+** mongodb
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2021-10-10 Sun 22:46
+   :END:
+** node.js
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2021-10-10 Sun 22:46
+   :END:
+*** Archive                                                         :ARCHIVE:
+**** DONE [#E] Read "What is node?"
+     CLOSED: [2014-04-11 Fri 11:39]
+     :PROPERTIES:
+     :ARCHIVE_TIME: 2021-10-10 Sun 22:39
+     :END:
+**** DONE [#E] Read "Building node applications"
+     CLOSED: [2014-04-11 Fri 11:39]
+     :PROPERTIES:
+     :ARCHIVE_TIME: 2021-10-10 Sun 22:39
+     :END:
+** Cloud
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2021-10-10 Sun 22:46
+   :END:
+*** Archive                                                         :ARCHIVE:
+**** Archive                                                        :ARCHIVE:
+***** DONE [#A] Openshift account
+      CLOSED: [2013-02-10 Sun 16:07]
+      :PROPERTIES:
+      :ARCHIVE_TIME: 2021-10-10 Sun 22:40
+      :END:
+     login public@soulflyer.co.uk
+  Set up rhc command line tools, problems with gems. Had to individually install
+  rhc dependancies, and download commander and rhc using git to get it to work.
+
+***** DONE [#C] Investigate cloud9
+      CLOSED: [2013-02-10 Sun 16:07]
+      :PROPERTIES:
+      :ARCHIVE_TIME: 2021-10-10 Sun 22:41
+      :END:
+     integration vid at http://www.youtube.com/watch?v=dSReC0ZdMqM
+  Not sure how useful it will be with a flaky internet connection. And I don't
+  like inadequate editors..

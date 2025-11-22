@@ -1,0 +1,4 @@
+#+TITLE: emacs spurious save
+# TAGS #emacs
+
+Looks like emacs wants to save the code block in notes.org file in hinh-anh/docs as a separate file. :-/

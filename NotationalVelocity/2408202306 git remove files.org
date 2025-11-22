@@ -1,0 +1,13 @@
+#+TITLE: git remove files
+# Tags #git
+
+*git-filter-repo* Install with *brew*
+
+#+begin_src shell
+git filter-repo --invert-paths --force --path downloads/ReCycle_224_Full.dmg
+#+end_src
+
+Removed this file that had ended up in the wrong downloads directory and was stopping me from pushing to origin (github)
+
+[[https://stackoverflow.com/a/64563565/1671119][stackoverflow answer]]
+[[https://github.com/newren/git-filter-repo][git-filter-repo source]]

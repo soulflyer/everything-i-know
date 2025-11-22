@@ -1,0 +1,5 @@
+#+TITLE: darktable touchup
+# TAGS
+
+https://www.darktable.org/2018/12/darktable-26/
+Gives details of the finer points of the new touchup module.

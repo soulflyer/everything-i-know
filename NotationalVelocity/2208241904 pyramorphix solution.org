@@ -1,0 +1,4 @@
+#+TITLE: pyramorphix solution
+# Tags #rubiks
+
+http://www.mefferts.com/puzzles/jpmsol.html

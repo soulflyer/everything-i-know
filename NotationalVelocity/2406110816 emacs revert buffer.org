@@ -1,0 +1,3 @@
+#+TITLE: emacs revert buffer
+# Tags #emacs
+There is an alternative fn to revert a file *revert-buffer-quick* bound to *C-x x g* by default

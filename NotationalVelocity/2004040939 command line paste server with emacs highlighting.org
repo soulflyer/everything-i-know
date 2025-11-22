@@ -1,0 +1,6 @@
+#+TITLE: command line paste server with emacs highlighting
+# TAGS #emacs #clipboard
+
+emacs package el-sprunge
+based on sprunge
+https://github.com/rupa/sprunge

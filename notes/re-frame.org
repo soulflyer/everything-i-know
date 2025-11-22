@@ -1,0 +1,62 @@
+* Re-Frame
+Being a collection of notes on the traps and pitfalls of this excellent but rather complex package.
+
+** Events
+*** reg-event-db
+This function registers an event. Takes an identifier and a function
+#+BEGIN_SRC clojure
+(re-frame.core/reg-event-db        ;; <-- call this to register a handler
+    :set-flag                      ;; this is an event id
+   (fn [db [_ new-value]]          ;; this function does the handling
+      (assoc db :flag new-value)))
+#+END_SRC
+The function takes and returns a map, the app-db. Note that there are no sideffects, app-db in, new version of app-db out.
+This may not be enough if the event needs to trigger another event, or get data from elswhere. The docs call these:
+
+- effects (side-effects) What your event handler does to the world
+- co-effects (side-causes) Data your event handler requires from the world.
+
+The side effect part can be avoided by describing the effect required and passing that on to re-frame something like this:
+#+BEGIN_SRC clojure
+(reg-event-db
+   :my-event
+   (fn [db _]
+      (assoc db :flag true)))
+#+END_SRC
+Note that the fn doesn't do anything directly, it just sets a flag in the version of app_db it returns so that something else can cause the effect. This can be done from reg-event-db as above but reg-event-fx may be a better choice.
+
+*** reg-event-fx
+This function also registers an effect, but it has different parameters and returns a map that describes the effects needed rather than a new copy of app-db. The first parameter is a map that contains the app-db under the :db key. This can be destructured as below:
+#+BEGIN_SRC clojure
+(reg-event-fx
+   :my-event
+   (fn [{:keys [db]} [_ a]]
+      {:db  (assoc db :flag true)
+       :dispatch [:do-something-else 3]}))
+#+END_SRC
+This means that reg-event-fx can also handle the cases where the handler needs to get extra information from elswhere.
+
+
+
+** Effects
+May not need to create any effects, but this is how from the docs:
+
+re-frame provides a function reg-fx through which you can register your own Effect Handlers.
+Use it like this:
+#+BEGIN_SRC clojure
+(reg-fx         ;; <-- registration function
+   :butterfly   ;;  <1>
+   (fn [value]  ;;  <2>
+      ...
+      ))
+#+END_SRC
+<1> the key for the effect. When later an effects map contains the key :butterfly, the function we are registering will be used to action it.
+<2> the function which actions the side effect. Later, it will be called with one argument - the value in the effects map, for this key.
+
+So, if an event handler returned these two effects:
+#+BEGIN_SRC clojure
+{:dispatch   [:save-maiden 42]
+ :butterfly  "Flapping"}         ;; butterfly effect, but no chaos !!
+#+END_SRC
+
+Then the function we registered for :butterfly would be called to handle that effect. And it would be called with the parameter "Flapping".

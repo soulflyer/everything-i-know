@@ -1,0 +1,5 @@
+#+TITLE: nord csound
+# Tags #music #nord #csound
+Convert G2 patches to csound:
+[[https://github.com/gleb812/pch2csd][github]]
+[[https://cdm.link/2018/02/nord-modular-free-software/][article]]

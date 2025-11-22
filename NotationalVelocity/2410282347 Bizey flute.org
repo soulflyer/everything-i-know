@@ -1,0 +1,13 @@
+#+TITLE: Bizey flute
+# Tags #flute
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2410282347 Bizey flute-images
+:END:
+A410-414Hz
+[[https://librairie.philharmoniedeparis.fr/dessins-techniques/flute-traversiere-1][E598]]
+[[file:2410282347 Bizey flute-images/screenshot-20241028-234802.png]]
+
+[[file:~/Documents/books/bookshelf/Musical-Instruments/Flute/Technical Drawings/Bizey.jpg][Bate Collection]] A-397HZ
+[[pdf:/Volumes/Crucial/bookshelf/Musical-Instruments/FOMRHI/Fomrhi-037.pdf::16++0.00][Bate Collection]] A-397, in Fomrhi037. Too low res to read easily. Similar to the abover but with a head tenon.
+
+[[file:~/Documents/books/bookshelf/Musical-Instruments/Flute/Technical Drawings/bizey-style-drawing.jpg][Beaudin Drawing]] A-410-415Hz

@@ -1,0 +1,13 @@
+#+TITLE: autojump
+# TAGS #shell
+
+j doesn't work after doing a port install autojump. Seems the shell functions need to be installed.
+
+from the install shell script:
+echo "You need to run 'source ${rc_file}' before you can start using autojump. To remove autojump, run './uninstall.sh'"
+
+source /opt/local/etc/profile.d/autojump.bash
+
+seemed to do the trick
+
+Now using zoxide instead of autojump (2021)

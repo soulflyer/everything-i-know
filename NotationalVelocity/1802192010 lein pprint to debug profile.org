@@ -1,0 +1,4 @@
+#+TITLE: lein pprint to debug profile
+# TAGS #debug #clojure #leiningen
+
+https://github.com/technomancy/leiningen/tree/stable/lein-pprint

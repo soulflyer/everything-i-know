@@ -1,0 +1,37 @@
+#+TITLE: random notes
+# Tags #synth #vcv
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Documents/org-mode/NotationalVelocity/2402231240 random notes-images
+:END:
+
+* Utilities Module
+
+[[file:2402231240 random notes-images/patch1.png]]
+
+The utilities module produces a random output
+
+Sending a clock or trigger to the TRIG input, with no signal patched into the IN input generates a stepped random signal. The output level is calibrated such that more than half of the time, the output value is between -2V and +2V ; and it very, very rarely goes below -5V or above +5V.
+
+from [[https://pichenettes.github.io/mutable-instruments-documentation/modules/kinks/manual/][kinks manual]]
+
+patch is [[file:~/Documents/Rack2/patches/downloads/random_melodies.vcv][here]]
+
+* Clock dividers
+
+Not exactly random, but close enough. Sequence is fed into the clock divider and then a sample and hold so only certain steps get triggered:
+
+[[file:2402231240 random notes-images/divider.png]]
+
+Can use different divisions of the same sequence to trigger different voices. Details [[https://www.youtube.com/watch?v=HiLnZ5vOzM4&list=PLiECaNQx239tD6qSspeLhMKvhdUK1TE4U&index=4][here]].
+Video also contains details of using a clock divider on cv signals to generate a sequence like this: 
+
+[[file:2402231240 random notes-images/pitch.png]]
+
+The clock feedback technique is described earlier in the [[https://www.youtube.com/watch?v=HiLnZ5vOzM4&t=727s][video]], in its simplest form it looks like this:
+[[file:2402231240 random notes-images/screenshot-20240806-191959.png]]
+Not sure exactly how it works, but it depends on the inverted feedback signal messing with the clock. The clock looks the same on the scope apart from a downward blip when the clock division that is being fed back happens. Makes for some useful patterns that are not random at all.
+
+
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2402231240 random notes-images
+:END:

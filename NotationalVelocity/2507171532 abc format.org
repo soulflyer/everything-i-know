@@ -1,0 +1,56 @@
+#+TITLE: abc format
+# Tags #music #emacs
+* ABC and Lilypond
+** ABC
+[[http://moinejf.free.fr/abcm2ps-doc/index.html][manpage]]
+A working example:
+#+begin_src abc :file "abc format-images-change.svg" :cmdline -g
+  X:1
+  M:4/4
+  C:Stranglers
+  K:F#
+  %%bgcolor white
+  %%pagewidth 12cm
+  |[FA]6[GB][Ac]|[Bd]6[=c=e][^c^e]|[df]6[eg][fa]|[fb]8|
+#+end_src
+#+ATTR_ORG: :width 800
+#+RESULTS:
+[[file:abc format-images-change.svg]]
+The bgcolor is needed for viewing the file directly in emacs. The preview is visible anyway because I added this to the *use-package* declaration for org:
+#+begin_src elisp
+  ;; this is from https://kimi.im/2022-04-29-background-color-of-inline-image-for-orgmode
+  ;; Sets the background of inline images when they are created. abc generates svg images
+  ;; with transparent backgrounds and black notes. Can also add "%%bgcolor white" to header
+  (defun org--create-inline-image-advice (img)
+    (nconc img (list :background "#f8f8f8")))
+
+  (advice-add 'org--create-inline-image
+              :filter-return #'org--create-inline-image-advice)
+#+end_src
+=advantages:= simpler entry, adds sharps and flats according to the key, immediate display on *C-c C-c*
+
+** Lilypond
+[[http://lilypond.org/doc/v2.24/Documentation/learning/index][manpage]]
+A working example:
+#+begin_src lilypond :file example.png
+  \version "2.24.4"
+  \header{ tagline=""}
+  \paper{ paper-height = 30
+          paper-width = 160}
+  \relative c' {
+    \key fis \major
+      <fis ais>2. <gis b>8 <ais cis> 
+      <b dis>2. <c e>8 <cis eis>
+      <dis fis>2. <eis gis>8 <fis ais>
+      <fis b>1
+    }
+#+end_src
+#+ATTR_ORG: :width 800
+#+RESULTS:
+[[file:example.png]]
+It is possible to get automatically cropped output, but this appears in a different file, and crops too close to the notes (the highest not will touch the edge).
+This is done by adding this line at the top of the lilypond code:
+#+begin_src lilypond
+#(ly:set-option 'crop #t)
+#+end_src
+=advantages:= can handle more complex music, doesn't automatically add sharps and flats according to the key.

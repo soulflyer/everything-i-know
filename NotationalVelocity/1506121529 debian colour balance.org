@@ -1,0 +1,8 @@
+#+TITLE: debian colour balance
+# TAGS
+
+xgamma
+shows settings
+
+xgamma -bgamma 0.85
+removes a blue cast

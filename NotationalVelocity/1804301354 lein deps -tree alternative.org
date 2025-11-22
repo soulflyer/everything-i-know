@@ -1,0 +1,4 @@
+#+TITLE: lein deps -tree alternative
+# TAGS #leiningen #clojure
+
+lein deps :tree-data

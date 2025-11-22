@@ -1,0 +1,30 @@
+#+TITLE: spec to malli translation
+# Tags #clojure
+
+from Paul Iannazzo (aso knows about tree data / specter)
+
+#+begin_src clojure
+(->>
+  form
+  (walk/postwalk
+    (fn [form]
+      (if-not (map? form)
+        form
+        (match form
+               {:definitions kids} {:registry (->> (update-keys kids #(keyword "sentry" (name %)))
+                                                   (into (sorted-map)))}
+               {:$ref ref}         (let [ref (last (string/split ref #"\/"))]
+                                     (keyword "sentry" ref))
+               ({:type "string"} :only [:type]) :string
+               {:type "string"
+                :enum enums} (apply vector :enum enums)
+               {:type     "object",
+                :required [& req-keys]} req-keys
+               {:type                 "object"
+                :additionalProperties false
+                :properties           props} (apply vector :map {:closed true} props)
+               {:description          desc
+                :default              nil,
+                :type                 ["object" "null"],
+                :additionalProperties true} [:maybe [:map-of :
+#+end_src

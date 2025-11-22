@@ -1,0 +1,6 @@
+#+TITLE: sed delete line
+# TAGS #ssh #sed
+
+sed -i bak '66d' .ssh/known_hosts
+
+deletes line 66 from known_hosts. Can get the line number from a failed ssh attempt.

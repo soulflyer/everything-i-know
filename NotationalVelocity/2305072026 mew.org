@@ -1,0 +1,5 @@
+#+TITLE: mew
+# Tags #emacs #mail
+
+[[http://www.mew.org/en/][Mew]]
+[[https://github.com/ranmocy/Brain/blob/master/Tech/howto-setup-mew-in-emacs.md][BrainTech howto]]

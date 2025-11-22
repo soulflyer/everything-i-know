@@ -1,0 +1,12 @@
+#+TITLE: markdown images
+# Tags #markdown
+#+begin_src markdown
+This is the original image link which works on github but displays the image too wide in emacs *impatient-showdown-mode*
+![Project Screen](docs/screenshots/projects.png?raw=true)
+
+Both of these can be used to fix that
+![Project Screen](docs/screenshots/projects.png?raw=true =800x500)
+<img src=docs/screenshots/projects.png width=100%/>
+#+end_src
+
+the *raw=true* was needed by github to correctly display relative links. I don't think it is necessary anymore except when linking an image from inside [[https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#relative-links][an issue, PR, or comment]]

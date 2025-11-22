@@ -1,0 +1,13 @@
+#+CATEGORY: build
+* Stuff to make or build
+** DONE [#C] Setup looper for singing practice
+CLOSED: [2025-09-24 Wed 21:18]
+** DONE [#B] Make a songsheet for the monkey song
+CLOSED: [2025-09-29 Mon 12:27]
+** DONE [#C] Songsheet for Willow Farm
+CLOSED: [2025-09-29 Mon 15:24]
+** TODO [#G] Create a .desktop file for VCV Rack
+** DONE [#C] Enable KDE
+CLOSED: [2025-10-07 Tue 17:20]
+** DONE [#B] add Vietnamese keyboard (Telex)
+CLOSED: [2025-10-07 Tue 08:54]

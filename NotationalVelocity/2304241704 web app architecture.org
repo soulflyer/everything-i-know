@@ -1,0 +1,59 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2304241704 web app architecture-images
+:END:
+#+TITLE: web app architecture
+
+* Current State
+[[https://tonsky.me/blog/the-web-after-tomorrow/][the-web-after-tomorrow]] from Tonsky's blog 2015, before photon/electric
+
+[[file:2304241704 web app architecture-images/old-architecture.png]]
+
+"That very goal is wrong. You don’t want to run same code in two places. You may need to, but only to deal with the consequences of bad (old) architecture."
+
+[[file:2304241704 web app architecture-images/fb.png]]
+
+[[file:2304241704 web app architecture-images/grail.png]]
+
+* [[https://github.com/hyperfiddle/electric][Electric]] 
+seems to solve this. DSL based on clojure with macros to define what runs on the server and what runs on the client. Compilation takes care of all the connections between the frontend and the backend.
+
+As a reminder:
+
+- Electric builds "compiler managed network" into Clojure itself with a macro
+- Electric uses continuous time dataflow programming (FRP signals) to abstract over rendering, interaction, and frontend/backend data sync
+- with Electric, client and server code are defined in the same file/function/expression, allowing you to conceptualize your client/server application as a single cohesive program without network boundary.
+
+** CLJC
+relies on [[https://clojure.org/guides/reader_conditionals][reader conditionals]]. 2 kinds:
+
+*** #?* 
+acts like *cond*
+#+begin_src clojure
+#?(:clj  (Clojure expression)
+   :cljs (ClojureScript expression)
+   :cljr (Clojure CLR expression)
+   :default (fallthrough expression))
+#+end_src
+Note that if there is no matching keyword and no default *NOTHING* will be read, not nul
+
+*** #?@  
+takes a vector which will be merged into the containing form
+#+begin_src clojure
+(defn build-list []
+  (list #?@(:clj  [5 6 7 8]
+            :cljs [1 2 3 4])))
+#+end_src
+which clojure will see as:
+#+begin_src clojure
+(defn build-list []
+  (list 5 6 7 8))
+#+end_src
+
+
+** RCF testing
+electric uses a non standard testing setup called [[https://github.com/hyperfiddle/rcf][rcf]]
+This watches the code and runs the tests automaticaly. Started by:
+#+begin_src clojure
+(hyperfiddle.rcf/enable!)
+#+end_src
+Documentation is sparse atm (Apr 2023) although it looks interesting.

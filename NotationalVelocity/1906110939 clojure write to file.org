@@ -1,0 +1,11 @@
+#+TITLE: clojure write to file
+# TAGS #clojure
+
+#+begin_src clojure
+(ns ...
+  (:require [clojure.java.io :as io]))
+  
+(let [wrtr (io/writer "/tmp/clojure-test.txt")]
+      (.write wrtr "you can delete me\n")
+      (.close wrtr))
+#+end_src

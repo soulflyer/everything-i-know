@@ -1,0 +1,7 @@
+#+TITLE: clojure terminal output
+# TAGS #clojure
+
+http://sjl.bitbucket.org/clojure-lanterna/
+
+moved to: 
+https://multimud.github.io/clojure-lanterna/

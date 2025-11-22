@@ -1,0 +1,5 @@
+#+TITLE: tide
+# TAGS #emacs #typescript #webbookmark
+
+typscript environment for emacs:
+https://github.com/ananthakumaran/tide

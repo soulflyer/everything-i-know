@@ -1,0 +1,7 @@
+#+TITLE: hasluck handymans guide
+# Tags #book
+
+Borrow here:
+[[https://archive.org/details/handymansguidees0000unse/page/744/mode/2up][The handyman's guide : essential woodworking tools and techniques]]
+
+Has an interesting section on setting saws, including hammer setting, and a thourough description of building toolchests.

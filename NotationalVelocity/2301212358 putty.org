@@ -1,0 +1,6 @@
+#+TITLE: putty
+# Tags
+
+[[pdf:~/Documents/books/bookshelf/Woodwork/Old-Books/Hasluck/2015.22811.The-Handymans-Enquire-Within-Making-Mending-Renovating.pdf::462++0.00][The-Handymans-Enquire-Within-Making-Mending-Renovating.pdf: Page 462]] Has instructions on how to make it.
+
+[[pdf:~/Documents/books/bookshelf/Woodwork/Old-Books/Hasluck/2015.22811.The-Handymans-Enquire-Within-Making-Mending-Renovating.pdf][Renovating.pdf]]

@@ -1,0 +1,6 @@
+#+TITLE: audacity bpm
+# Tags #music
+
+The bpm needs to be set *BEFORE* loading the audio. To change it afterwards, create a new project at the correct bpm and import the audio. It seems that Audacity will correctly set the BPM fram a wav file imported but not an m4a imported.
+
+Loop needs to be selected again before it can play.

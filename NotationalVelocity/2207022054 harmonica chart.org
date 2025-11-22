@@ -1,0 +1,4 @@
+#+TITLE: harmonica chart
+# Tags  #music
+
+[[file:~/Documents/books/bookshelf/Music/Harmonica-Chart.pdf][Harmonica chart]]

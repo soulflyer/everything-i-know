@@ -1,0 +1,73 @@
+#+TITLE: eshell prompt
+# Tags #emacs #eshell
+These 2 *eshell-git-prompt* fns return nothing if they don't apply so can be used like this:
+#+begin_src emacs-lisp
+  (if (eshell-git-prompt--collect-status) 
+      (print "Dirty")
+    (print "Clean"))
+  (if (eshell-git-prompt--git-root-dir)
+      (print "in a git dir")
+    (print "no git"))
+#+end_src
+
+This one doesn't, it throws an error if it isn't in a git dir.
+#+begin_src emacs-lisp
+  (eshell-git-prompt--commits-ahead-of-remote)
+#+end_src
+
+But they can be combined:
+#+begin_src emacs-lisp
+  (if (eshell-git-prompt--git-root-dir)
+      (if (/= 0 (eshell-git-prompt--commits-ahead-of-remote))
+          (print "Ahead of remote")
+        (print "matches remote")))
+#+end_src
+
+And this could be used to emulate *__git_ps1*
+#+begin_src emacs-lisp
+  (if (eshell-git-prompt--git-root-dir)
+      (if (eshell-git-prompt--collect-status)
+          (if (/= 0 (eshell-git-prompt--commits-ahead-of-remote))
+              (print "RED")
+            (print "YELLOW"))
+        (print "GREEN"))
+    (print "green"))
+#+end_src
+
+The *eshell-git-prompt-xx* commands are just functions that return a string which becomes the prompt so:
+#+begin_src emacs-lisp
+  (defface eshell-git-prompt-clean-face 
+    '((t :foreground "green"))
+    "Face for git branch (clean) in eshell git prompt theme `iain`"
+    :group 'eshell-faces)
+
+  (defface eshell-git-prompt-ahead-face 
+    '((t :foreground "gold"))
+    "Face for git branch (ahead) in eshell git prompt theme `iain`"
+    :group 'eshell-faces)
+
+  (defface eshell-git-prompt-dirty-face 
+    '((t :foreground "red"))
+    "Face for git branch (dirty) in eshell git prompt theme `iain`"
+    :group 'eshell-faces)
+
+  (defun git-face ()
+    (if (eshell-git-prompt--collect-status)
+        (if (/= 0 (eshell-git-prompt--commits-ahead-of-remote))
+            'eshell-git-prompt-dirty-face
+          'eshell-git-prompt-ahead-face)
+      'eshell-git-prompt-clean-face))
+
+  (defun eshell-git-prompt-iain ()
+    (let (branch prompt path-dir)
+      (setq branch (if (eshell-git-prompt--git-root-dir) (with-face (concat "(" (eshell-git-prompt--branch-name) ") ") (git-face))))
+      (setq prompt (with-face " λ: " 'eshell-git-prompt-clean-face))
+      (setq path-dir (with-face (eshell-git-prompt--shorten-directory-name) 'eshell-git-prompt-clean-face))
+      (eshell-git-prompt---str-read-only
+       (concat branch path-dir prompt))))
+
+  (defconst eshell-git-prompt-iain-regex "^[^\n#λ]*[#λ]:")
+#+end_src
+
+ '(eshell-prompt-function 'eshell-git-prompt-iain)
+ '(eshell-prompt-regexp "^[^\\n#λ]*[#λ]:")

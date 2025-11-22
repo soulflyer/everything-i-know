@@ -1,0 +1,14 @@
+#+TITLE: netcat and groovy
+# Tags #mac
+
+#+begin_src sh
+# start something on a port
+groovy -l 4444 -e "println new Date()"
+
+# connect to the port in the same way telnet would
+nc -v 0.0.0.0 4444
+# hit return to send an empty message and get the time in response
+
+# adding the -z option just connects and hangs up again (useful for checking the server is running)
+nc -vz 0.0.0.0 4444
+#+end_src

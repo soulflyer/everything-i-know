@@ -1,0 +1,5 @@
+#+TITLE: L-Systems blender
+# TAGS #blender #l-systems
+
+https://github.com/lemurni/lpy-lsystems-blender-addon
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3362793/pdf/fpls-03-00076.pdf

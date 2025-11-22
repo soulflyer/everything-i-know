@@ -1,0 +1,12 @@
+#+TITLE: git gitignore files
+# Tags #git
+
+~/.gitignore is only used if git is configured to look there. Check ~/.gitconfig for an entry:
+#+begin_src gitconfig
+  [core]
+          # autocrlf = input
+          excludesfile = ~/.gitignore
+#+end_src
+By default it will use $HOME/.config/git/ignore unless $XDG_CONFIG_HOME is set, when it will use $XDG_CONFIG_HOME/git/ignore
+
+§2109181323 git config file

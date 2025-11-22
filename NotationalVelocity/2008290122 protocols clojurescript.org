@@ -1,0 +1,5 @@
+#+TITLE: protocols clojurescript
+# TAGS #clojure
+
+Clear explanation of protocols:
+http://funcool.github.io/clojurescript-unraveled/#abstractions-and-polymorphism

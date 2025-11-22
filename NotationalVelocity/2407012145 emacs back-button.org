@@ -1,0 +1,7 @@
+#+TITLE: emacs back-button
+# Tags #emacs #jump
+
+Back button mode jumps to previous positions where mark was set and can be used to go back to where I just was but forgot.
+*C-c C-spc* 
+Also *C-c C-left* and *C-c C-right*
+

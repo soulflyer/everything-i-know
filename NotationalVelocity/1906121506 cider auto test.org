@@ -1,0 +1,6 @@
+#+TITLE: cider auto test
+# TAGS #cider #test
+
+Runs the tests every time a clojure file is loaded:
+
+(cider-auto-test-mode 1)

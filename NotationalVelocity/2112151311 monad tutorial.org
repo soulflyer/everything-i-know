@@ -1,0 +1,10 @@
+#+TITLE: monad tutorial
+# Tags #monad
+Looks reasonable, no apparant monad falacy, no stupid metaphor
+https://tutswiki.com/yet-another-lousy-monad-tutorial/
+
+Also:
+https://wiki.haskell.org/Monads_as_containers
+
+clojure monad koans
+https://github.com/benedekfazekas/monad_koans

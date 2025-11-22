@@ -1,0 +1,8 @@
+#+TITLE: git smerge conflict resolution
+# TAGS #git
+
+C-c ^ C-h h 		Shows all the smerge commands
+
+C-c ^ RET		Keep current (the one under the cursor)
+C-c ^ u			Keep upper
+C-c ^ l			Keep lower

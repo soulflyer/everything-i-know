@@ -1,0 +1,8 @@
+#+TITLE: anarchist
+ library
+# Tags #anarchy
+https://theanarchistlibrary.org/
+
+We are not democrats for, among other reasons, democracy sooner or later leads to war and dictatorship. Just as we are not supporters of dictatorships, among other things, because dictatorship arouses a desire for democracy, provokes a return to democracy, and thus tends to perpetuate a vicious circle in which human society oscillates between open and brutal tyranny and a lying freedom.
+
+So, we declare war on dictatorship and war on democracy.

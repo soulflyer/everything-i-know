@@ -1,0 +1,4 @@
+#+TITLE: type systems quote
+# Tags
+
+"Haskell is an exciting, innovative language that is shaping how people think about programming. Not learning Haskell means depriving yourself of some of the most interesting research in Blub languages today. But the most important reason to gain experience with Haskell is to educate yourself on just how little static type systems actually contribute to productive programming - even ones as unobtrusive and extensible as Haskell's."

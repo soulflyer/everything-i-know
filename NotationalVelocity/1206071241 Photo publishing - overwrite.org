@@ -1,0 +1,4 @@
+#+TITLE: Photo publishing - overwrite
+# TAGS #photo #applescript
+
+Don't want lots of versions with stupid apple " (01)* suffixes. Can an export preset trigger an applescript to delete previous versions before exporting?

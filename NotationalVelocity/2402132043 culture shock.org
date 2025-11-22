@@ -1,0 +1,11 @@
+#+TITLE: culture shock
+# Tags #blog
+* Culture Shock
+
+One of the effects of remote working is that we often find ourselves working with teams spread across the world. Although global communication has expanded awareness of different viewpoints, and culture is widely shared to the point where many assume a particular culture is global. For instance development teams have a lot in common even when spread across multiple background cultures.
+This is not the whole story. Some things operate on a more subconscious level. Expectations that feel like they are universal, but actualy vary greatly from culture to culture. 
+
+** I owe my soul to the company medicare plan
+One that came to light recently was that of the difference between European and American work ethic. On the surface this is roughly the same. Employees are expected to wholeheartedly work for the good of the company, and rise to whatever challenges arise. There are employee protections, like expected working hours and provisions for time off. So far all of this looks the same on both sides of the Atlantic. Assembling a team consisting of both shouldn't present any problems, right? We are all on roughly the same page, right?
+Sadly no, not in all situations. Going in to a new project all appears fine, but what happens when something goes wrong?
+

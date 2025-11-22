@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2305291817 wire wrap tool-images
+:END:
+#+TITLE: wire wrap tool
+
+[[https://www.youtube.com/watch?v=cBhkp-DZMrE&t=3s][youtube video]]
+[[file:2305291817 wire wrap tool-images/tool.png]]
+
+[[file:2305291817 wire wrap tool-images/tools.png]]
+
+Possible problems:
+cutting the slot for the large pin
+making the tube with a deep blind hole
+
+Maybe use some ready made tube and thread or solder a point into the end. If its soldered then perhaps the slot in the tube can be cut from the open end.
+
+[[https://www.youtube.com/watch?v=I3g7-qBDAGY][youtube]] Russian video making one out of a wire tensioner
+[[file:2305291817 wire wrap tool-images/tensioner.png]]
+[[https://www.youtube.com/watch?v=5w1_9IkeRmQ][Youtube]] similar but even simpler
+[[file:2305291817 wire wrap tool-images/simple.png]]
+[[https://www.youtube.com/watch?v=h_FtdXw4zTE][Youtube]] Another with no bolt
+[[file:2305291817 wire wrap tool-images/no-bolt.png]]
+[[https://www.youtube.com/watch?v=QzM2aHo1jZU][Youtube]] Vietnamese one
+[[file:2305291817 wire wrap tool-images/Vn.png]]
+[[https://www.youtube.com/watch?v=82E3ARNtglg][Youtube]] simpler still
+[[file:2305291817 wire wrap tool-images/bolt.png]]
+[[https://www.youtube.com/watch?v=2lAap2zghDA][Youtube]] and simpler still
+[[file:2305291817 wire wrap tool-images/simplest.png]]
+[[https://www.youtube.com/watch?v=xJdib5Vv0Dk][Youtube]] cut up a 12mm ratchet spanner and a 1/2in drive 12mm allen key 
+[[file:2305291817 wire wrap tool-images/destruction.png]]
+[[https://www.youtube.com/watch?v=k_KItsn0PA0][Youtube]] Uses an allenhead bolt to provide a rotating point. 
+[[file:2305291817 wire wrap tool-images/allen-head.png]]

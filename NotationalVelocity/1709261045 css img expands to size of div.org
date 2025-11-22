@@ -1,0 +1,5 @@
+#+TITLE: css img expands to size of div
+# TAGS #css #html
+
+<img style='height: 100%; width: 100%; object-fit: contain'/> 
+https://stackoverflow.com/questions/3029422/how-do-i-auto-resize-an-image-to-fit-a-div-container

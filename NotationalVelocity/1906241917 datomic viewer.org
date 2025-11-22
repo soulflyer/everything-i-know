@@ -1,0 +1,6 @@
+#+TITLE: datomic viewer
+# TAGS #datomic
+
+https://github.com/shaunxcode/datomicism
+
+bit old....

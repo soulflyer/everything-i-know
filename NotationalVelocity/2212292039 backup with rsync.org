@@ -1,0 +1,126 @@
+#+TITLE: backup with rsync
+# Tags #shell
+
+* Photos
+** Photo Masters
+I usually have the master copy of photo originals mounted on */Volumes/OfflinePhotos* 
+The filesystem is shared from *mimi* where I usually do the import as it can
+import directly from the camera.
+
+*Blue* and *Crucial* both have copies. To sync them up I would use:
+#+begin_src shell
+rsync -aKvn /Volumes/OfflinePhotos/ /Volumes/Blue/OfflinePhotos/
+rsync -aKvn /Volumes/OfflinePhotos/ /Volumes/Crucial/OfflinePhotos/
+#+end_src
+Note that these have the *-n* option which will do a dry run. Remove it to actually do the copy
+Also, this is slow. Far better to copy from *Blue* to *Crucial* rather than copy twice across the network.
+
+#+begin_src shell
+# TODO do these ones
+rsync -vaibn --delete --backup-dir=/tmp/backup /Volumes/OfflinePhotos/ /Volumes/Blue/OfflinePhotos
+rsync -vaibn --delete --backup-dir=/tmp/backup /Volumes/Blue/OfflinePhotos/ /Volumes/Crucial/OfflinePhotos
+#+end_src
+Note
+- *-K* treats symlinks as dirs on the reciever. Not necessary here.
+- *-i* itemizes files being synced
+- *-b* does backups
+=Note= It is slow editing pics from Mimi, probably better to use crucial and backup to Mimi instead. 
+
+<2025-02-21 Fri> Backup from Crucial to Seagate
+#+begin_src shell
+rsync -vaibn --delete --backup-dir=/tmp/backup /Volumes/Crucial/OfflinePhotos/ /Volumes/seagate/OfflinePhotos
+#+end_src
+** Edited Photos
+These are mounted from *subversion*  on */Volumes/Published* but the master version is on */Volumes/Crucial/Published*
+Sync from there to *subversion* and *soulflyer*
+
+Backed up to *soulflyer* using the *backup-to-soulflyer* script. Note that this doesn't include the *fullsize* versions, they complained about disk usage.
+The last command is all that is needed, but it can take some time to run so the earlier ones will transfer the *json* files and the *thumbs* so the new page will display even before the larger versions can be seen.
+#+begin_src shell
+#!/bin/bash
+echo "**********************************"
+date
+echo "**********************************"
+echo "Backing up Pictures/Published/json"
+rsync -vaik --exclude=.DS_Store \
+    /Users/iain/Pictures/Published/json/ \
+    jphuquoc@soulflyer.co.uk:Pictures/json/
+
+echo "Backing up Pictures/Published/thumbs"
+rsync -vaik --exclude=.DS_Store --exclude=.sass-cache\
+    /Users/iain/Pictures/Published/thumbs/ \
+    jphuquoc@soulflyer.co.uk:Pictures/thumbs/
+echo "Backing up medium"
+rsync -vaik --exclude=.DS_Store /Users/iain/Pictures/Published/medium/ jphuquoc@soulflyer.co.uk:Pictures/medium/
+echo "backing up Pictures/Published"
+rsync -vaiLk --exclude=.DS_Store \
+    --exclude=.sass-cache --exclude=masters --exclude=fullsize \
+    /Users/iain/Pictures/Published/ \
+    jphuquoc@soulflyer.co.uk:Pictures/
+
+#+end_src
+
+Sync to *subversion* like this:
+#+begin_src shell
+rsync -vaibn --delete --backup-dir=/tmp/backup /Volumes/Crucial/Published/ /Volumes/Published/
+#+end_src
+
+
+* Books
+This is usually mounted from *subversion* on */Volumes/bookshelf* but accessed via a link to crucial. New stuff gets written to *Crucial* so backup like this:
+#+begin_src bash
+rsync -vaibn --delete --backup-dir=/tmp/backup  /Volumes/Crucial/bookshelf/ /Volumes/bookshelf/
+# /opt/homebrew/bin/rsync -vaibOn --exclude '\._*' --delete --backup-dir=/tmp/backup  /Volumes/Crucial/bookshelf/ /Volumes/Seagate/bookshelf/
+/opt/homebrew/bin/rsync -vaibO --exclude '\._*' --delete --backup-dir=/tmp/backup -e ssh  /Volumes/Crucial/bookshelf/ iain@reddell.local:/mnt/Seagate/bookshelf/
+#+end_src
+From *Transcendence* to *Acceptance* the following worked, although there is some problem with the *backup-dir*
+#+begin_src bash
+rsync -vaib --delete --backup-dir=/tmp/backup/ -e ssh /home/iain/Documents/bookshelf/ iain@acceptance.local:/Volumes/Crucial/bookshelf/
+#+end_src
+* Music
+This is mounted from *subversion* on */Volumes/Collection* but the master is on *Crucial*
+#+begin_src bash
+rsync -vaibn --delete --backup-dir=/tmp/backup /Volumes/Crucial/Collection/ /Volumes/Collection/
+#+End_src
+* NOTE
+When running with org-babel, using :session makes it possible to observe the process running. Use *C-c C-c* to start the command then *C-g* so that emacs isn't waiting for it to complete. The output will be visible in a buffer with the same name as that given to :session. HOWEVER emacs still seems slow and this may NOT be worth it. Cut and paste to a terminal window...
+
+* Backups to Reddell
+** Resource Forks
+Looks like these are getting deleted and backed up again every time. Trying this option to rsync: --exclude '\._*'
+
+** SSH
+too many problems due to the SMB mounted FAT file system. ssh gets round these. The resource fork exclusion and the -O don't seem to be necessary here.
+#+begin_src shell
+/opt/homebrew/bin/rsync -vaib --delete --backup-dir=/tmp/backup -e ssh  /Volumes/Crucial/bookshelf/ iain@reddell.local:/mnt/Seagate/bookshelf/
+/opt/homebrew/bin/rsync -vaib --delete --backup-dir=/tmp/backup -e ssh  /Volumes/Crucial/Collection/ iain@reddell.local:/mnt/Seagate/Collection/
+/opt/homebrew/bin/rsync -vaib --delete --backup-dir=/tmp/backup -e ssh  /Volumes/Crucial/OfflinePhotos/ iain@reddell.local:/mnt/Seagate/OfflinePhotos
+#+end_src
+
+* Org-Mode Files
+crontab entry:
+0 5 * * * rsync -vaib --delete --backup-dir=~/Downloads/backup ~/Documents/org-mode/ ~/Dropbox/org-mode/ >> ~/Downloads/cronlog
+
+Use this to sync to *transcendence*
+#+begin_src bash
+rsync -vaib --delete --backup-dir=/tmp/backup -e ssh ~/Documents/org-mode iain@transcendence.local:/home/iain/Documents/org-mode
+#+end_src
+And this to sync from *transcendence*
+#+begin_src bash
+rsync -vrltgoDb -e ssh /home/iain/Documents/org-mode iain@acceptance.local:/Users/iain/Documents/
+#+end_src
+The options could be the same, but at one point I was getting an error:
+rsync(83087): error: org-mode/NotationalVelocity/2507311346 transcendence install.org~~: fchownat: Operation not permitted
+This Stack Overflow [[https://stackoverflow.com/a/30717322/1671119][answer]] suggests the above which is the equivalent, but without the option to set ownership.
+
+* Unison
+[[https://raw.githubusercontent.com/bcpierce00/unison/documentation/unison-manual.pdf][manpage]]
+From the manual:
+You can give an explicit path for the unison executable on the server by using the command-line option -servercmd /full/path/name/of/unison
+
+If you want to put a.tmp some place other than your home directory on the remote host, you can give an absolute path for it by adding an extra slash between remotehostname and the beginning of the path:
+unison a.tmp ssh://remotehostname//absolute/path/to/a.tm
+
+#+begin_src shell
+unison -servercmd /opt/homebrew/bin/unison /home/iain/Documents/org-mode ssh://acceptance.local/Documents/org-mode
+#+end_src

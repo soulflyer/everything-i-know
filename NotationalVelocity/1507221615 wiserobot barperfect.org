@@ -1,0 +1,4 @@
+#+TITLE: wiserobot barperfect
+# TAGS
+
+export from phonegap to adobe air

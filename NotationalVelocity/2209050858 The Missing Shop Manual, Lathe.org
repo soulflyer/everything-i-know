@@ -1,0 +1,9 @@
+#+TITLE: The Missing Shop Manual, Lathe
+# Tags #book #turning #woodwork
+
+Published 2010
+No Author given
+
+[[file:~/Documents/books/bookshelf/Woodwork/Turning/Lathe_The_Tool_Information.PDF][Lathe]]
+
+Reasonable description of how to handle cross grain turning.

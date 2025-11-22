@@ -1,0 +1,6 @@
+#+TITLE: clojure maths
+# TAGS #clojure #maths #fractal
+
+https://nakkaya.com/2010/01/26/lindenmayer-system-in-clojure/
+https://nakkaya.com/2009/10/04/fractals-in-clojure-buddhabrot-fractal/
+https://nakkaya.com/2009/09/29/fractals-in-clojure-mandelbrot-fractal/

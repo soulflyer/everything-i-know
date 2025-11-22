@@ -1,0 +1,35 @@
+#+TITLE: vcv mixer
+# Tags #vcv #music
+* VCV Mixer
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Documents/org-mode/NotationalVelocity/2507111204 vcv mixer-images
+:END:
+Looking for something compact so I can make free use of f4 to zoom to the full patch. 
+** The old way
+#+ATTR_ORG: :width 800
+[[file:2507111204 vcv mixer-images/screenshot-20250711-133007.png]]
+The *Mindmeld Mixmaster* is great, but it takes up half a row when expanded. It needs the expander for effects send. Add Input/Output and a clock and it is easily 1.5 rows when zoomed to get 3 rows on screen. With 3 rows on screen I can still see what is going on. I don't want the mixer and associated boilerplate to take up more than 1 row.
+** The new way
+#+ATTR_ORG: :width 800
+[[file:2507111204 vcv mixer-images/screenshot-20250711-133148.png]]
+
+
+** Compact Mixers
+*** Venom Mix4
+#+ATTR_ORG: :width 800
+[[file:2507111204 vcv mixer-images/screenshot-20250711-125829.png]]
+4 channels is usually enough and this does everything I need including cv controlled *Mute* and *Fade* No clicks from the mute buttons either.
+*** GPAudio Modular mixer
+#+ATTR_ORG: :width 240
+[[file:2507111204 vcv mixer-images/screenshot-20250711-131201.png]]
+This also looks good and takes up slightly less room for the same functionality. Lacks cv controlled mutes (not really a problem) and fades. The mute is supposedly click free.
+
+*** Daisy Mix
+#+ATTR_ORG: :width 500
+[[file:2507111204 vcv mixer-images/screenshot-20250718-125912.png]]
+Also looks good. Has slew on cv gate controls. Aux sends are controlled from the right click menu and the same settup is more compact than any other options if the *VU meters* are not included. Pic shows 2 mixers, the right hand one is only 13 holes wide.
+
+*** dBiz perfmixer
+#+ATTR_ORG: :width 600
+[[file:2507111204 vcv mixer-images/screenshot-20250711-131721.png]]
+Smallest (by 1 hole) with good cv control but no fade and the mutes are clicky. Also doesn't handle polyphonic cables properly.

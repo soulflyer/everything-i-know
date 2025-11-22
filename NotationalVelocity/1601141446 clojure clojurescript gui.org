@@ -1,0 +1,20 @@
+#+TITLE: clojure clojurescript gui
+# TAGS #clojure
+
+https://github.com/omcljs/om
+http://pauldbergeron.com/articles/from-zero-to-om.html
+Not under active development (2021), see this instead:
+https://github.com/fulcrologic/fulcro
+
+https://gist.github.com/daveray/1441520 seesaw repl tutorial
+
+https://github.com/LightTable/fetch Implements server client interaction to link clojurescript front end with clojure server
+
+https://github.com/ckirkendall/enfocus Allows DOM manipulation from clojurescript
+
+https://github.com/ckirkendall/kioo Another variation on enlive/enfocus
+
+https://github.com/tonsky/rum UI html library for clojurescript and clojure
+
+http://arachne-framework.org/ new web framework (2017)
+https://github.com/arachne-framework Seems dead (2021)

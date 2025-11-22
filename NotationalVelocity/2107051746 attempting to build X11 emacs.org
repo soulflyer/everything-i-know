@@ -1,0 +1,24 @@
+#+TITLE: attempting to build X11 emacs
+# TAGS #emacs #X11
+
+make failed, this fixed it:
+
+rm lisp/loaddefs.el; make
+
+brew doesn't support X11 any more, these might help:
+https://stackoverflow.com/questions/60675651/how-can-i-install-an-x11-version-of-emacs-on-macos-catalina
+https://github.com/julienchastang/homebrew-core/tree/x11emacs
+https://julienchastang.com/post/x11/
+
+Finally got the X11 version to build with this configure command:
+(master) build: ../configure --with-xpm=ifavailable --without-ns --with-x --with-x-toolkit='lucid' --with-xft="$WITH_XFT" --without-makeinfo --with-gif='no' --enable-symbols PKG_CONFIG_PATH='/opt/X11/lib/pkgconfig/'
+
+Instructions here:
+https://github.com/ch11ng/exwm/wiki/Installation-on-macOS
+Had to ad the with-xpm option, not sure if that is causing a problem. emacs runs but locks up when I try to start exwm with message:
+error in process filter: [XELB]Connection failed: No protocol specified
+
+This might help:
+https://github.com/ch11ng/exwm/issues/534
+
+Also Meta key isn't working

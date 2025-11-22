@@ -1,0 +1,4 @@
+#+TITLE: git delete branch
+# TAGS #git
+
+git branch -D feature/integrate-lacinia/DAPS-33

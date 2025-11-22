@@ -1,0 +1,722 @@
+#+TITLE: emacs music
+# Tags #emacs #mpd #emms
+
+Trying to escape from iTunes which is insisting I login to the iTunes store
+* emms
+[[https://www.gnu.org/software/emms/manual/][emms manual]]
+** Update mpd database
+after editing some track info do one of these:
+#+begin_src emacs
+emms-player-mpd-update-directory
+/Volumes/Collection/Cruachan/2023---The-Living-and-The-Dead
+
+emms-player-mpd-update-all
+#+end_src
+Note the lack of a */* on the end
+Look in the [[file:~/Code/profile/mpd/mpd.log][log file]] to check the updates happened. (Not sure where the logs are on linux)
+
+** mpd playlist
+Emptying the emms playlist doesn't clear the mpd playlist Try *emms-player-mpd-clear*
+FIXED. Now there is a hook to do *mpc crop* when clearing the emms playlist.
+
+If *MPD* is playing use *emms-player-mpd-connect* to get the currently playing plylist
+** Adding music
+
++Very flaky. Not sure exactly what will always work. It may not even be consistent.+
+Troublesome, but only because the metadata in the added files may not be what is expected. Once the tracks are added they should appear in the current playlist, where it is easy to mark them and call the tag editor with *E* to see the tags and adjust if necessary.
+
+Move the files to the right place then do:
+#+begin_src shell
+mpc -w update
+#+end_src
+In emacs do *M-x emms-add-directory*
+[[file:2312281753 emacs music-images/screenshot-20240404-164937.png]]
+Note the lack of / on the end, and the relative path. Using /Volumes/Crucial..... doesn't seem to work here although I think it is essential for updating mpd from emacs as above
+Also Note: this must be a path to a folder containing music files, ie the album folder not the band folder.
+=UPDATE= This now done by moving the music into *collection*, checking it has a cover, then running *import-music* 
+Best to select the newly added tracks in the player window and hit *E* to chack and update the metadata as required.
+** Syncing with acceptance
+use:
+*rsync -vaib --delete -- backup-dir=/tmp/backup -e ssh ~/Music/Collection/ iain@acceptance.local:/Volumes/Crucial/Collection* 
+then run *emms-cache-set-from-mpd-all* on acceptance. 
+Stickers should be synced automatically along with the org-files when doing *unison org-mode* on *Transcendence*
+** Problems
+The emms cache can be rebuilt from the *mpd* database using *emms-cache-set-from-mpd-all*
+The cache may need to be deleted. For some reason I was getting read errors on startup and removing the cache fixed it. However the automatically rebuilt cache only contained the 4 and 5 star tracks. Best guess is that these are in separate saved files and those were found. Had to rebuild the cache from *mpd* to get all the rest back.
+*emms-cache-reset* followed by *emms-cache-set-from-mpd-all* and restart emacs seems to fix weird problems.
+*emms-cache-set-from-mpd-all* on its own may not be enough. It appears to keep existing entries and add stuff from mpd so anything corrupt is still there.
+** Rest of an Album
+Gave up on this and did *emms-browser-search-by-artist-at-point* instead. Bound to *A* in emms browser and playlist modes.
+
+Filtering by *(emms-browser-show-last-week)* only shows the tracks played but I would like to access the complete albums.
+
+*emms-browser-filter-cache*  will search the cache for all tracks that match a given list of cons pairs, in the form:
+
+  ((field1 field2) string)
+
+ie ((artist album) <something here extracted from the track at point>)
+A call in the source code looks like this:
+#+begin_src elisp
+(emms-browser-filter-cache
+       (list (list fields str)))
+#+end_src
+Where str is the input from the user to interactive search function.
+#+begin_src elisp
+(emms-browser-filter-cache (list (list '(info-album) "After Hours")))
+(emms-browser-filter-cache (list (list '(info-album info-artist) "After HoursThe Bothy Band")))
+#+end_src
+The first gives me a list of tracks, including some by Gary Moore, the second gives me nil. From the source it seems *emms-browser-filter-cache* is using the list of fields as alternative places to search, returning any artists or albums that match the given string. What I need is to match both. Maybe filter the cache, then filter the results.
+
+
+DONE: maybe emms-browser-bdata-at-point will give me the data for the string.
+
+This gives "After Hours" when the cursor is over the album cover and "The Bothy Band - The Butterfly" when over the track
+#+begin_src elisp
+(emms-track-get (emms-browser-bdata-at-point) 'name)
+#+end_src
+What I need is "The Bothy Band - After Hours" or something like that. (Wrong, see above)
+
+#+begin_src elisp
+(emms-track-get (emms-browser-bdata-first-track (emms-browser-bdata-at-point)) 'info-album)
+#+end_src
+Gives me "After Hours"
+
+Looks like this would be a good start:
+#+begin_src elisp
+  (emms-browser-filter-cache
+   (list
+    (list
+     '(info-artist)
+     (emms-track-get
+      (emms-browser-bdata-first-track
+       (emms-browser-bdata-at-point))
+      'info-artist))))
+#+end_src
+But how to add it to the playlist?
+Like this:
+#+begin_src elisp
+  (defun emms-browser-search-noninteractive (fields str)
+    "Search for STR using FIELDS."
+    (emms-browser-search-buffer-go)
+    (emms-with-inhibit-read-only-t
+     (emms-browser-render-search
+      (emms-browser-filter-cache
+       (list (list fields str)))))
+    (emms-browser-expand-all)
+    (goto-char (point-min)))
+
+  (emms-browser-search-noninteractive
+   '(info-artist)
+   (emms-track-get
+    (emms-browser-bdata-first-track
+     (emms-browser-bdata-at-point))
+    'info-artist))
+#+end_src
+
+** Ratings and Notes (MPC)
+I think mpc is the key here. [[https://www.musicpd.org/doc/mpc/html/][MPC Docs]]
+Should be easy enough to get the correct info to feed to an mpc command to set a sticker for either of these.
+Reading the values from there is easy enough, just have to figure out how to get it into the emms display...
+
+*** Yakk Shaving
+Latest problem is that *mpc sticker "Spirit/Future-Games/08 Would You Believe.mp3" set comment*  times out. do I have to create the stickers by hand first? Seems unlikely as they get created for the *ratings* Maybe *mpdev* is doing that 🤔
+Nah, can't be. Not sure why the db has lots of 0 ratings, but not one for every track.
+*mpc sticker "Yes/Tales-From-Topographic-Oceans-Disc-2/2-01 The Ancient (Giants Under the Sun).mp3" set rating 8* times out, it doesn't already have a sticker entry. Maybe the entries get created when the track gets played 🤔
+Any of these timeouts seems to put *MPD* into an infinite loop even after the mpc command returns the timeout message.
+Playing the track doesn't add the rating sticker and the mpc set command still times out, but there is this message in the console:
+Error: stepping, database is locked (5)
+ERROR: INSERT or IGNORE into sticker (type, uri, name, value) into sticker values ('song', 'Yes/Time-And-A-Word/08 Time And A Word.mp3', 'rating', 0);
+
+IDIOT: Db was locked by the database viewer *DB Browser for SQLite* I had edited the table to get rid of an empty entry and not saved it
+
+*** Changing colours
+Clue as to how to change colours [[https://stackoverflow.com/a/2421008/1671119][here]] although inserting unicode chars seems to work 🟥💝✡🟡
+
+*** The following is from [[https://github.com/vincent-petithory/mpdfav][mpdfav]] detailing how to increase or deacrease ratings for the currently playing song:
+#+begin_src shell
+# rate good the current song
+mpc sendmessage ratings like
+# or
+mpc sendmessage ratings +
+
+# rate bad a song
+mpc sendmessage ratings dislike
+# or
+mpc sendmessage ratings -
+#+end_src
+*mpc sendmessage* is probably not what I want here. *mpc sticker* might be.
+
+*** MPC commands:
+#+begin_src shell
+mpc search '(artist == "The Bothy Band")'
+mpc search artist "The Bothy Band"
+# both return lots of paths to bothy band songs
+
+mpc search '(comment != "")'
+# returns nothing, I guess no comment fields are filled. This is ok, the comments field is not used.
+# comments are stored in stickers and I think this is looking in the metadata.
+
+mpc sticker "Yes/Tales-From-Topographic-Oceans-Disc-2/2-01 The Ancient (Giants Under the Sun).mp3" set comment "Test comment"
+mpc sticker "Yes/Tales-From-Topographic-Oceans-Disc-2/2-01 The Ancient (Giants Under the Sun).mp3" get comment
+# => comment=Test comment
+#+end_src
+
+*** The syntax for the searches follows the *MPD Protocol* :
+from [[https://mpd.readthedocs.io/en/latest/protocol.html][MPD Protocol Docs]]
+EXPRESSION is a string enclosed in parentheses which can be one of:
+
+    (TAG == 'VALUE'): match a tag value; if there are multiple values of the given type, at least one must match. (TAG != 'VALUE'): mismatch a tag value; if there are multiple values of the given type, none of them must match. The special tag any checks all tag types. AlbumArtist looks for VALUE in AlbumArtist and falls back to Artist tags if AlbumArtist does not exist. VALUE is what to find. An empty value string means: match only if the given tag type does not exist at all; this implies that negation with an empty value checks for the existence of the given tag type.
+
+    (TAG contains 'VALUE') checks if the given value is a substring of the tag value.
+
+    (TAG starts_with 'VALUE') checks if the tag value starts with the given value.
+
+    (TAG =~ 'VALUE') and (TAG !~ 'VALUE') use a Perl-compatible regular expression instead of doing a simple string comparison. (This feature is only available if MPD was compiled with libpcre)
+
+    (file == 'VALUE'): match the full song URI (relative to the music directory).
+
+    (base 'VALUE'): restrict the search to songs in the given directory (relative to the music directory).
+
+    (modified-since 'VALUE'): compares the file’s time stamp with the given value (ISO 8601 or UNIX time stamp).
+
+    (added-since 'VALUE'): compares time stamp when the file was added with the given value (ISO 8601 or UNIX time stamp).
+
+    (AudioFormat == 'SAMPLERATE:BITS:CHANNELS'): compares the audio format with the given value. See Global Audio Format for a detailed explanation.
+
+    (AudioFormat =~ 'SAMPLERATE:BITS:CHANNELS'): matches the audio format with the given mask (i.e. one or more attributes may be *).
+
+    (prio >= 42): compares the priority of queued songs.
+
+    (!EXPRESSION): negate an expression. Note that each expression must be enclosed in parentheses, e.g. (!(artist =​= 'VALUE')) (which is equivalent to (artist != 'VALUE'))
+
+    (EXPRESSION1 AND EXPRESSION2 ...): combine two or more expressions with logical “and”. Note that each expression must be enclosed in parentheses, e.g. ((artist =​= 'FOO') AND (album == 'BAR'))
+
+The find commands are case sensitive, while search and related commands ignore case. The latter also applies Unicode normalization and converts all punctuation to ASCII equivalents if MPD was compiled with ICU support.
+
+** Playlists and filters
+Stored playlists can be read in from files. This is a lot faster than filtering in the browser, but is static. To create a playlist, say *4-star* containing all tracks with 4 or more starts, use *M-x emms-browser-show-4-stars* bound to *f 4* in the browser. Select all with *C-x h* and add them to the playlist with *a* Then save to a file with *M-x emms-add-playlist* 
+The playlists can be accessed from metaplaylist mode *C-c RET* and tracks added to the main playlist with *a*
+NOTE: I have modified the keybindings in *metaplaylist-mode* so that the main playlist buffer remains active unless another is deliberately selected with *spc* This means that the playlists read in from files can be treated as selection lists rather than played all the way through.
+After editing a playlist (ie "working-on"), save it with *M-x emms-playlist-save* close it in the metaplaylist buffer with *C-k* and re-add it with *M-: (emms-playlist-new-from-saved "working-on")* I think the playlist being saved will always be the active one, even if the save command is run from another playlist buffer.
+
+** Filtering by date added
+Either of these will get the path to the file of the track at point:
+#+begin_src elisp
+(emms-track-get (car (emms-browser-tracks-at-point)) 'name)
+(emms-track-get (emms-browser-bdata-first-track (emms-browser-bdata-at-point)) 'name)
+#+end_src
+I guess this will do for inside the filter fn:
+#+begin_src elisp
+(emms-track-get track 'name)
+#+end_src
+And this will get a timestamp for the time last modified:
+#+begin_src elisp
+(file-attribute-modification-time (file-attributes (emms-track-get (car (emms-browser-tracks-at-point)) 'name)))
+#+end_src
+The *Creation Time* is not so easy to get, also its not a standard attribute. *Stat* will show it. %SB is the format string. S means human readable, B means birthtime
+#+begin_src shell
+stat -f "%SB" "/Users/iain/Music/Collection/TheAnimals/Greatest-Hits/17 - Bright Lights Big City.mp3"
+#+end_src
+=Modification Time= is probably good enough
+
+*** Comparing times
+This will generate a time for <2025-01-01>
+#+begin_src elisp
+(encode-time '(0 0 0 1 1 2025))
+#+end_src
+
+** Changes to emms
+I foolishly choose to hack emms rather than add stuff to my own emacs config. Trying to undo this. First step is to document what I changed...
+*** DONE emms-browser.el
+Fns added to *emms-browser.el*
+#+begin_src emacs-lisp
+  (defun emms-browser-search-noninteractive (fields str)
+    "Search for STR using FIELDS."
+    (emms-browser-search-buffer-go)
+    (emms-with-inhibit-read-only-t
+     (emms-browser-render-search
+      (emms-browser-filter-cache
+       (list (list fields str)))))
+    (emms-browser-expand-all)
+    (goto-char (point-min)))
+
+  (defun emms-browser-search-by-artist-at-point ()
+    (interactive)
+    (emms-browser-search-noninteractive
+     '(info-artist)
+     (emms-track-get
+      (emms-browser-bdata-first-track
+       (emms-browser-bdata-at-point))
+      'info-artist)))
+
+  (defun trim-track-name (name)
+    "Remove the first parts of the path and the leading slash leaving only artist/album/track."
+    (string-trim-left
+     name
+     (concat (expand-file-name emms-player-mpd-music-directory) "/")))
+
+  (defun stats-db-play-count (track)
+    (let ((count))
+      (condition-case nil
+          (setq count (first
+                       (first
+                        (sqlite-execute
+                         (sqlite-open "~/.mpd/stats.db")
+                         (format
+                          "SELECT play_count FROM song WHERE uri=\"%s\""
+                          (trim-track-name (emms-track-get track 'name)))))))
+        (error 0))
+      (if (and (numberp count) (< 0 count))
+          count)))
+
+  (defun stars (n)
+    "Returns a string representing a rating from 0-5 stars, including halves."
+    (let* ((star "🔶")
+           (half-star (if (= 1 n)
+                          "🔹"
+                        "🔸"))
+           (whole (floor (/ n 2)))
+           (half (ceiling (- n (* 2 whole))))
+           (output-format ""))
+      (dotimes (number whole output-format)
+        (setq output-format (concat "%1$s" output-format)))
+      (if (> half 0)
+          (setq output-format (concat "%2$s" output-format)))
+      (format output-format star half-star)))
+
+  (defun emms-sticker-db-comments (track)
+    (let* ((name (trim-track-name (emms-track-get track 'name)))
+           (comments (shell-command-to-string (concat "mpc sticker \"" name "\" get comment"))))
+      (if (not (string-prefix-p "MPD error" comments))
+          (s-trim (string-trim-left comments "comment=")))))
+
+  (defun emms-set-sticker-db-comments (track comment)
+    (let* ((name (trim-track-name (emms-track-get track 'name))))
+      (shell-command-to-string (concat "mpc sticker \"" name "\" set comment " comment))
+      (message (format "Set comments of %s to %s" name comment))))
+
+  (defun emms-comment ()
+    (interactive)
+    (let* ((track (emms-browser-bdata-first-track (emms-browser-bdata-at-point)))
+           (old-comment (emms-sticker-db-comments track))
+           (comment (concat "\"" (read-string "Comment: " old-comment) "\"")))
+      (emms-set-sticker-db-comments track comment)))
+
+  (defun emms-love ()
+    (interactive)
+    (let* ((track (emms-browser-bdata-first-track (emms-browser-bdata-at-point)))
+           (old-comment (emms-sticker-db-comments track))
+           (loved (string-prefix-p "🩷" old-comment))
+           (comment (if loved
+                        (concat "\"" (substring old-comment 1 nil) "\"")
+                      (concat "\"🩷" old-comment "\""))))
+      (emms-set-sticker-db-comments track comment)
+      (message (format "Set comment to %s - %S" comment loved))))
+
+  (defun emms-sticker-db-rating (track)
+    (let* ((name (trim-track-name (emms-track-get track 'name)))
+           (rating-string (shell-command-to-string (concat "mpc sticker \""  name "\" get rating")))
+           (rating (string-to-number (string-trim-left rating-string "rating="))))
+      rating))
+
+  (defun emms-set-sticker-db-rating (track n)
+    (let* ((name (trim-track-name (emms-track-get track 'name)))
+           (rating (number-to-string n)))
+      (shell-command-to-string (concat "mpc sticker \"" name "\" set rating " rating))
+      (format "Set rating of %s to %s" name (stars n))))
+
+  (defun emms-rate ()
+    (interactive)
+    (let ((track (emms-browser-bdata-first-track (emms-browser-bdata-at-point)))
+          (rating (read-number "Rating (number of half stars): ")))
+      (emms-set-sticker-db-rating track rating)))
+#+end_src
+modifications to *emms-browser-format-line* in the same file to add *play-count*, *comments*, *ratings*, and *genre*
+#+begin_src emacs-lisp
+  (defun emms-browser-format-line (bdata &optional target)
+    "Return a propertized string to be inserted in the buffer."
+    (unless target
+      (setq target 'browser))
+    (let* ((name (or (emms-browser-bdata-name bdata) "misc"))
+           (level (emms-browser-bdata-level bdata))
+           (type (emms-browser-bdata-type bdata))
+           (indent (emms-browser-make-indent level))
+           (track (emms-browser-bdata-first-track bdata))
+           (path (emms-track-get track 'name))
+           (face (emms-browser-get-face bdata))
+           (format (emms-browser-get-format bdata target))
+           (props (list 'emms-browser-bdata bdata))
+           (play-count (stats-db-play-count track))
+           (comments (emms-sticker-db-comments track))
+           (rating  (stars (emms-sticker-db-rating track)))
+           (format-choices
+            `(("i" . ,indent)
+              ("n" . ,name)
+              ("c" . ,play-count)
+              ("k" . ,comments)
+              ("r" . ,rating)
+              ("y" . ,(emms-track-get-year track))
+              ("A" . ,(emms-track-get track 'info-album))
+              ("a" . ,(emms-track-get track 'info-artist))
+              ("C" . ,(emms-track-get track 'info-composer))
+              ("p" . ,(emms-track-get track 'info-performer))
+              ("t" . ,(emms-track-get track 'info-title))
+              ("D" . ,(emms-browser-disc-number track))
+              ("T" . ,(emms-browser-track-number track))
+              ;;("d" . ,(emms-browser-track-duration track))))
+              ("d" . ,(emms-browser-track-duration track))
+              ("g" . ,(emms-track-get track 'info-genre))))
+           str)
+      (when (equal type 'info-album)
+        (setq format-choices (append format-choices
+                                     `(("cS" . ,(emms-browser-get-cover-str path 'small))
+                                       ("cM" . ,(emms-browser-get-cover-str path 'medium))
+                                       ("cL" . ,(emms-browser-get-cover-str path 'large))))))
+      (when (functionp format)
+        (setq format (funcall format bdata format-choices)))
+      (setq str
+            (with-temp-buffer
+              (insert format)
+              (goto-char (point-min))
+              (let ((start (point-min)))
+                ;; jump over any image
+                (when (re-search-forward "%c[SML]" nil t)
+                  (setq start (point)))
+                ;; jump over the indent
+                (when (re-search-forward "%i" nil t)
+                  (setq start (point)))
+                (add-text-properties start (point-max)
+                                     (list 'face face)))
+              (buffer-string)))
+      (setq str (emms-browser-format-spec str format-choices))
+      ;; give tracks a 'boost' if they're not top-level
+      ;; (covers take up an extra space)
+      (when (and (eq type 'info-title)
+                 (not (string= indent "")))
+        (setq str (concat " " str)))
+      ;; if we're in playlist mode, add a track
+      (when (and (eq target 'playlist)
+                 (eq type 'info-title))
+        (setq props
+              (append props `(emms-track ,track))))
+      ;; add properties to the whole string
+      (add-text-properties 0 (length str) props str)
+      str))
+#+end_src
+alterations to *emms-browser-track-artist-and-title-format*
+#+begin_src emacs-lisp
+  (defun emms-browser-track-artist-and-title-format (_bdata fmt)
+    ;; (concat
+    ;;  "%i"
+    ;;  (let ((track (emms-browser-format-elem fmt "T")))
+    ;;    (if (and track (not (string= track "0")))
+    ;;        "%T. "
+    ;;      ""))
+    ;; "%n"))
+    (let ((comment (emms-browser-format-elem fmt "k")))
+      (concat
+       "%-2c"
+       (if (and comment (not (string= comment "")))
+           (if (string-prefix-p "🩷" comment)
+               "🩷"
+             "  ")
+         "  ")
+       "%10r"
+       " |%5d| "
+       (let ((track (emms-browser-format-elem fmt "T")))
+         (if (and track (not (string= track "0")))
+             "%2.2T "
+           "  "))
+       "%-36.35t "
+       (if comment
+           (if (string-prefix-p "🩷" comment)
+               (if (> 1 (length comment))
+                   (concat "🫧" (substring comment 1 nil))
+                 "")
+             (concat "🫧" comment))))))
+#+end_src
+alterations to *emms-browser-year-and-album-format*
+#+begin_src emacs-lisp
+  (defun emms-browser-year-and-album-fmt (_bdata fmt)
+    (concat
+     ;; "%i%cS"
+     "%i%cL %n%i"
+     (let ((comment (emms-browser-format-elem fmt "k")))
+       (if (and comment (not (string= comment "")))
+           (concat "🫧" (if (string-prefix-p "🩷" comment)
+                             (substring comment 1 nil)
+                           comment))
+         ""))
+     "\n  "
+     (let ((year (emms-browser-format-elem fmt "y")))
+       (if (and year (not (string= year "0")))
+           "(%y) "
+         ""))
+     ;; "%n"))
+     " 🎹%g"))
+#+end_src
+*** DONE emms-last-played.el
+added *mpd-get-current-track-play-count*
+=NOTE= This contains a reference to *~/.mpd/...* but the *mpd* config files are in *~/.config/mpd* on linux
+#+begin_src emacs-lisp
+(defun mpd-get-current-track-play-count ()
+  "Whatever"
+  (if (emms-playlist-current-selected-track)
+      (first
+       (first
+        (sqlite-execute
+         (sqlite-open "~/.mpd/stats.db")
+         (format
+          "SELECT play_count FROM song WHERE uri=\"%s\""
+          (string-trim-left (emms-track-get (emms-playlist-current-selected-track) 'name)
+                            (concat (expand-file-name emms-player-mpd-music-directory) "/"))))))
+    (message "No current selected track")))
+#+end_src
+*** emms-metaplaylist-mode.el
+modified *emms-metaplaylist-mode-map*
+#+begin_src emacs-lisp
+(defvar emms-metaplaylist-mode-map
+  (let ((map (make-sparse-keymap)))
+    (set-keymap-parent map text-mode-map)
+    (define-key map (kbd "n")   #'next-line)
+    (define-key map (kbd "p")   #'previous-line)
+    ;;(define-key map (kbd "RET") #'emms-metaplaylist-mode-goto-current)
+    (define-key map (kbd "RET") #'emms-metaplaylist-mode-goto-other)
+    (define-key map (kbd "SPC") #'emms-metaplaylist-mode-set-active)
+    (define-key map (kbd "g")   #'emms-metaplaylist-mode-update)
+    (define-key map (kbd "C")   #'emms-metaplaylist-mode-new-buffer)
+    (define-key map (kbd "C-k") #'emms-metaplaylist-mode-kill-buffer)
+    (define-key map (kbd "c")   #'emms-metaplaylist-mode-center-current)
+    (define-key map (kbd "q")   #'kill-this-buffer)
+    (define-key map (kbd "?")   #'describe-mode)
+    map)
+  "Keymap for `emms-metaplaylist-mode'.")
+#+end_src
+modified *emms-metaplaylist-mode-goto-current*
+#+begin_src emacs-lisp
+(defun emms-metaplaylist-mode-goto-current ()
+  "Switch to the buffer at point."
+  (interactive)
+  (let ((buffer (get-buffer
+		 (buffer-substring (line-beginning-position)
+				   (line-end-position)))))
+  (emms-playlist-set-playlist-buffer buffer)
+  (switch-to-buffer buffer)))
+    (emms-playlist-set-playlist-buffer buffer)
+    (switch-to-buffer buffer)))
+#+end_src
+added *emms-metaplaylist-mode-goto-other*
+#+begin_src emacs-lisp
+(defun emms-metaplaylist-mode-goto-other ()
+  "Switch to the buffer at point."
+  (interactive)
+  (let ((buffer (get-buffer
+		 (buffer-substring (line-beginning-position)
+				   (line-end-position)))))
+    (switch-to-buffer buffer)))
+#+end_src
+*** emms.el
+added *emms-playlist-new-from-saved*
+#+begin_src emacs-lisp
+(defun emms-playlist-new-from-saved (name)
+  "Create a new playlist from one stored in a file but leave the default playlist active."
+  (emms-playlist-new name)
+  (emms-playlist-set-playlist-buffer name)
+  (emms-add-playlist (concat emms-source-file-default-directory "/" name))
+  (emms-playlist-set-playlist-buffer emms-playlist-buffer-name))
+#+end_src
+* Retrotube
+[[https://gitlab.com/eric.yape/retrotube][gitlab]] Looks good. Uses a browser to run an MPD client
+
+* beet
+[[https://beets.readthedocs.io/en/stable/index.html][beet docs]] 
+Useful for tagging files that are missing info. BUT it moves files around. Try adding the -C option to the command:
+#+begin_src shell
+beet import -C Music/Collection/JohnMartyn/Solid-Air/
+#+end_src
+
+* mpd
+[[https://mpd.readthedocs.io/en/stable/user.html][mpd manual]]
+Player can be accessed from multiple front ends. Import some new music like this using *mpc* , the command line front end. 
+#+begin_src shell
+mpc update -w JohnMartyn/Solid-Air
+#+end_src
+Don't forget to check *beet* didn't move it first.
+
+[[https://github.com/jcorporation/mpd-stickers][Sticker Collection]] Github repo with tables of known sticker names
+
+* mpdev
+[[https://github.com/mbhangui/mpdev][github]]
+Might be the easiest way to add playcounts and ratings. Setup instructions are not good, but it is running ok and updating its db is easy and fast. An alternative would be *emms* hooks, but that would mean creating a db.
+
+Updeate the mpdev db from the mpd db:
+#+begin_src shell
+/usr/local/libexec/mpdev_update -S -j -t -D 0 -d stats.db
+#+end_src
+
+*mpdev player* spript uses the value of sticker_file in *mpd.conf* to get the directory path where it finds stuff. This needs to be set as a full path *~/* didn't work. 
+
+The sqlite stats database mpdev uses can be accessed from lisp like this:
+#+begin_src emacs-lisp
+(sqlite-execute stats-db "SELECT play_count FROM song  WHERE uri='JazzEfterratt/Nakousnuto/01-Pavilon-C.-8.mp3'")
+#+end_src
+Get the *uri* for the sql command like this:
+#+begin_src elisp
+(emms-track-get (emms-playlist-current-selected-track) 'name)
+#+end_src
+=NOTE= The above command doesn't cope with filenames with spaces. I haven't yet worked out a way to escape them. The *ShellScript* version as found in the *.mpdev/player* script handles spaces ok though.
+
+Get playcount for current song (fails if the filename has a ' in it: fixed by using \" instead of ') 
+FIXME: This doesn't get the playcount, looks like it is to do with the path to the file. I think it should just be <band>/<album>/<track> but this has /Users/iain/Music/Collection in it too. Need to remove the contents of *(expand-file-name emms-player-mpd-music-directory)* from the start. The last line works...
+#+begin_src elisp
+  (setq stats-db (sqlite-open "~/.mpd/stats.db"))
+  (sqlite-execute stats-db (format "SELECT play_count FROM song WHERE uri=\"%s\"" (emms-track-get (emms-playlist-current-selected-track) 'name)))
+  (string-trim-left (emms-track-get (emms-playlist-current-selected-track) 'name) (concat (expand-file-name emms-player-mpd-music-directory) "/"))
+  (sqlite-execute stats-db
+                  (format "SELECT play_count FROM song WHERE uri=\"%s\""
+                          (string-trim-left (emms-track-get (emms-playlist-current-selected-track) 'name)
+                                            (concat (expand-file-name emms-player-mpd-music-directory) "/"))))
+#+end_src
+There are problems with this approach on linux. Trying to use it causes the *Too many files open* thing to happen when starting emms. Using *shell mpc* to access the sticker db works fine, so I switched the playcounts to stickers and did away with the *stats.db* altogether. Using  [[https://github.com/sp1ff/mpdpopm/][mpdpopm]] instead of *mpdev* works.
+** TODO transfer all the old playcounts from stats.db to stickers
+This did it. Had to do *Sixpence None the Richer* separately as I had changed the filenames when trying to sort out another problem. Initially the playcounts weren't added to the sticker db, so I edited *stats.db* then ran the second set of commands in the following code:
+#+begin_src emacs-lisp
+(setq playcounts (sqlite-execute
+                  (sqlite-open "~/.config/mpd/stats.db")
+                  (format "SELECT uri, play_count FROM song WHERE play_count > 0")))
+
+(dolist (p playcounts)
+  (shell-command (concat
+                  "mpc sticker \""
+                  (first p)
+                  "\" set playcount "
+                  (number-to-string (second p)))))
+
+(setq sixpence (sqlite-execute
+                (sqlite-open "~/.config/mpd/stats.db")
+                (format "SELECT uri, play_count FROM song WHERE artist = \"Sixpence None the Richer\"")))
+
+(dolist (p sixpence)
+  (shell-command (concat
+                  "mpc sticker \""
+                  (first p)
+                  "\" set playcount "
+                  (number-to-string (second p)))))
+#+end_src
+* Picard
+[[https://picard.musicbrainz.org/][MusikBrainz Picard]] is useful for manipulating metadata. One album had *PartOfSet* set for all tracks except one and that was appearing out of order. *EMMS* doesn't show this metadata field and *exiftool* reads it but can't write it. *Picard* worked, allowing  me to delete *PartOfSet* so the tracks all appeared in order.
+
+* Covergrid
+[[https://www.suruatoel.xyz/codes/mcg][Covergrid]] Mostly for displaying cover art (MPD Client)
+
+* Parsing iTunes XML
+Lots of people have done this already, including 1 in clojure, [[https://github.com/bdesham/clj-plist][clj-plist]] It's archived on github, but still useable via [[https://clojars.org/com.github.bdesham/clj-plist][clojars]]. Here's the code in case it disappears:
+** clj-plist code
+#+begin_src clojure
+(ns com.github.bdesham.clj-plist
+  (:import (org.apache.commons.codec.binary Base64)
+           (org.joda.time DateTime))
+  (:require clojure.xml))
+
+(def ^:private ^:dynamic *keyword-fn*
+  identity)
+
+(defn- first-content
+  [c]
+  (first (c :content)))
+
+(defmulti content :tag)
+
+(defmethod content :array
+  [c]
+  (apply vector (map content (c :content))))
+
+(defmethod content :data
+  [c]
+  (.decode (Base64.) (first-content c)))
+
+(defmethod content :date
+  [c]
+  (DateTime. (first-content c)))
+
+(defmethod content :dict
+  [c]
+  (apply hash-map (map content (c :content))))
+
+(defmethod content :false
+  [c]
+  false)
+
+(defmethod content :integer
+  [c]
+  (Long. (first-content c)))
+
+(defmethod content :key
+  [c]
+  (*keyword-fn* (first-content c)))
+
+(defmethod content :real
+  [c]
+  (Double. (first-content c)))
+
+(defmethod content :string
+  [c]
+  (first-content c))
+
+(defmethod content :true
+  [c]
+  true)
+
+(defn parse-plist
+  ([source]
+   (content (first-content (clojure.xml/parse source))))
+  ([source {:keys [keyword-fn]}]
+   (binding [*keyword-fn* keyword-fn]
+     (parse-plist source))))
+#+end_src
+
+** Sorting the data
+I originaly wanted to sort by Artist, Album and track number but I think nested maps might make more sense.
+
+This example from the [[https://clojuredocs.org/clojure.core/juxt][juxt manpage]] could be useful:
+#+begin_src clojure
+;; Create lookup maps via a specific key
+
+(defn index-by [coll key-fn]
+    (into {} (map (juxt key-fn identity) coll)))
+;; #'user/index-by
+
+(index-by [{:id 1 :name "foo"} 
+           {:id 2 :name "bar"} 
+           {:id 3 :name "baz"}] :id)
+;;=> {1 {:name "foo", :id 1}, 
+;;    2 {:name "bar", :id 2}, 
+;;    3 {:name "baz", :id 3}}
+
+(index-by [{:id 1 :name "foo"} 
+           {:id 2 :name "bar"} 
+           {:id 3 :name "baz"}] :name)
+;;=> {"foo" {:name "foo", :id 1}, 
+;;    "bar" {:name "bar", :id 2}, 
+;;    "baz" {:name "baz", :id 3}}
+#+end_src
+
+As could this [[https://stackoverflow.com/a/9089403/1671119][stackoverflow answer]]
+
+#+begin_src clojure
+ (group-by #(select-keys % [:a :b]) m1)
+
+;; This returns a map:
+
+{{:b 2, :a 1} [{:a 1, :c 3, :b 2} {:a 1, :c 4, :b 2}],
+ {:b 4, :a 1} [{:a 1, :c 3, :b 4} {:a 1, :c 3, :b 4}]}
+
+;; To get exactly the return value you specified, wrap it in (vec (apply concat ...)):
+
+(vec (apply concat (group-by #(select-keys % [:a :b]) m1)))
+; => as in the question text
+#+end_src
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2312281753 emacs music-images
+:END:
+

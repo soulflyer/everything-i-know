@@ -1,0 +1,9 @@
+#+TITLE: finder show hidden files
+# Tags #finder #keybinding
+
+Command-Shift-.
+
+or
+
+defaults write com.apple.finder AppleShowAllFiles true
+killall Finder

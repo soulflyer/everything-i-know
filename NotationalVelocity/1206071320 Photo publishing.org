@@ -1,0 +1,8 @@
+#+TITLE: Photo publishing
+# TAGS #photo
+
+export versions to Published
+export masters to Published/year/month/project-name/Originals
+delete previous versions first so I don't get stupid file names
+copy text to the same folder
+

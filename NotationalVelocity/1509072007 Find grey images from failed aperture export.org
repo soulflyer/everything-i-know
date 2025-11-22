@@ -1,0 +1,4 @@
+#+TITLE: Find grey images from failed aperture export
+# TAGS #photo #aperture #shell
+
+open `find . -type f -size -900k`

@@ -1,0 +1,6 @@
+#+TITLE: Notational Velocity Substitute in emacs- - deft
+# TAGS #emacs #webbookmark
+
+https://jblevins.org/projects/deft/
+http://jonathanchu.is/posts/setting-up-deft-mode-in-emacs-with-org-mode/
+http://pragmaticemacs.com/emacs/make-quick-notes-with-deft/

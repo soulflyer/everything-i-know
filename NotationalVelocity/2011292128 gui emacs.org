@@ -1,0 +1,10 @@
+#+TITLE: gui emacs
+# TAGS #emacs
+
+frames-only-mode to work like tmux panes with emacsclient
+frame-mode
+frame-purpose
+
+Mac osx tiling window managers:
+https://github.com/koekeishiya/yabai
+https://github.com/ianyh/Amethyst

@@ -1,0 +1,31 @@
+#+TITLE: gitlab setup instructions
+# TAGS #git
+
+Command line instructions
+You can also upload existing files from your computer using the instructions below.
+Git global setup
+git config --global user.name "Iain Wood"
+git config --global user.email "iain.wood@flexiana.com"
+
+Create a new repository
+git clone git@gitlab.flexiana.com:iain/ourhub-app.git
+cd ourhub-app
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin master
+
+Push an existing folder
+cd existing_folder
+git init
+git remote add origin git@gitlab.flexiana.com:iain/ourhub-app.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+
+Push an existing Git repository
+cd existing_repo
+git remote rename origin old-origin
+git remote add origin git@gitlab.flexiana.com:iain/ourhub-app.git
+git push -u origin --all
+git push -u origin --tags

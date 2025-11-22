@@ -1,0 +1,60 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2501071233 Vietnamese Notes-images
+:END:
+#+TITLE: Vietnamese Notes
+# Tags #Vietnamese
+* Typing
+Setting the keyboard type in Linux gives an overlay in emacs, which works but I don't like the look and feel of it. Instead do *toggle-input-type*
+
+* links
+[[https://www.expatden.com/vietnam/learn-vietnamese-for-beginners/][blog]] with lots of references to learning materials.
+[[https://www.youtube.com/playlist?list=PLpDgPu_Hq9ZysP4cuTG8OI4BrLQsTDoWT][videos]] from Tiếng Việt Ơi
+[[https://www.lingohut.com/en/l65/learn-vietnamese][Lessons]] from LingoHut (vocabulary)
+[[https://www.loecsen.com/en/learn-vietnamese][Lessons]] from loecsen (meh)
+
+Nếu tôi luôn nói tiếng Anh thì tôi sẽ khồng bao giờ học tiếng Việt tốt được.
+
+* Family
+Tôi phái gọi anh ấy là anh Tường vì anh ấy là chồng của chị của vợ tôi.
+Tôi phái gọi chị ấy là chị Hoa vì chị ấy là chị của vợ tôi.
+em Liễu và em Ninh.
+em Hiếu và em Hoa.
+
+mẹ vợ hày bà?
+ba vợ hày ông?
+
+* Conditions
+** nếu _ thì _ (if)
+Nếu tôi luôn nói tiếng Anh thì tôi sẽ khồng bao giờ học tiếng Việt tốt được.
+
+** vì - nên _ (because)
+also: _ vì _
+
+* Informal
+
+cậu I/me
+tớ  you
+
+* Gary Moore
+Gary Moore có lẽ chọn nhầm thời điểm để sinh ra – thời của ông hơi trễ so với thời mà những vị anh hùng guitar ở nước Anh xưng hùng xưng bá và đánh chiếm cả nước Mỹ với những Eric Clapton, Jeff Beck, hay Jimmy Page; nhưng lại hơi bị sớm so với những anh hùng guitar cái thế của thời đại mà âm nhạc thuần guitar lên ngôi sau này như Joe Satriani, Steve Vai, hay Yngwie Malmsteen. Những người thích ông thì cho rằng Gary là chiếc cầu nối hai thế hệ; đám ganh ghét thì nhận định là ông chỉ là kẻ nằm lọt khe giữa hai thời.
+Nghĩ mới thấy Gary Moore có lẽ là một trường hợp đầy thú vị của âm nhạc. Ông vừa có thể chơi guitar tóe lửa, lại còn có thể hát. Gary không những chơi một thứ Blues tuyệt hảo mà còn chinh chiến với cây đàn trong thể loại Heavy Metal không thua một shredder nào. Những nghệ sĩ virtuoso thường được bao vây bởi những kẻ virtuoso khác, và dù đã từng cộng tác với vô khối các nghệ sĩ tài năng nhưng với bản tánh cầu toàn và gia trưởng, Gary không bao giờ giữ được một bộ khung cố định để chơi nhạc cùng mình. Ông cũng không thể thành công ở Mỹ cho tới khi ra Still Got the Blues lừng danh kia. Âm nhạc của Gary Moore vì thế luôn có vẻ không hợp thời ngay lúc đó và thường chỉ được trân trọng mãi sau này.
+RIP Gary Moore (4.4.1952 - 6.2.2011) #OnThisDay
+
+* FB post
+
+[[file:2501071233 Vietnamese Notes-images/screenshot-20250210-155543.png]]
+Ông này nói với crush rằng cô ấy thích ổng
+Khi ổng cover 1 bài hát, bài gốc trở thành bản cover
+Cây guitar đang cố gắng để không sai bất kỳ nốt nào
+Tôi là con gái, xem xong video là mọc râu luôn. Đậm đà testosterone.
+Thời ổng còn đi học, thầy giáo phải giơ tay để được phát biểu với ổng.
+Đi làm, ông này thăng chức cho sếp của ổng.
+
+This guy told his crush that she liked him
+When he covers a song, the original becomes the cover
+The guitar is trying not to miss a note
+I'm a girl, after watching the video I grew a beard. Full of testosterone.
+When he was in school, the teacher had to raise his hand to speak to him.
+At work, he promoted his boss.
+
+

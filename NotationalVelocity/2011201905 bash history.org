@@ -1,0 +1,37 @@
+#+TITLE: bash history
+# TAGS #shell #bash
+
+*M-.* gives the last arg of the previous command.
+
+https://www.digitalocean.com/community/tutorials/how-to-use-bash-history-commands-and-expansions-on-a-linux-vps
+
+!!           previous command
+*sudo !!*
+
+After starting to type a command do:
+C-a C-r C-y        to enter history with the partially typed command (C-aryrrrrr)
+This now works as C-a C-r or just *C-r*
+
+^typo^correction^ runs previous command with correction applied (like s///)
+
+!nnn     runs the command with history number nnn
+!-2        runs the second last command.
+
+Also parts of a previous command can be referred to by number (start at 0) ie:
+ls /usr/share/doc/manpages
+cd !!:1
+
+or even
+cd!1
+
+:h gives a path up to the last / and $ gives the last argument of a command so:
+cd !!:$:h
+would do:
+cd /usr/share/doc
+
+t (opposite of h) and ^ (first arg) are also available.
+
+fzf makes browsing the history easy
+hh hstr also good but a bit more primitive.
+brew install hh
+hh --show-configuration >> ~/.bashrc

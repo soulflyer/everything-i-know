@@ -1,0 +1,12 @@
+#+TITLE: git revert after aborted rebase
+# TAGS #git
+
+git reflog
+find the HEAD@{number} that corresponds to the last good commit
+git reset --hard HEAD@{number}
+
+from https://stackoverflow.com/a/135614/1671119
+
+if rebase is not complete:
+
+git rebase --abort

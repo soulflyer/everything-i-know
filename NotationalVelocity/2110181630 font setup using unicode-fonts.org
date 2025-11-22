@@ -1,0 +1,73 @@
+#+TITLE: font setup using unicode-fonts
+# Tags #emacs
+# Backlink: §2109110841 unicode characters
+
+https://github.com/rolandwalker/unicode-fonts
+
+* Aim: get these displaying on both systems
+
+🟨🟥🟨🟨
+🟨🟨🟨🟨
+🟨🟨🟨🟨
+🟨🟨🟥🟨
+
+Setting fonts for the BOX DRAWING group misses out the light line characters. They display in the default font. Heavy line characters are set correctly. With a default font of Monaco, gaps appear in the box drawing when using light lines. Menlo looks OK but the rest of the text doesn't. Setting BOX DRAWING font to Menlo or changing the lines to heavy works. This means changing aa2u to use heavy lines.
+
+Note that there are still slight gaps visible whereas in terminal emacs the lines are continuous.
+This can be fixed by changing the font. *iw-buffer-face-hasklig* will do this just for the current
+buffer so it doesn't mess up all the others
+
+┌───┬───┬───┐
+│ X │ X │   │
+├───┼───┼───┤
+┃│  │   │ x │
+┣━──┼───┼───┤
+┃   │   │   │
+└───┴───┴───┘
+
+#+begin_src emacs-lisp
+(setq aa2u-uniform-weight "DOUBLE")
+#+end_src
+╔═══╦═══╦═══╦═══╦═══╗
+║ ->║   ║   ║   ║ v ║
+╠═══╬═══╬═══╬═══╬═══╣
+║   ║   ║   ║   ║   ║
+
+#+begin_src emacs-lisp
+(setq aa2u-uniform-weight "HEAVY")
+#+end_src
+┏━━━┳━━━┳━━━┳━━━┳━━━┓
+┃ ⮕ ┃ ⤹ ┃ ⤸ ┃   ┃ ⬇ ┃
+┣━━━╋━━━╋━━━╋━━━╋━━━┫
+┃ ➙ ┃   ┃   ┃   ┃   ┃
+┣━━━╋━━━╋━━━╋━━━╋━━━┫
+┃   ┃   ┃   ┃   ┃ ⬅ ┃
+┣━━━╋━━━╋━━━╋━━━╋━━━┫
+┃ 🢂 ┃   ┃   ┃   ┃ 🢄 ┃
+┣━━━╋━━━╋━━━╋━━━╋━━━┫
+┃   ┃   ┃   ┃   ┃ ⬉ ┃
+┗━━━┻━━━┻━━━┻━━━┻━━━┛
+
+
+⮕ ⬛⬅ ⬛
+⬛⬆ ⬛⬇
+⬛⬛⬛⬛
+⤴ ⤵
+↖ ↗ ↙ ↘
+🔄🔃↩↪ 🠈🠊
+🢀🢂🢅🢄
+🠜🠞
+↪
+
+*** DejaVu Sans Mono
+has     ⬅ LEFTWARDS  BLACK ARROW
+but not ⮕ RIGHTWARDS BLACK ARROW
+Doesn't mess up the width
+
+*** JuliaMono
+has     ⮕ RIGHTWARDS BLACK ARROW
+but not ⬅ LEFTWARDS  BLACK ARROW
+Also doesn't mess up the width.
+
+*** BabelStone
+Might cover all? Ugly blocks.

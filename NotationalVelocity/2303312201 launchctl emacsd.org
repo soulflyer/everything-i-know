@@ -1,0 +1,21 @@
+#+TITLE: launchctl emacsd
+# Tags #emacs
+This xml in *~/Library/Launchagents/com.soulflyer.emacsd.plist* will run the emacsdaemon script without requiring confirmation.
+#+begin_src xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>com.soulflyer.emacsd</string>
+    <key>ProgramArguments</key>
+    <array><string>/Users/iain/bin/emacsdaemon</string></array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>StandardErrorPath</key>
+    <string>/tmp/emacsd-output.log</string>
+    <key>StandardOutPath</key>
+    <string>/tmp/emacsd-output.log</string>
+  </dict>
+</plist>
+#+end_src

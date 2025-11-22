@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2402260004 vcv sounds-images
+:END:
+# Tags #vcv #synth
+ #+TITLE: vcv sounds
+* VCOs
+** *Oscillators* from *Mus-X*
+
+[[file:2402260004 vcv sounds-images/oscillators.png]]
+Using *Tune* to adjust the pitch of oscillator 2 for *sync* effects. This *VCO* has the ability to set the oversampling rate. With it turned down it is possible to hear and see the effects of [[https://github.com/kockie69/SquinkyVCV-main/blob/master/docs/aliasing.md][Aliasing]]
+Note: Osc-1 is not turned turned down in this screen shot, which is ok although it may be obscurring the effects of the sync which are only heard on osc-2.
+
+** *Palette* from *Atelier*
+
+[[file:2402260004 vcv sounds-images/Atelier.png]]
+
+Does lots of weird stuff, changing the interface to match the synthesis method in use. The screenshot has it set on the most conventional. Quite useful as it has a built in *AD* envelope that can control all sorts of things.
+[[https://github.com/Xenakios/Atelier][github]] has a little info in the readme.
+
+** *String VCO* from *Surge*
+
+[[file:2402260004 vcv sounds-images/string.png]]
+Gives a nice plucked string sound.
+
+ 

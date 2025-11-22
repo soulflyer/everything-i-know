@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2411212330 differentiator-images
+:END:
+#+TITLE: differentiator
+# Tags #music
+
+A differentiator can be used to detect transitions in an input signal to extract the rythmn. Use an envelope follower on the input signal followed by the differentiator to detect all the beats. This works better than just detecting level.
+
+[[file:2411212330 differentiator-images/screenshot-20241121-233432.png]]
+
+from [[https://electro-music.com/forum/viewtopic.php?t=2950][electro-music]]
+
+For this use case it is not really necessary to get the value of the derivative, only its sign. Using a comparator instead of the mixer should work ok. 
+
+Another variation [[https://electro-music.com/forum/viewtopic.php?t=2950&postorder=asc&start=25][here]]
+[[file:2411212330 differentiator-images/screenshot-20241122-140831.png]]

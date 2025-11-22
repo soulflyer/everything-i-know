@@ -1,0 +1,8 @@
+#+TITLE: emacs calendar
+# TAGS #emacs #calendar
+
+C-2 (c-@) mark a date
+ib insert a block delimited by marked date and point
+id insert diary entry for date at point
+s show diary
+d show diary entry for date at point.

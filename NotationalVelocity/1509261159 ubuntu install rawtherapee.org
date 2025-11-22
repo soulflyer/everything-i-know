@@ -1,0 +1,8 @@
+#+TITLE: ubuntu install rawtherapee
+# TAGS
+
+#+begin_src shell
+sudo add-apt-repository ppa:dhor/myway
+sudo apt-get update
+sudo apt-get install rawtherapee
+#+end_src

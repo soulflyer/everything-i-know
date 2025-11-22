@@ -1,0 +1,6 @@
+#+TITLE: android screen recording
+# TAGS #android
+
+adb shell screenrecord /sdcard/demo.mp4
+^c
+adb pull /sdcard/demo.mp4

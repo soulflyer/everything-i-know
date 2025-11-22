@@ -1,0 +1,10 @@
+#+TITLE: Noyes, Handwork in wood 1910
+# Tags #book #woodwork
+
+Published 1910
+
+Covers hand tool skills, mixture of woodblock prints and photos. 
+Good copy, [[file:~/Documents/books/bookshelf/Woodwork/Old-Books/handworkinwood00noyerich.pdf][handworkinwood00noyerich.pdf]], 
+yellow would need to be corrected, but no intrusive watermarks.
+
+[[pdf:/Volumes/bookshelf/Woodwork/Old-Books/1912-HandworkInWood-ne.pdf::1++0.00][1912-HandworkInWood-ne.pdf]] Is white and easily readable. Also doesn't trigger the out of focus bug in *Preview*

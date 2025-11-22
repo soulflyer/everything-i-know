@@ -1,0 +1,7 @@
+#+TITLE: osx remap keys
+# TAGS keyboard
+
+Use karabiner
+§ is called non-US backslash or something like that. Map it to `~ for the UK keyboard.
+
+Note that karabiner overrides the mapping of caps-lock to control done in system preferences, so add that in karabiner too.

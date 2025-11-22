@@ -1,0 +1,5 @@
+#+TITLE: parsons puzzles clojure programming learning exercise
+# Tags #clojure
+visual blocks
+From Marcus Kloimwieder
+https://kloimhardt.github.io/cljtiles.html

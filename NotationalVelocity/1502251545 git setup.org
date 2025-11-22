@@ -1,0 +1,19 @@
+#+TITLE: git setup
+# TAGS #git
+
+git init
+create .gitignore with:
+
+    hooks/
+    platforms/
+    plugins/
+    .gitignore
+
+git add .
+git commit -m"initial commit"
+
+create git repository on server and do a git init on it
+
+git remote add origin iain@mimi.local:/Users/iain/barperfect
+
+git push origin master --receive-pack=/opt/local/bin/git-receive-pack

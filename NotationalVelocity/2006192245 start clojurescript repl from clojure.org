@@ -1,0 +1,19 @@
+#+TITLE: start clojurescript repl from clojure
+# TAGS #clojure #repl #clojurescript
+
+(use 'figwheel-sidecar.repl-api)
+(start-figwheel!)
+(cljs-repl)
+
+
+or 
+
+(require 'cljs.repl.node)
+(cider.piggieback/cljs-repl (cljs.repl.node/repl-env))
+
+Using shadow:
+#+begin_src clojure
+  (require '[shadow.cljs.devtools.api :as shadow])
+  (shadow/repl :app)
+#+end_src
+

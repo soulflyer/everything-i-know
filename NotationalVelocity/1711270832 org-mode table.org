@@ -1,0 +1,7 @@
+#+TITLE: org-mode table
+# TAGS #org-mode #emacs
+
+|	column separator
+|-	row separator
+tab	reformat
+C-c^ sort (n for numerically, N for reverse order)

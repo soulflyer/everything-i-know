@@ -1,0 +1,4 @@
+#+TITLE: haskell dev env
+# TAGS #haskell
+
+https://ihp.digitallyinduced.com/Guide/your-first-project.html

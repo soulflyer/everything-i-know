@@ -1,0 +1,3 @@
+#+TITLE: git release model
+# Tags #git
+https://nvie.com/posts/a-successful-git-branching-model/

@@ -1,0 +1,4 @@
+#+TITLE: backup transfer month to external disk
+# TAGS #photo #rsync
+
+rsync -vai --delete /Users/iain//Pictures/Photos/2014/02/ /Volumes/Brick2/Photos/2014/02/

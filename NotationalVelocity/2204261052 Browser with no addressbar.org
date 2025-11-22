@@ -1,0 +1,13 @@
+#+TITLE: Browser with no addressbar
+# Tags #
+In Brave it is possible to create a shortcut that will open a window without the addressbar. The address appears on the title bar level with the red yellow green icons. Not sure if it can be changed, but the icon for the shortcut can.
+
+Use this instead of electron...
+
+Also checkout progressive web apps
+https://www.jsdiaries.com/how-to-hide-address-bar-in-a-progressive-web-application/
+
+This works for calendar page
+[<35;86;14M#+begin_src bash
+/Applications/Vivaldi.app/Contents/MacOS/Vivaldi --app=https://calendar.google.com
+#+end_src

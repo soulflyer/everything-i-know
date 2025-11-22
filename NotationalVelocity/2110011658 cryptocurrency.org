@@ -1,0 +1,14 @@
+#+TITLE: cryptocurrency
+# Tags #cryptocurrency
+
+* Wallets
+[[https://www.coinomi.com/][Coinomi]] Mac app blocked. Investigating.
+[[https://muun.com/][Muun]]
+
+* Exchange
+[[https://www.kraken.com/][Kraken]] Sign up with passport and bank statement.
+[[https://app.piixpay.com/][Piixpay]] Needs a Utility bill
+
+* Card
+[[https://crypto.com/][Crypto]]
+can't verify account on the phone, sms verification message  doesn't arrive.

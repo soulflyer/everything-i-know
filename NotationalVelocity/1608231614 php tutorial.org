@@ -1,0 +1,5 @@
+#+TITLE: php tutorial
+# TAGS #php
+
+http://www.tutorialspoint.com/php/index.htm
+http://www.w3schools.com/PHP/default.asp

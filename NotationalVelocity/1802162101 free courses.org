@@ -1,0 +1,10 @@
+#+TITLE: free courses
+# TAGS
+
+https://www.coursera.org/
+log in with facebook
+
+https://www.khanacademy.org/
+login with google
+
+http://www.openculture.com/freeonlinecourses

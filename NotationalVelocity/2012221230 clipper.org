@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2012221230 clipper-images
+:END:
+#+TITLE: clipper
+# TAGS #ship
+
+clipper ship plans:
+http://mcjazz.f2s.com/ClipperShipPlans.htm
+[[https://web.archive.org/web/20220331120341/http://mcjazz.f2s.com/ClipperShipPlans.htm][archived]]
+
+[[file:2012221230 clipper-images/screenshot-20230327-082726.png]]
+
+[[file:2012221230 clipper-images/bow-and-stern.png]]
+
+

@@ -1,0 +1,8 @@
+#+TITLE: how to design programs
+# Tags #book
+Matthias Felleisen, Robert Bruce Findler, Matthew Flatt, Shriram Krishnamurthi
+
+Programming from the begining. Uses drracket and covers the theory of comp-sci from a functional bias and with clear descriptions. Pen might find the language hard, its aimed at older kids, but the concepts are very well explained.
+
+https://htdp.org/2021-11-15/Book/index.html
+http://htdp.org/2022-2-9/Book/index.html

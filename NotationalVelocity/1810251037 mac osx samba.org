@@ -1,0 +1,11 @@
+#+TITLE: mac osx samba
+# TAGS #smb
+
+File sharing on early macs is seriously broken, (10.6) claims to restrict access to read only but guest can still add and delete.
+Installing samba3 on mimi in an attempt to remedy this. Not yet setup!
+
+https://wiki.samba.org/index.php/Setting_up_Samba_as_a_Standalone_Server
+
+Later verions appear to allow proper control although I haven't tested it yet
+
+http://krypted.com/mac-os-x-server/mac-os-x-server-sharing-files-from-the-command-line/

@@ -1,0 +1,4 @@
+#+TITLE: flute fingering chart
+# TAGS #flute
+
+[[http://www.oldflutes.com/charts/simple/][oldflutes]] gives all sorts of fingerings in one place. Goes into the 4th octave.

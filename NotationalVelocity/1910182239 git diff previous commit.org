@@ -1,0 +1,11 @@
+#+TITLE: git diff previous commit
+# TAGS #git
+
+ git diff HEAD~ HEAD <filename>
+ 
+ cf 2nd most recent:
+ git diff HEAD~2 HEAD <filename>
+ 
+ 
+ git diff HEAD^ HEAD
+ also works, but can't add numbers for earlier versions

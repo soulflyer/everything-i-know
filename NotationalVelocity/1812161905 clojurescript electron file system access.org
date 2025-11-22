@@ -1,0 +1,18 @@
+#+TITLE: clojurescript electron file system access
+# TAGS #clojurescript #electron
+
+https://www.youtube.com/watch?v=tBnu2JmK4p0
+
+15:34
+Can write to the fie system from the electron render process (the js part)
+#+begin_src clojurescript
+(def fs (js/require "fs"))
+(def path (js/require "path"))
+(def current-dir (.resolve path "."))
+(.writeFile fs (str current-dir "output-file") "whatever")
+#+end_src
+
+also briefly covers starting a child process
+
+git repo is here:
+https://github.com/martinklepsch/electron-and-clojurescript

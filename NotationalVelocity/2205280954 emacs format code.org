@@ -1,0 +1,9 @@
+#+TITLE: emacs format code
+# Tags #emacs #clojure
+
+#+begin_src
+M-x replace-string
+, RET
+C-o RET
+#+end_src
+Will turn a single line of clojure with comma separators into formated code for easy reading

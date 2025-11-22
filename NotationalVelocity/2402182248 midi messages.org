@@ -1,0 +1,82 @@
+#+TITLE: midi messages
+# Tags #music
+
+
+** MIDI Controller Numbers
+The table below presents a summary of the MIDI Standard Controller codes in decimal and hexadecimal (h) form.
+|---------+--------+-----------------------------------------------------------|
+| Decimal | Hex    | Controller Name                                           |
+|---------+--------+-----------------------------------------------------------|
+|       0 | 00h    | Bank Select (Controller # 32 more commonly used)          |
+|       1 | 01h    | Modulation Wheel or Lever                                 |
+|       2 | 02h    | Breath Contoller                                          |
+|       3 | 03h    | Undefined                                                 |
+|       4 | 04h    | Foot Controller                                           |
+|       5 | 05h    | Portamento Time                                           |
+|       6 | 06h    | Data Entry MSB                                            |
+|       7 | 07h    | Channel Volume (formerly Main Volume)                     |
+|       8 | 08h    | Balance                                                   |
+|       9 | 09h    | Undefined                                                 |
+|      10 | 0Ah    | Pan                                                       |
+|      11 | 0Bh    | Expression Controller                                     |
+|      12 | 0Ch    | Effect Control 1                                          |
+|      13 | 0Dh    | Effect Control 2                                          |
+|   14-15 | 0E-0Fh | Undefined                                                 |
+|   16-19 | 10-13h | General Purpose Controllers (Nos. 1-4)                    |
+|   20-31 | 14-1Fh | Undefined                                                 |
+|   32-63 | 20-3Fh | LSB for Controllers 0-31 (rarely implemented)             |
+|      64 | 40h    | Damper Pedal (Sustain) [Data Byte of 0-63=0ff, 64-127=On] |
+|      65 | 41h    | Portamento On/Off                                         |
+|      66 | 42h    | Sostenuto On/Off                                          |
+|      67 | 43h    | Soft Pedal On/Off                                         |
+|      68 | 44h    | Legato Footswitch                                         |
+|      69 | 45h    | Hold 2                                                    |
+|      70 | 46h    | Sound Controller 1 (default: Sound Variation)             |
+|      71 | 47h    | Sound Controller 2 (default: Timbre/Harmonic Content)     |
+|      72 | 48h    | Sound Controller 3 (default: Release Time)                |
+|      73 | 49h    | Sound Controller 4 (default: Attack Time)                 |
+|      74 | 4Ah    | Sound Controller 5 (default: Brightness)                  |
+|   75-79 | 4B-4Fh | Sound Controller 6-10 (no defaults)                       |
+|   80-83 | 50-53h | General Purpose Controllers (Nos. 5-8)                    |
+|      84 | 54h    | Portamento Control                                        |
+|   85-87 | 55-57h | Undefined                                                 |
+|      88 | 58     | High Resolution Velocity Prefix                           |
+|   89-90 | 59-5Ah | Undefined                                                 |
+|      91 | 5Bh    | Effects 1 Depth (previously External Effects Depth)       |
+|      92 | 5Ch    | Effects 2 Depth (previously Tremolo Depth)                |
+|      93 | 5Dh    | Effects 3 Depth (previously Chorus Depth)                 |
+|      94 | 5Eh    | Effects 4 Depth (previously Detune Depth)                 |
+|      95 | 5Fh    | Effects 5 Depth (previously Phaser Depth)                 |
+|      96 | 60h    | Data Increment (Data Entry +1)                            |
+|      97 | 61h    | Data Decrement (Data Entry -1)                            |
+|      98 | 62h    | Non-Registered Parameter Number LSB                       |
+|      99 | 63h    | Non-Registered Parameter Number MSB                       |
+|     100 | 64h    | Registered Parameter Number LSB                           |
+|     101 | 65h    | Registered Parameter Number MSB                           |
+| 102-119 | 66-77h | Undefined                                                 |
+|---------+--------+-----------------------------------------------------------|
+|         |        | Channel Mode Messages                                     |
+|---------+--------+-----------------------------------------------------------|
+|     120 | 78h    | All Sound Off                                             |
+|     121 | 79h    | Reset All Controllers                                     |
+|     122 | 7Ah    | Local Control On/Off                                      |
+|     123 | 7Bh    | All Notes Off (PANIC)                                     |
+|     124 | 7Ch    | Omni Off                                                  |
+|     125 | 7Dh    | Omni On                                                   |
+|     126 | 7Eh    | Mono On (Poly Off)                                        |
+|     127 | 7Fh    | Poly On (Mono Off)                                        |
+|---------+--------+-----------------------------------------------------------|
+stolen from [[https://cmtext.indiana.edu/MIDI/chapter3_controller_change2.php][here]]
+
+** Missing from the Nord G2
+1
+7
+11
+17
+18
+32
+64
+70
+96
+97
+120+

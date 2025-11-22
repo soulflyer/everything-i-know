@@ -1,0 +1,10 @@
+#+TITLE: elements of clojure
+# Tags #book
+
+Deals with naming.
+
+Names should be:
+- narrow
+- consistent
+
+a good name is a layer of inderection, separating the *what* from the *how*

@@ -1,0 +1,26 @@
+#+TITLE: babashka system calls
+# Tags #clojure
+
+*clojure.java.shell* doesn't actual call a shell it talks directly to the system in the same way a shell might. This means it won't handle some stuff I might have expected, like quoting, wildcards, and globbing.
+
+If this is needed use it to call a shell with the *-c* option ie:
+#+begin_src clojure
+  (require '[clojure.java.shell :as shell]
+           '[clojure.string :as str])
+  (def ^:dynamic *os-shell* "/bin/bash")
+  ;;  (shell/sh *os-shell* "-c" cmd-str)
+  (str/split (:out (shell/sh *os-shell* "-c" "ls ~/Documents")) #"\n")
+#+end_src
+
+#+RESULTS:
+| #'user/*os-shell*                                                                                                                                                                                                                                                                                                                                                                             |
+| ["Bergeron" "BespokeSynth" "Collins English for Life - Speaking B1 Intermediate CD" "Collins English for Life - Speaking B1+ Intermediate.pdf" "DAVID IAIN WOOD_2838_certificate.pdf" "Family-and-Friends-5" "Forms" "Plumier" "Rack2" "School" "Suttas" "books" "camm.pdf" "diderot-plates.pdf" "explorer" "holtzframesketches.pdf" "iain.02.22.pdf" "org-mode" "shark-ate-my-internet.jpg"] |
+
+This is how *shell-cmd* from *cloojure/tupelo* works https://github.com/cloojure/tupelo/blob/da144ff5e38078b8bf2ea413c1762c099a9d2bcc/src/cljc/tupelo/misc.cljc#L402
+This method is recommended here: https://stackoverflow.com/a/69439604/1671119
+The following answer recommends use of *babashka.process/process* or *babashka.tasks/shell* 
+The first of these gives control over sync/async running of the command using the deref operator.
+
+These look interesting but are not in active development:
+https://github.com/mlimotte/java.shell2 has a pipe macro
+https://github.com/Raynes/conch wraps system calls as functions

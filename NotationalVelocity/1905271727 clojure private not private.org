@@ -1,0 +1,12 @@
+#+TITLE: clojure private not private
+# TAGS #clojure
+
+http://christophermaier.name/2011/04/30/not-so-private-clojure-functions/
+
+other> (user/secret)
+Oops!
+var: #'user/secret is not public
+  [Thrown class java.lang.IllegalStateException]
+However, you can get around the private flag; all you need to do is refer directly to the function’s var:
+other> (#'user/secret)
+"TOP SECRET"

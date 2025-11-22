@@ -1,0 +1,4 @@
+#+TITLE: deep learning course
+# TAGS
+
+https://course.fast.ai/

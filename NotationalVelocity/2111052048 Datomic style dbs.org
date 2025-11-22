@@ -1,0 +1,8 @@
+#+TITLE: Datomic style dbs
+# Tags #clojure
+
+https://github.com/threatgrid/asami
+https://xtdb.com/
+https://github.com/tonsky/datascript
+
+https://en.wikipedia.org/wiki/Datalog#Free_software/open_source

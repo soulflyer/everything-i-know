@@ -1,0 +1,4 @@
+#+TITLE: aperture export
+# TAGS #aperture
+
+Race condition with the export program sometimes causes pics to be wrongly marked for export. Fix by doing batch change of Reference date so it comes after the latest update time. 

@@ -1,0 +1,4 @@
+#+TITLE: cat papers collection
+# TAGS
+machine learnin, computer vision and cats
+http://people.csail.mit.edu/junyanz/cat/cat_papers.html

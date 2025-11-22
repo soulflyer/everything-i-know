@@ -1,0 +1,9 @@
+#+TITLE: map display
+# TAGS #map
+
+
+https://www.openstreetmap.org/about
+http://mapstraction.com/
+https://wiki.openstreetmap.org/wiki/Zoom_zoom_zoom_map
+http://modestmaps.com/ Careful. Looks ok but demos all sit there indefinitely waiting for something to load
+http://openlayers.org/

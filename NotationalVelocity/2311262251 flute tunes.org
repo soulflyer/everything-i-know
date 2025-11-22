@@ -1,0 +1,8 @@
+#+TITLE: flute tunes
+# Tags #flute #whistle
+
+* [[file:/Volumes/Collection/MovingHearts/The Storm/04 Finore.mp3][Finore]]
+Starts on an f# which makes it tough. Way easier if it starts on E. Either find an C whistle (I think) or run it at *0.89* speed or drop the pitch by *2 semitones* to get it in tune for a D whistle.
+This might be the wrong way round, ie should be an E whistle to give F# as the 5 finger note.
+
+Whistle starts at just after *25 seconds*.

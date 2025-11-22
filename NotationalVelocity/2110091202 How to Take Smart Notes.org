@@ -1,0 +1,19 @@
+#+TITLE: How to Take Smart Notes
+# Tags #book
+https://www.goodreads.com/book/show/34507927-how-to-take-smart-notes
+
+* Note types
+** Fleeting
+   Throw these away after they are processed (same day)
+** Literature
+   Notes taken as I read
+** Permanent
+   Refined from fleeting notes
+
+* Multi-tasking
+  Not possible. Multi-tasking is actually context switching. Because this caries an overhead then it will *always* be worse than focussing on one thing at a time. Also context switching is stressful and "practicing" multitasking doesn't improve it, only causes more stress.
+  Raises the questions: What about music? Is playing and singing multitasking? I would say no, they are the same task. Compare this with trying to talk while playing, which is insanely hard.
+  Also does this mean I will be able to juggle if I can work out how to see it as a single entity rather than trying to multitask controlling 3 balls at the same time?
+
+* Attention
+  Different tasks, different kind of attention. Focussed/Floating

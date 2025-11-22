@@ -1,0 +1,4 @@
+#+TITLE: resize image in seesaw
+# TAGS #clojure
+
+http://stackoverflow.com/questions/29827733/how-do-i-set-an-images-resolution

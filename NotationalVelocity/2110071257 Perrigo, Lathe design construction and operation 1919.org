@@ -1,0 +1,10 @@
+#+TITLE: Perrigo, Lathe design construction and operation 1919
+
+# Tags #book #turning
+
+[[file:~/Documents/books/bookshelf/Turning/Lathe-design.pdf][Lathe-design.pdf]]
+
+Construction details of woodturning and metalturning lathes. Useful reading if considering reproducing cast headstock, machined shaft, poured bearings, etc.
+
+Online copy at[[https://chestofbooks.com/home-improvement/woodworking/Lathe-Operation/index.html][ chestofbooks]]
+Good clean copy, pale yellow [[file:~/Documents/books/bookshelf/Woodwork/Turning/Lathe-design.pdf][Lathe-design.pdf]]

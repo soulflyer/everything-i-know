@@ -1,0 +1,19 @@
+#+TITLE: emacs info missing
+# Tags #emacs
+
+None of the info nodes for emacs were showing up. Turns out the *dir* file was missing in the main directory, */opt/homebrew/Cellar/emacs-head@29/29.2_1/share/info/emacs*
+Sorted it with this:
+#+begin_src shell
+cd /opt/homebrew/Cellar/emacs-head@29/29.2_1/share/info/emacs
+for f in *.info.gz; do install-info $f dir; done
+#+end_src
+NOTE: won't work in *eshell*
+
+found [[https://github.com/d12frosted/homebrew-emacs-plus/issues/437#issuecomment-1059351309][here]]
+
+ALSO need to set INFOPATH to point to the info file:
+#+begin_src shell
+export INFOPATH="~/.info:/opt/homebrew/Cellar/emacs-head@29/29.2_1/share/info/emacs"
+#+end_src
+
+<2025-03-06 Thu> Found exactly the same answer [[https://github.com/railwaycat/homebrew-emacsmacport/issues/242#issuecomment-1257139899][here]]. Should have looked in my notes :-/

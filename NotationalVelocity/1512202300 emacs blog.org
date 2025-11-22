@@ -1,0 +1,5 @@
+#+TITLE: emacs blog
+# TAGS #emacs #webbookmark
+
+http://endlessparentheses.com
+http://emacsrocks.com

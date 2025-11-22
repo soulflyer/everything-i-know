@@ -1,0 +1,7 @@
+#+TITLE: arduino nano
+# Tags #arduino
+* Arduino Nano
+The nano I bought is a cheap clone. Had to set some variables to get emacs and arduino-cli to see it
+arduino-cli-default-fqbn "arduino:avr:nano"
+and
+arduino-cli-default-port "/dev/cu.usbserial-A5069RR4"

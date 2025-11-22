@@ -1,0 +1,7 @@
+#+TITLE: clojure try example (inside a let)
+# TAGS #clojure
+
+ service-customer    (try (ts/q! teller-service [[:customer {:params {:email (:account/email account)}}
+                                                         [:id]]])
+                                 (catch Exception exc
+                                   (clojure.pprint/pprint exc)))

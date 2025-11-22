@@ -1,0 +1,6 @@
+#+TITLE: imap filter
+# TAGS
+
+imapfilter connects to an imap server and moves, deletes, copies, flags etc  messages. Can probably do enough of this with the ISP's filters, but....
+
+https://github.com/lefcha/imapfilter

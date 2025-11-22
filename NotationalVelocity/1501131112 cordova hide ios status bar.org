@@ -1,0 +1,17 @@
+#+TITLE: cordova hide ios status bar
+# TAGS #cordova
+
+Add these to platforms/ios/<appname>/<appname>-info.plist
+
+view controller-based status bar appearance: NO
+status bar is initially hidden : YES
+
+survives a cordova build. 
+
+plugins can keep the status bar and avoid the overlap. http://www.iperform.nl/en/blog/post/cordova-ios-7-statusbar-fix
+uses:
+
+cordova plugin add org.apache.cordova.statusbar
+cordova plugin add org.apache.cordova.device
+
+but is not set up fro ios8 (seems to give white text on white bar)

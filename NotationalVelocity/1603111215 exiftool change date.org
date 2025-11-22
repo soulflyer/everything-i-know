@@ -1,0 +1,10 @@
+#+TITLE: exiftool change date
+# TAGS #exif
+
+exiftool -AllDates-=1 DIR
+# sets date back 1 hour
+# AllDates sets 3 dates: DateTimeOriginal CreateDate and ModifyDate
+
+exiftool -AllDates='2007:04:05 00:00:00' -overwrite_origin
+
+http://www.sno.phy.queensu.ca/~phil/exiftool/

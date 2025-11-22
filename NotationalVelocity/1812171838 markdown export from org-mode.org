@@ -1,0 +1,6 @@
+#+TITLE: markdown export from org-mode
+# TAGS #emacs
+
+Run this either from an init file or C-S-;
+
+(require 'ox-md nil t)

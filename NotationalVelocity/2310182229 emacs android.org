@@ -1,0 +1,6 @@
+#+TITLE: emacs android
+# Tags #emacs
+
+Currently works fairly well but can't get packages from *elpa* or *melpa* which includes deft and zetteldeft.
+
+Recent article on [[https://www.reddit.com/r/emacs/comments/16hwjby/how_to_get_graphical_not_termuxbased_emacs_on/][reddit]] might be worth trying.

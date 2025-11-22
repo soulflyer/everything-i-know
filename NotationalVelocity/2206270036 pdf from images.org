@@ -1,0 +1,4 @@
+#+TITLE: pdf from images
+# Tags 
+
+Weird stuff happens adding images in to a pdf file (unpredictable siazes/margins) but selecting a load of images and then printing to pdf seems to behave reasonably well.

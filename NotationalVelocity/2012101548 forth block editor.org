@@ -1,0 +1,12 @@
+#+TITLE: forth block editor
+# TAGS #forth
+
+from the blocks section of the gforth manual:
+(type use blocked.fb 0 list for details)
+I think I had to do some sort of load maybe 1 load or 0 load to get it to work
+
+Yeah, do:
+use blocked.fb
+1 load
+2 load
+3 load

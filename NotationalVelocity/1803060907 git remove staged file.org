@@ -1,0 +1,15 @@
+#+TITLE: git remove staged file
+# TAGS #git
+
+git reset HEAD -- <file>
+git reset HEAD -- <directoryName>
+
+Will unstage but not delete or undo any local modifications.
+
+https://stackoverflow.com/questions/1505948/how-do-i-remove-a-single-file-from-the-staging-area-of-git-but-not-remove-it-fro#1505968
+
+not tried this yet:
+git reset filename.txt
+git reset (undoes git add .)
+
+http://data.agaric.com/undo-git-add-remove-files-staged-git-commit

@@ -1,0 +1,23 @@
+#+begin_quote
+#+end_quote
+#+TITLE: org-agenda-mode rebind keys
+# Tags #emacs #org-mode
+
+Had problems redefining keys in org-agenda-mode.
+#+begin_src emacs-lisp
+;; This only works when run by hand after emacs has started
+(with-eval-after-load "org"
+  (keymap-unset org-agenda-mode-map "S")
+  (keymap-set org-agenda-mode-map "S" 'iw-save-org-files))
+
+;; This works:
+(add-hook 'org-agenda-mode-hook
+          (lambda ()
+            (keymap-set org-agenda-mode-map "S" 'iw-save-org-files)))
+
+;;same for this:
+(add-hook 'org-agenda-mode-hook
+          (lambda ()
+            (local-set-key (kbd "S") 'iw-save-org-files)))
+#+end_src
+[[https://emacs.stackexchange.com/questions/19403/how-do-i-change-key-bindings-for-org-mode-agenda-view][Stack Exchange Question]]

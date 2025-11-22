@@ -1,0 +1,6 @@
+#+TITLE: bind a key inside the help map
+# Tags #emacs #lisp
+#+begin_src emacs-lisp
+(defun sayhello () (interactive) (message "Hello"))
+(define-key help-map (kbd "y") 'sayhello)
+#+end_src

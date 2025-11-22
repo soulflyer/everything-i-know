@@ -1,0 +1,17 @@
+#+TITLE: emacs yasnippets
+# TAGS #emacs #yasnippets
+
+** show all a vailable snippets:
+M-x (yas-describe-tables)
+
+** insert a snippet, promts for which. Can use tab completion to select
+M-x (yas-insert-snippet)
+
+Snippets can also be inserted by typing the trigger key and hitting tab
+
+** Editing a snippet
+(yas-visit-snippet-file)  C-c & C-v
+C-c C-c to save edited snippet
+
+** Comprehensive blog post
+https://joaotavora.github.io/yasnippet/snippet-development.html

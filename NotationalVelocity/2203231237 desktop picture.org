@@ -1,0 +1,15 @@
+#+TITLE: desktop picture
+# Tags #osx
+
+Setting the desktop picture doesn't stick when using an external monitor. Replacing the default picture it reverts to with something less hideous may not be an option:
+https://apple.stackexchange.com/a/415241/323876
+Would need to reboot in recovery mode to edit the files, then the OS will no longer trust the filesystem and then Filevault can't be used (do I care?)
+
+Script to set the desktop picture might be enough, if I can get it to work with multiple spaces.
+#+begin_src shell
+osascript -e "tell application \"System Events\" to tell every desktop to set picture to \"${1}\" as POSIX file"
+#+end_src
+Doesn't seem to do it for all spaces, just the current one. Now got it bound to ctrl-cmd-x in skhdrc so I can quickly fix it per desktop.
+#+begin_src
+# ctrl + cmd - x : /Users/iain/bin/desktop /Users/iain/Pictures/59470036.jpg 2>&1 > /tmp/error.log
+#+end_src

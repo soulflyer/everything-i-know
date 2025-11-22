@@ -1,0 +1,92 @@
+#+TITLE: Hotteterre Flute
+# TAGS #flute
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/1909160609 Hotteterre Flute-images
+:END:
+
+* LR
+Paris 999, One of the 2 Hotteterres believed to be largely original, apart from the foot joint which is a reproduction.
+[[http://www.flutebeaudin.com/Plans.html][Plans available here]]
+
+- [[http://collectionsdumusee.philharmoniedeparis.fr/doc/MUSEE/0130255][Museum Catalog]]
+*** Description
+2 corps en buis. Viroles et cabochon en ivoire. Pied en ivoire (reconstitué). 1 clef d'argent
+(reconstituée). Position actuelle du bouchon à partir du centre de l'embouchure : 13 mm.
+*** Dimensions
+Longueur totale 652 mm.
+*** Matériaux
+buis, ivoire, argent.
+*** Marques et inscriptions
+Marque estampée sur chaque corps :"HOTTETERRE/JLR"
+*** Acquisition
+Achat - 26/05/1999
+*** Localisation au Musée
+
+Espace XVIle - La naissance de l'opéra
+
+[[file:1909160609 hotteterre flute-images/CMIM000023158.jpg]] [[file:1909160609 hotteterre flute-images/CMIM000023159.jpg]]
+[[file:1909160609 hotteterre flute-images/CMIM000023160.jpg]] [[file:1909160609 hotteterre flute-images/CMIM000023161.jpg]]
+[[file:1909160609 hotteterre flute-images/CMIM000023425.jpg]] [[file:1909160609 hotteterre flute-images/CMIM000023528.jpg]]
+[[file:1909160609 hotteterre flute-images/CMIM000023529.jpg]] [[file:1909160609 hotteterre flute-images/CMIM000023530.jpg]]
+[[file:1909160609 hotteterre flute-images/CMIM000023245.jpg]] [[file:1909160609 hotteterre flute-images/CMIM900000241.jpg]]
+
+* Leningrad flute
+[[pdf:/Volumes/Crucial/bookshelf/Musical-Instruments/FOMRHI/Fomrhi-049.pdf::17++2.23][Fomrhi-049.pdf]] Faint and low res
+
+* [[http://flutehistory.com/Players/Jacques_Hotteterre/update.php3][Ardal Powel Article]]
+[[file:1909160609 Hotteterre Flute-images/measurements.png]]
+
+[[file:1909160609 Hotteterre Flute-images/key.png]]
+
+[[file:1909160609 Hotteterre Flute-images/bore.png]]
+
+* [[http://flutehistory.com/Resources/Documents/hottcops.php3][Article on copies]] (before discovery of LR)
+
+* [[pdf:~/Documents/books/bookshelf/Musical-Instruments/Flute/the-hotteterre-flute-six-replicas-in-search-of-a-myth.pdf::2++0.00][six replicas paper]]
+[[file:1909160609 Hotteterre Flute-images/6-flutes-bore.png]]
+* [[pdf:~/Documents/books/bookshelf/Musical-Instruments/Flute/The_Hole_in_The_Middle_Transverse_Flute.pdf::1++0.00][The Hole in The Middle]]
+
+[[file:1909160609 Hotteterre Flute-images/screenshot-20231116-122343.png]]
+or view in the [[pdf:~/Documents/books/bookshelf/Musical-Instruments/Flute/The_Hole_in_The_Middle_Transverse_Flute.pdf::3++3.69][pdf]]
+Note that the Hakka is known to have an embouchure with the largest dimension in the direction of the wind flow, so we can see the table gives embouchure size along the flute first.
+
+* Comparison
+| Flute  | Pitch | Sounding-Length | Bore-max | Bore-min |        440 | adjusted-sl |
+|        |       |                 |          |          |            |             |
+|--------+-------+-----------------+----------+----------+------------+-------------|
+| LR     |       |                 |          |          |     #ERROR |             |
+| G      |   395 |             566 |     18.8 |          | 0.89772727 |   508.11363 |
+| 471    |   403 |             584 |     18.7 |          | 0.91590909 |   534.89091 |
+| 472    |   397 |             585 |          |          | 0.90227273 |   527.82955 |
+| Berlin |   398 |             583 |     19.4 |          | 0.90454545 |   527.35000 |
+#+TBLFM: $6=$2 / 440::$7=$6 * $3
+
+* Table from the Ardal Powell article
+
+| Fl  |      a |     b |     c |      d |      e |      f |      g |     h |      i |      j |      k |     l |cap-emb |        |
+|-----+--------+-------+-------+--------+--------+--------+--------+-------+--------+--------+--------+-------+-------+--------|
+| Bn  | 128.25 | 42.33 | 81.60 | 120.55 | 184.25 | 223.00 | 260.60 | 88.95 | 159.50 | 280.20 | 102.10 | 72.90 | 31.25 | 201.15 |
+| M   | 127.25 | 42.70 | 81.35 | 120.33 | 185.30 | 223.90 | 261.55 | 90.80 | 159.50 | 281.09 | 102.30 | 72.65 | 32.25 |  199.9 |
+| BR  | 127.85 | 42.75 | 81.75 | 120.40 | 185.65 | 224.35 | 261.55 | 90.12 | 159.07 | 281.59 | 102.45 | 73.00 | 31.22 | 200.85 |
+| 471 | 128.60 | 42.60 | 81.80 | 120.60 | 185.70 | 224.70 | 262.30 | 88.65 | 160.80 | 281.60 | 101.86 | 73.58 |  32.2 | 202.18 |
+| C   | 127.30 | 42.60 | 81.60 | 120.35 | 185.60 | 224.17 | 261.55 | 89.02 | 160.55 | 280.95 | 101.95 | 73.04 | 33.25 | 200.34 |
+| 472 | 128.10 | 42.85 | 82.00 | 120.90 | 185.90 | 224.45 | 262.20 | 89.39 | 161.14 | 281.10 | 102.13 | 71.90 | 33.04 |   200. |
+| LR  | 128.17 | 44.15 | 82.90 | 124.08 | 182.65 | 222.36 | 260.54 | 26.42 | 171.14 | 281.84 |    N/A | 64.98 | 42.97 | 193.15 |
+| S   | 131.20 | 44.00 | 83.75 | 122.40 | 187.15 | 227.30 | 264.25 | 39.60 | 158.80 | 282.30 |  99.20 | 65.90 |  27.6 |  197.1 |
+| G   | 137.00 | 49.00 | 87.00 | 127.00 | 191.00 | 229.50 | 266.00 | 57.20 | 166.50 | 284.00 | 110.80 | 65.90 |  29.5 |  202.9 |
+|-----+--------+-------+-------+--------+--------+--------+--------+-------+--------+--------+--------+-------+-------+--------|
+# +TBLFM: $14=$10 - $2::$15= $2 + $13
+a Embouchure center, measured from the lower headjoint tenon shoulder
+b Center of tonehole 1, measured from center joint top tenon shoulder
+c Center of tonehole 2, measured from center joint top tenon shoulder
+d Center of tonehole 3, measured from center joint top tenon shoulder
+e Center of tonehole 4, measured from center joint top tenon shoulder
+f Center of tonehole 5, measured from center joint top tenon shoulder
+g Center of tonehole 6, measured from center joint top tenon shoulder
+h Total length of cap
+i Length of head, excluding tenons
+¡ Sounding length (total length excluding tenons) of center joint
+k Total length of foot
+l Total length of connector between head and center joints
+
+Note: Total sounding length, from the embouchure center to the end, is a + j + k + l. Group A comprises Bn, M, Br, P471, C, and P472.

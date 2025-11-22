@@ -1,0 +1,515 @@
+#+TITLE: shopping search
+# TAGS
+* E-bike
+[[https://shopee.vn/Xe-%C4%90%E1%BA%A1p-%C4%90i%E1%BB%87n-tr%E1%BB%A3-l%E1%BB%B1c-Coswheel-CT20s-d%C3%A1ng-th%E1%BB%83-thao-i.57582745.21985737505][xediengapgonthongminh]]
+[[https://shopee.vn/Xe-%C4%91i%E1%BB%87n-th%E1%BB%83-thao-b%C3%A1nh-b%C3%A9o-Xe-%C4%91%E1%BA%A1p-%C4%91i%E1%BB%87n-tr%E1%BB%A3-l%E1%BB%B1c-pin-lithium-t%E1%BB%91c-%C4%91%E1%BB%99-cao-58km(-H%C3%A0ng-c%C3%B3-s%E1%BA%B5n)-i.862455630.11298530495][srsportvn]]
+[[https://shopee.vn/Xe-%C4%91%E1%BA%A1p-%C4%91i%E1%BB%87n-th%E1%BB%83-thao-b%C3%A1nh-b%C3%A9o-c%C3%A1-t%C3%ADnh-pin-lithium-tr%E1%BB%8Dng-l%C6%B0%E1%BB%A3ng-xe-22kg-i.244826473.12628034225][ordersevenday]]
+[[https://shopee.vn/Xe-%C4%91%E1%BA%A1p-tr%E1%BB%A3-l%E1%BB%B1c-%C4%91i%E1%BB%87n-oder-(Ib-tr%C6%B0%E1%BB%9Bc-khi-%C4%91%E1%BA%B7t-h%C3%A0ng)-i.18743012.4497806810][hoangduc668888]]
+[[https://shopee.vn/(ORDER)Xe-%C4%91%E1%BA%A1p-%C4%91i%E1%BB%87n-%C4%91%E1%BB%8Ba-h%C3%ACnh-xe-%C4%91%E1%BA%A1p-leo-n%C3%BAi-tr%E1%BB%A3-l%E1%BB%B1c-xe-%C4%91%E1%BA%A1p-%C4%91i%E1%BB%87n-nam-tuy%E1%BA%BFt-b%C3%A9o-l%E1%BB%91p-20-inch-xe-%C3%B4-t%C3%B4-pin-h%E1%BA%A5p-th%E1%BB%A5-s%E1%BB%91c-i.869626400.20979698872][nt1989]]
+[[https://shopee.vn/Xe-%C4%91%E1%BA%A1p-%C4%91i%E1%BB%87n-Engwe-X26-i.44369110.18959212037][AnTamEbike.com]]
+[[https://shopee.vn/Xe-%C4%91%E1%BA%A1p-tr%E1%BB%A3-l%E1%BB%B1c-%C4%91i%E1%BB%87n-Super-73-Phong-c%C3%A1ch-m%C3%B4-t%C3%B4-c%E1%BB%95-%C4%91i%E1%BB%83n-i.44369110.21789172771][AnTamEbike.com]]
+[[https://shopee.vn/Xe-%C4%90%E1%BA%A1p-%C4%90i%E1%BB%87n-%C4%90%E1%BB%8Ba-H%C3%ACnh-OUXI-V8-OSG--i.613503434.19563208367][phukienxehoikt4444]]
+[[https://shopee.vn/Xe-%C4%91%E1%BA%A1p-%C4%91i%E1%BB%87n-tr%E1%BB%A3-l%E1%BB%B1c-Engwe-M20-d%C3%A1ng-th%E1%BB%83-thao-truy%E1%BB%81n-%C4%91%E1%BB%99ng-Shimano-7-t%E1%BB%91c-%C4%91%E1%BB%99-b%E1%BA%A3o-h%C3%A0nh-ch%C3%ADnh-h%C3%A3ng-12-th%C3%A1ng-i.1039851367.22776915295][etabon.bike]]
+* Tools
+** Chisels
+[[https://shopee.vn/01-C%C3%81I-L%C6%AF%E1%BB%A0I-%C4%90%E1%BB%A4C-G%E1%BB%96-C%C3%81N-%C4%90%E1%BB%A4C-G%E1%BB%96-L%C6%AF%E1%BB%A0I-%C4%90%E1%BB%A4C-TH%C3%89P-i.152455803.18051557843][kimphuvinh]]
+[[https://shopee.vn/b%E1%BB%99-3-c%C3%A2y-%C4%91%E1%BB%A5c-g%E1%BB%97-nh%E1%BA%ADt-i.452846280.17620081228][khulkhulkhul89]]
+[[https://shopee.vn/%C4%90%E1%BB%A5c-g%E1%BB%97-k%C3%A8m-c%C3%A1n-%C4%91%E1%BB%A7-lo%E1%BA%A1i-i.703533.683056959][hanhgentle]]
+** Toolbox
+[[https://shopee.vn/XE-%C4%90%E1%BA%A8Y-D%E1%BB%A4NG-C%E1%BB%A4-3-KHAY-1-NG%C4%82N-K%C3%89O-TO-2-NG%C4%82N-K%C3%89O-NH%E1%BB%8E-STRONGER-TOOL-i.191922266.17162341313][strongertool]]
+[[https://shopee.vn/B%E1%BB%99-k%E1%BB%87-%C4%91%E1%BA%A9y-d%E1%BB%A5ng-c%E1%BB%A5-s%E1%BB%ADa-ch%E1%BB%AFa-3-t%E1%BA%A7ng-chuy%C3%AAn-d%E1%BB%A5ng-c%C3%B3-b%C3%A1nh-xe-ti%E1%BB%87n-l%E1%BB%A3i-t%E1%BA%A3i-tr%E1%BB%8Dng-l%C3%AAn-t%E1%BB%9Bi-100kg-i.63254302.23648824618][htdvietnam.hn]]
+[[https://shopee.vn/T%E1%BB%A7-%C4%91%E1%BB%93-ngh%E1%BB%81-cao-c%E1%BA%A5p-CSPS-4-ng%C4%83n-k%C3%A9o-3-khay-ch%E1%BB%A9a-i.102120598.1639047974][fabinatools]]
+** Hole punches
+[[https://shopee.vn/C%C3%A2y-%C4%91%E1%BB%A5c-l%E1%BB%97-D%E1%BB%A5ng-c%E1%BB%A5-%C4%91%E1%BB%A5c-l%E1%BB%97-tr%C3%B2n-Size-1-1.5-2-2.5-3-3.5-4-5-6-7-8-9-10-12mm-B%E1%BA%B1ng-th%C3%A9p-kh%C3%B4ng-g%E1%BB%89-%C4%91%E1%BB%A5c-t%E1%BB%9Bi-%C4%91%C3%A2u-%C4%91%E1%BB%A9t-t%E1%BB%9Bi-%C4%91%C3%B3-i.39373312.17963470372][cuahangmynga_552hoahao]] small
+[[https://shopee.vn/%C4%90%E1%BB%A5c-l%E1%BB%97-tr%C3%B2n-27mm-C%C3%B3-38-Size-(T%E1%BB%AB-1mm-%C4%91%E1%BA%BFn-38mm)-D%E1%BB%A5ng-c%E1%BB%A5-l%C3%A0m-%C4%91%E1%BB%93-handmade-Da-Thu%E1%BB%99c-S%C3%A0i-G%C3%B2n-i.89838526.11601259828][dathuocsaigon]] large sizes (shop also has small)
+[[https://shopee.vn/C%C3%A2y-%C4%91%E1%BB%A5c-l%E1%BB%97-tr%C3%B2n-size-11mm-38mm-i.39373312.19863179519][truclihuynh]] cheaper
+[[https://shopee.vn/B%E1%BB%99-7-khu%C3%B4n-c%E1%BA%AFt-%C4%91%E1%BB%A5c-l%E1%BB%97-cho-l%C3%A0m-%C4%91%E1%BB%93-da-ti%E1%BB%87n-l%E1%BB%A3i-ch%E1%BA%A5t-l%C6%B0%E1%BB%A3ng-cao-i.270008315.6341571336][yayala.vn]] Ring style, large, not local.
+[[https://shopee.vn/B%E1%BB%99-D%E1%BB%A5ng-C%E1%BB%A5-C%E1%BA%AFt-L%E1%BB%97-Da-H%C3%ACnh-Tr%C3%B2n-Chuy%C3%AAn-i.284700281.11794501846][wowowi.vn]] ditto
+[[https://shopee.vn/B%E1%BB%99-%C4%91%E1%BB%A5c-l%E1%BB%97-tr%C3%B2n-%C4%90%E1%BB%A5c-l%E1%BB%97-da-15-chi-ti%E1%BA%BFt-3-25mm-Cao-C%E1%BA%A5p-i.486287415.13505443156][paradisesdiy]] Set, 3-25mm
+
+** Stone carving chisels
+[[https://shopee.vn/%C2%A9D%E1%BB%A5ng-C%E1%BB%A5-Dao-Kh%E1%BA%AFc-%C4%90%C3%A1-%C4%90%C3%A1-L%C3%A0m-%C4%90%E1%BB%93-Th%E1%BB%A7-C%C3%B4ng-Ch%E1%BA%A5t-L%C6%B0%E1%BB%A3ng-Cao-i.756888113.18500240713][wisdom03.vn]]
+
+** Junior Hacksaw blades
+[[https://shopee.vn/Combo-b%E1%BB%99-10-b%E1%BB%99-5-l%C6%B0%E1%BB%A1i-c%C6%B0a-%C4%91a-n%C4%83ng-b%E1%BA%B1ng-th%C3%A9p-SK4-TOLSEN-cho-c%C6%B0a-mini-c%E1%BA%A7m-tay-c%C6%B0a-s%E1%BA%AFt-mini-Ti%C3%AAu-chu%E1%BA%A9n-xu%E1%BA%A5t-kh%E1%BA%A9u-ch%C3%A2u-%C3%82u-i.61858830.9880368204?sp_atk=e3c91c10-85e1-4bd7-97db-3551ce4ea8cd&xptdk=e3c91c10-85e1-4bd7-97db-3551ce4ea8cd][shopee]] Lưỡi cưa sắt
+
+** Máy Tiện Hạt Gỗ - Wood lathe
+https://www.lazada.vn/products/may-tien-go-model-pn06-i334246081-s535790886.html
+
+** Float 
+https://www.aliexpress.com/item/32937128834.html
+
+** Ê tô - Vice:
+https://www.lazada.vn/products/e-to-ban-nguoi-bench-vice-8inch200-mm-c90-8-i267010458-s388738480.html
+https://www.lazada.vn/products/eto-eclipse-emv-8-i491426983-s955396082.html
+https://www.lazada.vn/products/eto-eclipse-emv-6-i491632129-s955792771.html
+** Vice screw
+[[https://shopee.vn/Front-vise-%C4%91%C6%A1n-l%E1%BA%AFp-b%C3%A0n-l%C3%A0m-m%E1%BB%99c-t%E1%BB%95ng-d%C3%A0i-52cm-h%C3%A0nh-tr%C3%ACnh-32cm-i.43580766.686610803][shoptho.vn]]
+** Sewing machine needles
+https://shopee.vn/B%E1%BB%99-50-Kim-May-Cho-M%C3%A1y-May-Brother-Janome-Singer-i.99668779.7340641210?sp_atk=fabea7fb-f17d-47b3-9183-2a71f045e8b7
+
+** End mill
+https://shopee.vn/Dao-phay-ng%C3%B3n-HSS-4-me-H%C3%A3ng-SWT-i.250532843.9965015214
+https://shopee.vn/Dao-phay-ng%C3%B3n-HSS-4-me-H%C3%A3ng-SWT-i.137985652.4460266042
+https://shopee.vn/Set-8-m%C5%A9i-xo%E1%BA%AFn-cho-dao-phay-ng%C3%B3n-b%E1%BA%B1ng-HSS-cao-c%E1%BA%A5p-ti%E1%BB%87n-d%E1%BB%A5ng-i.99668835.1852194128
+https://shopee.vn/-M%C3%A3-LIFE9920K-gi%E1%BA%A3m-10-%C4%91%C6%A1n-59K-M%C5%A9i-Phay-C%E1%BA%AFt-Hss-3-16mm-4-R%C3%A3nh-Chuy%C3%AAn-D%E1%BB%A5ng-i.373156544.12608791851?sp_atk=b50a501c-381b-4bbd-b50f-dcfdf0dad588
+
+** Number stamp
+https://shopee.vn/B%E1%BB%99-%C4%91%C3%B3ng-s%E1%BB%91-v%C3%A0-ch%E1%BB%AF-3mm-4mm-5mm-6mm-8mm-ch%E1%BA%A5t-li%E1%BB%87u-th%C3%A9p-%C4%91%C3%B3ng-tr%C3%AAn-kim-lo%E1%BA%A1i-i.388464487.11245278762
+https://shopee.vn/B%E1%BB%99-%C4%91%C3%B3ng-s%E1%BB%91-xu%C3%B4i-TOP-YC602-(2mm-6mm)-i.22882842.1446067919
+https://shopee.vn/B%E1%BB%99-%C4%91%C3%B3ng-s%E1%BB%91-xu%C3%B4i-s%E1%BB%91-ng%C6%B0%E1%BB%A3c-LS-nhi%E1%BB%81u-c%E1%BB%A1-%C4%91%C3%B3ng-s%E1%BB%91-tr%C3%AAn-nh%C3%B4m-%C4%91%E1%BB%93ng-inox...-i.68019354.16658335193
+
+** Knurling tool
+Search: dụng cụ knurling or bánh xe knurling
+
+** Cold Chisel (Đục sắt) 
+    [[https://shopee.vn/%C4%91%E1%BB%A5c-tr%C3%B2n-%C4%91%E1%BB%A5c-d%E1%BA%B9p-%C4%91%E1%BB%A5c-t%C6%B0%E1%BB%9Dng-%C4%91%E1%BB%A5c-s%E1%BA%AFt-%C4%91%E1%BB%A5c-g%E1%BB%97-d%C3%A0i-20cm-30cm-%C4%91a-n%C4%83ng-lo%E1%BA%A1i-t%E1%BB%91t-c%C3%B3-b%C3%B4i-nh%E1%BB%9Bt-i.58955679.10123682486][https://shopee.vn/tongapham0964652329]]
+    shop also has 5mm steel plates, squares
+    [[https://shopee.vn/B%E1%BB%99-3-M%C3%B3n-B%C3%BAa-C%C3%A1n-G%E1%BB%97-V%C3%A0-%C4%90%E1%BB%A5c-S%E1%BA%AFt-Nh%E1%BB%8Dn-D%E1%BA%B9p-Chuy%C3%AAn-D%E1%BB%A5ng-i.108095740.1693909975][https://shopee.vn/longgoshop]]
+    [[https://shopee.vn/-Ch%C3%ADnhH%C3%A3ng-B%E1%BB%99-%C4%91%E1%BB%A5c-s%E1%BA%AFt-6-c%C3%A2y-h%E1%BB%99p-s%E1%BA%AFt-nh%E1%BA%ADp-kh%E1%BA%A9u-ch%C3%ADnh-h%C3%A3ng-M%E1%BB%B9-nh%E1%BA%ADp-kh%E1%BA%A9u-Endura-E1563-i.39229264.3733695517][https://shopee.vn/mqcuty]] American import, local delivery
+    [[https://shopee.vn/B%E1%BB%99-%C4%91%E1%BB%A5c-v%C3%A0-%C4%91%E1%BB%99t-s%E1%BA%AFt-6-chi-ti%E1%BA%BFt-A0127-C-MART-i.165968055.3126037867][https://shopee.vn/dungcucamtaybaodinh]]
+    [[https://shopee.vn/%C4%90%E1%BB%A5c-s%E1%BA%AFt-Nh%E1%BA%ADt-B%E1%BA%A3n-m%C5%A9i-d%E1%BA%B9p-BUDDY-06-001-%C4%91%E1%BA%BFn-06-006-i.43419858.5483559798][https://shopee.vn/rotools]] Japanese, local delivery.
+
+** Stud extractor
+[[https://shopee.vn/%C4%90%E1%BA%A7u-kh%E1%BA%A9u-1-2-m%E1%BB%9F-guzong-v%E1%BA%B7n-ty-ren-Koken-Nh%E1%BA%ADt-4104-size-t%E1%BB%AB-6-19mm-made-in-japan-i.131939136.22770843106][lebinh241]] Japanese, expensive.
+[[https://shopee.vn/%C4%90%E1%BA%A7u-V%E1%BA%B7n-Ty-Ren-Lo%E1%BA%A1i-T%E1%BB%91t-v%C3%A0-%E1%BB%91ng-Tu%C3%BDp-v%E1%BA%B7n-t%C3%A1n-ty-r%C4%83ng-cho-c%C3%B4ng-tr%C3%ACnh-h%C3%A0ng-chu%E1%BA%A9n-ren-VN-i.217494689.23333023472][aramacs.vn]] grips the thread.
+** Lathe tools
+*** Parting tool
+https://shopee.vn/Dao-ti%E1%BB%87n-c%E1%BA%AFt-%C4%91en-2-c%C3%A2y...-i.48037612.1318546760
+https://shopee.vn/C%C3%A1n-dao-ch%E1%BA%A1y-ngo%C3%A0i-d%C3%B9ng-l%E1%BA%AFp-m%E1%BA%A3nh-c%E1%BA%AFt-1-5ly-2ly-3ly-4ly-c%E1%BA%AFt-%C4%91%C6%B0%E1%BB%9Dng-k%C3%ADnh-ph%C3%B4i-40ly-%C4%91%E1%BA%A7y-%C4%91%E1%BB%A7-k%C3%ADch-th%C6%B0%E1%BB%9Bc-i.276165659.12618051832
+*** boring bars
+[[https://shopee.vn/4Pcs-7-8-10-12mm-S07K-S08K-S10K-S12M-SCLCR06-CNC-Lathe-Boring-Bar-Turning-Tool-Holder-10Pcs-CCMT060204-Inserts-4Pcs-Wrenches-i.135248328.19477984586][allnew365.vn]] not local
+[[https://shopee.vn/C%C3%A1n-dao-ti%E1%BB%87n-l%E1%BB%97-(m%C3%B3c-l%E1%BB%97)-l%E1%BA%AFp-m%E1%BA%A3nh-CCMT060204-CCMT09T304-CCMT210404-i.20397010.22010413683][dao_cu_cnc78_gia_si]] local, has chips.
+[[https://shopee.vn/C%C3%81N-TI%E1%BB%86N-M%C3%93C-L%E1%BB%96-l%E1%BA%AFp-m%E1%BA%A3nh-ch%C3%ADp-C06-S16-SCLCR06-S12-SCLCR06-S10-SCLCR06-S08-SCLCR06-S06-SCLCR06-i.688991129.15764352915][lamcokhivn]] local, need to source chips separately.
+[[https://shopee.vn/C%C3%A1n-dao-ch%E1%BA%A1y-ngo%C3%A0i-m%C3%B3c-l%E1%BB%97-d%C3%B9ng-%C4%91%E1%BB%83-l%E1%BA%AFp-m%E1%BA%A3nh-ch%C3%ADp-ti%E1%BB%87n-CC06-CCMT06-%C4%91%E1%BA%A7y-%C4%91%E1%BB%A7-h%C6%B0%E1%BB%9Bng-v%C3%A0-k%C3%ADch-th%C6%B0%E1%BB%9Bc-i.276165659.11154435814][shopdaocucokhi]] local, need to source chips separately, has smaller sizes.
+*** Left and right 
+[[https://shopee.vn/C%C3%A1n-dao-ti%E1%BB%87n-ngo%C3%A0i-vu%C3%B4ng-10-12-16-20-25-l%E1%BA%AFp-ch%C3%ADp-C06-C09-C12-i.20397010.18975164637][dao_cu_cnc78_gia_si]] Uses C06 inserts, same as the boring bars above.
+*** toolpost 
+[[https://sea.banggood.com/Machifit-250-000-Cuniform-GIB-Type-Quick-Change-Tool-Post-Tool-Holder-for-Lathe-Tools-p-1892554.html][banggood]] has measurements of 250-000 toolpost
+[[https://shopee.vn/Wedge-GIB-Type-Quick-Change-Toolpost-Tool-Holder-for-Lathe-Tools-i.135248328.22637436630][allnew365.vn]] not local
+*** Chuck
+[[https://shopee.vn/M%C3%A2m-c%E1%BA%B7p-3-ch%E1%BA%A5u-80mm-i.301266463.3649013706][https://shopee.vn/thietbikimkhi]] 3 jaw 80mm
+[[https://shopee.vn/M%C3%A2m-c%E1%BA%B7p-4-ch%E1%BA%A5u-%C4%91%E1%BB%99c-l%E1%BA%ADp-100mm-K72-100-i.301266463.16783811988][https://shopee.vn/thietbikimkhi]] 4 jaw 100mm
+[[https://shopee.vn/search?keyword=m%C3%A2m%20c%E1%BA%B7p%204%20ch%E1%BA%A5u][search]]
+*** Drill chuck
+[[https://shopee.vn/%C4%90%E1%BA%A7u-k%E1%BA%B9p-m%C5%A9i-khoan-0.3-6.5mm-%C4%90%E1%BA%A7u-chuy%E1%BB%83n-h%C6%B0%E1%BB%9Bng-m%C3%A1y-khoan-chu%C3%B4i-l%E1%BB%A5c-gi%C3%A1c-%E2%9D%A4%EF%B8%8Ffreeship%E2%9D%A4%EF%B8%8F-i.42245942.14783860639][namcuong1603]] Small, incl shaft.
+[[https://shopee.vn/%C4%90%E1%BA%A6U-M%C4%82NG-RANH-SAN-OU-CH%C3%8DNH-H%C3%83NG-LO%E1%BA%A0I-1-K%E1%BA%B8P-M%C5%A8I-KHOAN-C%C3%94N-REN-6-10-13-16-B10-B12-B16-B18-i.141089813.4404585976][dungcucokhi333]] Sundu 3/8 and 1/2 thread chucks
+** Grease gun
+https://shopee.vn/Combo-1-c%C3%A2y-b%C6%A1m-v%C3%A0-1chai-m%E1%BB%A1-con-s%C3%A2u-gi%C3%A1-s%E1%BB%91c-i.55053938.2797965005
+https://shopee.vn/Thi%E1%BA%BFt-b%E1%BB%8B-b%C6%A1m-m%E1%BB%A1-b%E1%BA%B1ng-tay-600cc-H%C3%A0ng-ch%C3%ADnh-h%C3%A3ng-Tuosen-i.27181608.6266381660
+https://shopee.vn/C%C3%A2y-b%C6%A1m-m%E1%BB%A1-b%C3%B2-300cc-i.11863648.2628488017
+https://shopee.vn/B%C6%A1m-m%E1%BB%A1-b%C3%B2-b%E1%BA%A3y-m%C3%A0u-LS-dung-t%C3%ADch-300cc-i.86106468.20902879377
+https://shopee.vn/C%C3%82Y-B%C6%A0M-M%E1%BB%A0-B%C3%92-300CC-T%E1%BB%90T-i.48037612.8710959696
+https://shopee.vn/Combo-1-c%C3%A2y-b%C6%A1m-v%C3%A0-1chai-m%E1%BB%A1-con-s%C3%A2u-i.110331405.2333154353
+** Piercing saw blades (Lưỡi cưa lọng)
+https://shopee.vn/L%C6%B0%E1%BB%A1i-c%C6%B0a-l%E1%BB%8Dng-ch%E1%BB%89-chuy%C3%AAn-d%E1%BB%A5ng-l%E1%BB%8Dng-ch%E1%BB%AF-hoa-v%C4%83n-chi-ti%E1%BA%BFt-nh%E1%BB%8F-i.74923814.1443031906
+https://shopee.vn/Set-12-L%C6%B0%E1%BB%A1i-C%C6%B0a-Ki-C%C6%B0%C6%A1ng-130mm-Chuy%C3%AAn-D%E1%BB%A5ng-i.253542354.13466767184
+
+** Taps and Dies
+    https://vi.aliexpress.com/store/1300258
+    https://shopee.vn/storedungcu some split dies
+    https://shopee.vn/cuahanghce Has split dies some imperial sizes 
+*** 3/4 UNF Taps and Dies
+On aliexpress search for: UNF split 3/4
+
+set of 3 (from cuahanghce)
+https://shopee.vn/Mũi-Taro-Tay-taro-tạo-ren-hệ-UNF-SKC-dòng-NO803-UNF-Bộ-3-cây-i.74538047.13251034496
+tap and die set:
+https://vi.aliexpress.com/item/4001224785568.html
+https://vi.aliexpress.com/item/4000341389391.html cheap
+https://vi.aliexpress.com/item/4000351808556.html cheap
+https://vi.aliexpress.com/item/4000630618804.html cheap
+just the die:
+https://vi.aliexpress.com/item/1005004116611989.html
+https://vi.aliexpress.com/item/1005004189173281.html
+https://vi.aliexpress.com/item/1005004199697211.html cheap
+https://vi.aliexpress.com/item/4001080726969.html split, but expensive
+https://vi.aliexpress.com/item/1005003130950162.html Probably this one....
+https://vi.aliexpress.com/item/1005003311689657.html
+https://www.lazada.vn/products/chi-vit-hop-nhat-hss-khuon-tron-tay-trai-chi-tinh-xao-unf-un-516-38-716-12-916-58-34-o-cam-nu-dung-cu-cat-i1847250294-s8361512547.html Not split
+https://www.lazada.vn/products/hampton-1pc-un-unc-uns-unf-unef-38-34-716-516-12-chi-tay-phai-dung-cu-tao-ren-truc-vit-trang-tin-i1848175820-s8366281734.html
+https://www.lazada.vn/products/1pc-3-4-10-3-4-12-3-4-14-3-4-16-unc-un-uns-unf-dung-cu-tien-ren-tay-phai-cho-gia-cong-khuon-34-3-4-10-12-14-16-i1848341000-s8366980838.html
+
+store with imperial sizes, split carbide
+https://vi.aliexpress.com/store/5778848
+*** 14mm Taps (set of 3)
+https://vi.aliexpress.com/item/4000351211896.html
+*** 1in 8TPI
+Taps:
+https://shopee.vn/M%C5%A9i-Taro-Tay-taro-t%E1%BA%A1o-ren-h%E1%BB%87-UNC-SKC-d%C3%B2ng-NO803-B%E1%BB%99-(3-c%C3%A2y)-i.74538047.13150934267
+
+*** M33 Tap
+https://vi.aliexpress.com/item/32753387081.html
+https://vi.aliexpress.com/item/2049059899.html
+https://vi.aliexpress.com/store/230702
+*** M33 Die
+https://vi.aliexpress.com/item/32751506454.html
+** Tap driver
+https://shopee.vn/TAY-QUAY-TARO-LRT-CẦN-TARO-REN-TRONG-i.43004625.7034072134
+https://shopee.vn/Tay-quay-taro-ren-trong-(vui-lòng-đọc-mô-tả-để-biết-kích-cỡ-từng-loại)-i.35425176.7775920299
+https://shopee.vn/Tay-quay-taro-Nhật-Bản-SKC-M10-M25-i.212595399.11894248707
+
+** Die stock
+https://shopee.vn/Tay-Quay-Bàn-Ren-SKC-(Nhật-bản)-dành-cho-các-size-M3~M6-M8~M12-M14-M20-i.74538047.13351694296
+
+** Brazing torch -Khò gas
+    Search *khò gas*
+    [[https://shopee.vn/%C4%91%C3%A8n-kh%C3%B2-gas-%E1%BB%91ng-%C4%91%E1%BB%93ng-kh%C3%B2-%C4%91%C3%B4i-i.304929583.4657120051][https://shopee.vn/vattuthietbilanh]]
+    [[https://shopee.vn/%C4%90%C3%A8n-kh%C3%B2-gas-%C4%91%C3%A8n-kh%C3%B2-h%C3%A0n-%E1%BB%91ng-%C4%91%E1%BB%93ng-Kovea-l%E1%BA%AFp-b%C3%ACnh-gas-mini-ti%E1%BB%87n-l%E1%BB%A3i-i.462785322.8066771808][https://shopee.vn/vattudienlanhtuongminh_hanoi]]
+    [[https://shopee.vn/%E2%9D%A4%EF%B8%8FFREESHIP%E2%9D%A4%EF%B8%8F-%C4%90%C3%A8n-kh%C3%B2-gas-1300-%C4%91%E1%BB%99-b%E1%BA%B1ng-%C4%91%E1%BB%93ng-nguy%C3%AAn-kh%E1%BB%91i-%C4%91%E1%BB%99-b%E1%BB%81n-cao-%C4%91%C3%A8n-kh%C3%B2-ga-mini-kh%C3%B2-l%E1%BB%ADa-mini-i.440516746.10411163344][https://shopee.vn/oanhthu_shop]]
+    [[https://shopee.vn/Kh%C3%B2-gas-mini-kh%C3%B2-gas-1-%E1%BB%91ng-d%C3%B9ng-cho-b%C3%ACnh-gas-mini-lo%E1%BA%A1i-cao-c%E1%BA%A5p-i.230795981.21119852984][https://shopee.vn/dohuong_93]] Looks like this one comes with gas canister.
+** Files - Dũa
+[[https://shopee.vn/D%C5%A9a-tam-gi%C3%A1c-3-c%E1%BA%A1nh-D%C5%A9a-tr%C3%B2n-Gi%C5%A9a-d%E1%BA%B9p-b%E1%BA%B1ng-D%C5%A9a-b%C3%A1n-nguy%E1%BB%87t-i.59539477.6693927798][https://shopee.vn/shoptoanphat]]
+[[https://shopee.vn/D%C5%A9a-Mo-D%C5%A9a-B%C3%A1n-Nguy%E1%BB%87t-15-20-25-30cm-Berrylion-i.857422699.19547222642][https://shopee.vn/berrylionhanoi]]
+** Hammer - Búa
+[[https://shopee.vn/B%C3%BAa-%C4%91%E1%BA%A7u-tr%C3%B2n-1300g-Ingco-HBPH88048-i.357891913.17474592321][https://shopee.vn/42ta41rv9d]]
+[[https://shopee.vn/B%C3%BAa-%C4%91%E1%BA%A7u-tr%C3%B2n-b%E1%BA%B1ng-th%C3%A9p-carbon-c%C3%A1n-g%E1%BB%97-0.5P-1P-1.5P-2P-2.5P-3P-ti%E1%BB%87n-l%E1%BB%A3i-i.495393578.3396377898][https://shopee.vn/okeytool.vn]] The sizes are in *P* values. *1-1/2P* is *900g*
+
+** Micrometer
+[[https://shopee.vn/Panme-tinh-ch%E1%BB%89nh-0.01mm-i.71704362.21573269435][khoada252]]
+
+** Diamond wheel
+[[https://shopee.vn/B%C3%A1nh-xo%C3%A0n-k%C3%ADch-th%C6%B0%E1%BB%9Bc-150mm-b%E1%BA%A3n-25mm-l%E1%BB%97-12.7-chuy%C3%AAn-d%C3%B9ng-m%C3%A1y-quay-tay-motor-m%C3%A0i-k%C3%ADnh-%C4%91%C3%A1-th%C3%B4-l%C6%B0%E1%BB%A1i-c%C3%A2u-thu%E1%BB%B7-tinh-i.203763616.11955660221][dantinhle123]]
+[[https://shopee.vn/%C4%91%C3%A1-m%C3%A0i-l%C6%B0ng-kim-c%C6%B0%C6%A1ng-HP-100mm-125mm-150mm-i.169284096.13969539814][muikhoandonghe]] 
+[[https://shopee.vn/%C4%90%C3%A1-m%C3%A0i-l%C6%B0ng-kim-c%C6%B0%C6%A1ng-150mm-%C4%90%E1%BB%99-m%E1%BB%8Bn-150-i.43262319.22608340115][buusan98]] bit cheaper
+
+** Diamond stone
+[[https://shopee.vn/%C4%90%C3%A1-m%C3%A0i-c%E1%BB%B1a-g%C3%A0-m%C3%A0i-l%C6%B0%E1%BB%9Fi-c%C3%A2u-2-m%E1%BA%B7t-(LO%E1%BA%A0I-D%C3%80I)-ch%E1%BA%A5t-li%E1%BB%87u-b%E1%BB%99t-kim-c%C6%B0%C6%A1ng-c%E1%BB%ADa-h%C3%A0ng-uy-t%C3%ADn-HCM-i.307874309.18745385826][giaphat.68]]
+** combination square (incl centre finder)
+[[https://shopee.vn/TH%C6%AF%E1%BB%9AC-KE-G%C3%93C-VU%C3%94NG-%C4%90A-N%C4%82NG-th%C6%B0%E1%BB%9Bc-%C3%AA-t%C3%B4-ke-vu%C3%B4ng-%C4%91a-n%C4%83ng-t%C3%ADch-h%E1%BB%A3p-NIVO-1991-QVD-i.63324242.11039278910][quangvuduy1991]]
+[[https://shopee.vn/Th%C6%B0%E1%BB%9Bc-G%C3%B3c-Vu%C3%B4ng-%C4%90a-N%C4%83ng-th%C6%B0%E1%BB%9Bc-%C3%AA-t%C3%B4-ke-vu%C3%B4ng-%C4%91a-n%C4%83ng-t%C3%ADch-h%E1%BB%A3p-NIVO-i.41912162.3005044577][quangkythuat007]]
+** Drill bits
+[[https://shopee.vn/B%E1%BB%99-20-m%C5%A9i-khoan-tay-mini-ch%C3%ADnh-x%C3%A1c-0.3-1.6mm-th%C3%A9p-gi%C3%B3-HSS-i.86106468.2419855151][shop_lifeplus]] 0.3 to 1.6 HSS
+[[https://shopee.vn/H%E1%BB%99p-20-m%C5%A9i-khoan-kim-lo%E1%BA%A1i-HSS-cao-c%E1%BA%A5p-si%C3%AAu-c%E1%BB%A9ng-si%C3%AAu-s%E1%BA%AFc-(0.3-1.6mm)-h%E1%BB%99p-m%C5%A9i-khoan-b%E1%BB%99-20-m%C5%A9i-khoan-microbox-m%C5%A9i-khoan-i.634168798.23480220135][thietbidienminhkhoi]] 0.3 to 1.6 HSS
+[[https://shopee.vn/M%C5%A9i-khoan-coban-M35-M%C5%A9i-khoan-s%E1%BA%AFt-Inox-x%E1%BB%8Bn-i.165444445.9520043675][tongkholinhkientoanquoc]] cobalt
+[[https://shopee.vn/M%C5%A9i-khoan-inox-avatar-t%E1%BB%AB-6mm-%C4%91%E1%BA%BFn-13mm-i.251993620.3377079514][kimkhiphukiennoithat89]]
+[[https://shopee.vn/M%C5%A9i-khoan-s%E1%BA%AFt-inox-Avatar-c%E1%BB%A1-l%E1%BB%9Bn-i.140389726.11566988009][hathevien111]] 12mm
+[[https://shopee.vn/Typhoon-m%C5%A9i-khoan-kim-lo%E1%BA%A1i-th%C3%A9p-kh%C3%B4ng-g%E1%BB%89-m%C3%A0i-%C4%91%E1%BA%A7y-%C4%91%E1%BB%A7-t%E1%BB%B1-%C4%91%E1%BB%8Bnh-t%C3%A2m-4.2mm-coban-5.2mm-m%E1%BB%99t-%C4%91%E1%BA%A7u-ba-xo%E1%BA%AFn-11-i.961283462.18275263131][kaylin778]] 12mm cobalt sets of 5
+*** Long drill bits
+[[https://shopee.vn/M%C5%A9i-Khoan-G%E1%BB%97-TH%E1%BA%AENG-L%E1%BB%A2I-H%E1%BB%A3p-Kim-Full-Size-T%E1%BB%AB-%CE%A6-6li-x-200mm-%CE%A6-14li-x-300mm-H%C3%A0ng-Vi%E1%BB%87t-Nam-Ch%E1%BA%A5t-L%C6%B0%E1%BB%A3ng-Cao-(Ch%C3%ADnh-H%C3%A3ng)-i.34243782.1038574724][thietbitienichsg]] 6-14mm
+[[https://shopee.vn/M%C5%A8I-KHOAN-G%E1%BB%96-H%E1%BB%A2P-KIM-TH%E1%BA%AENG-L%E1%BB%A2I-12-X-200MM-i.127014428.4135562528?sp_atk=8c062c88-049e-413d-939f-4f431e01d67a&xptdk=8c062c88-049e-413d-939f-4f431e01d67a][ngockieu204]]
+[[https://shopee.vn/M%C5%A9i-khoan-m%E1%BB%9F-r%E1%BB%99ng-xo%E1%BA%AFn-d%E1%BA%A5u-th%E1%BA%ADp-ph%C3%A2n-kh%C3%B4ng-chu%E1%BA%A9n-HSS-th%C3%A9p-t%E1%BB%91c-%C4%91%E1%BB%99-cao-tay-c%E1%BA%A7m-th%E1%BA%B3ng-1.5-5.8*160-200mm-nh%C3%A0-s%E1%BA%A3n-xu%E1%BA%A5t-i.971719949.23234593160][qb3t6pvgqb]] Expensive but good range of sizes
+[[https://shopee.vn/B%E1%BB%99-M%C5%A9i-Khoan-Kim-Lo%E1%BA%A1i-2-3-3.5-4-5mm-hss-200mm-i.331125135.23656259579][oncemoreagain.vn]] cheap but not local
+**** 3mm 160
+[[https://shopee.vn/dd-1PC-1.5~-5mm-%C4%90%C6%B0%E1%BB%9Dng-k%C3%ADnh-th%C3%AAm-d%C3%A0i-HSS-straigth-Shank-khoan-xo%E1%BA%AFn-m%C5%A9i-khoan-160mm-ed-i.988455436.20588550383][d1yav_l1ed]] 
+[[https://shopee.vn/-fastshipping-1PC-1.5-~-5mm-%C4%90%C6%B0%E1%BB%9Dng-k%C3%ADnh-th%C3%AAm-d%C3%A0i-HSS-straigth-Shank-khoan-xo%E1%BA%AFn-m%C5%A9i-khoan-160mm-may--i.981235634.22467601845][time_flow]]
+[[https://shopee.vn/1-M%C5%A9i-Khoan-Xo%E1%BA%AFn-%E1%BB%90c-D%C3%A0i-%C4%90%C6%B0%E1%BB%9Dng-K%C3%ADnh-160mm-1.5~5mm-i.1054346160.23277553133][shicong111.vn]]
+[[https://shopee.vn/1-M%C5%A9i-Khoan-Xo%E1%BA%AFn-%E1%BB%90c-%C4%90%C6%B0%E1%BB%9Dng-K%C3%ADnh-1.5~5mm-%C4%90%E1%BB%99-S%E1%BA%AFc-N%C3%A9t-Cao-160mm-i.1062971922.23279157024][maxingshan222.vn]]
+[[https://shopee.vn/Uy-1-m%C5%A9i-khoan-xo%E1%BA%AFn-m%C5%A9i-khoan-xo%E1%BA%AFn-HSS-d%C3%A0i-%C4%91%C6%B0%E1%BB%9Dng-k%C3%ADnh-1.5-~-5mm-m%C5%A9i-khoan-xo%E1%BA%AFn-160mm-KS-i.994425113.21580000416][uyegsn8uks]]
+** Polisher
+*** Machine
+[[https://shopee.vn/M%C3%A1y-m%C3%A0i-2-%C4%91%E1%BA%A7u-m%C3%A1y-%C4%91%C3%A1nh-b%C3%B3ng-d%C3%B9ng-%C4%91i%E1%BB%87n-220v-i.21734849.4963289132][phukientot_re]]
+[[https://shopee.vn/M%C3%A1y-%C4%91%C3%A1nh-b%C3%B3ng-2-%C4%91%E1%BA%A7u-1Hp-c%E1%BB%91t-nh%E1%BB%8Dn-i.236341412.22571740708][codienhiepphat.95]]
+[[https://shopee.vn/200mm-M%C3%A1y-%C4%91%C3%A1nh-b%C3%B3ng-2-%C4%91%E1%BA%A7u-KOTES-KT-200DB-i.212595399.8572498679][storedungcu]]
+[[https://shopee.vn/Moto-Chuy%C3%AAn-%C4%90%C3%A1nh-B%C3%B3ng-Trang-S%E1%BB%A9c-%C4%90%C3%A1-Phong-Th%E1%BB%A7y-i.99359062.18369019465][thietbikimhoan.0866182950]]
+*** Spindle
+[[https://shopee.vn/%C4%90%E1%BA%A7u-k%E1%BA%B9p-m%C3%A1y-m%C3%A0i-%C4%91%C3%A1nh-b%C3%B3ng-tr%C3%A1i-v%C3%A0-ph%E1%BA%A3i-i.21734849.14204580592][phukientot_re]]
+* Wood finishing etc
+** Dầu lanh (đánh) - Linseed oil
+[[https://www.lazada.vn/products/dau-lanh-nung-danh-bong-go-boiled-linseed-oil-500ml-i103719813-s104625434.html][Lazada]]
+[[https://shopee.vn/D%E1%BA%A7u-h%E1%BA%A1t-lanh-%C3%A9p-l%E1%BA%A1nh-h%E1%BB%AFu-c%C6%A1-300ml-500ml-i.167687283.11007527404][https://shopee.vn/dothithanhhoai1987]]
+[[https://shopee.vn/D%E1%BA%A7u-Lanh-Nung-2-L%E1%BA%A7n-Boiled-Linseed-Oil-i.36992348.562567527][https://shopee.vn/samwoodshop]]
+[[https://shopee.vn/D%E1%BA%A7u-lanh-s%C6%A1n-g%E1%BB%97-th%C3%B4-1-l%C3%ADt-i.51243779.8946325140][https://shopee.vn/phamcaotrong]] Linseed oil, might be boiled. Cheap.
+** Turps
+[[https://shopee.vn/D%E1%BA%A7u-Th%C3%B4ng-Tinh-S%E1%BA%A1ch-Turpentine-Oil-i.36992348.7501079070][https://shopee.vn/samwoodshop]]
+
+** Water based varnish
+[[https://shopee.vn/S%C6%A1n-Polyacrylic-5L-i.36992348.5832564831][https://shopee.vn/samwoodshop]] also has linseed and turpentine
+
+** Shellac
+[[https://shopee.vn/C%C3%A1nh-ki%E1%BA%BFn-Renesans-bleached-shellac-dewaxed-i.9607907.3343772524][https://shopee.vn/hinoart]]
+[[https://shopee.vn/Nh%E1%BB%B1a-c%C3%A1nh-ki%E1%BA%BFn-1kg-pha-%C4%91%C6%B0%E1%BB%A3c-15lit-Vecni-(500gam-1kg)-i.44960572.10609165490][https://shopee.vn/nguyenparm]]
+
+** Rosin
+[[https://shopee.vn/C%C3%A2y-Cung-Rosin-Hy-L%E1%BA%A1p-L%C3%A0m-T%E1%BB%AB-Nh%E1%BB%B1a-Resin-T%C4%83ng-C%C6%B0%E1%BB%9Dng-Ma-S%C3%A1t-Cho-%C4%90%C3%A0n-Violin-Viola-Cello-i.112877013.20560945706?sp_atk=4bf07388-c5e6-49f1-938c-04a40d65f77f&xptdk=4bf07388-c5e6-49f1-938c-04a40d65f77f][https://shopee.vn/rcfans.vn]]
+** Camelia oil
+[[https://shopee.vn/D%E1%BA%A6U-HOA-TR%C3%80-CAMELLIA-SEED-OIL-ORGANIC-%C3%89P-L%E1%BA%A0NH-i.260249832.13525750479][https://shopee.vn/skinnerdie]]
+
+* Instrument parts
+** Guitar stand
+[[https://shopee.vn/Gi%C3%A1-Treo-%C4%90%C3%A0n-Guitar-Ch%E1%BB%AF-Y-%E2%80%93-Cao-C%E1%BA%A5p-i.29674357.24653868211][https://shopee.vn/hoangluongtm]]
+
+** Some shops, sadly all foreign
+https://shopee.vn/superman.vn
+https://shopee.vn/showpoweram.vn
+https://shopee.vn/simhoa1.vn
+
+** Local shop
+https://shopee.vn/nhaccuminmusic
+
+** Rack mounting rails
+https://shopee.vn/nbphong
+
+** Case edges
+[[https://shopee.vn/C%E1%BA%B7p-g%C3%B3c-%E1%BB%91p-c%E1%BA%A1nh-d%C3%A0i-24cm-(-d%C3%A0nh-cho-anh-em-diy-th%C3%B9ng-loa-ho%C4%83%CC%A3c-h%E1%BB%99p-)-i.49964905.2775113785][nhicne087]]
+** Toggle switch
+[[https://shopee.vn/C%E1%BA%A7n-G%E1%BA%A1t-%C4%90%C3%A0n-Guitar-Lespaul-3-Way-Short-Straight-Toggle-Switch--i.30160864.886863721][nhaccuminmusic]]
+
+** Push button
+[[https://shopee.vn/C%C3%B4ng-t%E1%BA%AFc-nh%E1%BA%A5n-nh%E1%BA%A3-DC-DC-tr%C3%B2n-Tr%E1%BA%AFng-Xanh-V%C3%A0ng-%C4%90en-Xanh-%C4%90%E1%BB%8F-i.6339656.6467582951][halinh123456]]
+
+** Switched pots
+[[https://shopee.vn/Chi%E1%BA%BFt-%C3%A1p-c%C3%B4ng-t%E1%BA%AFc-WH138-5K-10K-20K-50K-100K-250K-500K-1M-%C4%91%E1%BA%A7y-%C4%91%E1%BB%A7-gi%C3%A1-tr%E1%BB%8B-ch%E1%BA%A5t-l%C6%B0%E1%BB%A3ng-cao.-i.906994377.21067482438][mylinhkien102]]
+
+** UK shops with switched pots
+https://www.axesrus.co.uk/
+https://www.armstrongmusic.co.uk/
+
+** Dan Bau parts
+https://shopee.vn/Ph%E1%BB%A5-ki%E1%BB%87n-%C4%91%C3%A0n-B%E1%BA%A7u-c%E1%BA%A7n-%C4%91%C3%A0n-mobin-kh%C3%B3a-%C4%91%C3%A0n-B%E1%BA%A7u-d%C3%A2y-%C4%91%C3%A0n-B%E1%BA%A7u-qu%E1%BA%A3-loa-d%C3%A2y-kho%C3%A1-m%C3%B3ng-%C4%91%C3%A0n-B%E1%BA%A7u-i.485135447.10517533535?sp_atk=d2eba6ce-6af5-43c0-abd6-825ae314c778
+https://shopee.vn/_quangmungmusic_
+** Truss rod ends
+https://shopee.vn/-HELLERY-Electric-Guitar-Bass-Truss-Rod-Buckle-Connect-Adjust-Cap-Connector-9mm-Dia.-i.140746940.4562204792?sp_atk=d98e8a3b-31f7-4d65-9533-36216d8cec6d
+** Switched Potentiometer
+https://www.lazada.vn/products/musiclily-pro-brass-full-metric-sized-control-pots-b500k-push-pull-linear-taper-potentiometers-for-guitar-set-of-2-i518148550-s1040064296.html
+https://www.lazada.vn/products/cao-cap-muxi-b50k-50k-ohm-dual-tuyen-tinh-con-tap-cong-tac-dieu-khien-chiet-ap-cong-tac-i358516540-s591640993.html
+https://www.lazada.vn/products/1pcs-a500k-potentiometer-push-pull-switch-pot-shaft-25mm-electric-guitar-tone-volume-guitar-accessories-i538680636-s1122730049.htm
+https://www.lazada.vn/products/a500k-potentiometer-push-pull-switch-splined-dpdt-pot-shaft-25mm-electric-guitar-tone-volume-parts-guitar-parts-accessories-i372698552-s622644930.html
+https://shopee.vn/%C4%90%E1%BA%A7u-%C4%91i%E1%BB%81u-ch%E1%BB%89nh-%C3%A2m-l%C6%B0%E1%BB%A3ng-B500K-18mm-thi%E1%BA%BFt-k%E1%BA%BF-ti%E1%BB%87n-l%E1%BB%A3i-cho-guitar-%C4%91i%E1%BB%87n-i.132044607.2874160572?sp_atk=2d1dae3f-3db5-4103-b447-5d7ab4df4e7f
+https://shopee.vn/C%C3%B4ng-t%E1%BA%AFc-chi%E1%BA%BFt-%C3%A1p-A500K-tr%E1%BB%A5c-18mm-cho-b%E1%BB%99-ph%E1%BA%ADn-%C3%A2m-l%C6%B0%E1%BB%A3ng-%C4%91%C3%A0n-guitar-%C4%91i%E1%BB%87n-i.132044607.2874160046?sp_atk=974b8653-4b76-4c75-be4c-bbaed70a120b
+https://shopee.vn/SPM-Metal-Bass-Switch-Guitar-Bass-Spring-Switch-Replacement-for-Bass-i.135244941.14238436310?sp_atk=1ffd2635-fc6c-45f4-bdd2-c007fe4aeea1
+
+** Tremolo
+https://www.amazon.com/GE-1996T-Licensed-Locking-Tremolo-Bridge/dp/B00EB12B42/ref=sr_1_3?crid=H0NEY74RJUZP&keywords=tremolo+bridge+gold+locking&qid=1640080404&sprefix=tremolo+bridge+gold+locking%2Caps%2C309&sr=8-3
+https://www.amazon.com/Guitar-Tremolo-Bridge-Double-Locking/dp/B07CZ796N8/ref=sr_1_72?crid=H0NEY74RJUZP&keywords=tremolo+bridge+gold+locking&qid=1640080451&sprefix=tremolo+bridge+gold+locking%2Caps%2C309&sr=8-72
+https://www.amazon.com/Schaller-Floyd-Rose-Tremolo-Hardware/dp/B00BJR1HE6/ref=sr_1_54?crid=2IEO35TXJMFQ8&keywords=tremolo+bridge&qid=1640079991&refinements=p_n_condition-type%3A404228011%2Cp_36%3A5000-40000&rnid=386685011&s=musical-instruments&sprefix=tremolo%2Caps%2C355&sr=1-54
+https://www.lazada.vn/products/phu-kien-dan-ghi-ta-floyd-rose-he-thong-rung-dan-ghi-ta-dien-kep-mau-bac-mau-den-i1608471172-s6927296213.html
+https://www.lazada.vn/products/phu-kien-dan-ghi-ta-floyd-rose-he-thong-rung-dan-ghi-ta-dien-kep-mau-bac-mau-den-i1580417711-s6720023681.html
+https://vi.aliexpress.com/item/32987598005.html
+
+** Floyd rose bridge pieces
+https://www.lazada.vn/products/bo-6-oc-vit-khoa-yen-ngua-cau-rung-cho-floyd-rose-bridges-3-ma-day-keo-cao-cap-cho-guitar-dien-a-b-d-g-e-i1530154704-s6430124017.html
+https://www.lazada.vn/products/bo-6-oc-vit-khoa-yen-ngua-cau-rung-cho-floyd-rose-bridges-3-ma-day-keo-cao-cap-cho-guitar-dien-a-b-d-g-e-i1578744461-s6708597345.html
+
+** Pickup mount
+https://www.lazada.vn/products/musiclily-flat-profile-metal-guitar-humbucker-pickup-mounting-rings-chrome-gold-pack-of-2-i275410255-s423018046.html
+
+** Strap buttons
+https://vi.aliexpress.com/item/32698207914.html
+https://vi.aliexpress.com/item/32260384316.html
+
+** Headless tuners
+https://shopee.vn/C%E1%BA%A7u-%C4%91%C3%A0n-5-d%C3%A2y-m%C3%A0u-%C4%91en-ch%E1%BA%A5t-l%C6%B0%E1%BB%A3ng-cao-i.132044607.15715046238
+
+** Piano tuning pins
+https://shopee.vn/Ch%E1%BB%91t-l%C3%AAn-d%C3%A2y-%C4%91%C3%A0n-piano-thay-th%E1%BA%BF-b%E1%BA%B1ng-kim-lo%E1%BA%A1i-i.132044607.13758838558
+
+** Cable ties
+[[https://shopee.vn/ne%CC%A3p-da%CC%82y-%C4%91ie%CC%A3%CC%82n-%E2%9D%A4%EF%B8%8FFREESHIP%E2%9D%A4%EF%B8%8F-ke%CC%A3p-da%CC%82y-%C4%91ie%CC%A3%CC%82n-d%C3%A2y-d%C3%A1n-bu%E1%BB%99c-g%E1%BB%8Dn-d%C3%A2y-%C4%91i%E1%BB%87n-b%E1%BB%99-50-c%C3%A1i-i.98602837.19521746040][dungcutienich888]]
+
+** Switch
+[[https://shopee.vn/C%C3%B4ng-t%E1%BA%AFc-Kim-lo%E1%BA%A1i-12mm-%C4%91%E1%BA%A7u-cao-12V-24V-ch%E1%BB%91ng-n%C6%B0%E1%BB%9Bc-%C3%B4-t%C3%B4-12mm-LED-Momentary-push-button-switch-Latching-i.41806855.659679701][kamegara]] push on/off
+
+* Nuts and bolts
+** Shop selling nuts bolts cotter pins etc
+https://shopee.vn/sieu_thi_oc_vit
+Disappeared from shopee but their site is here: [[https://sieuthiocvit.com/][https://sieuthiocvit.com/]]
+** Shop selling bolts and threaded rod in steel or stainless
+https://shopee.vn/khanhhoa895
+** big T nuts
+[[https://shopee.vn/%C4%90ai-%E1%BB%91c-ch%E1%BB%AF-T-th%C3%A9p-%C4%91en-M10-M18-i.311367389.8574442314][https://shopee.vn/sieu_thi_oc_vit]]
+[[https://shopee.vn/%C4%90AI-%E1%BB%90C-R%C3%83NH-CH%E1%BB%AE-T-i.182275250.4790523687][https://shopee.vn/hkcnc]]
+** Eye Nut
+https://www.lazada.vn/products/loviver-m6m8m10m12-m22-304-thep-khong-gi-nang-mat-nut-nut-hinh-dang-nuts-9-kich-thuoc-cho-ban-lua-chon-i365352160-s605544482.html
+https://www.lazada.vn/products/vong-treo-hinh-vong-thep-khong-gi-304-vong-dau-oc-tron-vong-tam-giac-dau-oc-vit-dung-cho-thuyen-m3m4m5m6m8-m20-i1552116484-s6539591826.html
+
+** Allen head screws
+[[https://shopee.vn/%E1%BB%90c-6-ly-INOX-M6X10-M6X15-M6X20-M6X25-M6X30-M6X40-M6X50-M6X60-M6X80-%C4%91%E1%BA%A7u-tr%E1%BB%A5-kh%C3%B3a-l%E1%BB%A5c-gi%C3%A1c-cap-screw-i.126532122.6603026457][https://shopee.vn/ocvitsaigon]]    
+** Grubscews
+*** large
+[[https://shopee.vn/%E1%BB%90c-V%C3%ADt-%C4%90%E1%BA%A7u-L%E1%BB%A5c-Gi%C3%A1c-M6-m8-m10-m12-Grade-12.9-Chuy%C3%AAn-D%E1%BB%A5ng-i.823414033.21250947053?sp_atk=67aaa08a-b9ab-4ed9-9925-8459d2574f20&xptdk=67aaa08a-b9ab-4ed9-9925-8459d2574f20][https://shopee.vn/hjcwj.vn]]
+[[https://shopee.vn/B%E1%BB%99-10-con-v%C3%ADt-c%E1%BA%A5y-tr%C3%AD-l%E1%BB%A5c-gi%C3%A1c-M10-M12-M14-Th%C3%A9p-c%C3%B4ng-nghi%E1%BB%87p.-i.51517981.5926244406][https://shopee.vn/khanhhoa895]]
+[[https://shopee.vn/%E1%BB%90c-l%E1%BB%A5c-gi%C3%A1c-ch%C3%ACm-8-ly-v%C3%A0-10-ly-M8X6-M8X8-M8X10-M8X15-M8X20-M10X10-set-screw-i.126532122.2228225783][https://shopee.vn/ocvitsaigon]]
+[[https://shopee.vn/V%C3%ADt-tr%C3%AD-th%C3%A9p-%C4%91en-M10-i.311367389.7354675735][https://shopee.vn/sieu_thi_oc_vit]] Same shop as the large t-nuts
+*** small brass
+[[https://shopee.vn/V%C3%ADt-%C4%90%E1%BA%A7u-L%E1%BB%A5c-Gi%C3%A1c-M3M4M5M6-B%E1%BA%B1ng-%C4%90%E1%BB%93ng-Thau-Chuy%C3%AAn-D%E1%BB%A5ng-i.823414033.21050947104?sp_atk=128a020a-722f-40ce-b07a-cc60e24610e2&xptdk=128a020a-722f-40ce-b07a-cc60e24610e2][https://shopee.vn/hjcwj.vn]]
+** T bolts
+bu lông chữ t
+[[https://shopee.vn/Bu-L%C3%B4ng-%C4%90%E1%BA%A7u-K%E1%BA%B9p-Ch%E1%BB%AF-T-M10-M12-304-GB37-B%E1%BA%B1ng-Th%C3%A9p-Kh%C3%B4ng-G%E1%BB%89-i.889466159.23106331205][https://shopee.vn/huiruixin.vn]]
+[[https://shopee.vn/Bu-l%C3%B4ng-%C4%91%E1%BA%A7u-ch%E1%BB%AF-T-b%E1%BA%B1ng-th%C3%A9p-kh%C3%B4ng-g%E1%BB%89-304-A2-M5-M6-M8-M10-M12-i.564917694.11978504909][https://shopee.vn/keetogether.vn]]
+[[https://shopee.vn/Bu-l%C3%B4ng-T-screw-t%C3%A1n-l%E1%BB%9Bn-8mm-x-d%C3%A0i-80mm-(bu-l%C3%B4ng-ch%E1%BB%AF-T-m8x80)-i.81213928.18367589287][https://shopee.vn/dungcusangtao2018]] (local)
+** Threaded rod
+*** 10mm Square thread
+[[https://shopee.vn/Vitme-T10-B%C6%B0%E1%BB%9Bc-4-D%C3%A0i-100-500mm-Cho-M%C3%A1y-In-3D-i.156358981.9005474407][3dprinterdiy]]
+*** M20 threaded rod
+[[https://shopee.vn/C%C3%A2y-ty-ren-th%C3%A9p-%C4%91en-M20-d%C3%A0i-1m-i.399819092.6894107383][dattam.net]]
+shop also has long nuts and other sizes of threaded rod
+https://shopee.vn/dattam.net
+*** M14 M16 threaded rod
+[[https://shopee.vn/Thanh-ren-M14-M16-ti%C3%AAu-chu%E1%BA%A9n-c%C3%B4ng-nghi%E1%BB%87p-%C4%91%E1%BB%99-d%C3%A0i-1000mm-ty-ren-i.51517981.6222318151][khanhhoa895]]
+** Long bolts
+*** M6
+[[https://shopee.vn/%E1%BB%90c-ch%E1%BB%91ng-%C4%91%E1%BB%95-PKL-10ly-b%C6%B0%E1%BB%9Bc-ren-m%E1%BB%8Bn-chu%E1%BA%A9n-theo-xe.-i.64365682.16175189905][https://shopee.vn/galogo0987]]
+*** M14
+[[https://shopee.vn/%E1%BB%90c-M14-%C4%90ai-%E1%BB%91c-M14-Long-%C4%91en-M14-i.54980637.5507539038][hkhoi]]
+[[https://shopee.vn/BULLONG-INOX-304-REN-L%E1%BB%ACNG-DIN-931-M14X140-160-180-200-220-250-280-300-i.161913849.17363492014][bulongocvitgiasi]] inox
+** U-bolts
+[[https://shopee.vn/C%C3%B3c-kh%C3%B3a-d%C3%A2y-c%C3%A1p-c%C3%B3c-si%E1%BA%BFt-c%C3%A1p-%C3%98-3-5-6-8-10-mm-i.31115412.6531785717][vattuducduyen]] Tight U bolts for use in wire rope splicing
+* Nose ring - Khuyên Mũi
+https://shopee.vn/Khuy%C3%AAn-M%C5%A9i-V%C3%B2ng-Tr%C3%B2n-B%E1%BA%B1ng-Th%C3%A9p-Y-T%E1%BA%BF-An-To%C3%A0n-i.298622802.5048751783
+https://shopee.vn/Khuy%C3%AAn-M%C5%A9i-Th%C3%A9p-Kh%C3%B4ng-G%E1%BB%89-Th%E1%BB%9Di-Trang-4-M%C3%A0u-6-8-10-12mm-i.76221279.12859563639
+https://shopee.vn/Khuy%C3%AAn-M%C5%A9i-D%C3%A1ng-Tr%C3%B2n-Ch%E1%BA%A5t-Li%E1%BB%87u-Th%C3%A9p-Y-T%E1%BA%BF-Kh%C3%B4ng-G%E1%BB%89-M%C3%A0u-Tr%C6%A1n-Phong-C%C3%A1ch-C%C3%A1-T%C3%ADnh-i.275967678.3253041505
+https://shopee.vn/Khuy%C3%AAn-M%C5%A9i-Tr%C3%B2n-Khuy%C3%AAn-M%C5%A9i-Ch%E1%BB%91t-B%E1%BA%ADt-Kh%E1%BA%A5c-Cao-C%E1%BA%A5p-(m%E1%BB%8Fng-1mm)-%C4%90eo-septum-c%C3%A1nh-m%C5%A9i-tai-m%C3%B4i...-i.485389782.9379018865
+
+* Second hand shops
+https://shopee.vn/ntnguyen184
+https://shopee.vn/phuongthao20142019
+
+* Pencils
+https://shopee.vn/H%E1%BB%99p-Gi%E1%BA%A5y-12-B%C3%BAt-Ch%C3%AC-Graphite-Tone-Tr%C3%A1i-%C4%90%E1%BA%A5t-i.68415909.1998466196
+
+* Chemicals
+This shop has borax and graphite powder (and hide glue)
+https://shopee.vn/vietquangchemicals
+So does this one, but not sure what I would do with 25Kg of borax...
+https://shopee.vn/tongkhohoachatvietnam
+
+** Whiting (Calcium Carbonate)
+[[https://shopee.vn/Canxi-cacbonate-CaCO3-%28Vi%E1%BB%87t-Nam%29-500g-1kg-i.494080038.10636506151][https://shopee.vn/vietquangchemicals]]
+** Pickle
+*** (NaHS04)
+[[https://shopee.vn/H%C3%B3a-ch%E1%BA%A5t-Natri-Hydrosunfat-Sodium-bisulfate-(NaHSO4)-VietQuangchemicals-500-g-i.494080038.10735922296?sp_atk=20966d18-f32d-4a05-b3ba-e9d6b89a4dd8&xptdk=20966d18-f32d-4a05-b3ba-e9d6b89a4dd8][vietquangchemicals]]
+*** Citric Acid
+[[https://shopee.vn/Ho%C3%A1-ch%E1%BA%A5t-k%E1%BB%B9-thu%E1%BA%ADt-C6H8O7.H2O-Citric-acid-monohydrate-tinh-khi%E1%BA%BFt-99-chai-500g-CAS-5949-29-1-i.494080038.16993791990][vietquangchemicals]]
+[[https://shopee.vn/500g-1kg-Axit-chanh-Acid-Citric-Mono-Weifeng-b%E1%BB%99t-chanh-b%E1%BB%99t-chua-C6H8O7-500g-1000g-i.494080038.10232801608][vietquangchemicals]]
+** Glue
+[[https://shopee.vn/Keo-da-tr%C3%A2u-GELATINE-1kg-i.494080038.13419037314][vietquangchemicals]]
+* Drive Belt 
+Maybe try pneumatic hose: [[https://shopee.vn/D%C3%A2y-h%C6%A1i-kh%C3%AD-n%C3%A9n-pu-m%E1%BB%81m-d%E1%BA%BBo-ch%E1%BA%A5t-l%C6%B0%E1%BB%A3ng-cao-ch%E1%BB%8Bu-%C3%A1p-l%E1%BB%B1c-t%E1%BB%91t-b%C3%A1n-theo-m%C3%A9t-m%C3%A0u-ng%E1%BA%ABu-nhi%C3%AAn-i.85796924.1444609595][https://shopee.vn/ieavn]]
+§2210270048 leather drive belt
+[[https://shopee.vn/D%C3%A2y-x%C3%ADch-truy%E1%BB%81n-%C4%91%E1%BB%99ng-PU-D%C3%A2y-truy%E1%BB%81n-%C4%91%E1%BB%99ng-3mm-4mm-5mm-6mm-(PU-d%C3%A0i-1m)-i.81213928.9162807451][https://shopee.vn/dungcusangtao2018]]
+[[https://shopee.vn/UY-T%C3%8DN-%E1%BA%A2NH-TH%E1%BA%ACT-%E1%BB%90ng-h%C6%A1i-d%C3%A2y-h%C6%A1i-PU-kh%C3%AD-n%C3%A9n-%C4%90%C3%A0i-Loan-b%C3%A1n-theo-m%C3%A9t-%E1%BB%91ng-h%C6%A1i-PU-4-6-8-10-12-d%C3%B9ng-n%C6%B0%E1%BB%9Bc-v%C3%A0-kh%C3%AD-i.955926594.19674464463][khinenthanhhoa]] 10mm OD/5mm bore (blue or clear)
+[[https://shopee.vn/D%C3%A2y-h%C6%A1i-PU-kh%C3%AD-n%C3%A9n-OK-JAPAN-c%C3%A1c-phi-4-6-8-10-12mm-b%C3%A1n-theo-m%C3%A9t-gi%C3%A1-s%E1%BB%89-h%C3%A0ng-ch%E1%BA%A5t-l%C6%B0%E1%BB%A3ng-cao-i.684041715.18154206762][thegioimayvn]] Japanese import, range of sizes, available in black
+[[https://shopee.vn/D%C3%A2y-h%C6%A1i-PU-kh%C3%AD-n%C3%A9n-xo%E1%BA%AFn-5-x-8mm-Luxtop-ch%C3%ADnh-h%C3%A3ng-6m-9m-12m-15m-i.60029971.1134642350][huenghi1982]] coiled, red, 5x8 
+[[https://shopee.vn/%E1%BB%90ng-N%C6%B0%E1%BB%9Bc-Silicone-Cao-Su-2mm-3-4-5-6-8-10-12-16-19mm-i.826887361.19128378406][shengling66dp.vn]] silicone, different wall thicknesses
+[[https://shopee.vn/%E1%BB%90ng-d%E1%BA%ABn-h%C6%A1i-TAKARA-NCR-CH%C3%8DNH-H%C3%83NG-size-6mm-~-25mm-Gi%C3%A1-1-m%C3%A9t-i.122705385.14009564929][mtstore21]] fabric reinforced (smallest size 6mm x 13.3mm)
+[[https://shopee.vn/-%E1%BB%90NG-D%E1%BA%AAN-D%E1%BA%A6U-t%C3%ADnh-m%C3%A9t-%E1%BB%90NG-CAO-SU-B%E1%BB%90-V%E1%BA%A2I-D%E1%BA%A6U-X%C4%82NG-M%C3%80U-%C4%90EN-CH%E1%BB%8AU-%C3%81P-SU%E1%BA%A4T-phi-6-8-10-12-13-14-16-19-2-i.1085659.15842648066][cuahangtuananh649]] Slightly cheaper
+
+* Metal
+** Brass §2005102003
+** Gear Wheels
+[[https://shopee.vn/B%C3%A1nh-r%C4%83ng-truy%E1%BB%81n-%C4%91%E1%BB%99ng-1M-12T-60T-45-1-Modulus-12-13-14-15-16-17-18-19-20-25-30-32-35-36-40-45-50-60-b%E1%BA%B1ng-th%C3%A9p-i.564917694.12261275611][https://shopee.vn/keetogether.vn]]
+[[https://shopee.vn/B%E1%BB%98-B%C3%81NH-R%C4%82NG-C%C3%94N-TH%E1%BA%B2NG-Z20M2.5(-1-b%E1%BB%99-g%E1%BB%93m-2-b%C3%A1nh-r%C4%83ng-c%C3%B4n-)-i.95706364.6681545131][bkwait]] bevel gears
+
+** Silver Solder
+or search "que hàn đồng bạc"
+
+Que Hàn Thau S221 dùng hàng ĐỒNG với SẮT
+[[https://shopee.vn/Que-H%C3%A0n-Thau-S221-d%C3%B9ng-h%C3%A0ng-%C4%90%E1%BB%92NG-v%E1%BB%9Bi-S%E1%BA%AET-i.131872521.5839805871][dienlanhotothuandung]]
+[[https://shopee.vn/Que-h%C3%A0n-%C4%91%E1%BB%93ng-b%E1%BA%A1c-Harris-Made-in-USA-M%E1%BB%B9-Que-h%C3%A0n-%E1%BB%91ng-%C4%91%E1%BB%93ng-Que-h%C3%A0n-b%E1%BA%A1c-i.34468372.15063406869][dienlanhanhtinh]] local, 802°C Melting point
+
+** Steel 
+*** Smooth rebar
+[[https://shopee.vn/Th%C3%A9p-C%C3%A2y-Tr%C3%B2n-Th%C3%A9p-L%C3%A1p-Tr%C6%A1n-Th%C3%A9p-C%C3%A2y-Tr%E1%BB%A5-Tr%C3%B2n-Phi-10-20-C%C3%A2y-d%C3%A0i-1-M%C3%A9t-i.250722567.8973192439][phutrocongnghiepvn007]]
+[[https://shopee.vn/Th%C3%A9p-C%C3%A2y-Tr%C3%B2n-Th%C3%A9p-L%C3%A1p-Tr%C6%A1n-Th%C3%A9p-C%C3%A2y-Tr%E1%BB%A5-Tr%C3%B2n-Phi-10-20-C%C3%A2y-d%C3%A0i-1-M%C3%A9t-i.282512635.8461126275][diennangluonmattroinhasolar]]
+*** Steel bar
+[[https://shopee.vn/Th%C3%A9p-Tr%C3%B2n-%C4%90%E1%BA%B7c-Th%C3%A9p-L%C3%A1p-Tr%C6%A1n-Th%C3%A9p-Tr%E1%BB%A5-%C4%90%C6%B0%E1%BB%9Dng-K%C3%ADnh-40-60-D%C3%A0i-500mm-i.282512635.6090397653][diennangluonmattroinhasolar]]
+*** Steel rod
+[[https://shopee.vn/Tr%E1%BB%A5c-s%E1%BA%AFt-3mm-5mm-d%C3%A0i-20cm-i.53042593.14061046168][caka.vn]]
+[[https://shopee.vn/4-Tr%E1%BB%A5c-s%E1%BA%AFt-2mm-tr%E1%BB%A5c-b%C3%A1nh-xe-DIY-LK0191-i.8004713.6211619790][linhkiendientu_circle]]
+[[https://shopee.vn/Tr%E1%BB%A5c-S%E1%BA%AFt-4mm-%C4%91%E1%BB%A7-k%C3%ADch-c%E1%BB%A1-i.260392670.7555487155][3d_jet]]
+
+*** Steel Tube 25mm OD, 20mm ID
+[[https://shopee.vn/-Khuy%E1%BA%BFn-m%E1%BA%A1i-Tr%E1%BB%A5c-Th%C3%A9p-Phi-25-%E1%BB%90ng-Th%C3%A9p-Tr%C3%B2n-25mm-d%C3%A0y-2-5mm-D%C3%B9ng-L%C3%A0m-Tr%E1%BB%A5c-Qu%E1%BA%A1t-C%C3%B4ng-Nghi%E1%BB%87p-G%E1%BB%91i-%C4%90%E1%BB%A1-v%C3%B2ng-bi-i.179840790.20725756874][ducquy04]]
+[[https://shopee.vn/Tr%E1%BB%A5c-Th%C3%A9p-Phi-25-Tr%E1%BB%A5c-th%C3%A9p-tr%C3%B2n-%C4%91%C6%B0%E1%BB%9Dng-k%C3%ADnh-25mm-d%C3%A0y-2-5mm-d%C3%B9ng-cho-g%E1%BB%91i-%C4%91%E1%BB%A1-v%C3%B2ng-bi-(b%E1%BA%A1c-%C4%91%E1%BA%A1n)-qu%E1%BA%A1t-c%C3%B4ng-nghi%E1%BB%87p-m%C3%B4-t%C6%A1-i.326989883.20022551386][tahomashop]] 
+
+*** Flexible steel plate
+Dao trét bả matit dài, dao thép trét matit 9cm x 47cm, thép tốt, độ bền cao
+[[https://shopee.vn/Dao-tr%C3%A9t-b%E1%BA%A3-matit-d%C3%A0i-dao-th%C3%A9p-tr%C3%A9t-matit-9cm-x-47cm-th%C3%A9p-t%E1%BB%91t-%C4%91%E1%BB%99-b%E1%BB%81n-cao-i.736689353.21152361341][khaminh89]]
+
+*** Steel disc (chuck backplate?)
+From this shop (also has plate and square steel bar):
+[[https://shopee.vn/S%E1%BA%AFt-t%E1%BA%A5m-tr%C3%B2n-d%C3%A0y-10mm-%C4%91%C6%B0%E1%BB%9Dng-k%C3%ADnh-%C4%91%E1%BB%A7-m%E1%BB%8Di-k%C3%ADch-c%E1%BB%A1-d%C3%B9ng-l%C3%A0m-%C4%91%E1%BA%BF-tr%E1%BB%A5-m%C3%A2m-xoay-th%C3%A9p-b%E1%BA%A3n-m%C3%A3-i.66177866.5651852236][https://shopee.vn/ncthi55]]
+
+*** Square steel bar 
+[[https://shopee.vn/Thanh-s%E1%BA%AFt-vu%C3%B4ng-%C4%91%E1%BA%B7c-k%C3%ADch-th%C6%B0%E1%BB%9Bc-14x14mm-%C4%91%E1%BB%99-d%C3%A0i-t%E1%BB%AB-300-%C4%91%E1%BA%BFn-1000mm-(1414)-i.66177866.7958878338][ncthi55]]
+
+*** Hollow steel shaft
+[[https://shopee.vn/-Khuy%E1%BA%BFn-m%E1%BA%A1i-Tr%E1%BB%A5c-Th%C3%A9p-Phi-20-l%E1%BB%97-16mm-d%C3%A0y-2mm-%E1%BB%90ng-th%C3%A9p-20mm-d%C3%B9ng-l%C3%A0m-tr%E1%BB%A5c-g%E1%BB%91i-%C4%91%E1%BB%A1-v%C3%B2ng-bi-tr%E1%BB%A5c-m%C3%B4-t%C6%A1-qu%E1%BA%A1t-d%C3%A0i-20cm-50cm-i.179840790.16482664108][ducquy04]]
+[[https://shopee.vn/Thanh-tr%C6%B0%E1%BB%A3t-tr%C3%B2n-r%E1%BB%97ng-(thanh-d%E1%BA%ABn-h%C6%B0%E1%BB%9Bng)-phi-20-500mm-i.286275511.23018889387][cnc3ds]] 20mmOD, 12mmID
+
+*** Steel Pipe
+[[https://shopee.vn/-Khuy%E1%BA%BFn-M%E1%BA%A1i-%E1%BB%90ng-Th%C3%A9p-phi-48-l%E1%BB%97-40-Tr%E1%BB%A5c-th%C3%A9p-48mm-l%E1%BB%97-40mm-(d%C3%A0y-4-li)-%E1%BB%91ng-th%C3%A9p-%C4%91en-48mm-d%C3%A0y-4-mm-i.179840790.22805311432][ducquy04]] Stainless, 48mm OD
+[[https://shopee.vn/%E1%BB%90ng-th%C3%A9p-%C4%91%C3%BAc-Inox-304-kh%C3%B4ng-g%E1%BB%89-%C4%91%C6%B0%E1%BB%9Dng-k%C3%ADnh-phi-34mm-d%C3%A0y-2.5mm-d%C3%A0i-1000mm-s%E1%BB%AD-d%E1%BB%A5ng-trong-c%C6%A1-c%E1%BA%A5u-%E1%BB%91ng-tr%C6%B0%E1%BB%A3t-d%E1%BA%ABn-h%C6%B0%E1%BB%9Bng-i.66177866.7855644775][ncthi55]] Stainless 34mm OD
+[[https://shopee.vn/Nh%E1%BA%ADn-c%E1%BA%AFt-%E1%BB%91ng-inox-tro%CC%80n-o60mm-nhi%E1%BB%81u-%C4%91%E1%BB%99-d%C3%A0i-kh%C3%A1c-nhau-inox-201-v%C3%A0-inox-304-da%CC%80y-1.2mm-i.200927088.22404648243][hunginoxtienthinh]] Stainless, 60mm OD
+[[https://shopee.vn/Ren-trong-m%C4%83ng-x%C3%B4ng-inox-i.151538053.7645774514][tong_kho_tien_phat_333]] Stainless, short lengths, internaly threaded.
+[[https://shopee.vn/%E1%BB%90ng-N%C6%B0%E1%BB%9Bc-Ti%E1%BB%87n-Ren-D%C3%A0i-1-M%C3%A9t-%E1%BB%90ng-N%C6%B0%E1%BB%9Bc-Phi-27-%E1%BB%90ng-N%C6%B0%E1%BB%9Bc-S%E1%BA%AFt-Gi%E1%BB%AF-G%E1%BB%97-i.363010838.5375958173][cungnhaulammoc]] Pipe clamp pipe
+[[https://shopee.vn/M%C4%82NG-SONG-H%C3%80N-S%E1%BA%AET-K%E1%BA%BCM-i.92316433.18943225710][dukhang137]] 60mm zinc plated steel, short lengths, internaly threaded.
+
+*** 14mm Rod
+[[https://shopee.vn/Tr%E1%BB%A5c-tr%C3%B2n-%C4%91%E1%BA%B7c-Inox-%C4%91%C6%B0%E1%BB%9Dng-k%C3%ADnh-12-14-16-18-20-22mm-(d%C3%A0i-0.5m-1m)-%C4%91a-n%C4%83ng-kh%C3%B4ng-g%E1%BB%89-304-i.967945238.22936898403][phamminhducgt1]]
+
+** Shop selling HSS
+https://shopee.vn/thanhmy1203 also has imperial sockets
+https://shopee.vn/dungcucokhi001
+
+** Aluminium plate
+https://shopee.vn/Nh%C3%B4m-T%E1%BA%A5m-C%E1%BA%AFt-L%E1%BA%BB-D%C3%A0y-4mm-(-C%C3%B3-Nhi%E1%BB%81u-K%C3%ADch-Th%C6%B0%E1%BB%9Bc-)-i.152952016.4810690275
+https://shopee.vn/optimus1111
+https://shopee.vn/Nh%C3%B4m-t%E1%BA%A5m-d%C3%A0y-4mm-cao-c%E1%BA%A5p-i.54883574.16126023523
+https://shopee.vn/dungcusangtao.com.cn1
+https://shopee.vn/Nh%C3%B4m-T%E1%BA%A5m-D%C3%A0y-4mm-C%E1%BA%AFt-Theo-K%C3%ADch-Th%C6%B0%E1%BB%9Bc-Y%C3%AAu-C%E1%BA%A7u-i.295056443.9467950239
+https://shopee.vn/nhomhht
+
+** Pulley
+*** In a bracket
+[[https://shopee.vn/B%C3%A1nh-Xe-s%E1%BA%AFt-r%C3%A3nh-U(r%C3%A3nh-r%E1%BB%99ng-1cm)-i.69524489.3736759385][diennuoccongdanh]] not a U shaped bracket, just the sides ready for welding.
+[[https://shopee.vn/B%C3%A1nh-xe-s%E1%BA%AFt-r%E1%BA%A3nh-V-B%C3%A1nh-xe-c%E1%BB%ADa-c%E1%BB%95ng-B%C3%A1nh-xe-c%E1%BB%ADa-l%C3%B9a-R%C3%B2ng-r%E1%BB%8Dc-S%E1%BA%AFt.-K%C3%ADch-th%C6%B0%E1%BB%9Bc-4cm-5cm-6cm-8cm-10cm-i.344953479.20640175787][phukienmaihien]] ditto
+[[https://shopee.vn/B%E1%BB%99-b%C3%A1nh-xe-s%E1%BA%AFt-ch%E1%BB%91ng-g%E1%BB%89-l%E1%BA%AFp-cho-c%E1%BB%ADa-c%E1%BB%95ng-l%C3%B9a-tr%C6%B0%E1%BB%A3t-%C4%91a-n%C4%83ng-lo%E1%BA%A1i-50-60mm-ray-U-V-H-t%C3%B9y-ch%E1%BB%8Dn-(Khung-c%C3%B3-4-l%E1%BB%97)-i.378235988.23833813588][bigsellers]] U shaped bracket
+[[https://shopee.vn/B%C3%A1nh-xe-c%E1%BB%ADa-c%E1%BB%95ng-l%C3%B9a-inox-304-c%C3%B3-%C4%91%E1%BA%BF-treo-ray-V-size-22x48mm-BX2248PV-i.171599422.4195539875][fukidi.vn]] Bigger version
+[[https://linhkiendientu.vn/san-pham/banh-xe-inox-304-dung-cho-cua-cong-size-28x68mm-ray-vuong-22mm-bx2868h][linhkiendientu.vn]] sets of 10
+
+** Spring
+[[https://shopee.vn/L%C3%B2-Xo-M%E1%BB%9F-C%E1%BB%91p-T%E1%BB%B1-%C4%90%E1%BB%99ng-Cho-%C3%94-T%C3%B4-Xe-H%C6%A1i-(-L%E1%BA%BB-1-C%C3%A1i-)-i.26229787.8493885328][thegioiphukien.oto]] adjustable
+[[https://shopee.vn/L%C3%B2-Xo-Ch%C3%A2n-Ch%E1%BB%91ng-Ph%E1%BB%A5-(Nghi%C3%AAng)-Xe-Wave-Dream-i.259738960.10629908784][hanhquynhshop]] 10cm x 1.5cm (wave, dream sidestand)
+[[https://shopee.vn/L%C3%B2-xo-m%C3%B3c-p%C3%B4-inox-lo%E1%BA%A1i-d%C3%A0i-79mm-i.159962381.11604599555][heshop2018]] 79mm 
+[[https://shopee.vn/10-l%C3%B2-xo-ch%C3%A2n-ch%E1%BB%91ng-c%E1%BA%A1nh-l%E1%BA%AFp-theo-xe-honda-i.445288039.21326506841][xemaykhoi]] Pack of 10 honda sidestand springs (10cm)
+
+** Hinges
+*** Steel, half round end
+[[https://shopee.vn/B%E1%BA%A3n-L%E1%BB%81-B%C3%A1n-Nguy%E1%BB%87t-B%E1%BA%B1ng-s%E1%BA%AFt-i.427358672.22771108457][phukienthanhdung]]
+[[https://shopee.vn/l%E1%BB%81-2-l%C3%A1-%C4%91%E1%BB%93ng-b%E1%BA%A3n-l%E1%BB%81-b%E1%BA%AFt-c%C3%A1nh-c%E1%BB%ADa-t%E1%BB%A7-g%E1%BA%A5p-%E2%80%A6-b%E1%BA%A3n-l%E1%BB%81-b%C3%A1n-nguy%E1%BB%87t-i.562908647.22042600626][noithatkhanhtrang]]
+*** T hinges
+[[https://shopee.vn/B%E1%BA%A3n-l%E1%BB%81-c%E1%BB%95-%C4%91i%E1%BB%83n-h%C3%ACnh-ch%E1%BB%AF-T-i.103928361.7646393260][vnt2018]]
+[[https://shopee.vn/2-B%E1%BA%A3n-l%E1%BB%81-c%E1%BB%ADa-c%E1%BB%95-%C4%91i%E1%BB%83n-12-KT-12.2-cm-(b%E1%BB%99-2-c%C3%A1i)-i.20754139.797628803][tancangdecor.com]]
+
+* Tea §2303091445
+* Electrical
+** Electret Mic
+[[https://shopee.vn/%E3%80%90READY-STOCK%E3%80%91B%E1%BB%99-khu%E1%BA%BFch-%C4%91%E1%BA%A1i-micro-Electret-MAX4466-cho-Arduino-v%E1%BB%9Bi-m%E1%BB%A9c-t%C4%83ng-c%C3%B3-th%E1%BB%83-%C4%91i%E1%BB%81u-ch%E1%BB%89nh-i.428454317.9874612504][mungcaldia]]
+[[https://shopee.vn/Mic-c%E1%BA%A3m-bi%E1%BA%BFn-%C3%A2m-thanh-%C4%91i%E1%BB%87n-dung-i.213519943.15517210337][linhkiendientutphcm]]
+[[https://shopee.vn/Mic-Micro-7*9mm-c%E1%BA%A3m-bi%E1%BA%BFn-%C3%A2m-thanh-c%C3%B3-ph%C3%A2n-c%E1%BB%B1c-%C4%91%E1%BB%99-nh%E1%BA%A1y-52DB-i.395600519.25400814174][linhkien024.vn]]
+[[https://shopee.vn/-COD-Micro-6.5mm-th%C3%ADch-h%E1%BB%A3p-cho-%C4%91%C3%A0n-Violin-Saxophone-Violin-K0-i.188922628.5291195632][hzhaiyaa1.vn]] not local
+
+** Heat shrink
+[[https://shopee.vn/%E1%BB%90ng-gen-co-nhi%E1%BB%87t-trong-su%E1%BB%91t-3mm-6mm-10mm-15mm-20mm-30mm-35mm-(1-m%C3%A9t)-Lo%E1%BA%A1i-t%E1%BB%91t-d%C3%A0y-i.104103144.9506227374?sp_atk=ceb7e085-af1c-4f43-a976-76071d8d04b3&xptdk=ceb7e085-af1c-4f43-a976-76071d8d04b3][dientunguyenhien.vn]]
+** phono to jack cables
+[[https://shopee.vn/D%C3%A2y-Loa-Cao-c%E1%BA%A5p-ch%C3%ADnh-h%C3%A3ng-Choseal-1-%C4%91%E1%BA%A7u-3.5mm-ra-2-AV-d%C3%A0i-5m-3m-1.8m-i.634754185.16116610900][senniko_official_store_vietnam]]
+[[https://shopee.vn/D%C3%A2y-loa-1-%C4%91%E1%BA%A7u-3.5-ra-2-AV-d%C3%A0i-1.8m-3m-5m-10m-15md%C3%B9ng-k%E1%BA%BFt-n%E1%BB%91i-t%E1%BB%AB-%C4%91i%E1%BB%87n-tho%E1%BA%A1i-m%C3%A1y-nghe-nh%E1%BA%A1c-ra-loa-%C3%A2m-ly-Cao-C%E1%BA%A5p-i.179888209.22823190404][ducchinhcomputer]]
+[[https://shopee.vn/-Ch%C3%ADnh-H%C3%A3ng-Arigato-D%C3%A2y-loa-1-ra-2-av-Audio-D%C3%A2y-K%E1%BA%BFt-N%E1%BB%91i-%C3%82m-Thanh-Loa-Amply-Tivi-D%C3%A2y-3.5-ra-AV-(-D%C3%A2y-Hoa-Sen-)-1-2-i.457467269.21139708773][phukiendientuhbc]] noisy
+[[https://shopee.vn/nk_audio_cable][nk_audio_cable]] try this shop
+[[https://shopee.vn/C%C3%A1p-AV-3.5mm-ra-2-%C4%91%E1%BA%A7u-b%C3%B4ng-sen-1M-%C4%91%E1%BA%BFn-5M-Ugreen-AV116-D%C3%A2y-3.5-ra-AV-i.42224260.818365335][thuylinh_computer01]] or this one
+[[https://shopee.vn/D%C3%A2y-AV-Liton-USA-Ch%E1%BB%91ng-nhi%E1%BB%85u-i.52464187.844390570][nk_audio_cable]] or this one
+* Music shops
+[[https://doremishop.vn/][doremi]]
+[[https://nyaudio.vn/][nyaudio]]
+[[https://www.sweelee.com.vn/][sweelee]]
+[[https://shopee.vn/hoangbaokhoa396][hoangbaokhoa396]] shopee, lots of effects etc.
+[[https://songlongmedia.com/][songlong media]]
+
+* Flutes
+** Side blown
+[[https://shopee.vn/S%C3%A1o-Dizi-gi%C3%A1-r%E1%BA%BB-kh%E1%BB%9Bp-n%E1%BB%91i-chu%E1%BA%A9n-%C3%A2m-Tone-%C4%90%C3%B4-La-Sol-i.409363016.8449177552][saotruchailinh]]
+** End blown
+[[https://shopee.vn/%C4%90%E1%BB%99ng-Ti%C3%AAu-3-kh%C3%BAc-Ti%C3%AAu-tr%C3%BAc-t%C3%ADm-S%C6%A1n-L%C3%B2ng-Cao-c%E1%BA%A5p-Ti%C3%AAu-B%C3%A1t-Kh%E1%BB%95ng-kh%E1%BB%9Bp-n%E1%BB%91i-i.92870378.1592258364][langtusao]]
+[[https://shopee.vn/%E2%98%B8%E2%9C%B1S%C3%A1o-tr%C3%BAc-t%C3%ADm-t%E1%BB%B1-nhi%C3%AAn-AGF-%C4%91i%E1%BB%81u-ch%E1%BB%89nh-c%E1%BB%95-%C4%91i%E1%BB%83n-quy%E1%BA%BFn-r%C5%A9-c%E1%BB%95-%C4%91i%E1%BB%83n-kh%C3%B4ng-s%C6%A1n-kh%C3%B4ng-m%C3%B9i-s%C3%A1o-d%C3%A0i-v%C3%A0-s%C3%A1o-ng%E1%BA%AFn-Nh%C3%A0-s%E1%BA%A3n-xu%E1%BA%A5t-i.486125413.13259235401][a7p7mp0s9_]]
+** Cat flutes
+[[https://shopee.vn/S%C3%A1o-M%C3%A8o-Nam-VS3-Tr%C3%BAc-Hun-Kh%C3%B3i-S%C3%A1o-Tr%C3%BAc-B%C3%B9i-Gia-Ch%E1%BB%91ng-n%E1%BB%A9t-Ti%E1%BA%BFng-vang-M%C3%A0u-n%C3%A2u-t%C3%ADm-i.61288658.3718722731][saotrucbuigia]]
+[[https://shopee.vn/S%C3%A1o-M%C3%A8o-K%C3%A9p-Tr%C3%BAc-T%C3%ADm-MK3-i.26563124.6726991434][saotruccaodinh]]
+** Open hole Boehm
+[[https://vietmusic.vn/collections/sao-flute/products/sao-flute-tfl-0209-logo-tony][vietmusic.vn]] (Saigon) 4,500,000
+
+* Looper
+[[https://shopee.vn/DITTO-X4-LOOPER-Guitar-Stompboxes-Tc-Electronic-i.933608285.15296424654][hoangbaokhoa396]]
+* Soundcard-Midi
+[[https://shopee.vn/-AIR192-4-Soundcard-M-Audio-chuy%C3%AAn-nghi%E1%BB%87p-ch%C3%ADnh-h%C3%A3ng-i.217510704.23762320773][tdmusic_shop]]

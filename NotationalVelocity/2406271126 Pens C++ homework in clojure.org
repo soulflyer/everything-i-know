@@ -1,0 +1,20 @@
+#+TITLE: Pens C++ homework in clojure
+# Tags #clojure #C++
+
+#+begin_src clojure
+  (defn ngoc-hoang [m n k]
+    (min
+      (int (/ m 2))
+      n
+      (int (/ (- (+ m n) k) 3))))
+
+  (defn ngoc-hoang [m n k]
+    (min
+      (quot m 2)
+      n
+      (quot (- (+ m n) k) 3)))
+
+  (defn ngoc-hoang [m n k] (min (quot m 2) n (quot (- (+ m n) k) 3)))
+
+  (ngoc-hoang 4 2 1)
+#+end_src

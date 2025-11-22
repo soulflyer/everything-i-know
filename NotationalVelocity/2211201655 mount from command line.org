@@ -1,0 +1,13 @@
+#+TITLE: mount from command line
+# Tags #osx
+
+from [[https://apple.stackexchange.com/a/171822/323876][stackexchange]] (opens a finder window)
+#+begin_src shell
+open 'smb://username:password@server/share'
+#+end_src
+
+from [[https://discussions.apple.com/thread/5900131?answerId=24863661022#24863661022][apple]]
+#+begin_src shell
+osascript -e 'mount volume "smb://user:password@server/share"'
+#+end_src
+

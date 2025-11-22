@@ -1,0 +1,6 @@
+#+TITLE: clojure monger stderr
+# TAGS #clojure #monger
+
+add this to dependancies in project.clj to stop output to stderr avery time the db is accessed:
+
+[org.slf4j/slf4j-nop "1.7.12"]

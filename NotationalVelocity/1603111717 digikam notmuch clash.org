@@ -1,0 +1,7 @@
+#+TITLE: digikam notmuch clash
+# TAGS
+
+samba3 and talloc clash
+
+before installing digikam do:
+sudo port dectivate -f talloc   

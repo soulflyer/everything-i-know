@@ -1,0 +1,12 @@
+#+TITLE: self hosted clojurescript
+# TAGS #clojurescript
+
+Stuff to help run arbitrary code entered by a user. This is mainly so I can run complex queries with image-lib without starting a repl
+
+How to blog:
+ http://swannodette.github.io/2015/07/29/clojurescript-17
+
+https://stackoverflow.com/questions/46866902/clojurescript-eval-how-to-use-libraries-included-in-the-calling-code
+
+Klipse can embed a box in a web page that can accept code in several languages, evaluate it and display the result.
+http://app.klipse.tech/

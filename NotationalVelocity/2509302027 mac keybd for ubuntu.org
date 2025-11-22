@@ -1,0 +1,21 @@
+#+TITLE: mac keybd for ubuntu
+# Tags #linux
+
+
+[[https://help.ubuntu.com/community/AppleKeyboard#Change_Function_Key_behavior][Ubuntu Help]] on changing fn key behaviour
+[[https://askubuntu.com/a/1423769/960653][Stack Exchange Answer]] on tilde fix
+
+#+begin_src text
+The answer from Zanna wasn't working for me, but this answer was. So in my case I had to create /etc/modprobe.d/hid_apple.conf and set its contents to:
+
+options hid_apple iso_layout=0
+
+I also wanted the F keys to work like regular F1-F12 keys so I also added
+
+options hid_apple fnmode=2
+
+This worked after rebooting my computer.
+#+end_src
+
+This partially worked for me in that now the fn keys behave correctly, but the tilde key doesn't
+I think this may be the correct behaviour. The tilde char appears when pressing the \ key next to return. Possibly the keyboard was already being seen as ISO layout.

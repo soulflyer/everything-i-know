@@ -1,0 +1,5 @@
+#+TITLE: open-in-tmux
+# TAGS #tmux
+
+Is a service, keyboard shortcut is ⌘.
+It breaks if there are any spaces in the foldernames

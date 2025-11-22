@@ -1,0 +1,4 @@
+#+TITLE: mysql vietnamese
+# TAGS #vietnamese
+
+Use utf8 encoding in the db. Can be changed from sequel pro by tweaking the table info. Don't know the command line version.

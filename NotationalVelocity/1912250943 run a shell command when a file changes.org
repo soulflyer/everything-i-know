@@ -1,0 +1,4 @@
+#+TITLE: run a shell command when a file changes
+# TAGS #shell
+
+http://eradman.com/entrproject/

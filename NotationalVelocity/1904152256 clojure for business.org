@@ -1,0 +1,4 @@
+#+TITLE: clojure for business
+# TAGS #clojure
+
+https://medium.com/magnetcoop/so-whats-the-point-of-clojure-a-business-approach-1f16ea1f03c6

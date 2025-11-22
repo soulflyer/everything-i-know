@@ -1,0 +1,5 @@
+#+TITLE: typing tutor emacs
+# TAGS #emacs
+
+speed-type
+typing-of-emacs

@@ -1,0 +1,5 @@
+#+TITLE: clojure-lsp problem
+# Tags #clojure #emacs
+
+Might need this for m1:
+(setq lsp-clojure-server-command '("/opt/homebrew/bin/clojure-lsp"))

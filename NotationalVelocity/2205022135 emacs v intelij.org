@@ -1,0 +1,22 @@
+#+TITLE: Emacs v IntelIJ
+# Tags #blog
+
+
+A Ok full disclosure. I like Emacs. It's central to a lot of what I do, not just coding (This blog started as a Zetteldeft note in an org file) The one window pretty much guaranteed to be open on my computer is a terminal connected to a tmux session with multiple windows, each of which has a number of panes, the majority of which contain instances of emacsclient. I also like VI although I don't currently choose to use it except on bare installs or if I seriously trash my emacs config and need to get it running again. I don't like mixing the 2 paradigms. Evil-mode bad.
+
+A colleague here at Flexing was speculating on why Emacs and VIM might decide to stay away from IntelIJ. I have included some notes they made in the side panel. There are some good points, and I did start to go through them with a view to comparing each in turn, but it seemed a pattern was emerging: <yeah Emacs does that too. OK so maybe not out of the box>, but then Emacs doesn't do much right out of the box. It's not a particularly good editor out of the box. Actually it's a rubbish editor out of the box, ANYTHING else is better. But that's not the point. Emacs is more of an editor construction kit, and what you can build with it is potentially great. 
+
+I got as far as the item in the misconceptions section that says:
+"The UI is cluttered..." 
+and stopped in my tracks. This is probably my number one comeback when I'm asked why I use Emacs. I like a clean desktop (virtual not real. My real desktop is pretty much only visible where I rest my wrists in front of the keyboard)
+This really got me thinking, because it wasn't immediately followed by the desire to try out IntelIJ again. I had to admit to myself that the clean desktop thing is not the reason I stay with Emacs even though I have been saying it for years. It's just an easy explanation that used to be irrefutable, but now is in doubt. The real reason is subtler and stranger...
+
+I think the key is in the "Emacs is an editor construction kit not an editor" concept. There is a sense of pride involved in getting it to work right. I built this! If something doesn't work I will make it work, which just goes to increases the sense of pride. It doesn't annoy me the way most software does when it does something sub-optimal, it just triggers another emacslisp hacking session. And those are good. The development environment for coding elisp is something of a gold standard. It has been providing the kind of features for years that are only recently coming to be expected as normal in other languages. Instantly calling up docs, jumping to definitions, executing arbitrary code wherever it happens to be, and changing data on the fly, have all been available since long before repls were the norm.
+
+There are hidden assumptions in these discussions.IE We want to use the best tool for the job, and this can be measured by comparing features/speed/convenience. There is some truth in these assumptions, but there is also a fundamental flaw. It just doesn't cover the single most important criteria. How does the tool make me feel? This moves the whole question away from "which is the best/fastest tool" to "can my favourite keep up reasonably well with the best/fastest". A subtle but important difference. 
+
+Currently the jury is out as to which actually is the best/fastest. Does magit match IntelIJs handling of git? I don't know, I don't push magit to it's limits as it is. Refactoring? last time I tried it was with clj-refactor and it worked fine. I suspect lsp is even easier, it certainly keeps track of references and definitions well enough. As long as these differences are small they are not really important. Missing features often get added to Emacs or melpa faster than I realise I need them, so it's unlikely that the differences will ever the chance to be significant.
+
+A better question than the assumed "Which is best" might be "Which would you recommend" I'm not sure what my answer would be. I do know it wouldn't be Emacs. I have been cautious about recommending Emacs for some time now. I'm far more likely to give a warning along the lines of "It's a wonderful system but it's a b*tch to learn and tends to take over your free time" If that doesn't put the inquirant off then I will happily make recommendations on packages etc. (These won't include evil-mode. Just use vim already!)
+
+

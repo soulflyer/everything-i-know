@@ -1,0 +1,9 @@
+#+TITLE: blender high pass filter image stabilizer
+# TAGS #blender
+
+https://blenderartists.org/t/addon-high-quality-video-stabilization/618552
+http://sonneo.blogspot.com/2014/08/better-video-stabilization-in-blender.html#comment-form
+
+also:
+https://blender.stackexchange.com/questions/12243/2d-stabilization-of-camera-pan
+http://blog.sergem.net/video-stabilization-with-deshaker-in-blender/

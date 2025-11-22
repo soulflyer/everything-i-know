@@ -1,0 +1,6 @@
+#+TITLE: common lisp
+# TAGS #lisp
+
+Installed sbcl:
+
+/usr/local/bin/sbcl

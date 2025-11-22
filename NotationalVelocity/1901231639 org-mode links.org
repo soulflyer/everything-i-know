@@ -1,0 +1,5 @@
+#+TITLE: org-mode links
+# TAGS #emacs
+
+C-c C-l 	to create or edit a link
+C-c C-o	to open a link

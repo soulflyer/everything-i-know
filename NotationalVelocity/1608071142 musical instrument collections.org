@@ -1,0 +1,5 @@
+#+TITLE: musical instrument collections
+# TAGS #musical-instruments
+
+http://collections.ed.ac.uk/mimed/
+http://www.euchmi.ed.ac.uk/ubl/ubll.html

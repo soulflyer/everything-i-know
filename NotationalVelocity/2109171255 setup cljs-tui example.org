@@ -1,0 +1,10 @@
+#+TITLE: setup cljs-tui example
+# Tags #clojurescript #node
+
+#+begin_src shell
+  lein new cljs-tui deft-zetteldeft
+  tm deft-zetteldeft
+  npm install
+  cider-jack-in-cljs
+  node --inspect target/js/compiled/deft-zetteldeft.js
+#+end_src

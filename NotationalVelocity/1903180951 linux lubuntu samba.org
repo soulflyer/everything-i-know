@@ -1,0 +1,10 @@
+#+TITLE: linux lubuntu samba
+# TAGS #linux #samba
+
+https://ubuntuforums.org/showthread.php?t=1623346
+
+contains command to bypass startup error invalid desktop entry file: '/usr/share/applications/system-config-samba.desktop
+
+sudo -H system-config-samba
+
+https://ubuntuforums.org/showthread.php?t=2352410

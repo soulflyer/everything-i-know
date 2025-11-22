@@ -1,0 +1,7 @@
+#+TITLE: keystone admin roles
+# TAGS
+
+http://stackoverflow.com/questions/23666332/keystonejs-relationship-type-limit-available-items-by-field-value
+https://github.com/wangpingsx/keystone_supperAdmin/tree/b47122f7cc05351a26c15aeeb9e6f78d922b616f
+https://github.com/keystonejs/keystone/issues/803
+

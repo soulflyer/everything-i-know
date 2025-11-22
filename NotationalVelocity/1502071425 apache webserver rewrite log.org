@@ -1,0 +1,7 @@
+#+TITLE: apache webserver rewrite log
+# TAGS
+
+RewriteLog /var/log/rewrite.log
+RewriteLogLevel 9
+
+added to the end of http.conf

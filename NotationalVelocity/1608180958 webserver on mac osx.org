@@ -1,0 +1,6 @@
+#+TITLE: webserver on mac osx
+# TAGS
+
+put links in /Library/WebServer/Documents
+
+ln -s /Users/iain/Code/soulflyer-new Documents

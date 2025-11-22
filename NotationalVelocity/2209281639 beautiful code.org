@@ -1,0 +1,8 @@
+#+TITLE: beautiful code
+# Tags #book
+
+Edited by A.Oram and G.Wilson
+
+[[file:~/Documents/books/bookshelf/Programming/Beautiful_Code.pdf][Beautiful Code]]
+
+Collection of chapters by various Authors each about a piece of code they consider beautiful. Not an easy read, need to put in some effort to figure out what the code in question is doing. As far as I can remember none of it is clojure.

@@ -1,0 +1,5 @@
+#+TITLE: clojure openCL book
+# TAGS #clojure
+
+Clojure versions of the C code in "open CL in action"
+https://dragan.rocks/articles/18/Clojure-and-OpenCL-in-Action-GPU-Computing-Book-1

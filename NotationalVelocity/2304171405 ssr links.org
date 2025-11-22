@@ -1,0 +1,7 @@
+#+TITLE: ssr links
+# Tags #ssr
+
+[[https://github.com/phoenixframework/phoenix_live_view][Phoenix]] app builder, uses [[https://elixir-lang.org/][Elixir]]
+[[https://github.com/prepor/liveview-clj][Liveview]] in clj, inspired by the above.
+[[https://github.com/hyperfiddle/electric][Electric]] from hyperfiddle.
+[[https://github.com/kit-clj/kit][kit]]

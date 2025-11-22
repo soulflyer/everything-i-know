@@ -1,0 +1,5 @@
+#+TITLE: pairing
+# TAGS #tmux #pairing
+
+https://github.com/technomancy/syme No longer supported suggests using tmate instead:
+https://tmate.io/ This is a fork of tmux, designed to be used for pairing.

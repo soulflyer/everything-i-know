@@ -1,0 +1,3 @@
+#+TITLE: eye icon
+# Tags #iterm
+cmd-option-a starts a watcher (needs shell tool integration) and adds an eye icon in the top right of an iterm window.

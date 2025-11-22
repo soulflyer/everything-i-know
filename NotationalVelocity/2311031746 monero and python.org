@@ -1,0 +1,19 @@
+#+TITLE: monero and python
+
+Get monero-rpc [[https://www.getmonero.org/downloads/][here]]
+Also docs
+
+Send some fake money from [[https://community.rino.io/faucet/stagenet/][here]]
+
+#+begin_src shell
+# Create a wallet
+monero-wallet-cli --stagenet --generate-new-wallet wallet/stagewallet --daemon-host stagenet.community.rino.io --daemon-port 38081
+
+# view the wallet and connect to a node
+monero-wallet-rpc --stagenet --wallet-file wallet/stagewallet --disable-rpc-login --rpc-bind-port 38084 --daemon-host stagenet.community.rino.io --daemon-port 38081 --prompt-for-password
+
+# Create a node locally (might be big)
+monerod --stagenet
+#+end_src
+
+[[https://stagenet.xmrchain.net/][Monero Explorer]]

@@ -1,0 +1,29 @@
+#+TITLE: clojure seesaw start jvm problem
+# TAGS #clojure #seesaw
+
+from the repl-tutorial:
+
+;    $ lein new hello-seesaw
+;    $ cd hello-seesaw
+;    $ edit project.clj and add [seesaw "1.4.2"] to :dependencies
+;    $ lein deps
+
+; Now let's start up the REPL and do some Seesaw stuff. Repl results are
+; marked with ;=> in the usual way.
+$ lein repl
+
+; Here we go. First will use Seesaw and stuff
+(use 'clojure.repl)
+;=> nil
+(use 'seesaw.core)
+;=> nil
+
+If the cider-nrepl plugin is in use, this doesn't start up the jvm as it should (main doesn't appear after doing (use 'seesaw.core) as it should.
+
+Fix by adding seesaw to the ns defn, ie:
+
+(ns junk.core
+  (:use seesaw.core))
+  
+  
+and add a :main clause to the defproject definition.

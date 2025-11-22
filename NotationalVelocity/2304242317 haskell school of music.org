@@ -1,0 +1,4 @@
+#+TITLE: haskell school of music
+# Tags #book
+
+[[pdf:~/Documents/books/bookshelf/Functional/Haskell/HSoM.pdf::1++0.00][HSoM.pdf]]

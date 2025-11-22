@@ -1,0 +1,44 @@
+#+TITLE: mu4e emacs mail archive folder
+# TAGS #emacs #mail
+
+Can file in different folders by defining a function and assigning it to mu4e-refile-folder
+
+see:
+http://cachestocaches.com/2017/3/complete-guide-email-emacs-using-mu-and-/
+
+#+begin_src emacs-lisp
+  (setq mu4e-contexts
+   `( ,(make-mu4e-context
+       :name "Gmail"
+       :match-func (lambda (msg) (when msg
+         (string-prefix-p "/Gmail" (mu4e-message-field msg :maildir))))
+       :vars '(
+         (mu4e-trash-folder . "/Gmail/[Gmail].Trash")
+         (mu4e-refile-folder . "/Gmail/[Gmail].Archive")
+         ))
+     ,(make-mu4e-context
+       :name "Exchange"
+       :match-func (lambda (msg) (when msg
+         (string-prefix-p "/Exchange" (mu4e-message-field msg :maildir))))
+       :vars '(
+         (mu4e-trash-folder . "/Exchange/Deleted Items")
+         (mu4e-refile-folder . exchange-mu4e-refile-folder)
+         ))
+     ))
+#+end_src
+
+For my Exchange server, I have a slightly more complicated procedure; rather than including a specific refile folder, I define a function exchange-mu4e-refile-folder which does some more filtering. Apparently I don't want any emails from this fictitious going to the typical archive folder. So, whenever I get a message which includes "[some-mailing-list]" in the subject, I can still refile the message with r and know that it will go to the correct folder.
+
+#+begin_src emacs-lisp
+  (defun exchange-mu4e-refile-folder (msg)
+    "Function for chosing the refile folder for my Exchange email.
+     MSG is a message p-list from mu4e."
+    (cond
+     ;; FLA messages
+     ((string-match "\\[some-mailing-list\\]"
+            (mu4e-message-field msg :subject))
+      "/Exchange/mailing-list")
+     (t "/Exchange/Archive")
+     )
+    )
+        #+end_src

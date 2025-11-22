@@ -1,0 +1,10 @@
+#+TITLE: cicada
+
+[[git@github.com:CicadaLabs/cicada-backend.git][cicada backend]]
+
+To get the session ID:
+#+begin_src shell
+curl -X POST localhost:3333/api/v1/login -i -H 'Content-type: application/json' -d '{"login": "owner", "password": "not_nil"}'
+#+end_src
+
+Open devtools and replace the session Id under app on http://localhost:3333/api/v1/swagger/swagger-ui

@@ -1,0 +1,7 @@
+#+TITLE: lsp not showing documentation
+# Tags #clojure #lsp
+Turns out this was because I had opened the clj file before I created the project.clj so lsp was treating the src directory as a project and not finding the requires to link to the included stuff.
+Fixed it by doing:
+#+begin_src emacs-lisp
+(lsp-workspace-folders-remove)
+#+end_src

@@ -1,0 +1,25 @@
+* Toothing plane cutting geometry
+Not important when used for its original purpose to provide tooth on a softish veneer substrate. Could be important for use as a means of dealing with ultra hard wood. Traditional design with an upright or almost upright iron with the grooves on the front give a splitting action rather than a cutting action. Grooves on the back would present a cutting edge, albeit at a steep angle.
+
+Hypothesis: This would cut better and wear slower.
+
+** Possible Approaches
+
+*** Use the same plane body, but groove the bevel.
+**** Advantages
+Same plane body
+**** Disadvantages
+Sharpening would be unusual. Also means cutting the grooves myself. Need to find some high carbon steel that can easily be heat treated. Localy available blades may be ok, might need to experiment. Or perhaps get a look at the box in the shop.
+**** Possibilities:
+***** Sharpen the grooves.
+Tricky. Involves finding and maintaining a tiny edged stone. Also pretty time consuming to sharpen it.
+***** Only sharpen the face.
+Means removing a lot of metal at every sharpening.
+***** Bevel the face, a little like a back bevel.
+Grooves would need to be recut periodicaly, but not at every sharpening.
+
+*** Use a plane body with a lower angle and present the blade bevel up.
+**** Advantages
+Same plane iron
+**** Disadvantages
+The iron is not flat on the grooved side. Makes blade support tricky. Could possibly be solved with a card shim under the grooved part. A good solid iron would also help.

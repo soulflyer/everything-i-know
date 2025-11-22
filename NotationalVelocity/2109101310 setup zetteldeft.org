@@ -1,0 +1,52 @@
+#+TITLE: setup zetteldeft
+# Tags # #emacs #lisp #zetteldeft
+
+Switch to the tutorial.
+#+begin_src emacs-lisp :results silent
+  (setq deft-directory "/Users/iain/Code/zd-tutorial")
+  (deft)
+  (deft-refresh)
+#+end_src
+
+Switch back to my deft files
+#+begin_src emacs-lisp :results silent
+  (setq deft-directory "/Users/iain/.deft")
+  (deft)
+  (deft-refresh)
+#+end_src
+
+Make sure the bindings work
+#+begin_src emacs-lisp :results silent
+  (zetteldeft-set-classic-keybindings)
+#+end_src
+
+Re-define the id for shorter display
+
+#+begin_src emacs-lisp :results silent
+  (setq zetteldeft-id-format "%y%m%d%H%M")
+  (setq zetteldeft-id-regex "[0-9]\\{10\\}")
+#+end_src
+
+Put the id format back for the tutorial
+#+begin_src emacs-lisp :results silent
+    (setq zetteldeft-id-format "%Y-%m-%d-%H%M")
+    (setq zetteldeft-id-regex "[0-9]\\{4\\}\\(-[0-9]\\{2,\\}\\)\\{3\\}")
+#+end_src
+
+Set a home page. Use the first 10 chars of the file name (yymmddhhmm)
+#+begin_src emacs-lisp :results silent
+  (setq zetteldeft-home-id "2109101310")
+#+end_src
+
+Set the home page for the tutorial
+#+begin_src emacs-lisp :results silent
+  (setq zetteldeft-home-id "2020-02-15-1247")
+#+end_src
+
+
+Running C-c d h sometimes causes an error finding multiple notes with the same id. I think it is when changes have been made to the home page. Fix it by doing a deft refresh: C-c d R
+
+Org mode is cleaning up trailing whitespace on save and this is making life difficult when deft is saving files every second. Switch it to 10 seconds instead. Had to restart emacs to get it to work
+#+begin_src emacs-lisp :results silent
+  (setq zetteldeft-home-id "2109101310")
+#+end_src

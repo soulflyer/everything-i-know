@@ -1,0 +1,4 @@
+#+TITLE: browser in emacs
+# Tags #emacs 
+https://www.emacswiki.org/emacs/EmacsXembed
+https://emacs.stackexchange.com/questions/69642/using-an-emacs-frame-as-a-gtk-widget

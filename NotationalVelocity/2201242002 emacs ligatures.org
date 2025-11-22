@@ -1,0 +1,12 @@
+#+TITLE: emacs ligatures
+# Tags #emacs
+Need to set an appropriate font in iterm to do this. *Hasklig* works, seems good for coding, not sure about deft though.
+This is just for haskell using *hasklig-mode*
+
+** Hasklig-mode
+Partialy works but seriously screws up formatting
+
+Looks like there will be another option in emacs28 but the pre-release version I'm using doesn't have it. I think it might need compiling with some other options and as I don't compile it, I get it from *brew emacs.head@28* I think I will wait.
+Setting the font to *fira-code-symbol* doesn't work, must need some other definitions to work with hasklig mode
+Also *ligature.el* looks promising. Hopefully it will be up on melpa soon, don't feel like building that either...
+Could also try *fira-code-mode* (but the basic font is awful)

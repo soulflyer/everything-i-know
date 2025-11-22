@@ -1,0 +1,18 @@
+#+TITLE: emacs gui resize
+# Tags #emacs
+
+from [[https://github.com/d12frosted/homebrew-emacs-plus#emacs-29-1][emacs-plus]]
+GUI Emacs window not filling the whole screen can be fixed with:
+#+begin_src emacs-lisp
+(setq frame-resize-pixelwise t)
+#+end_src
+
+also 
+
+can get rid of title bar by adding the following line in your early-init.el file:
+
+#+begin_src emacs-lisp
+(add-to-list 'default-frame-alist '(undecorated . t))
+#+end_src
+
+Looks good but can't drag the window, must use yabai/skhd

@@ -1,0 +1,6 @@
+#+TITLE: emacs clojure fancy characters
+# TAGS #emacs
+
+(fn )
+#( )
+#{ }

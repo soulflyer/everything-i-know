@@ -1,0 +1,12 @@
+#+TITLE: emacs hook define-key
+# TAGS #emacs
+
+(add-hook 'sgml-mode-hook 'my-sgml-mods)
+(defun my-sgml-mods ()
+  "Add to sgml mode."
+  (define-key sgml-mode-map (kbd "C-c C-r") 'rename-sgml-tag)
+  (define-key sgml-mode-map (kbd "C-c z") 'zencoding-expand-line)
+  (define-key sgml-mode-map (kbd "RET") 'reindent-then-newline-and-indent))
+
+
+I think this is so that emacs doesn't throw an error if there is no sgml-mode-map on startup

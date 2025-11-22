@@ -1,0 +1,29 @@
+#+TITLE: webmidi
+# TAGS #midi
+
+blog with basic tutorial
+https://www.toptal.com/web/creating-browser-based-audio-applications-controlled-by-midi-hardware
+
+blog with lots of links
+https://www.midi.org/articles/about-web-midi
+
+blog incl musical lock
+https://www.smashingmagazine.com/2018/03/web-midi-api/
+
+clojurescript wrapper
+https://github.com/jellea/spaghetti
+
+The official docs
+https://webaudio.github.io/web-midi-api/
+
+JS wrapper
+https://github.com/djipco/webmidi
+
+Demo web page
+https://airtightinteractive.com/demos/webmiditest/
+
+Another demo
+http://www.websynths.com/#
+
+blog with sysex info
+https://factotumo.com/2017/03/web-midi-access-sysex-and-ssl/

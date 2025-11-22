@@ -1,0 +1,11 @@
+#+TITLE: Linux Ubuntu Caps Lock
+# TAGS #linux #capslock
+
+setxkbmap -option <OPTION>
+option is caps:ctrl_modifier
+
+https://askubuntu.com/questions/53038/how-do-i-remap-the-caps-lock-key
+
+or try gnome-tweak-tool keyboard > additional-layout-options
+
+https://askubuntu.com/questions/33774/how-do-i-remap-the-caps-lock-and-ctrl-keys

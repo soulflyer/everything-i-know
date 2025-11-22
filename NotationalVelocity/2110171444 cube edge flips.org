@@ -1,0 +1,29 @@
+#+TITLE: cube edge flips
+# Tags #cube
+# Backlink: §2110141410 rubiks cube
+
+Flipping cube edges. 1 edge can't be flipped on a 3x3. 
+
+* 1 edge
+r  U2 x r U2 r  U2
+r' U2  l  U2 r' U2
+r  U2  r' U2 r'
+
+For 5x5 this is almost the same. Note the extra layer that is rotated near the end of verse 2
+Note that it doesn't flip the whole row, only the outer parts. Flipping the centre one is not possible, or useful.
+
+r  U2 x r U2  r   U2
+r' U2  l  U2  3R' U2
+r  U2  r' U2  r'
+
+* 2 Edges
+
+⬛🟨🟨⬛    ⬛🟥🟥⬛
+⬛🟥🟥⬛    ⬛🟨🟨⬛        
+⬛⬛⬛⬛    ⬛⬛⬛⬛
+⬛⬛⬛⬛    ⬛⬛⬛⬛
+⬛🟧🟧⬛    ⬛🟨🟨⬛
+⬛🟨🟨⬛    ⬛🟧🟧⬛
+
+M' U  M' U  M' U2
+M  U  M  U  M  U2

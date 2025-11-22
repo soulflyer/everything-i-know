@@ -1,0 +1,7 @@
+#+TITLE: emacs search for multiple options
+# TAGS #emacs #search
+
+separate search terms with \|
+
+ie:
+tcustomer\|tpayment\|tproperty\|tsubscription

@@ -1,0 +1,6 @@
+#+TITLE: docker wont start
+# Tags #docker
+
+Using *activity monitor* to kill the still running docker processes was what got it working again. Reinstall may or may not have been necessary.
+
+[[https://stackoverflow.com/a/71861493/1671119][stackoverflow]]

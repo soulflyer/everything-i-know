@@ -1,0 +1,27 @@
+#+TITLE: emotiv job
+# Tags #job
+
+1. How many years of experience do you have in the developer community field? Can you share an experience where you supported a developer community and how you addressed their challenges?
+
+Probably about 8 years involved with and supporting the developer community in various ways. Most recently with a Clojure contracting company where I acted as project manager and mentor  for the open-source team that the devs worked in when they were between contracts with customers. This involved training and assisting them in various things including pair and mob programming, and clean coding techniques. I also worked as liason with customers including onboarding a large team of devs for a US based medical company. Given their strict security policies and the inevitable delays this caused that role needed diplomacy, calm, and persistence.
+
+2. What is your familiarity with EEG technology and Bioinformatics? How would you prototype an application that demonstrates the potential of EEG technology to developers?
+I don't have hands on experience here, but there has been some noise in the Clojure community recently about the brain-computer interface which people are starting to explore. Price has always been a block to personal tinkering in this area, but it looks like it may be coming within reach. I would love to explore the possibities of linking in to musical control. Currently I am attempting to build an arduino based heart monitor (early stages, just got the parts last week). I want to see what happens if my midi clock is synced to my heart rate and how that might affect a performance.
+
+As for prototyping I generally prefer Clojurescript or Clojure with re-frame. They link in nicely to either the JVM or javascript and are probably the best available technologies in terms of writing good clean code that is still comprehensible even after a nunber of years and several changes of developers.
+However I am happy to use a different tech stack, perhaps one that is more generally known. MAUI does appear to do a decent job and if that is the companys choice I would work with that.
+
+
+3. Are you able to create short demo videos featuring yourself?We would like to gain the understanding about your tutorial video creation skills. Would you be able to record a 15–30 minute step-by-step tutorial video demonstrating how to build an Android mobile application using a Microsoft MAUI project? The app should display real-time Performance Metrics. This tutorial will help us assess both your technical ability to develop an Emotiv-integrated mobile app and your communication skills in delivering a clear and structured presentation. The selected candidate will be delivering tutorial videos globally, so clear and fluent English pronunciation is a must. The presentation should also be simple enough for someone to follow, even without prior development experience.
+
+4. Our team is spread around the world with different time zones. Are you comfortable working in this style, especially in European and US time zones?
+
+5. What is your gross salary expectation? Can you please share a specific number.
+
+6. If you pass the interview, when would you be able to start?
+
+
+Notes:
+[[https://stackoverflow.com/a/68918713/1671119][android-sdk discontinued]]
+[[https://learn.microsoft.com/en-us/training/modules/build-mobile-and-desktop-apps/][Maui app tutorial]]
+[[https://learn.microsoft.com/en-us/training/modules/build-mobile-and-desktop-apps/6-exercise-create-phone-number-translator-app][Phone number converter app]]

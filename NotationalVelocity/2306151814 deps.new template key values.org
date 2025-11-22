@@ -1,0 +1,37 @@
+#+TITLE: deps.new template key values
+# Tags #clojure
+
+Put this in a file in template and it will be converted to show all the values when the template is used to generate a project.
+
+#+begin_src 
+artifact/id  ==  {{artifact/id}} 
+group/id  ==  {{group/id}} 
+
+main  ==  {{main}}
+main/ns  ==  {{main/ns}}
+main/file  ==  {{main/file}}
+
+raw-name  ==  {{raw-name}} 
+name  ==  {{name}}
+name/ns  ==  {{name/ns}} 
+name/file  ==  {{name/file}} 
+
+top  ==  {{top}}
+top/ns  ==  {{top/ns}}
+top/file  ==  {{top/file}}
+
+db-name  ==  {{db-name}}
+db-name/ns  ==  {{db-name/ns}}
+db-name/file  ==  {{db-name/file}}
+
+scm/domain  ==  {{scm/domain}} 
+scm/user  ==  {{scm/user}} 
+scm/repo  ==  {{scm/repo}} 
+
+description  ==  {{description}}
+developer  ==  {{developer}}
+now/date  ==  {{now/date}}
+now/year  ==  {{now/year}}
+user  ==  {{user}}
+version  ==  {{version}}
+#+end_src

@@ -1,0 +1,7 @@
+#+TITLE: sci-cloj llm
+# Tags #clojure #ai
+
+[[https://github.com/zmedelis/bosquet][bosquet]] uses [[https://github.com/wilkerlucio/pathom][pathom]] to sort out dependencies between steps of a prompt and [[https://github.com/yogthos/Selmer][selmer]] as a templating language.
+
+[[https://github.com/r2d4/rellm][rellm]] uses regexps to constrain answers
+

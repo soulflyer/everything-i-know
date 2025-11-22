@@ -1,0 +1,69 @@
+#+TITLE: haskell syntax blog
+# Tags #haskell
+
+Nice clear description of how haskell syntax works.
+https://andrew.gibiansky.com/blog/haskell/haskell-syntax/
+extracts:
+** Haskell Layout
+At this point, you may be a little bit confused about exactly how far you need to indent each line of code. Although it seems like there are a lot of rules, Haskell actually uses a very simple system. In addition to supporting indentation, Haskell allows using curly braces and semicolons as delimiters. The meaning of the following code should be clear:
+
+#+begin_src haskell
+let {x = 3; z = 5} in x + z
+#+end_src
+In order to convert this into a indentation-based (layout) block, follow two simple rules:
+
+Semicolons are converted into newlines.
+
+Remove braces, replacing them with indentation. Every clause in a braced block must start at the same level of indentation. All expressions in the same group must have their starting character be exactly aligned.
+
+Using those two rules, the above code can be rewritten to the following variants, as well as others:
+
+#+begin_src haskell
+let x = 3
+    z = 5 in x + z
+
+let x = 3
+    z = 5
+in x + z
+
+let
+ x = 3
+ z = 5
+in x + z
+#+end_src
+If you remember these two simple rules, Haskell rules for layout of indented blocks will make sense.
+
+** Functions of Multiple Arguments
+In Haskell, all functions are single-argument functions. Every function takes one argument and returns one value. However, we can still emulate multi-argument functions! For example, consider the following function, which adds two numbers:
+
+#+begin_src haskell
+  add :: Int -> (Int -> Int) -- (1)
+  add =
+    \first ->
+      \second -> -- (2)
+        first + second
+#+end_src
+(1) The input to add is a single number, an Int. The output is function of type Int -> Int, which is a function that takes a second number (also an Int) and returns some Int output (their sum).
+(2 )The output of the first anonymous function is a second anonymous function. The output of the second anonymous function uses arguments to both levels of functions (first and second).
+
+When we pass an Int to add, we get back another function. If we pass another Int to that function, we get the sum of the two integers as a result:
+
+#+begin_src haskell
+func :: Int -> Int
+func = add 1
+
+three :: Int
+three = func 2
+#+end_src
+In this regard, Haskell’s single-argument functions allow us to easily emulate multi-argument functions. In order to make this easier, Haskell provides us with syntactic sugar for these anonymous function declarations, just like it does for single-argument functions. Thus, we can write the function and it’s use as follows:
+
+#+begin_src haskell
+add :: Int -> Int -> Int -- (1) 
+add first second = first + second  -- (2)
+
+three :: Int
+three = add 1 2 -- (3)
+#+end_src
+(1) We don’t need parentheses around the output Int -> Int; those are implied. Another way of saying this is that the -> operator is right-associative.
+(2) In this code, we’ve replaced the two anonymous functions with a single declaration. However, the meaning is unchanged. We can still write add 1 :: Int -> Int and store that into a variable, applying it to the second argument somewhere else in the code (or not at all). The process of supplying less than the full set of arguments to a function and getting back a function expecting the rest of the arguments is called currying, and is used very frequently in Haskell.
+(3) We don’t need the parentheses around add 1, as they are implied. Function application is left-associative, meaning that elements are grouped on the left. For example, the expression a b c d is interpreted as ((a b) c) d.

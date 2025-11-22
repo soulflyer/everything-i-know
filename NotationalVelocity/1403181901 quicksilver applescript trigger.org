@@ -1,0 +1,4 @@
+#+TITLE: quicksilver applescript trigger
+# TAGS #applescript #quicksilver
+
+Can't set up a trigger to a link, so save the real script in Library/scripts/Aperture first, set up the Quicksilver trigger then remove it and put in the soft link to the script in the Code directory

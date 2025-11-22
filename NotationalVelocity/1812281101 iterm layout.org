@@ -1,0 +1,5 @@
+#+TITLE: iterm layout
+# TAGS
+
+Could use this a bit like tmux, using iterm windows instead of tmux panes
+https://github.com/TomAnthony/itermocil

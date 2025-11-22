@@ -1,0 +1,4 @@
+#+TITLE: emacs eshell clear input
+# Tags #emacs #eshell
+
+C-c equivalent is C-c C-u

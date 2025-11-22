@@ -1,0 +1,6 @@
+#+TITLE: syntax highlighting for more (less)
+# TAGS #emacs
+
+emacs package e2ansi has the details
+
+https://github.com/Lindydancer/e2ansi

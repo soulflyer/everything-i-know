@@ -1,0 +1,10 @@
+* re-frame
+Looks like it might be useful for handling state.
+* Learn spec
+   Recommended by re-frame. Good to know anyway.
+   https://clojure.org/about/spec
+* DONE [#G] Learn about devcards
+CLOSED: [2025-09-24 Wed 08:47]
+Potentially useful debugging tool for clojurescript.
+This blog uses devcards to run tests [[https://8thlight.com/blog/eric-smith/2016/10/05/a-testable-clojurescript-setup.html][TDD in Clojurescript 2016]]
+https://github.com/bhauman/devcards

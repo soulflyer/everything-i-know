@@ -1,0 +1,11 @@
+#+TITLE: rails test migrate
+# TAGS
+
+rake db:test:prepare
+or:
+rake test:prepare
+or:
+rake environment RAILS_ENV=test db:migrate
+or
+rake db:migrate
+rake db:test:load

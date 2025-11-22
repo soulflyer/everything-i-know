@@ -1,0 +1,9 @@
+#+TITLE: phonegap-cordova create
+# TAGS #phonegap
+
+cordova create helloworld com.soulflyer.helloworld HelloWorld
+cd helloworld
+cordova platform add android
+cordova build
+
+open in eclipse with file:new project:Android project from existing code

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2311211843 purfling cutter-images
+:END:
+#+TITLE: purfling cutter
+# Tags #tool
+
+[[pdf:/Volumes/Crucial/bookshelf/Musical-Instruments/FOMRHI/Fomrhi-083.pdf::63++0.00][FOMRI Article]] purfling cutter made of 2 brass plates soft soldered together with spacers.
+[[file:2311211843 purfling cutter-images/screenshot-20240409-174426.png]]

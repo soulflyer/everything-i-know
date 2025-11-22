@@ -1,0 +1,9 @@
+#+TITLE: sass scss
+# TAGS #css
+
+sudo gem install sass
+
+sass input.scss output.css
+
+emacs will automatically compile to css (SCSS mode) but otherwise run this:
+sass --watch input.css:output.css

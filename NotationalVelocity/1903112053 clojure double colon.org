@@ -1,0 +1,4 @@
+#+TITLE: clojure double colon
+# TAGS #clojure
+
+Recall that ::keyword is a shorthand for :current.namespace/keyword

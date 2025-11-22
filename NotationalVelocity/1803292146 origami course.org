@@ -1,0 +1,4 @@
+#+TITLE: origami course
+# TAGS #origami
+
+http://courses.csail.mit.edu/6.849/fall10/

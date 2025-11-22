@@ -1,0 +1,7 @@
+#+TITLE: facebook graph API explorer
+# TAGS #photo #facebook
+
+Post a pic:
+me/photos?url=http://soulflyer.co.uk/photos/medium/2014/09/11-Baby-Dancing/DIW_8686.jpg&message=test%20post
+Tag with Rainbow Divers:
+me/photos?url=<URL>&message=<message>&place=358956457475087

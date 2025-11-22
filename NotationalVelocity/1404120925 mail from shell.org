@@ -1,0 +1,38 @@
+#+TITLE: mail from shell
+# TAGS #mail #shell
+
+echo "Hello" | mail -s "Test" iain@soulflyer.co.uk -f soulflyer@me.com
+
+Edit /etc/postfix/main.cf and add the following to the end:
+relayhost = smtp.me.com
+smtp_sasl_auth_enable = yes
+smtp_use_tls = yes
+smtp_enforce_tls = yes
+smtp_sasl_security_options =
+smtp_sasl_tls_security_options =
+smtp_sasl_tls_verified_security_options =
+smtp_tls_loglevel = 2 # optional if you wan to see what's going on with the TLS negotiation in /var/log/mail.log
+smtp_sasl_password_maps = hash:/etc/postfix/smtp_sasl_passwords
+smtp_tls_per_site = hash:/etc/postfix/smtp_tls_sites
+tls_random_source = dev:/dev/urandom
+
+Create /etc/postfix/smtp_sasl_passwords with the following contents:
+smtp.me.com soulflyer:******
+
+Create /etc/postfix/smtp_tls_sites with the following contents:
+smtp.me.com MUST_NOPEERMATCH
+
+Then run the following commands:
+$ cd /etc/postfix
+$ chmod go-rx smtp_sasl_passwords
+$ postmap smtp_sasl_passwords
+$ postmap smtp_tls_sites
+
+To test, try:
+echo "Hello" | mail -s "Test" iain@soulflyer.co.uk -f soulflyer@me.com
+
+Didn't work with soulflyer.co.uk, postfix don't like port 465, but me.com uses 587 which is ok
+
+taken from http://hints.macworld.com/article.php?story=20081217161612647
+
+Update password in smtp_sasl_passwords and rerun postmap smtp_sasl_passwords if apple id password gets changed

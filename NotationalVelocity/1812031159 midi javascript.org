@@ -1,0 +1,4 @@
+#+TITLE: midi javascript
+# TAGS #javascript
+
+https://medium.com/swinginc/playing-with-midi-in-javascript-b6999f2913c3

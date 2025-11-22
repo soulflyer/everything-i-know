@@ -1,0 +1,17 @@
+#+TITLE: saxaphone fingering
+# Tags #music #sax
+* Fingering
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Documents/org-mode/NotationalVelocity/2510241250 saxaphone fingering-images
+:END:
+Charts taken from [[https://www.wfg.woodwind.org/sax/][woodwind.org]]
+[[file:2510241250 saxaphone fingering-images/screenshot-20251024-125251.png]]
+[[file:2510241250 saxaphone fingering-images/screenshot-20251024-125605.png]]
+[[file:2510241250 saxaphone fingering-images/screenshot-20251024-125736.png]]
+[[file:2510241250 saxaphone fingering-images/screenshot-20251024-125838.png]]
+[[file:2510241250 saxaphone fingering-images/screenshot-20251024-125906.png]]
+[[file:2510241250 saxaphone fingering-images/screenshot-20251024-130058.png]]
+[[file:2510241250 saxaphone fingering-images/screenshot-20251024-130132.png]]
+[[file:2510241250 saxaphone fingering-images/screenshot-20251024-130233.png]]
+[[file:2510241250 saxaphone fingering-images/screenshot-20251024-130257.png]]
+Theres more....

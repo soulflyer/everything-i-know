@@ -1,0 +1,22 @@
+#+TITLE: aperture applescript set IPTC field
+# TAGS #applescript #photo
+
+#+begin_src applescript
+set theYear to "2007"
+set theMonth to "June"
+set theProject to "04-Marshall"
+set theName to "DIW_0034"
+tell application "Aperture"
+    tell folder theYear
+        tell folder theMonth
+            tell project theProject
+                set sels to every image version where name is theName
+                set sel to first item of sels
+                tell sel
+                    make new IPTC tag with properties {name:"SpecialInstructions", value:"BL66S15X1Y2"}
+                end tell
+            end tell
+        end tell
+    end tell
+end tell
+#+end_src

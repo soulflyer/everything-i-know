@@ -1,0 +1,16 @@
+#+TITLE: AngularJS Services
+# TAGS #angular
+
+create services.js
+add script link in index.html <script src="js/services.js"></script>
+also add link to angular resources <script src="lib/ionic/js/angular/angular-resource.min.js"></script>
+
+services.js:
+angular.module('starter.services', ['ngResource'])
+
+.factory('Position', function ($resource) {
+    return $resource('http://localhost:5000/positions/:positionId');
+});
+
+assumes that there is a server running on localhost that will serve up a json file from 'http://localhost:5000/positions/:positionId
+describing the "position"

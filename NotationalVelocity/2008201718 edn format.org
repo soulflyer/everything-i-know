@@ -1,0 +1,5 @@
+#+TITLE: edn format
+# TAGS #clojure #edn
+
+cider-format-edn-region
+Can be used to turn a one line edn file into something readable

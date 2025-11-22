@@ -1,0 +1,13 @@
+#+TITLE: external monitor
+# Tags #mac
+Monitor is sometimes not recognized after sleep. Things to try
+
+* ESC key
+[[https://forums.macrumors.com/threads/external-monitor-doesnt-wake-up-when-macbook-does.1702691/][MacRumors]] suggests hitting the *ESC* key and waiting 15-20 secs
+* Detect Displays
+[[https://discussions.apple.com/thread/7374709?sortBy=rank][Disscusions.apple.com]] suggests using detect displays. Press the *OPT* key when in displays system prefs.
+* Rotate Display
+[[https://apple.stackexchange.com/a/385041/323876][Stackexchange]] suggests playing with the external monitor display settings, either rotate or change the arrangement
+
+=None of these work=
+Unplugging the cable and plugging it in again does, and doesn't generate the *Disabling USB accessories* message that power cycling the monitor does.

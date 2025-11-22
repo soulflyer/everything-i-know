@@ -1,0 +1,4 @@
+#+TITLE: css independent scrolling panels
+# TAGS #css
+
+https://benfrain.com/independent-scrolling-panels-body-scroll-using-just-css/

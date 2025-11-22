@@ -1,0 +1,16 @@
+#+TITLE: photo workflow
+# TAGS #photo
+
+process and export to fullsize
+watermark (open watermarker and select the directory containing the exported versions)
+create versions (versions <dirname>/*.jpg)
+create json in projects
+backup-to-soulflyer
+
+Using fisheye-hemi
+
+Import to Aperture
+create fisheye-hemi versions C-M-f
+convert fisheye-hemi versions to jpeg C-M-j
+delete photoshop versions CMD-Del
+empty aperture trash

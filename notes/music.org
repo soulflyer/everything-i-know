@@ -1,0 +1,16 @@
+* FIXME TODOs
+** DONE [#D] FIX metadata editing for FLAC
+CLOSED: [2025-11-07 Fri 10:18]
+*sudo apt install flac* installs metaflac
+** DONE [#D] Transfer playcounts from stats.db to stickers
+CLOSED: [2025-11-06 Thu 23:09]
+** DONE [#A] Make a demo of fourier analysis/ sound generation from sin waves
+CLOSED: [2025-11-09 Sun 22:59]
+** TODO [#D] Setup Mac effects chain for flute and guitar
+** DONE [#D] Setup +-mpdev-+ mppopd.
+CLOSED: [2025-11-06 Thu 00:52]
+Might not be necessary to clone from source. I found the scripts in /usr/libexec/mpdev 
+Copied sticker.db and stats.db from *Acceptance* to *Transcendence* Next try reading them
+Abandon *mpdev* in favour of *mppopd* which uses only stickers so I don't need 2 dbs
+** DONE [#B] Look for a VCV soundfont player
+CLOSED: [2025-10-09 Thu 19:53]

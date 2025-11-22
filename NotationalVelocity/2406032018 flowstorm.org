@@ -1,0 +1,6 @@
+#+TITLE: flowstorm
+# Tags #clojurescript
+
+#+begin_src shell
+clj -Sforce -Sdeps '{:deps {com.github.flow-storm/flow-storm-dbg {:mvn/version "RELEASE"}}}' -X flow-storm.debugger.main/start-debugger :port 7002 :repl-type :shadow :build-id :app
+#+end_src

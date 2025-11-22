@@ -1,0 +1,8 @@
+#+TITLE: emacs stackexchange
+# TAGS #emacs
+
+Use sx to search for answers on multiple sites:
+https://mullikine.github.io/posts/stackexchange-inside-emacs-with-google-search/
+
+SX is at:
+https://github.com/vermiculus/sx.el

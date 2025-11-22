@@ -1,0 +1,17 @@
+#+TITLE: port list requested
+# TAGS #port
+
+Setting up new system, added these:
+
+curl-ca-bundle                 @7.44.0         net/curl
+emacs                          @24.5           editors/emacs
+ImageMagick                    @6.9.2-0        graphics/ImageMagick
+lynx                           @2.8.8rel.2     www/lynx
+mutt-devel                     @1.5.23         mail/mutt-devel
+mutt-devel                     @1.5.23         mail/mutt-devel
+mutt-devel                     @1.5.23         mail/mutt-devel
+mutt-devel                     @1.5.23         mail/mutt-devel
+notmuch                        @0.20.2         mail/notmuch
+offlineimap                    @6.5.7          mail/offlineimap
+tmux                           @2.0            sysutils/tmux
+tree                           @1.7.0          sysutils/tree

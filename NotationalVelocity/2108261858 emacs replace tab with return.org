@@ -1,0 +1,11 @@
+#+TITLE: emacs replace tab with return
+# TAGS #emacs
+
+replace-string tab (ret)
+M-q C-j (ret)
+
+quoted-insert is bound to M-q, the usual C-q gets stolen by tmux
+
+use C-o to insert a return char in the minibuffer
+
+[[https://stackoverflow.com/q/23712076/1671119][stackoverflow]]

@@ -1,0 +1,4 @@
+#+TITLE: emacs open link C-c C-o
+# TAGS #emacs
+
+(org-open-at-point)

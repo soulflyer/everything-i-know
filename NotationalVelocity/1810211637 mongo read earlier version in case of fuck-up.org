@@ -1,0 +1,6 @@
+#+TITLE: mongo read earlier version in case of fuck-up
+# TAGS #mongo
+
+kill mongod
+visit home directory on mimi
+mongod --dbpath /Volumes/iain/db/

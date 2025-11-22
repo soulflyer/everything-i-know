@@ -1,0 +1,5 @@
+#+TITLE: mac disable run check
+# TAGS #osx
+
+sudo spctl --master-disable
+then look in system-preferences:security and the "anywhere" option should be back.

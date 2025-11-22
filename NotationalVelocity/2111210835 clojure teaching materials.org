@@ -1,0 +1,6 @@
+#+TITLE: clojure teaching materials
+# Tags #clojure
+
+http://www.clojurekoans.com/
+https://github.com/ClojureBridge/curriculum
+https://4clojure.oxal.org/

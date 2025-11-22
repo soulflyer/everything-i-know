@@ -1,0 +1,6 @@
+#+TITLE: sound effect samples
+# Tags #music
+
+Free sound samples here: [[https://pixabay.com/sound-effects/search/][Pixabay]]
+and limited here: [[https://samplefocus.com/samples][Samplefocus]] [[https://www.zapsplat.com/basic-member-home/][Zapsplat]]
+and here [[https://sound-effects.bbcrewind.co.uk][BBC]]

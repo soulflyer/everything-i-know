@@ -1,0 +1,305 @@
+#+TITLE: photo scan program
+# TAGS #photogrametry
+
+https://github.com/alicevision/meshroom
+need alicevision
+https://alicevision.github.io/
+
+/Users/iain/Code/AliceVision
+
+Added link to new version of clang in /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+There should be a way of specifying this in the make files but damned if I can find it.
+
+Problems building this, had to upgrade clang and cmake, but still running into a problem with the build. It ends saying : -- Configuring incomplete, errors occurred! but there are no errors reported in the logfiles?
+
+build: /usr/local/bin/cmake -DCMAKE_BUILD_TYPE=Release -G "Xcode" ../AliceVision
+-- The C compiler identification is Clang 7.0.0
+-- The CXX compiler identification is Clang 7.0.0
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Force CMAKE_INSTALL_DO_STRIP in Release
+-- ----------------------------------------
+-- ALICEVISION_BUILD_DEPENDENCIES: OFF
+-- ALICEVISION_BUILD_TESTS: OFF
+-- AV_BUILD_CUDA: OFF
+-- AV_BUILD_ZLIB: ON
+-- AV_BUILD_TIFF: ON
+-- AV_BUILD_JPEG: ON
+-- AV_BUILD_PNG: ON
+-- AV_BUILD_LIBRAW: ON
+-- AV_BUILD_POPSIFT: ON
+-- AV_BUILD_OPENGV: ON
+-- AV_BUILD_LAPACK: ON
+-- AV_BUILD_SUITESPARSE: ON
+-- CMAKE_BUILD_TYPE: Release
+-- DEPS_CMAKE_BUILD_TYPE: Release
+-- CMAKE_INSTALL_LIBDIR: lib
+-- CMAKE_INSTALL_PREFIX: /usr/local
+-- CMAKE_INSTALL_RPATH:
+-- CMAKE_INSTALL_DO_STRIP: TRUE
+-- ----------------------------------------
+CMake version: 3.12
+-- ** ALICEVISION_BUILD_DOC: 'AUTO'
+-- ** ALICEVISION_USE_OPENMP: 'ON'
+-- ** ALICEVISION_USE_CCTAG: 'AUTO'
+-- ** ALICEVISION_USE_POPSIFT: 'AUTO'
+-- ** ALICEVISION_USE_OPENGV: 'AUTO'
+-- ** ALICEVISION_USE_ALEMBIC: 'AUTO'
+-- ** ALICEVISION_USE_UNCERTAINTYTE: 'AUTO'
+-- ** ALICEVISION_USE_CUDA: 'ON'
+-- ** ALICEVISION_USE_OPENCV: 'OFF'
+-- target changed from "" to "auto"
+-- Detected Host CPU: ivy-bridge
+-- Performing Test check_c_compiler_flag__march_ivybridge
+-- Performing Test check_c_compiler_flag__march_ivybridge - Success
+-- Performing Test check_cxx_compiler_flag__march_ivybridge
+-- Performing Test check_cxx_compiler_flag__march_ivybridge - Success
+-- Performing Test check_c_compiler_flag__msse2
+-- Performing Test check_c_compiler_flag__msse2 - Success
+-- Performing Test check_cxx_compiler_flag__msse2
+-- Performing Test check_cxx_compiler_flag__msse2 - Success
+-- Performing Test check_c_compiler_flag__msse3
+-- Performing Test check_c_compiler_flag__msse3 - Success
+-- Performing Test check_cxx_compiler_flag__msse3
+-- Performing Test check_cxx_compiler_flag__msse3 - Success
+-- Looking for C++ include pmmintrin.h
+-- Looking for C++ include pmmintrin.h - found
+-- Performing Test check_c_compiler_flag__mssse3
+-- Performing Test check_c_compiler_flag__mssse3 - Success
+-- Performing Test check_cxx_compiler_flag__mssse3
+-- Performing Test check_cxx_compiler_flag__mssse3 - Success
+-- Looking for C++ include tmmintrin.h
+-- Looking for C++ include tmmintrin.h - found
+-- Performing Test check_c_compiler_flag__msse4_1
+-- Performing Test check_c_compiler_flag__msse4_1 - Success
+-- Performing Test check_cxx_compiler_flag__msse4_1
+-- Performing Test check_cxx_compiler_flag__msse4_1 - Success
+-- Looking for C++ include smmintrin.h
+-- Looking for C++ include smmintrin.h - found
+-- Performing Test check_c_compiler_flag__msse4_2
+-- Performing Test check_c_compiler_flag__msse4_2 - Success
+-- Performing Test check_cxx_compiler_flag__msse4_2
+-- Performing Test check_cxx_compiler_flag__msse4_2 - Success
+-- Performing Test check_c_compiler_flag__mavx
+-- Performing Test check_c_compiler_flag__mavx - Success
+-- Performing Test check_cxx_compiler_flag__mavx
+-- Performing Test check_cxx_compiler_flag__mavx - Success
+-- Looking for C++ include immintrin.h
+-- Looking for C++ include immintrin.h - found
+-- Performing Test check_c_compiler_flag__mno_sse4a
+-- Performing Test check_c_compiler_flag__mno_sse4a - Success
+-- Performing Test check_cxx_compiler_flag__mno_sse4a
+-- Performing Test check_cxx_compiler_flag__mno_sse4a - Success
+-- Performing Test check_c_compiler_flag__mno_fma
+-- Performing Test check_c_compiler_flag__mno_fma - Success
+-- Performing Test check_cxx_compiler_flag__mno_fma
+-- Performing Test check_cxx_compiler_flag__mno_fma - Success
+-- Performing Test check_c_compiler_flag__mno_bmi2
+-- Performing Test check_c_compiler_flag__mno_bmi2 - Success
+-- Performing Test check_cxx_compiler_flag__mno_bmi2
+-- Performing Test check_cxx_compiler_flag__mno_bmi2 - Success
+-- Performing Test check_c_compiler_flag__mno_avx2
+-- Performing Test check_c_compiler_flag__mno_avx2 - Success
+-- Performing Test check_cxx_compiler_flag__mno_avx2
+-- Performing Test check_cxx_compiler_flag__mno_avx2 - Success
+-- Performing Test check_c_compiler_flag__mno_xop
+-- Performing Test check_c_compiler_flag__mno_xop - Success
+-- Performing Test check_cxx_compiler_flag__mno_xop
+-- Performing Test check_cxx_compiler_flag__mno_xop - Success
+-- Performing Test check_c_compiler_flag__mno_fma4
+-- Performing Test check_c_compiler_flag__mno_fma4 - Success
+-- Performing Test check_cxx_compiler_flag__mno_fma4
+-- Performing Test check_cxx_compiler_flag__mno_fma4 - Success
+-- Performing Test check_c_compiler_flag__mno_avx512f
+-- Performing Test check_c_compiler_flag__mno_avx512f - Success
+-- Performing Test check_cxx_compiler_flag__mno_avx512f
+-- Performing Test check_cxx_compiler_flag__mno_avx512f - Success
+-- Performing Test check_c_compiler_flag__mno_avx512vl
+-- Performing Test check_c_compiler_flag__mno_avx512vl - Success
+-- Performing Test check_cxx_compiler_flag__mno_avx512vl
+-- Performing Test check_cxx_compiler_flag__mno_avx512vl - Success
+-- Performing Test check_c_compiler_flag__mno_avx512pf
+-- Performing Test check_c_compiler_flag__mno_avx512pf - Success
+-- Performing Test check_cxx_compiler_flag__mno_avx512pf
+-- Performing Test check_cxx_compiler_flag__mno_avx512pf - Success
+-- Performing Test check_c_compiler_flag__mno_avx512er
+-- Performing Test check_c_compiler_flag__mno_avx512er - Success
+-- Performing Test check_cxx_compiler_flag__mno_avx512er
+-- Performing Test check_cxx_compiler_flag__mno_avx512er - Success
+-- Performing Test check_c_compiler_flag__mno_avx512cd
+-- Performing Test check_c_compiler_flag__mno_avx512cd - Success
+-- Performing Test check_cxx_compiler_flag__mno_avx512cd
+-- Performing Test check_cxx_compiler_flag__mno_avx512cd - Success
+-- Performing Test check_c_compiler_flag__mno_avx512dq
+-- Performing Test check_c_compiler_flag__mno_avx512dq - Success
+-- Performing Test check_cxx_compiler_flag__mno_avx512dq
+-- Performing Test check_cxx_compiler_flag__mno_avx512dq - Success
+-- Performing Test check_c_compiler_flag__mno_avx512bw
+-- Performing Test check_c_compiler_flag__mno_avx512bw - Success
+-- Performing Test check_cxx_compiler_flag__mno_avx512bw
+-- Performing Test check_cxx_compiler_flag__mno_avx512bw - Success
+-- Performing Test check_c_compiler_flag__mno_avx512ifma
+-- Performing Test check_c_compiler_flag__mno_avx512ifma - Success
+-- Performing Test check_cxx_compiler_flag__mno_avx512ifma
+-- Performing Test check_cxx_compiler_flag__mno_avx512ifma - Success
+-- Performing Test check_c_compiler_flag__mno_avx512vbmi
+-- Performing Test check_c_compiler_flag__mno_avx512vbmi - Success
+-- Performing Test check_cxx_compiler_flag__mno_avx512vbmi
+-- Performing Test check_cxx_compiler_flag__mno_avx512vbmi - Success
+-- Checking for C++11 compiler
+-- Checking for C++11 compiler - available
+-- Could NOT find OpenMP_C (missing: OpenMP_C_FLAGS OpenMP_C_LIB_NAMES)
+-- Could NOT find OpenMP_CXX (missing: OpenMP_CXX_FLAGS OpenMP_CXX_LIB_NAMES)
+-- Could NOT find OpenMP (missing: OpenMP_C_FOUND OpenMP_CXX_FOUND)
+CMake Error at src/CMakeLists.txt:217 (message):
+  Failed to find OpenMP.
+
+
+-- Boost 1_67 found.
+-- Found ZLIB: /usr/lib/libz.dylib (found version "1.2.11")
+-- Found Threads: TRUE
+-- Found OpenEXR: /opt/local/include (found version "2.2.1")
+CMake Warning at src/cmake/FindOpenEXR.cmake:164 (message):
+  ILMBASE_INCLUDE_DIR: /opt/local/include;/opt/local/include/OpenEXR
+Call Stack (most recent call first):
+  src/CMakeLists.txt:269 (find_package)
+
+
+-- OpenEXR found. (Version 2.2.1)
+CMake Warning at src/cmake/FindOpenEXR.cmake:164 (message):
+  ILMBASE_INCLUDE_DIR: /opt/local/include;/opt/local/include/OpenEXR
+Call Stack (most recent call first):
+  src/cmake/FindOpenImageIO.cmake:1 (find_package)
+  src/CMakeLists.txt:279 (find_package)
+
+
+-- Found OpenImageIO: /usr/local/include;/opt/local/include (Required is at least version "1.8")
+-- OpenImageIO found.
+-- Did not find MOSEK header
+-- Did not find MOSEK library
+-- Could not find mosek library on this machine.
+-- Trying to find package Ceres for aliceVision:
+-- By default, Ceres required SuiteSparse to ensure best performances. if you explicitly need to build without it, you can use the option: -DALICEVISION_REQUIRE_CERES_WITH_SUITESPARSE=OFF
+-- Found installed version of Eigen: /opt/local/share/eigen3/cmake
+-- Found required Ceres dependency: Eigen version 3.3.4 in /opt/local/include/eigen3
+-- Found required Ceres dependency: glog
+-- Found installed version of gflags: /opt/local/lib/cmake/gflags
+-- Detected gflags version: 2.2.1
+-- Found required Ceres dependency: gflags
+-- Found Ceres version: 1.14.0 installed in: /opt/local with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations]
+-- Ceres include dirs /opt/local/include;/opt/local/include/eigen3;/opt/local/include
+-- Ceres libraries ceres
+-- Found BLAS: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Accelerate.framework
+-- Found AMD headers in: /opt/local/include
+-- Found AMD library: /opt/local/lib/libamd.dylib
+-- Found CAMD headers in: /opt/local/include
+-- Found CAMD library: /opt/local/lib/libcamd.dylib
+-- Found COLAMD headers in: /opt/local/include
+-- Found COLAMD library: /opt/local/lib/libcolamd.dylib
+-- Found CCOLAMD headers in: /opt/local/include
+-- Found CCOLAMD library: /opt/local/lib/libccolamd.dylib
+-- Found CHOLMOD headers in: /opt/local/include
+-- Found CHOLMOD library: /opt/local/lib/libcholmod.dylib
+-- Found SUITESPARSEQR headers in: /opt/local/include
+-- Found SUITESPARSEQR library: /opt/local/lib/libspqr.dylib
+-- Did not find TBB library (optional SuiteSparse dependency)
+-- Did not find Intel TBB library, assuming SuiteSparseQR was not compiled with TBB.
+-- Found SUITESPARSE_CONFIG headers in: /opt/local/include
+-- Found SUITESPARSE_CONFIG library: /opt/local/lib/libsuitesparseconfig.dylib
+-- Found METIS library: /opt/local/lib/libmetis.dylib
+-- Found SuiteSparse: TRUE (found version "4.2.1")
+-- SUITESPARSE_LIBRARIES: /opt/local/lib/libspqr.dylib;/opt/local/lib/libcholmod.dylib;/opt/local/lib/libccolamd.dylib;/opt/local/lib/libcamd.dylib;/opt/local/lib/libcolamd.dylib;/opt/local/lib/libamd.dylib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Accelerate.framework;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Accelerate.framework;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Accelerate.framework;/opt/local/lib/libsuitesparseconfig.dylib;/opt/local/lib/libmetis.dylib
+-- CERES_LIBRARIES: ceres;/opt/local/lib/libspqr.dylib;/opt/local/lib/libcholmod.dylib;/opt/local/lib/libccolamd.dylib;/opt/local/lib/libcamd.dylib;/opt/local/lib/libcolamd.dylib;/opt/local/lib/libamd.dylib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Accelerate.framework;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Accelerate.framework;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Accelerate.framework;/opt/local/lib/libsuitesparseconfig.dylib;/opt/local/lib/libmetis.dylib
+-- CERES_INCLUDE_DIRS: /opt/local/include;/opt/local/include/eigen3;/opt/local/include
+-- Flann 1.8.4 found (include: /Users/iain/Code/AliceVision/src/dependencies/flann/src/cpp/flann)
+-- CoinUtils 2.9.3 found (include: /Users/iain/Code/AliceVision/src/dependencies/osi_clp/CoinUtils/src)
+-- Clp 1.15.11 found (include: /Users/iain/Code/AliceVision/src/dependencies/osi_clp/Clp/src)
+-- Osi 0.106.10 found (include: /Users/iain/Code/AliceVision/src/dependencies/osi_clp/Osi/src/Osi)
+-- Lemon  found (include: /Users/iain/Code/AliceVision/src/dependencies/lemon/lemon)
+-- Could NOT find Alembic (missing: Alembic_DIR)
+-- Could NOT find PopSift (missing: PopSift_DIR)
+-- Looking for OpenGV.
+-- OpenGV headers not found!
+-- Could NOT find OpenGV (missing: OPENGV_LIBRARY OPENGV_INCLUDE_DIR)
+-- Looking for UncertaintyTE.
+-- UncertaintyTE headers not found!
+-- UncertaintyTE library include not found
+-- UncertaintyTE library not found
+-- Could NOT find UncertaintyTE (missing: UNCERTAINTYTE_LIBRARY UNCERTAINTYTE_INCLUDE_DIR)
+-- Found Geogram: /usr/local/lib/libgeogram.dylib
+-- Geogram: /usr/local/lib/libgeogram.dylib, /usr/local/include/geogram1
+Clang compiler found.
+OpenMP not found.
+-- BUILD_SHARED_LIBS ON
+-- Found CUDA: /usr/local/cuda (found suitable version "10.0", minimum required is "7.0")
+-- CUDA found.
+Build Mode: Release
+-- CUDA Version is 10.0
+-- Found Sphinx: /Users/iain/anaconda/bin/sphinx-build
+-- Sphinx found.
+generatedDir: /Users/iain/Code/build/src/generated
+
+
+** AliceVision version: 2.0.0
+** Build Shared libs: ON
+** Build SfM part: ON
+** Build MVS part: ON
+** Build AliceVision tests: OFF
+** Build AliceVision documentation: 1
+** Build AliceVision samples programs: OFF
+** Build AliceVision+OpenCV samples programs: 0
+** Build UncertaintyTE: 0
+** Build MeshSDFilter: 1
+** Build Alembic exporter: 0
+** Enable code coverage generation: OFF
+** Enable OpenMP parallelization: 0
+** Use CUDA: 1
+** Use OpenCV SIFT features: 0
+** Use CCTAG markers: 0
+** Use OpenGV for rig localization: 0
+
+
+-- EIGEN: 3.3.4
+-- CERES: 1.14.0
+-- FLANN: 1.8.4 (internal)
+-- CLP: 1.15.11 (internal)
+-- COINUTILS: 2.9.3 (internal)
+-- OSI: 0.106.10 (internal)
+-- LEMON:  (internal)
+
+
+-- Found PythonInterp: /opt/local/bin/python (found version "2.7.15")
+-- Found Wget: /opt/local/bin/wget
+-- Found Doxygen: /opt/local/bin/doxygen (found version "1.8.13") found components:  doxygen dot
+-- Found Ghostscript: /opt/local/bin/gs
+-- Found GLPK: /opt/local/lib/libglpk.dylib (Required is at least version "4.33")
+-- Could NOT find ILOG (missing: ILOG_CPLEX_LIBRARY ILOG_CPLEX_INCLUDE_DIR)
+-- Could NOT find COIN (missing: COIN_INCLUDE_DIR COIN_CBC_LIBRARY COIN_CBC_SOLVER_LIBRARY COIN_CGL_LIBRARY COIN_CLP_LIBRARY COIN_COIN_UTILS_LIBRARY COIN_OSI_LIBRARY COIN_OSI_CBC_LIBRARY COIN_OSI_CLP_LIBRARY)
+-- Could NOT find SOPLEX (missing: SOPLEX_LIBRARY SOPLEX_INCLUDE_DIR)
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of long long
+-- Check size of long long - done
+-- Could NOT find OpenMP_C (missing: OpenMP_C_FLAGS OpenMP_C_LIB_NAMES)
+-- Could NOT find OpenMP_CXX (missing: OpenMP_CXX_FLAGS OpenMP_CXX_LIB_NAMES)
+-- Could NOT find OpenMP (missing: OpenMP_C_FOUND OpenMP_CXX_FOUND)
+CMake Warning at src/dependencies/flann/CMakeLists.txt:75 (message):
+  OpenMP NOT found
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/iain/Code/build/CMakeFiles/CMakeOutput.log".

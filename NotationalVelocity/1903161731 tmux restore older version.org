@@ -1,0 +1,6 @@
+#+TITLE: tmux restore older version
+# TAGS #tmux
+
+https://medium.com/@udnisap/restore-older-sessions-in-tmux-resurrect-8892629ef004
+
+point symbolic link `last` to another of the saved session.txt files

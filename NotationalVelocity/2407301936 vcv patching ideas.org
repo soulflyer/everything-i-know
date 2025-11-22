@@ -1,0 +1,92 @@
+#+TITLE: vcv patching ideas
+# Tags #vcv #music
+* Patching Ideas
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Documents/org-mode/NotationalVelocity/2407301936 vcv patching ideas-images
+:END:
+** Scroll wheel adjustments
+
+The scroll wheel can be set to adjust a hovered param in *VCV* itself, but it is also used to scroll around thee screen. Too often it will accidentally adjust something when scrolling past and there doesn't seem to be a way to use modifiers. However *Stoermelder* *Spin* and *Sail* can be used to do the same thing but with modifier keys:
+#+ATTR_ORG: :width 200
+[[file:2407301936 vcv patching ideas-images/spin-sail.png]]
+The 2 instances are necessary because if step is set small enough to be able to make fine adjustments, it has no effect on certain parameters. The first *Spin* has the *ALT* modifier set and will do coarse modifiations. The second has *ALT* and *Command* set and will do the finer adjustments.
+** Scales and Quantization
+
+I would like to have the ability to set a scale and a base pitch for an entire patch with several sub units all responding to it. This is my first attempt at a control unit:
+[[file:2407301936 vcv patching ideas-images/screenshot-20240806-232337.png]]
+The scale output is a polyphonic signal that has a channel for each possible note of the chromatic scale, held at 10v if the note is in use and 0v if not.
+This polyphonic signal can be used by a *Quant* by *Grande* to quantise to the set scale. It can also be turned into a polyphonic signal with each channel containing a note of the scale by *Gen Scale* by *docB* like this:
+[[file:2407301936 vcv patching ideas-images/screenshot-20240807-011411.png]]
+The scaling is necessary to make the key change correctly follow the root cv. I don't know why.
+
+** Samples as modulation
+Omri Cohen [[https://www.youtube.com/watch?v=Tut56GskwpY][video]] about using drum samples as a modulation source. Could be adapted to use a sampled or live guitar input. A simple example uses an *envelope follower* to modulate *filter cutoff*  Later examples use a *vocoder* or a *ring modulator*
+
+** Resonant envelopes
+
+[[https://www.youtube.com/watch?v=iZkB6Op4OeI&list=PLiECaNQx239tD6qSspeLhMKvhdUK1TE4U&index=15][Omri Cohen video]] using a filter on an envelope. The *resonance* is turned up and the *cutoff* turned all the way down to give a wobble to the envelope:
+[[file:2407301936 vcv patching ideas-images/screenshot-20240730-193941.png]] [[file:2407301936 vcv patching ideas-images/screenshot-20240730-194023.png]] [[file:2407301936 vcv patching ideas-images/screenshot-20240730-194200.png]]
+[[https://www.youtube.com/watch?v=IOmW9v91Hok][Chris Meyer]] video mentioned in the Omri Cohen video
+
+** Filter as Slew for portamento
+[[yt:qruXJPKvU04][Jakub Ciupinski video]]
+Changing the frequency control adjusts the amount of slew. Connecting the CV to the frequency  input as well as the main in means that the slew changes with the frequency of the note played. (2:05 in the video)
+[[file:2407301936 vcv patching ideas-images/screenshot-20250421-122734.png]]
+Resonance introduces a wobble at the start of the note. Can mess with this in various ways to balance amount of slew with amount of wobble. Also shows splitting the slew and wobble functions into separate sections, and using a mixer to combine them. So far I haven't been able to do a proper legato just with a filter as a slew. Maybe a combination of conventional slew and filter wobble will do the trick. In this pic, taken at 11:29 in the video has 2 filters. The left one is the slew, and the right one gives the wobble.
+[[file:2407301936 vcv patching ideas-images/screenshot-20250421-231757.png]]
+** Legato
+#+ATTR_ORG: :width 200
+[[file:2407301936 vcv patching ideas-images/screenshot-20250421-232545.png]]
+Connect the rise and fall inputs to the *gate* and adjust rise and fall to taste. When the first key is pressed, the gate will be at *0* so there will be no slew. If there is already a key pressed then the gate will be high so portamento will be applied.
+
+Here is legato plus a starting transient wobble provided by passing the *V/Oct* through an equalizer and cranking up the gain on the low frequencies:
+[[file:2407301936 vcv patching ideas-images/legato-plus-wobble.png]]
+
+Here the wobble is added in in parallel using a *band pass filter* The wobble is only applied to new notes, repeated notes are clean:
+The extra mixer is to invert the signal coming from the filter. This filter inverts the signal.
+[[file:2407301936 vcv patching ideas-images/legato-wobble-2.png]]
+
+** [[file:~/Code/vcvrack/patches/Notes/Legato-Wobble.vcv][Wobble Patch]]
+This version only applies the wobble to legato notes:
+The *ASR* keeps the cv that triggers the wobble high up long enough to do the wobble when the second key is released. This version relies on having the *2-Keys* signal from the *MIDI-Input* as in the second picture. The second *MIDI-CV* is set to 2 note polyphonic, the first is mono.
+=Note= The wobble applies a little *portamento* even to notes that are not legato. Repeated notes are not affected and it is subtle inough not to really matter
+[[file:2407301936 vcv patching ideas-images/legato-wobble-only.png]] [[file:2407301936 vcv patching ideas-images/midi-2-notes.png]]
+** Sidechaining
+
+[[yt:WFomsizk3bw][ Omri Cohen Video]]
+
+[[file:2407301936 vcv patching ideas-images/sidechain1.png]]
+The sequencer is only driving the sidechain
+
+[[file:2407301936 vcv patching ideas-images/sidechain2.png]]
+
+** Guitar Input
+How about triggering an evolving pad sound by playing lower notes...
+Filtering the input signal using a low pass filter at somewhere around 100-120Hz means that it will only hear the lower notes:
+
+Low A
+[[file:2407301936 vcv patching ideas-images/screenshot-20250121-223354.png]]
+
+G
+[[file:2407301936 vcv patching ideas-images/screenshot-20250121-223458.png]]
+
+The pitch produced needs to be captured using a combination of a *Pitch Follower* like the one on the left of the 2 screenshots, and a *Sample and Hold* module.
+Trigger could be generated from the same filtered signal, or maybe from a wider frequency range so the rhythm matches the guitar but only changes pitch when a low note is played.
+
+This seems to follow the pitch of the lower notes well, but completely ignores anything higher than the open D string. The first channel is set to *135Hz* and that is what is being fed into the *comparator* to trigger the *Sample and Hold* The value for *A* is set to *2.3233V* to ensure that only reasonably loud lower notes affect the held value.
+
+[[file:2407301936 vcv patching ideas-images/screenshot-20250121-234608.png]]
+
+How bout a vocoder where the carrier is a synth whos pitch is set by the above and the modulator is the guitar in signal. See the video in the *Samples as modulation* section at around 9:18
+[[file:2407301936 vcv patching ideas-images/screenshot-20250324-154558.png]]
+
+** Slow down samples
+[[file:2407301936 vcv patching ideas-images/screenshot-20250323-220447.png]]
+Adjust the speed of playback with the *LFO Freq* control. The part of the sample being played can be adjusted using *Grain Engine Pos* control to set the start and the *Pos Attenuverter* to set the end. Sounds better than *Reason Grain* sample manipulator when used for the same purpose, but slightly less convenient. It won't stop sounding for one thing.
+
+** VCF for everything
+[[yt:W5Hww6sk6fw][Jakub Siupinski Video]] 
+Using *VCFs* as *VCO* *LFO* *Envelope* and other stuff. Pretty much the whole patch is *VCOs*
+** One control, multiple triggers
+[[file:2407301936 vcv patching ideas-images/screenshot-20250826-230052.png]]
+The second CV 5-5 controls which channels will pass a signal

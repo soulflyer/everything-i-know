@@ -1,0 +1,77 @@
+#    -*- mode: org -*-
+
+
+Archived entries from file /Users/iain/Documents/org-mode/notes/fixme.org
+
+
+* DONE [#C] Put some borders round yabai windows
+CLOSED: [2022-02-01 Tue 17:04]
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-02-01 Tue 17:05
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/fixme.org
+:ARCHIVE_OLPATH: FIXME TODOs
+:ARCHIVE_CATEGORY: fixme
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE [#C] Turn off Yabai floating windows always on top 
+CLOSED: [2022-02-07 Mon 11:54]
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-02-07 Mon 11:55
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/fixme.org
+:ARCHIVE_OLPATH: FIXME TODOs
+:ARCHIVE_CATEGORY: fixme
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE [#C] Get the colour of deft dates right
+CLOSED: [2022-02-07 Mon 11:55]
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-02-07 Mon 11:55
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/fixme.org
+:ARCHIVE_OLPATH: FIXME TODOs
+:ARCHIVE_CATEGORY: fixme
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE [#C] Stop background reverting to that hideous purple
+CLOSED: [2022-03-27 Sun 19:18]
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-03-27 Sun 19:19
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/fixme.org
+:ARCHIVE_OLPATH: FIXME TODOs
+:ARCHIVE_CATEGORY: fixme
+:ARCHIVE_TODO: DONE
+:END:
+Not possible without changing protected files. Might be worth it, not sure. see §2203231237
+
+* DONE [#C] Move require of lein-bin into metadata-mongo
+CLOSED: [2025-09-24 Wed 08:54]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-09-24 Wed 08:54
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/fixme.org
+:ARCHIVE_OLPATH: FIXME TODOs
+:ARCHIVE_CATEGORY: fixme
+:ARCHIVE_TODO: DONE
+:END:
+   And document it.
+
+* TODO [#C] Add index.html back in to all photo shot dirs
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-09-24 Wed 08:54
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/fixme.org
+:ARCHIVE_OLPATH: FIXME TODOs
+:ARCHIVE_CATEGORY: fixme
+:ARCHIVE_TODO: TODO
+:END:
+   missing since around July 2017
+
+* DONE [#C] Change db keys to keywords in metadata-mongo, hinh-anh, API, etc.
+CLOSED: [2025-09-24 Wed 08:53]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-09-24 Wed 08:55
+:ARCHIVE_FILE: ~/Documents/org-mode/notes/fixme.org
+:ARCHIVE_OLPATH: FIXME TODOs
+:ARCHIVE_CATEGORY: fixme
+:ARCHIVE_TODO: DONE
+:END:

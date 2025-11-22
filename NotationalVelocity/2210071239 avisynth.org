@@ -1,0 +1,31 @@
+#+TITLE: avisynth
+# Tags #video
+
+Trying to get this working on Mac. The binary is available [[https://github.com/AviSynth/AviSynthPlus/releases/tag/v3.7.2][here]]
+VLC won't play an .avs file
+ffmpeg installed with  
+#+begin_src shell
+brew install ffmpeg
+
+#+end_src
+and run with:
+#+begin_src shell
+ffplay -i hello.avs
+#+end_src
+doesn't either.
+
+** Build a version of ffmpeg
+According to [[https://github.com/AviSynth/AviSynthPlus/blob/master/distrib/docs/english/source/avisynthdoc/contributing/posix.rst][this page]] it needs to be cloned and built.
+
+used this:
+#+begin_src shell
+./configure --prefix=$HOME/ffmpeg_build --enable-gpl --enable-version3 --disable-doc     --disable-debug --enable-avisynth
+make -j$(nproc)
+make install
+./ffplay -i ../hello.avs
+#+end_src
+where ../hello.avs contains:
+#+begin_src 
+Version()
+#+end_src
+This works, displaying the version info in what appears to be a looping video.

@@ -1,0 +1,8 @@
+#+TITLE: skhd not running
+# Tags #mac
+
+After a crash and running *brew-upgrade* to try and fix the mess, *skhd* wasn't starting
+#+begin_src shell
+skhd --start-service
+#+end_src
+fixed it. Needed to allow it in the security settings. Although it looked like it was already there, another instane appeared in the list, with a shell icon, and that had to be allowed.

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2410282344 Freyer flute-images
+:END:
+#+TITLE: Freyer flute
+# Tags #flute
+
+A395Hz
+[[https://librairie.philharmoniedeparis.fr/dessins-techniques/flute-traversiere][E0614]]
+
+[[file:2410282344 Freyer flute-images/screenshot-20241028-234431.png]]

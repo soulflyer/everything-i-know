@@ -1,0 +1,48 @@
+#+TITLE: Bergeron - Manuel du Tourneur
+# Tags #book
+
+Published 1816
+
+[[file:~/Documents/books/bookshelf/Turning/Bergeron/Atlas.pdf][Plates]]
+[[file:~/Documents/books/bookshelf/Turning/Bergeron/The_Turner_s_Manual.pdf][English Translation]] covers the first volume although pages 9-74 are missing. The next heading after Pg 75 here is on pg 123 in the second edition of the French original. This is Part II, Chapter II, Section III. 
+On page 116 of the original the Last complete paragraph is the start of page 75 in the translation.
+
+[[file:~/Documents/books/bookshelf/Turning/Bergeron/Tome premier.pdf][French volume I]]
+[[file:~/Documents/books/bookshelf/Turning/Bergeron/Tome second.pdf][French volume II]]
+[[file:~/Documents/books/bookshelf/Turning/Bergeron/bergeron-translation.org][Translated text]] covers volume 2 (not complete yet 21/9/23)
+[[file:~/Documents/books/bookshelf/Turning/Bergeron/bergeron-original.org][Original text]] org file
+[[file:~/Documents/books/bookshelf/Turning/Bergeron/T1.org][Original text T1]]
+
+* Where are the descriptions for the plates?
+
+| Plate   | Page                                  |
+|---------+---------------------------------------|
+| I       |                                       |
+| VI      |                                       |
+| X       | 85                                    |
+| XII     | 94                                    |
+| XII     | 80 81                                 |
+| XV      | 79 80 81                              |
+| XVI     | 82 84 85 90 91 106                    |
+| XVII    | 87 89 95 96 97 99 100 101 103 150 151 |
+| XVIII   | 109 112 114                           |
+| XIX     | 115                                   |
+| XX      | 98 120 128 129                        |
+| XXI     | 104 124 146 157                       |
+| XXII    | 137 152                               |
+| XXIII   | 166 175 194                           |
+| XXIV    | 174 198 256                           |
+| XXV     | 97 185 194                            |
+| XXVII   | 102 225 244                           |
+| XXVIII  | 260                                   |
+| XXXIV   | 281                                   |
+| XXXVI   | 100 109                               |
+| XXXVII  | 288 293                               |
+| XXXVIII | 304                                   |
+|---------+---------------------------------------|
+| I       | 89 90                                 |
+| II      | 80 91                                 |
+| III     | 110                                   |
+| IV      | 95 111                                |
+| VI      | 90                                    |
+

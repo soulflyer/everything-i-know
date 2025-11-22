@@ -1,0 +1,4 @@
+#+TITLE: g15 backbutton focus
+# TAGS #photo
+
+set to manual focus and use the button to the left of the * to do automatic fine tuning of focus

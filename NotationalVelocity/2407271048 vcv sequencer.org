@@ -1,0 +1,149 @@
+#+TITLE: vcv sequencer
+# Tags #music #vcv
+* VCV sequencing Techniques
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Documents/org-mode/NotationalVelocity/2407271048 vcv sequencer-images
+:END:
+** Fixed sequences
+To visualise the sequence, piano roll works best. For ease of entering notes, choose *seq++* from *Squinky Labs*
+[[file:2407271048 vcv sequencer-images/seq-plus-plus.png]]
+Using the mouse it is a bit clumsy, but excellent with keyboard shortcuts. 
+*Piano Roll* from *RCM* is a bit more immediately obvious but limited by being mouse only. It can only repeat after a set number of beats, which is fine in theory but I tend towards using the subdivisions of a beat.ie in the screenshot above the loop is actually 1 and 7/8 beats long although I would count it as 15/8 or 8/8+7/8. This suits my way of visualizing complex times as combinations of simpler structures, ie 11/8 as 4/4+4/4+3/4
+
+I don't like the traditional knobs for cv (plus a quantizer) to set the pitches. This only works if you want something random and reproducing something you can hear in your head is painfully slow, to the point where it is likely to kill the idea before it actually emerges.
+
+Another aproach which works well for input is the keyboard style input sequencers. No good for visualisation, but fine for input. *Phrase-seq* and *Foundry* from *Impromptu* are good examples of this:
+[[file:2407271048 vcv sequencer-images/impromptu.png]]
+Both of these do roughly the same thing. I haven't yet worked out why I would choose one over the other, but both can easily reproduce a known sequence by selecting steps and clicking on keys on the little keyboard.
+
+** Push and Drag
+*** *James*
+[[file:2407271048 vcv sequencer-images/james.png]]
+*James* from *Daniel Davis* has a control to push or drag a track relative to the others. Here it is used to drag the last snare hit of an otherwise standard pattern. The 2nd and 3rd tracks from the bottom control the same snare sound but the 3rd has some drag applied. Unfortunately this sequencer is otherwise a bit limited, with no end of pattern output, or oneshot mode that would allow chaining more than one instance.
+
+*** *Seq++* 
+will allow for moving hits around, and is a more flexible sequencer. The length can be set to anything desired. It only has a single output but different pitches could be used to trigger different drums. *Bisset* *Segfault* can send a gate signal to a different output for each input cv level. Also *Note Detector* from *Voxglitch*, but this would need 1 module per note. It is very flexible and can produce gates or triggers and vary the length of the trigger as needed, and adjust note tolerance.
+[[file:2407271048 vcv sequencer-images/segfault.png]]
+NOTE: Edit mode steals keys, including tab that I normally use for starting and stopping the clock.
+
+*** *Step Wave*
+Step Wave from *CV-Funk* can also shift hits around using the *rythmic displacement* control
+
+Smallpox World News UTU Mossad Fort Meade TDM. SUKLO PGP Smuggling
+freedom radar CBNRC Telecommunications DHS lynch sweeping
+
+SRI advisors RCMP AMW VHF Psyops morse Shootout nkvd Yobie Disaster
+management fundamentalist SADF ASDIC Hezbollah
+[[file:2407271048 vcv sequencer-images/Step-Waves.png]]
+from an Omri Cohen video, [[https://www.youtube.com/watch?v=g3f8FHCDlYg][Sequencers of 2024]] at about 12:30
+This one also provides easy *ratcheting* with the *beats* control
+Covered in more depth in [[https://www.youtube.com/watch?v=LT-7bXAbz20][Unlock Endless Rhythmic Variations with Step Wave by CV Funk]]
+
+*** *zOu MAi*
+[[file:2407271048 vcv sequencer-images/screenshot-20250629-224019.png]]
+The trim control can shift beats around.
+** Recording Sequences
+Although most *VCV* sequencers don't give easy ways of specific entering values visually, some provide recording facilities so that a sequence can be entered in real (or step) time from a midi keyboard.
+*** *Phrase-Seq-16* from *Impromptu*
+[[file:2407271048 vcv sequencer-images/Phrase-Seq-16.png]]
+This is from an Omri Cohen [[https://www.youtube.com/watch?v=Gm32IMM59-c][Video]] where he is recording the output of the *ADDR-SEQ* into the *Prase-Seq-16* using a temporary connection to the *Write* input to trigger the recording of each note on the *CV-IN* connection.
+=Note= *Phrase-Seq-16* Can also do some nice *ratcheting* on a per step basis.
+
+*** *Tracker* from *Biset*
+[[file:2407271048 vcv sequencer-images/tracker.png]]
+Checkout *Live-Recording* at about 51:50 in this Omri Cohen [[https://www.youtube.com/watch?v=cjwxdw0tEjI][video]]. Starting with an empty clip and pressing *Play* and *Record* allows input of a sequence in real time using a midi keyboard. Timing is good in the video, but when I try it, it is hopelessly off.
+
+=Note= *Tracker* has a lot of features that mean it may make a good *DAW* substitute.
+** Variation
+*** Sequential Switch
+Also from an Omri Cohen [[https://www.youtube.com/watch?v=Gm32IMM59-c][Video]]:
+[[file:2407271048 vcv sequencer-images/screenshot-20250627-162625.png]]
+The output of the sequencer is going to 6 of the 8 inputs of the *Sequential Switch*, the other 2 are coming from the *S&H* which has no input so it is sampling random values. The *Sequential Switch* is being driven from the clock via the *Random* input so the sequnce is mostly unchanged but every so often a random value is inserted instead. This is quite subtle if the sequencer and the S&H are set to a *1v* range. Slightly more obvious if the *S&H* is set to *0-3v*
+
+*** LFO as Sequencer
+Also ftom a different Omri Cohen [[https://www.youtube.com/watch?v=BHY5gI--D-c][Video]]:
+[[file:2407271048 vcv sequencer-images/screenshot-20250627-231132.png]]
+Using an *LFO* passed through a *Wavefolder* as a source of pitch information. This gives some quite interesting patterns that can be varied in non chaotic ways.
+
+*** Morpheus
+Checkout *Morpheus* for lockable random sequences in this Omri Cohen video [[https://youtu.be/g3f8FHCDlYg?si=RyOJ2QdnNQFd2_uj][The Sequencers of 2024]] 
+In more depth here: [[https://www.youtube.com/watch?v=qPqC942-LmA][It's all about controlled randomness]]
+There are multiple ways to add randomness to a fixed sequence, or fix a random sequence. This can even be done for individual channels of a polyphonic sequence.
+Has the ability to lock a sequence, and also store and recall sequences.
+
+This shows it in use with the *Mother* quantizer also from *Orange Line* This has the ability to avoid consecutive notes and set the probabilities of the alternatives choosen to avoid this. Also it has the concept of *Daughter* scales which use the same notes but can have their own probabilities. When these are selected the scale name is calculated and displayed, ie if the main scale is *C Major* then selecting the 6th daughter scale, *A* will display *Aeolian* 
+[[file:2407271048 vcv sequencer-images/morpheus-mother.png]]
+
+Locking a pattern, storing it to return to, then increasing the offset (or range) and reducing the lock lets a sequence evolve nicely. The *span* in *mother* also has a part to play. If it is large then wildly different notes get played even when the sequence is locked.
+
+Connecting the *child* input of *mother* to the same cv source as a bass drone can give good effects, where the pattern tends to repeat the root note more while staying within the same scale.
+
+*** Prob-key sequencer
+
+[[file:2407271048 vcv sequencer-images/prob-key.png]]
+
+Setting lock to 100% makes the sequence repeat continuously. Pushing the lock button releases the lock and notes randomise again. The keys show 🟥 when locked and ⬜ when random.
+
+*** ORBSeq
+Allows the sequence to drift away from the specified notes. Zeroing drift brings back the original notes:
+[[file:2407271048 vcv sequencer-images/screenshot-20250629-123157.png]]
+This can sound really good with small amounts of drift. The variations introduced are cyclical AFAIK but sufficiently complex to not sound repetetive while still having enough variation to sound interesting.
+Drone could be useful too. It is possible to exclude drone from the drift (right click menu)
+Sequences are algorithmical generated, not random, so the same settings will give the same sequence.
+No way to input a sequence but what you get is good. Playing with =Range= tweaks the sequence. At lower values it is like a scale going up and down, and higher values give bigger jumps.
+The =AMP= setting seems to work like adjusting the =VCA= that comes after the sequencer. The VCA may not actualy be necessary at all. However the display looks better with AMP up and VCA level down.
+
+*** Slips
+[[https://www.youtube.com/watch?v=2BkxG6mBONY][5 ways of creating movement with slips]]
+Sequences are randomly generated by pressing th *seq Gen* button and randomised temporarily while running by adjusting the *slips* control. Turning *slips* back to *0* will restore the original sequence.
+[[file:2407271048 vcv sequencer-images/screenshot-20250630-223852.png]]
+There is a built in quantizer that can set the scale type and the root note. To use a custom scale an expander can be added, but this removes the ability to switch between scales, except by moving the expander away from the slips module.
+[[file:2407271048 vcv sequencer-images/screenshot-20250630-224853.png]]
+** Escalation Sequencer
+Original is based on a pair of *Muxlicer* sequencers. Bit of a hack involved to get them to act as a single unit and the original solution only allows 15 of the 16 addresseable slots to be used.
+There are 3 parts to this.
+*** Pattern generator:
+Produces patterns for an 8 note scale. There are 9 levels equally spread over 10v
+#+ATTR_ORG: :width 800
+[[file:2407271048 vcv sequencer-images/screenshot-20250826-173840.png]]
+*** Intensifier:
+For every level, one is added to each step of the pattern.
+#+ATTR_ORG: :width 300
+[[file:2407271048 vcv sequencer-images/screenshot-20250826-174026.png]]
+*** Address lookup:
+The steps of the pattern are looked up to get the corresponding CV values for the scale in use.
+#+ATTR_ORG: :width 800
+[[file:2407271048 vcv sequencer-images/screenshot-20250826-174115.png]]
+**** Using a switch-16-1
+This pic shows the original and an alternative based on the *switch-16-1* with a delay on the clock signal to the switch.
+#+ATTR_ORG: :width 800
+  [[file:2407271048 vcv sequencer-images/screenshot-20250826-134351.png]]
+
+Signal needs to be scaled and offset for the switch-16-1
+OFFSET 0.1
+SCALE 10/1.8725= 5.340
+1.8725 is the voltage representing the 16th step. 
+
+Without the delay the Switch-16-1 is one beat behind the muxslicer.
+#+ATTR_ORG: :width 800
+[[file:2407271048 vcv sequencer-images/screenshot-20250826-172324.png]]
+Inverting the clock signal makes the difference a half a beat
+Nysthi 2D with delay set to 0.0001 makes them line up again. 0 delay mostly works but the reset isn't handled correctly
+Grande SD also works when applying a 3 sample delay. 2 samples mostly works, but the reset isn't handled
+#+ATTR_ORG: :width 800
+[[file:2407271048 vcv sequencer-images/screenshot-20250826-172440.png]]
+The timing isn't a perfect match but it is very close.
+#+ATTR_ORG: :width 200
+[[file:2407271048 vcv sequencer-images/screenshot-20250826-172544.png]]
+
+**** Original Notes:
+Faders are set to 0-10 volts so that I can make use of the patt-8 snap setting and have eight steps. 
+Setting to 0-1 volts and using the semi snap setting would give 10 steps.
+
+The first 8-vert + Triggered-Switch + Swich-8-1 combination alows for changing the pattern only at the start of a bar.
+
+The second 8-vert + Triggered-Switch + Swich-8-1 combination allows for a pattern offset, also triggered at the start of the next bar
+
+The comparator + VC-Switch + Offsets generate the address voltages to access the different slots containing the scale degrees in the 2 Muxslicers, and the min-max takes the largest of the 2 outputs. The second muxslicer will output a low voltage from its first slot intil the input voltage goes past 8v. This is why the first slot is set to 0, to ensure that it is lower than anything output by the first muxslicer. 
+
+TODO: Can the Voltage Scaler be removed and the Offsets adjusted accordingly?

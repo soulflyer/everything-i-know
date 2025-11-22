@@ -1,0 +1,21 @@
+#+TITLE: tmux sessions
+# TAGS #tmux
+
+If there are multiple sessions then send-keys needs the session to be specified. ie:
+
+tmux send-keys -t dev:$LABEL.1 'ec ./Code' C-m
+tmux send-keys -t dev:$LABEL.2 'ec ~/Documents/org-mode ; bash -l' C-m
+
+from .tmux/startup
+
+I don't think this is a problem usually, but it is possible for a new session to be started and saved by tmux-resurrect. Check with:
+
+tmux list-sessions
+
+Really need to clean up the tm codebase to check for things like this.
+
+Like this:
+SESSION=`tmux display-message -p "#S"`
+tmux send-keys -t $SESSION:$LABEL.1 'ec ./Code' C-m
+
+Just needs adding to any custom .tmux files, and probably the one created by tm -n

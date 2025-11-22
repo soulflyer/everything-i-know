@@ -1,0 +1,5 @@
+#+TITLE: clojurescript keyboard shortcuts
+# TAGS #clojurescript
+
+https://github.com/Frozenlock/zyzanie bind key in specified dom element
+https://github.com/piranha/keybind  Global bindings only

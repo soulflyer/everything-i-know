@@ -1,0 +1,78 @@
+#+TITLE: arduino projects
+# Tags #arduino #music
+* Arduino Projects
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Library/CloudStorage/Dropbox/org-mode/NotationalVelocity/2505211814 arduino projects-images
+:END:
+** Prototype Shield
+[[file:2505211814 arduino projects-images/screenshot-20250708-222212.png]]
+[[https://www.altium365.com/viewer/][viewer]] [[https://github.com/adafruit/Adafruit-Proto-Shield-PCB][source]]
+
+** Theremin
+[[https://maker.pro/arduino/projects/how-to-build-a-pitch-only-theremin-with-arduino][Simple]] close to original rather than using a photo sensor
+[[https://www.gaudi.ch/OpenTheremin/index.php/39-openthereminuno/general/106-openthereminuno-schematic][Complex]] but accurate
+
+** Midi Controller
+Needs [[https://github.com/stechio/arduino-ad-mux-lib][multiplexing]] to allow for a large number of controllers [[https://forum.arduino.cc/t/32-channel-multiplexer/88189][arduino forum]]
+[[https://rlopezxl.com/blog/power-your-projects-with-a-built-in-lithium-battery-and-a-tp4056-charger/][Battery power]] Not needed for a usb connected device. Useful if I can find an easy way to add 5pin din midi.
+*** Components
+10k pots are recommended in [[pdf:/Volumes/Crucial/bookshelf/Arduino/Arduino Cookbook.pdf::189++0.00][Arduino Cookbook]]
+Illuminated Switches: [[https://arduino.stackexchange.com/a/63281][stackexchange]]
+[[file:../../../Library/CloudStorage/Dropbox/org-mode/NotationalVelocity/2505211814 arduino projects-images/screenshot-20250713-224454.png]]
+This is the wrong way round, ie the pin is low when the light is on. Inverting it should be possible, but might need a pull down resistor in parallel with the diode and resistor to act as the equivalent of INPUT_PULLUP in the pic above. Will need to use an actual pullup/pulldown resistor anyway as the pin will be multiplexed.
+*** Layout
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Documents/org-mode/NotationalVelocity/2505211814 arduino projects-images
+:END:
+54 pots and 6 buttons
+#+ATTR_ORG: :width 600
+[[file:2505211814 arduino projects-images/screenshot-20250623-182832.png]]
+
+45 pots and 5 buttons
+#+ATTR_ORG: :width 515
+[[file:2505211814 arduino projects-images/screenshot-20250623-182922.png]]
+
+The first would still leave plenty of spare for a joystick, a master volume, a root note selector, a tempo control and some pedal inputs. This is assuming I use 4 multiplexers giving 64 analog inputs.
+The second would still need the 4 multiplexers.
+
+For a case 7inches by 17.5inches using reasonable sized knobs and standard pots this works better:
+[[file:~/Pictures/Artwork/midi-controller/midi-1.svg][Inkscape file]]
+#+ATTR_ORG: :width 600
+[[file:2505211814 arduino projects-images/screenshot-20250703-220914.png]]
+This has 47 pots/sliders and 5 buttons. Changing 2 of the medium sized knobs for 6 small ones in each of the brown sections would bring this back to 54.
+35 pots or 43
+12 sliders (60mm)
+5 led switches
+5 large knobs MF-A04 (33.55mm)
+18 medium knobs MF-A02 (23mm) or 12
+12 small knobs Mf-A01 (18.8mm) maybe get something smaller?  or 20
+
+I think 4 Instrument sections is enough. Perhaps the left hand one can be for global controls:
+- Master Volume
+- Tempo
+- Root Note
+- Scale
+#+ATTR_ORG: :width 600
+[[file:2505211814 arduino projects-images/screenshot-20250707-173047.png]]
+
+Might be better with *Root Note* as a knob rather than an array of buttons:
+#+ATTR_ORG: :width 600
+[[file:2505211814 arduino projects-images/screenshot-20250707-223654.png]]
+
+17 LED sweitches
+39 Pots
+12 Faders
+
+51 Analog controls
+17 Digital
+=This is too many if each digital control has its own inout pin on the arduino.=
+Replacing the keyboard input for *Scale* with a knob that selects pre-programmed scales would work. Or a smaller number of buttons to do the selection. Alternatively multiplexing digital pins should be possible.
+
+[[file:2505211814 arduino projects-images/screenshot-20250709-121831.png]] [[file:2505211814 arduino projects-images/screenshot-20250709-122225.png]]
+[[file:2505211814 arduino projects-images/screenshot-20250709-122325.png]] [[file:2505211814 arduino projects-images/screenshot-20250709-194602.png]]
+[[file:2505211814 arduino projects-images/screenshot-20250709-194902.png]]
+#+ATTR_ORG: :width 600
+[[file:2505211814 arduino projects-images/screenshot-20250709-125818.png]]
+
+Why not give each board its own multiplexer and use all 16 pins for something?
+Need to experiment with reading momentary buttons. will they need something to ensure they stay high long enough to  always be read? Perhaps a capacitor would do this?

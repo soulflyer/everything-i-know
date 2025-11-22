@@ -1,0 +1,13 @@
+#+TITLE: brew installing outdated package
+# Tags #brew #mac
+
+After upgrading brew mpd wouldn't start, complaining about jpeg-xl. This was there and had been upgraded but mpd was looking for an earlier version. This version was no longer available to brew install using the @version-number syntax. Had to go to the git repo containing the rb file defining the brew package and go back through the history to the correct version then use curl to fetch the raw file and run brew install pointing to that:
+#+begin_src shell
+curl -o /tmp/jpeg-xl.rb https://raw.githubusercontent.com/Homebrew/homebrew-core/47b31f445e44b4e28bb57a10f4c1b1850120e480/Formula/j/jpeg-xl.rb
+brew unlink jpeg-xl
+HOMEBREW_NO_AUTO_UPDATE=1 brew install --formula /tmp/jpeg-xl.rb
+brew services restart mpd
+#+end_src
+
+More details on [[https://stackoverflow.com/a/76384322][stackoverflow]]
+

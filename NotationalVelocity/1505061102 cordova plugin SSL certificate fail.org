@@ -1,0 +1,6 @@
+#+TITLE: cordova plugin SSL certificate fail
+# TAGS #cordova
+
+try:
+
+git config --global http.sslVerify false

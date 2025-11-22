@@ -1,0 +1,4 @@
+#+TITLE: blender holes
+# TAGS #blender
+
+https://blender.stackexchange.com/questions/15687/making-holes-in-a-mesh

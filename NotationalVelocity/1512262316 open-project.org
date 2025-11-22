@@ -1,0 +1,13 @@
+#+TITLE: open-project
+# TAGS #photo #sed
+
+check-images -s /Users/iain/Pictures/Published/large > /tmp/missing.txt
+
+open last mentioned project:
+open-project $(sed -e "\$p" -n /tmp/missing.txt)
+
+reverse the file to use a count instead:
+tail -r /tmp/missing.txt | sed -e2p -n
+
+get the 5th from last project:
+open-project $(tail -r /tmp/missing.txt | sed -e5p -n)

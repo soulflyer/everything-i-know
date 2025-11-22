@@ -1,0 +1,6 @@
+#+TITLE: vcv as a plugin
+# Tags #music
+
+[[https://github.com/DISTRHO/Cardinal][Cardinal]] uses vcv source but bundled so it is self contained and offered as a vst. Modules are restricted to those that are built in, but it looks like the range is huge and the disadvantages may be outweighed by the stability. Good open source attitude.
+
+*VST Plugins* can be used inside *vcv* by purchasing the [[https://vcvrack.com/Host][VCV Host]] module

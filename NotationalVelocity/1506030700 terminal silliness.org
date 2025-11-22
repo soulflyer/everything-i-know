@@ -1,0 +1,11 @@
+#+TITLE: terminal silliness
+# TAGS
+
+cowsay
+figlet
+(they don't play well together)
+not tried lolcat yet
+
+sudo port install cowsay
+sudo port install figlet
+sudo gem install locate

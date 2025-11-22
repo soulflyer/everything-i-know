@@ -1,0 +1,5 @@
+#+TITLE: find sizes
+# TAGS #find
+
+find files under 500k
+find . -size -500k

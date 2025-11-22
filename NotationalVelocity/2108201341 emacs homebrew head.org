@@ -1,0 +1,8 @@
+#+TITLE: emacs homebrew head
+# TAGS #emacs #webbookmark
+
+https://github.com/daviderestivo/homebrew-emacs-head
+The regular brew install emacs is missing bits.
+
+brew install emacs-head@28 --with-cocoa --with-xwidgets
+brew services restart emacs-head@28

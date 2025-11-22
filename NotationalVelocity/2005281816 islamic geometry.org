@@ -1,0 +1,4 @@
+#+TITLE: islamic geometry
+# TAGS #geometry
+
+http://www.catnaps.org/islamic/geometry.html

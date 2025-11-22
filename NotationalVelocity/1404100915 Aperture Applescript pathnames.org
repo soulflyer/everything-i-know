@@ -1,0 +1,7 @@
+#+TITLE: Aperture Applescript pathnames
+# TAGS #applescript #photo
+
+#+begin_src applescript
+value of other tag "MasterProject"
+value of other tag "MasterLocation"
+#+end_src

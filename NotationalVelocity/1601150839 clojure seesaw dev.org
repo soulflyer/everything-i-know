@@ -1,0 +1,6 @@
+#+TITLE: clojure seesaw dev
+# TAGS #clojure
+#+begin_src clojure
+(use 'seesaw.dev)
+(show-options (frame))
+#+end_src

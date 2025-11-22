@@ -1,0 +1,4 @@
+#+TITLE: bash CDPATH
+# TAGS #bash
+
+whenever you use the cd command, bash will check all the directories in the $CDPATH list for matches to the directory name.

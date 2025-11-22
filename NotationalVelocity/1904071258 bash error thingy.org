@@ -1,0 +1,9 @@
+#+TITLE: bash error thingy
+# TAGS #bash #shell
+
+ .	set -o errexit
+ .	set -o errtrace
+ .	trap 'exit "script aborted at ${LINENO}"; exit 1' ERR
+
+from:
+https://www.quora.com/Whats-a-less-known-Linux-Shell-command-thats-indispensable-in-your-workflow

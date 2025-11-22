@@ -1,0 +1,106 @@
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="right" />
+
+<col  class="right" />
+
+<col  class="right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Country</th>
+<th scope="col" class="right">Crap (metric tons)</th>
+<th scope="col" class="right">Pop (million)</th>
+<th scope="col" class="right">Crap per person (kg)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">Sri Lanka</td>
+<td class="right">1.6</td>
+<td class="right">20</td>
+<td class="right">80.</td>
+</tr>
+
+<tr>
+<td class="left">Malaysia</td>
+<td class="right">0.9</td>
+<td class="right">32</td>
+<td class="right">28.125</td>
+</tr>
+
+<tr>
+<td class="left">Vietnam</td>
+<td class="right">1.8</td>
+<td class="right">96</td>
+<td class="right">18.75</td>
+</tr>
+
+<tr>
+<td class="left">Philipines</td>
+<td class="right">1.9</td>
+<td class="right">106</td>
+<td class="right">17.924528</td>
+</tr>
+
+<tr>
+<td class="left">Thailand</td>
+<td class="right">1.0</td>
+<td class="right">69</td>
+<td class="right">14.492754</td>
+</tr>
+
+<tr>
+<td class="left">Indonesia</td>
+<td class="right">3.2</td>
+<td class="right">266</td>
+<td class="right">12.030075</td>
+</tr>
+
+<tr>
+<td class="left">Egypt</td>
+<td class="right">1.0</td>
+<td class="right">99</td>
+<td class="right">10.101010</td>
+</tr>
+
+<tr>
+<td class="left">China</td>
+<td class="right">8.8</td>
+<td class="right">1415</td>
+<td class="right">6.2190813</td>
+</tr>
+
+<tr>
+<td class="left">Bangladesh</td>
+<td class="right">0.8</td>
+<td class="right">166</td>
+<td class="right">4.8192771</td>
+</tr>
+
+<tr>
+<td class="left">Nigeria</td>
+<td class="right">0.8</td>
+<td class="right">195</td>
+<td class="right">4.1025641</td>
+</tr>
+
+<tr>
+<td class="left">Brazil</td>
+<td class="right">0.5</td>
+<td class="right">210</td>
+<td class="right">2.3809524</td>
+</tr>
+
+<tr>
+<td class="left">USA</td>
+<td class="right">0.3</td>
+<td class="right">326</td>
+<td class="right">0.92024540</td>
+</tr>
+</tbody>
+</table>

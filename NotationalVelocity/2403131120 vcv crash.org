@@ -1,0 +1,41 @@
+#+TITLE: vcv crash
+# Tags #vcv
+
+[2402.453 info src/app/Browser.cpp:200 createPreview] Creating module widget Amalgamated Harmonics SLN
+[2402.454 info src/window/Svg.cpp:28 loadFile] Loaded SVG /Users/iain/Documents/Rack2/plugins-mac-arm64/AmalgamatedHarmonics/res/SLN.svg
+[2402.454 info src/app/Browser.cpp:200 createPreview] Creating module widget Bogaudio NOISE
+[2402.460 fatal adapters/standalone.cpp:49 fatalSignalHandler] Fatal signal 6. Stack trace:
+33: Rack(fatalSignalHandler(int)+40)
+32: libsystem_platform.dylib(_sigtramp+56)
+31: libsystem_pthread.dylib(pthread_kill+288)
+30: libsystem_c.dylib(abort+180)
+29: libsystem_malloc.dylib(malloc_vreport+908)
+28: libsystem_malloc.dylib(malloc_zone_error+104)
+27: libsystem_malloc.dylib(_tiny_check_and_zero_inline_meta_from_freelist+188)
+26: libsystem_malloc.dylib(tiny_malloc_from_free_list+1376)
+25: libsystem_malloc.dylib(tiny_malloc_should_clear+288)
+24: libsystem_malloc.dylib(szone_malloc_should_clear+92)
+23: libRack.dylib(nsvg__addPath(NSVGparser*, char)+480)
+22: libRack.dylib(nsvg__startElement(void*, char const*, char const**)+1776)
+21: libRack.dylib(nsvg__parseXML(char*, void (*)(void*, char const*, char const**), void (*)(void*, char const*), void (*)(void*, char const*), void*)+736)
+20: libRack.dylib(nsvgParse+204)
+19: libRack.dylib(nsvgParseFromFile+156)
+18: libRack.dylib(rack::window::Svg::loadFile(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&)+72)
+17: libRack.dylib(rack::window::Svg::load(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&)+156)
+16: plugin.dylib(bogaudio::BGModuleWidget::updatePanel()+612)
+15: plugin.dylib(NoiseWidget::NoiseWidget(bogaudio::Noise*)+140)
+14: plugin.dylib(rack::plugin::Model* rack::createModel<bogaudio::Noise, NoiseWidget>(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>)::TModel::createModuleWidget(rack::engine::Module*)+100)
+13: libRack.dylib(rack::app::browser::ModelBox::createPreview()+460)
+12: libRack.dylib(rack::app::browser::ModelBox::draw(rack::widget::Widget::DrawArgs const&)+36)
+11: libRack.dylib(rack::widget::Widget::draw(rack::widget::Widget::DrawArgs const&)+136)
+10: libRack.dylib(rack::widget::Widget::draw(rack::widget::Widget::DrawArgs const&)+136)
+9: libRack.dylib(rack::widget::Widget::draw(rack::widget::Widget::DrawArgs const&)+136)
+8: libRack.dylib(rack::widget::Widget::draw(rack::widget::Widget::DrawArgs const&)+136)
+7: libRack.dylib(rack::ui::ScrollWidget::draw(rack::widget::Widget::DrawArgs const&)+48)
+6: libRack.dylib(rack::widget::Widget::draw(rack::widget::Widget::DrawArgs const&)+136)
+5: libRack.dylib(rack::widget::Widget::draw(rack::widget::Widget::DrawArgs const&)+136)
+4: libRack.dylib(rack::widget::Widget::draw(rack::widget::Widget::DrawArgs const&)+136)
+3: libRack.dylib(rack::window::Window::step()+1624)
+2: libRack.dylib(rack::window::Window::run()+40)
+1: Rack(main+3380)
+0: dyld(start+2360)

@@ -1,0 +1,5 @@
+#+TITLE: photo viewer with exif-iptc
+# TAGS #photo
+
+xnview works well for checking multiple pics
+preview works, ok for single pic

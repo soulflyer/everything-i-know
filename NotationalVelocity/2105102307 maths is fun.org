@@ -1,0 +1,7 @@
+#+TITLE: maths is fun
+# TAGS #maths #geometry
+
+https://www.mathsisfun.com/geometry/index.html
+
+Has drawing tools for symmetry, spirals and tiling
+https://www.mathsisfun.com/geometry/symmetry-artist.html

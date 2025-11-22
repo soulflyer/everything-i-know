@@ -1,0 +1,5 @@
+#+TITLE: Samba mimi
+# TAGS
+
+edit etc/samba/smb.conf
+sudo service smbd restart

@@ -1,0 +1,4 @@
+#+TITLE: find focused html element
+# TAGS #html
+
+Use document.activeElement in the browser/electron console

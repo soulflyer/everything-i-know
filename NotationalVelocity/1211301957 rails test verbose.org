@@ -1,0 +1,6 @@
+#+TITLE: rails test verbose
+# TAGS #ruby #rails
+
+rake test TESTOPTS="-v"
+setting TESTOPTS in the shell first doesn't work. I guess because the tests are not run in the login environment
+A better looking option is to use the turn gem. Add it to GEMFILE under the test group

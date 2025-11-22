@@ -1,0 +1,16 @@
+#+TITLE: bash list commands aliases functions
+# TAGS #shell
+
+compgen -c
+
+# aliases
+compgen -a 
+
+# functions
+compgen -A function
+
+# keywords
+compgen -k
+
+# builtins
+compgen -b

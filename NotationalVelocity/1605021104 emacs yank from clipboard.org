@@ -1,0 +1,10 @@
+#+TITLE: emacs yank from clipboard
+# TAGS #emacs #newline
+
+full of ^M characters instead of newlines :-/
+
+(define-key diw-minor-mode-map (kbd "C-x x") 'quoted-insert)
+
+M-x replace-string
+C-x x C-m
+C-j

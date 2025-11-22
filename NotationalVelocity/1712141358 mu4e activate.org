@@ -1,0 +1,8 @@
+#+TITLE: mu4e activate
+# TAGS #mail #emacs
+
+not activated by default, do:
+
+    sudo port activate mu
+
+and choose one that has emacs

@@ -1,0 +1,4 @@
+#+TITLE: chrome extension
+# TAGS
+
+Allow-Control-Allow-Origin may be related to the runaway kernel_task problem

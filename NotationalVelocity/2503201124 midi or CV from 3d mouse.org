@@ -1,0 +1,293 @@
+#+TITLE: midi or CV from 3d mouse
+# Tags #music
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2503201124 midi or CV from 3d mouse-images
+:END:
+* [[https://www.orderedbytes.com/controllermate/][Controllermate]]
+looks promising but driver wont load on Mac Silicon. It may be possible to tweak the Mac security settings but there is no mention of this in the *ControllerMate* docs  and it looks like it is dead in the water. Revisit if nothing else works.
+
+* [[https://github.com/skwerner/MIDI_Navigator][Midi_Navigator]] 
+abandonware, but the source appears to be [[https://github.com/skwerner/MIDI_Navigator][here]] This is mentioned in a couple of old forum discussions and appears to do the right thing for an older version of the 3dmouse.
+
+* [[https://www.bome.com/products/miditranslator][MidiTranslator]]
+Paid, but gets a mention on [[https://www.bome.com/forums/3/11468/keystrokes-to-midi-3dconnexion-spacemouse/][old forums]] as a possible solution. The demo version doesn't appear to be able to read from the mouse although it can output a mouse event.
+
+* [[https://pypi.org/project/pyspacemouse/][PySpacemouse]]
+Installed via *homebrew* and mentions both *M1* and *Spacemouse Pro*. Broken links on the homepage. [[https://spacemouse.kubaandrysek.cz/][This]] appears to be a more up to date version, and [[https://github.com/JakubAndrysek/pyspacemouse/][github]] is here. Might be worth looking at [[https://github.com/libusb/hidapi][HidAPI]], a *C* library used by *PySpacemouse* rather than perpetrating *Python*.
+
+Tested using [[https://github.com/todbot/hidapitester][hidapitester]]
+#+begin_src shell
+hidapitester --list
+hidapitester --vidpid 256F/C62E --open --get-report-descriptor
+pyspacemouse --test-connect
+hidapitester --vidpid 256F/C62E --open --read-input-forever
+hidapitester --vidpid 256F/C62E --open --length 13 --read-input-forever
+#+end_src
+=Note= kill off *3DconnexionHelper* or the connection to the device wont work. This doesn't stop the mouse working, but it does mess with scrolling using the mouse wheel. Also the *3d mouse* can be used to move the cursor and scroll when the helper is not running.
+Not sure what caused it to restart. Something I triggered when poking about in the settings. It is also visible in *Applications* so that might be the easiest way to restart it.
+
+Messages output by hidapitester are different depending on what events there are. The first byte is the type, and for movement of the 3dmouse, 13 bytes are returned. The extra 12 are in pairs:
+
+|------+---+---+---+-------+------+-----|
+| type | x | y | z | pitch | roll | yaw |
+|------+---+---+---+-------+------+-----|
+It looks like the first byte is the value and the second is the sign
+Button press just uses the first 2 bytes
+
+Sample python program, gives a readout of the 6 axes =Don't run this with org-babel=:
+#+begin_src python :results output
+import pyspacemouse
+import time
+
+success = pyspacemouse.open(dof_callback=pyspacemouse.print_state, button_callback=pyspacemouse.print_buttons)
+if success:
+    while 1:
+        state = pyspacemouse.read()
+        time.sleep(0.01)
+#+end_src
+
+=Note= using callbacks seems to miss lower values, so pitchWheel will not end up on 0. I guess this means I will have to store the mouse state and compare it to the state polled from the mouse, sending midi whenever they differ. 💡Or maybe send a second message after a short pause. Might not even need the first message. Call back could just be the trigger, and then read the state after a short pause. It might even be enough just to use the state rather than the *axis* value returned by the callback fn. Try that first. Didn't work :-/
+
+Try basing it on the simpler [[https://spacemouse.kubaandrysek.cz/mouseApi/examples/][example]]:
+#+begin_src python
+import pyspacemouse
+import time
+
+success = pyspacemouse.open()
+if success:
+    while 1:
+        state = pyspacemouse.read()
+        print(state.x, state.y, state.z)
+        time.sleep(0.01)
+#+end_src
+*** Callback version
+This version was sort of working using callbacks, but not zeroing when the 3d mouse was released. Might be useful for the callback functions, as the docs are incomplete and I had to guesss at the format.
+#+begin_src python
+  """Functions to read 3d mouse input."""
+  import pyspacemouse
+  import time
+  import event
+  import midi
+
+  # Ignore any inputs below this value:
+  # 0.1 makes it possible to send any axis without (much) noise from the other 5.
+  sensitivity = 0.1
+
+  # Time the callback fns will wait before checking if anything has changed.
+  sleep = 0.001
+
+  button_arr = [pyspacemouse.ButtonCallback([0], event.button_0),
+                pyspacemouse.ButtonCallback([1], event.button_1),]
+  button_arr = [pyspacemouse.ButtonCallback([0], event.button_0),
+                pyspacemouse.ButtonCallback([1], event.button_1),]
+
+  axis_arr = [pyspacemouse.DofCallback("x",
+                                       event.right,
+                                       sleep,
+                                       event.left,
+                                       sensitivity),
+              pyspacemouse.DofCallback("y",
+                                       event.forward,
+                                       sleep,
+                                       event.back,
+                                       0.0000000000000000001),
+              pyspacemouse.DofCallback("z",
+                                       event.up,
+                                       sleep,
+                                       event.down,
+                                       sensitivity),
+              pyspacemouse.DofCallback("roll",
+                                       event.roll_right,
+                                       sleep,
+                                       event.roll_left,
+                                       sensitivity),
+              pyspacemouse.DofCallback("pitch",
+                                       event.pitch_forward,
+                                       sleep,
+                                       event.pitch_back,
+                                       sensitivity),
+              pyspacemouse.DofCallback("yaw",
+                                       event.yaw_right,
+                                       sleep,
+                                       event.yaw_left,
+                                       sensitivity)]
+
+  def main():
+      """Listen to the 3d mouse and fire various fns."""
+      success_3d = pyspacemouse.open(button_callback_arr=button_arr,
+                                     dof_callback_arr=axis_arr)
+      port_number = midi.open_midiout_port()
+      print(f"Opening {midi.midiout.getPortName(port_number)}")
+      midi.midiout.openPort(port_number)
+      if success_3d and port_number:
+          while True:
+              pyspacemouse.read()
+              time.sleep(0.001)
+
+#+end_src
+and the events file:
+#+begin_src python
+"""Events fired by inputs from the 3d mouse."""
+import rtmidi
+import midi
+import time
+import pyspacemouse
+
+
+def button_0(state, buttons, pressed_buttons):
+    """Event fired when button 0 is pressed."""
+    print("Button 0 pressed:", pressed_buttons)
+    midi.midiout.sendMessage(midi.testmessage)
+
+
+def button_1(state, buttons, pressed_buttons):
+    """Event fired when button 1 is pressed."""
+    midi.midiout.sendMessage(midi.testmessage)
+    print("Button 1 pressed", pressed_buttons)
+
+
+def right(state, axis):
+    """Event fired on move right."""
+    message = rtmidi.MidiMessage.controllerEvent(1, 100, int(axis * 127))
+    midi.midiout.sendMessage(message)
+    print(f"Right: {axis}")
+
+
+def left(state, axis):
+    """Event fired on move left."""
+    print(f"Left: {axis}")
+
+
+def forward(state, axis):
+    """Event fired on move forwards."""
+    print(f"Forward: {axis}")
+    new_state = pyspacemouse.read()
+    y_axis = new_state.y
+    message = rtmidi.MidiMessage.pitchWheel(
+        midi.channel, (8192 + (int(y_axis * 8192))))
+    midi.midiout.sendMessage(message)
+
+
+def back(state, axis):
+    """Event fired on move backwards."""
+    print(f"Back: {axis}")
+
+
+def up(state, axis):
+    """Event fired on move up."""
+    print(f"Up: {axis}")
+
+
+def down(state, axis):
+    """Event fired on move down."""
+    print(f"Down: {axis}")
+
+
+def roll_right(state, axis):
+    """Event fired on roll_right."""
+    print(f"Roll right: {axis}")
+
+
+def roll_left(state, axis):
+    """Event fired on roll_left."""
+    print(f"Roll left: {axis}")
+
+
+def pitch_forward(state, axis):
+    """Event fired on pitch forward."""
+    print(f"Pitch forward: {axis}")
+
+
+def pitch_back(state, axis):
+    """Event fired on pitch back."""
+    print(f"Pitch back: {axis}")
+
+
+def yaw_right(state, axis):
+    """Event fired on yaw right."""
+    print(f"Yaw right: {axis}")
+
+
+def yaw_left(state, axis):
+    """Event fired on yaw left."""
+    print(f"Yaw left: {axis}")
+
+#+end_src
+#+RESULTS:
+
+** Sending midi from python
+
+[[https://pypi.org/project/mido/][Mido]] Seems to be the best option. Maybe Not, opening a port fails with *AttributeError: module 'rtmidi' has no attribute 'API_UNSPECIFIED'* Try something else.
+[[https://github.com/patrickkidd/pyrtmidi][PyRtMidi]] saw the current ports on first try.
+
+This will open a port and read any notes or cc messages.
+#+begin_src python
+import rtmidi
+
+midiin = rtmidi.RtMidiIn()
+
+def print_message(midi):
+    if midi.isNoteOn():
+        print('ON: ', midi.getMidiNoteName(midi.getNoteNumber()), midi.getVelocity())
+    elif midi.isNoteOff():
+        print('OFF:', midi.getMidiNoteName(midi.getNoteNumber()))
+    elif midi.isController():
+        print('CONTROLLER', midi.getControllerNumber(), midi.getControllerValue())
+
+ports = range(midiin.getPortCount())
+if ports:
+    for i in ports:
+        print(f"{i}: {midiin.getPortName(i)}")
+    port_number = int(input('enter port number '))
+    print(f"Opening {midiin.getPortName(port_number)}") 
+    midiin.openPort(port_number)
+    while True:
+        m = midiin.getMessage(250) # some timeout in ms
+        if m:
+            print_message(m)
+else:
+    print('NO MIDI INPUT PORTS!')
+#+end_src
+
+List output ports:
+#+begin_src python :results output
+import rtmidi
+midiout = rtmidi.RtMidiOut()
+ports = range(midiout.getPortCount())
+for i in ports:
+    print(f"{i}: {midiout.getPortName(i)}")
+#+end_src
+
+#+RESULTS:
+: 0: Network Session 1
+: 1: nanoKEY CTRL
+: 2: MiniFuse 2
+
+Send a test message to Port0, observe with *MidiMonitor*
+#+begin_src python
+  import rtmidi
+  midiout = rtmidi.RtMidiOut()
+  testmessage = rtmidi.MidiMessage.noteOn(1,100,120)
+  bendmessage = rtmidi.MidiMessage.pitchWheel(1,8192)
+  midiout.openPort(0)
+  midiout.sendMessage(testmessage)
+  midiout.sendMessage(bendmessage)
+  return (bendmessage)
+#+end_src
+#+RESULTS:
+: <PITCH WHEEL: value: 8192, channel: 1>
+The second paramater for pitchWheel seems to be 0-16383 giving a range of -8192 to 8191 with 8192 giving 0
+First parameter is the midi channel.
+
+#+begin_src python
+import sys
+return sys.version
+#+end_src
+
+#+RESULTS:
+: 3.11.11 (main, Dec  3 2024, 17:20:40) [Clang 16.0.0 (clang-1600.0.26.4)]
+
+** Setup midi routing
+Routing handled by [[http://www.subtlesoft.square7.net/MidiPipe.html][midipipe]]
+[[file:2503201124 midi or CV from 3d mouse-images/screenshot-20250430-222228.png]]
+Select *midipipe output 1* in *vcv* and *midipipe input 1* in the python 3d mouse program

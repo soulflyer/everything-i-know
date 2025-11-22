@@ -1,0 +1,14 @@
+#+TITLE: termux
+# Tags #android #linux
+
+Useful commands inside *termux*:
+apt
+pkg
+termux-change-repo
+
+had to install *clang* and *binutils* to get apl configure to run. Failed with "doc/DALY/Makefile.in not found" Makefile.in is not in that dir. Added a symbolic link. Also a couple of other subdirs needed this.
+
+Installed *make*
+which failed trying to look in DALY directory that didn't exist.
+
+[[https://android.stackexchange.com/a/187580][Stack Exchange]] answer suggesting installing arch to get a full dev env. Didn't work for me.

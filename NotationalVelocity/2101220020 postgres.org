@@ -1,0 +1,6 @@
+#+TITLE: postgres
+# TAGS  #postgres
+
+
+Stop server:
+pg_ctl -D /usr/local/var/postgres stop

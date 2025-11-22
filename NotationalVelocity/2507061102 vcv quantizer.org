@@ -1,0 +1,22 @@
+#+TITLE: vcv quantizer
+# Tags #vcv #music
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Documents/org-mode/NotationalVelocity/2507061102 vcv quantizer-images
+:END:
+* External Control
+I want to set the scale and the root note from an external controller
+** ModeScaleQuant
+from *PS-purrsoftware*
+This will set both *Root Note* and *Scale* with *0-10v* control voltages. The display could be very useful too. One quirk is that the root note will change when the scale is adjusted. The notes in use stay the same until the *Root Note* is adjusted again. The scale is provided as an output both as a single CV value and as a polyphonic signal with (by default) all the notes not used as 0v, the root as 10v and the other notes as 8v. There are other options for this output, including *Pentatonic* although that isn't a scale option. The only scales available are the *Modes* of the standard scale. Ok for *Major* and *Minor* but can't handle +pentatonic+ or +blues+ as far as I can tell.
+#+ATTR_ORG: :width 800
+[[file:2507061102 vcv quantizer-images/screenshot-20250706-113832.png]]
+
+** Slips
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Documents/org-mode/NotationalVelocity/2507061102 vcv quantizer-images
+:END:
+From *Aleph's Bits*
+This also accepts *Root Note* and *Scale* as CV inputs. The scales used are not the same as *ModeScaleQuant* and there is no output of these values. That wont be a problem when controlling it externaly, and translating some of the scale input values to match will be possible. May be possible to wire up something to use the more useful scales of *Slips* with the excellent display of *ModeScaleQuant.* Would mean taking a copy of the *Scale* cv used to set *Slips* and adjusting it so *Maj,* and *Maj Pent,* both sent the value representing *Major* to the *ModeScaleQuant* scale input etc.
+
+[[file:2507061102 vcv quantizer-images/screenshot-20250706-121418.png]]
+

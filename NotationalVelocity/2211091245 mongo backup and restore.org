@@ -1,0 +1,15 @@
+#+TITLE: mongo backup and restore
+# Tags #mongo
+
+* Backup from local DB
+Backed up using the *Studio 3T* app. Click on export
+
+* Restore to the cloud
+Could probably have done this from the app too, but did this from the command line:
+#+begin_src bash
+  mongorestore --uri="mongodb+srv://soulflyer.qri2f.mongodb.net/photos" --username="soulflyer" --password="At-18thCenturyUnplugged" --gzip Documents/photos-dump/photos/images.bson.gz
+  mongorestore --uri="mongodb+srv://soulflyer.qri2f.mongodb.net/photos" --username="soulflyer" --password="At-18thCenturyUnplugged" --gzip Documents/photos-dump/photos/keywords.bson.gz
+  mongorestore --uri="mongodb+srv://soulflyer.qri2f.mongodb.net/photos" --username="soulflyer" --password="At-18thCenturyUnplugged" --gzip Documents/photos-dump/photos/preferences.bson.gz
+#+end_src
+* Backup from Acceptance to Subversion
+Access both from *Studio3T* and export a BSON archive from one and import it to the other. This may not work for much longer without updating the mongo version on Subversion.

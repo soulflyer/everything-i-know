@@ -1,0 +1,7 @@
+#+TITLE: convert m4a to mp3
+# Tags #music
+
+*Max* doesn't work on new macs, so...
+#+begin_src shell
+for i in *.m4a; do ffmpeg -i "$i" "${i%.*}.mp3"; done
+#+end_src

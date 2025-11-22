@@ -1,0 +1,6 @@
+#+TITLE: emacs key chords
+# Tags #emacs #webbookmark
+
+Keybindings that rely on pressing 2 keys at the same time.
+
+https://github.com/emacsorphanage/key-chord

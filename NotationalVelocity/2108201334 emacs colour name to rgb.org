@@ -1,0 +1,8 @@
+#+TITLE: emacs colour name to rgb
+# TAGS #emacs
+
+#+begin_src emacs-lisp
+(apply 'format "#%02x%02x%02x"
+			(mapcar (lambda (c) (ash c -8))
+				(color-values "red")))
+#+end_src

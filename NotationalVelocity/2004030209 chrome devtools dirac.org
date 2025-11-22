@@ -1,0 +1,8 @@
+#+TITLE: chrome devtools dirac
+# TAGS #devtools #chrome
+
+start with dirac on the command line
+
+dirac --quiet &
+
+Uses chrome canary (probably configureable)

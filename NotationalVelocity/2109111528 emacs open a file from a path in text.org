@@ -1,0 +1,4 @@
+#+TITLE: emacs open a file from a path in text
+# Tags #emacs
+
+M-x find-file-literally-at-point

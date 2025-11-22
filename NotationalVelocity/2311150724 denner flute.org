@@ -1,0 +1,55 @@
+#+TITLE: denner flute
+# Tags #flute #3piece #cfoot
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2311150724 denner flute-images
+:END:
+
+Mentioned in [[pdf:~/Documents/books/bookshelf/Musical-Instruments/Flute/THE_FLUTE_IN_TRANSITION_A_COMPARISON_OF.pdf::71++6.92][Nivison]]
+
+[[https://objektkatalog.gnm.de/wisski/navigate/47184/view][Denner 3 part flute]] in the [[https://objektkatalog.gnm.de/][Germanisches National Museum]]
+
+Ivory with a low C key
+
+Mentioned in 
+
+** Allgemeine Bezeichnung
+Querflöte in C, 1 bzw. 2 Klappen
+** Inventarnummer
+MI566
+** Sammlung
+Musikinstrumente
+** Klassifikation
+Querflöte
+transverse flute
+421.121.12
+Einzelquerflöten Mit Grifflöchern
+Offene Querflöten
+Einzelquerflöten
+Querflöten
+Flöten ohne Kernspalte
+Schneideninstrumente oder Flöten
+(Eigentliche) Blasinstrumente
+Aerophone
+** Anzahl der Teile
+1
+** Hersteller
+Denner, Jacob (Hersteller)
+** Herstellungsdatum
+um 1715
+** Herstellungsort
+Nürnberg / Deutschland
+Standort
+Dauerausstellung Renaissance, Barock, Aufklärung
+** Maße
+Gesamtlänge (ohne Korkschraube) mit Fußstück c:611,5 mm
+Gesamtlänge (ohne Korkschraube) mit Fußstück d:680,5 mm
+Schwingende Länge (Unterende bis Mitte Mundloch) mit Fußstück c:558 mm
+Schwingende Länge (Unterende bis Mitte Mundloch) mit Fußstück d:627 mm
+** Material und Technik
+Korpus: Elfenbein; Klappen: Messing mit Feuervergoldung am c1-Fußstück
+
+[[file:2311150724 denner flute-images/1.png]][[file:2311150724 denner flute-images/2.png]]
+[[file:2311150724 denner flute-images/3.png]] [[file:2311150724 denner flute-images/4.png]]
+[[file:2311150724 denner flute-images/5.png]] [[file:2311150724 denner flute-images/6.png]]
+[[file:2311150724 denner flute-images/7.png]]
+[[file:2311150724 denner flute-images/8.png]] [[file:2311150724 denner flute-images/9.png]]

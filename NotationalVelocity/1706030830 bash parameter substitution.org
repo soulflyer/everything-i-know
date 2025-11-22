@@ -1,0 +1,19 @@
+#+TITLE: bash parameter substitution
+# TAGS #bash
+
+Useful for modifying a variable containing a path ie to remove the first part of a path:
+
+FULLSIZE_DIR=/Users/iain/Pictures/Published/fullsize
+SUBPATH=${TESTFILE##$FULLSIZE_DIR/}
+
+will return just the 2017/05/projectname/image part of a complete path to an image
+
+this could also be done using sed:
+
+echo $TESTFILE | sed s~$FULLSIZE_DIR~~ | sed s~^/~~
+
+Note: using ~ as the delimiter in the sed command as it won't be in the pathname, as long as it has been expanded previously with stat:
+
+export FULLSIZE_DIR=$(stat -f %N $FULLSIZE_DIR)
+
+http://tldp.org/LDP/abs/html/parameter-substitution.html

@@ -1,0 +1,18 @@
+#+TITLE: Lot flute
+# Tags #flute
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2410282318 Lot flute-images
+:END:
+A402Hz
+[[https://librairie.philharmoniedeparis.fr/dessins-techniques/flute-traversiere-5][E986.4.1]] in the Philharmonie de Paris
+
+[[file:2410282318 Lot flute-images/screenshot-20241028-233427.png]]
+
+[[file:2410282318 Lot flute-images/screenshot-20241030-003520.png]] [[file:2410282318 Lot flute-images/screenshot-20241030-003547.png]] [[file:2410282318 Lot flute-images/screenshot-20241030-003624.png]]
+
+
+A420 hz
+[[https://librairie.philharmoniedeparis.fr/dessins-techniques/flute-traversiere-8][E1517]]
+[[file:2410282318 Lot flute-images/screenshot-20241028-233713.png]]
+
+[[file:2410282318 Lot flute-images/screenshot-20241030-003213.png]] [[file:2410282318 Lot flute-images/screenshot-20241030-003239.png]]

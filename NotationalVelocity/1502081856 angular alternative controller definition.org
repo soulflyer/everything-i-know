@@ -1,0 +1,15 @@
+#+TITLE: angular alternative controller definition
+# TAGS #angular #javascript
+
+These 2 definitions are equivalent (given a module called customerphotos):
+
+function DownloadController($scope){
+    $scope.testText="hello";
+}
+
+customerphotos.controller(
+    "DownloadController",
+    function ($scope, $routeParams) {
+            $scope.albumid = $routeParams.albumid;
+
+    });

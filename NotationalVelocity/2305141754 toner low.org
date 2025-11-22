@@ -1,0 +1,14 @@
+#+TITLE: toner low
+# Tags #printer
+
+Brother HL23660dw
+
+turn off (cover open)
+turn on while holding go
+continue to hold for 30s (Is this necessary?)
+display shows a row of squares
+press go 9 times
+wifi flashes in response
+press go 5 times
+close cover
+

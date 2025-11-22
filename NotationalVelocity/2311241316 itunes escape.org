@@ -1,0 +1,11 @@
+#+TITLE: itunes escape
+# Tags #mac
+
+* Write to mp3
+[[https://github.com/pandeiro/claudio][claudio]]
+[[https://www.jthink.net/jaudiotagger/index.jsp][jaudiotagger]]
+[[https://github.com/zsau/id3][id3]]
+[[https://github.com/DanPallas/green-tags][green-tags]]
+
+* Read from itunes
+export the library and read the xml file

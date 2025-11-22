@@ -1,0 +1,16 @@
+#+TITLE: Descriptio instrumenti cujusdam astronomici
+# Tags #book
+https://gallica.bnf.fr/ark:/12148/btv1b100246322#
+https://archivesetmanuscrits.bnf.fr/ark:/12148/cc66493v
+https://books.google.com/books/about/Les_Trait%C3%A9s_d_Henri_Arnaut_de_Zwolle_et.html
+
+** From the header line:
+1.° Descriptio instrumenti cujusdam astronomici, quod Saphea vocatur : authore Joanne de Lineriis ; accedunt ejusdem canones. —
+2.° Turketi tractatus, qui horizon dicitur, editus à Magistro Francone de Polonia ; sive liber de nominibus partium instrumenti astronomici, quod dicitur Turketus, et de ejusdem utilitatibus. —
+3.° Opus cujus is est titulus : libri duo de motibus planetarum per instrumenta manualiter mota : hujusce operis initio haec antiqua manu annotata reperias ; Magister Henricus Arnault, Medicus Alemannus de Zuvolis, qui olim Divione domicilium elegit, superiorem litteram scripsit, et hunc librum suo labore compilavit, clarus scientia horologiorum ; qui in aede beati Stephani Divionensis sepultus media navi, plurimùm laudis sibi reliquit anno 1460. —
+4.° Liber proportionum musicalium : authore Magistro Joanne de Muris , olim Canonico Parisiensi. —
+5.° Philonis liber de ingeniis aquarum : finis desideratur.
+
+Contains some interesting drawings of musical instruments towards the end. Text is hand written and pretty hard to read, to the degree that I'm not even sure what language it is in. I suspect it's Latin (confirmed)
+
+Possibly by Arnaud de Zwolle 

@@ -1,0 +1,20 @@
+#+TITLE: photo filesystems
+# Tags #photo
+
+travelling:
+#+begin_src bash
+cd ~/Pictures
+rm Photos Published
+ln -s /Volumes/Crucial/OfflinePhotos Photos
+ln -s /Volumes/Crucial/Published Published
+#+end_src
+
+home:
+#+begin_src bash
+cd ~/Pictures
+rm Photos Published
+ln -s /Volumes/OfflinePhotos Photos
+ln -s /Volumes/Published Published
+#+end_src
+
+#+RESULTS:

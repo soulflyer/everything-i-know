@@ -1,0 +1,4 @@
+#+TITLE: graphql intro
+# TAGS #graphql
+
+https://pragmaticstudio.com/tutorials/what-is-graphql

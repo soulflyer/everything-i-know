@@ -1,0 +1,14 @@
+#+TITLE: bad decisions
+# Tags #blog
+
+Leiningen
+Monger
+settings in db
+move to multi user
+This broke repl startup:
+#+begin_src clojure
+(def viewer 
+  (if (sh "which" "open")
+    "open"
+    "xdg-open"))
+#+end_src

@@ -1,0 +1,35 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2303310009 mum's recipes-images
+:END:
+#+TITLE: mum's recipes
+* Ginger biscuits
+[[file:2303310009 mum's recipes-images/ginger-biscuits.png]]
+Used 50g of chopped up dried ginger and left out the sugar. Cooked for longer than specified with the oven on full
+20g fresh ginger, no suger, double the syrup
+
+* Oat crunchies
+ [[file:2303310009 mum's recipes-images/oat-crunchies.png]]
+
+* Crumble
+ [[file:2303310009 mum's recipes-images/crumble.png]]
+
+* Ginger Pieces
+[[file:2303310009 mum's recipes-images/ginger-pieces.png]]
+
+* Ginger Flapjack
+ [[file:2303310009 mum's recipes-images/ginger-flapjack.png]]
+
+* Flapjack
+ [[file:2303310009 mum's recipes-images/flapjack.png]]
+
+* Flapjack
+ [[file:2303310009 mum's recipes-images/flap-jack-2.png]]
+
+* Crunchies
+[[file:2303310009 mum's recipes-images/crunchies.png]]
+
+* Belgium Spice Biscuits
+ [[file:2303310009 mum's recipes-images/belgium-spice-biscuits.png]]
+
+* Ginger Sponge
+[[file:2303310009 mum's recipes-images/ginger-sponge.png]]

@@ -1,0 +1,6 @@
+#+TITLE: clojure database with time datomic
+# TAGS #datomic
+
+https://www.datomic.com/index.html
+https://github.com/Datomic/day-of-datomic
+https://vimeo.com/cognitect

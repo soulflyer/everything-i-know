@@ -1,0 +1,4 @@
+#+TITLE: git checkout file from another branch
+# TAGS #git
+
+git checkout <branch> -- <file>

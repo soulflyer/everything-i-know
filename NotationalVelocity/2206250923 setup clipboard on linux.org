@@ -1,0 +1,10 @@
+#+TITLE: setup clipboard on linux
+# Tags #linux
+
+Try simpleclip
+
+#+begin_src emacs-lisp
+(setq x-select-enable-clipboard t)
+(simpleclip-mode 1)
+#+end_src
+Use *M-x simpleclip-copy* to copy to the system clipboard

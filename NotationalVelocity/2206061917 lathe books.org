@@ -1,0 +1,6 @@
+#+TITLE: lathe books
+# Tags #book
+
+§2205200937 Lukin, the lathe and its uses [[file:~/Documents/books/bookshelf/Woodwork/Turning/Lukin/the_lathe_and_its_uses.pdf][the_lathe_and_its_uses.pdf]]
+§2110071257 Perrigo: Lathe design construction and operation 1919 [[file://~/Documents/books/bookshelf/Woodwork/Turning/Lathe-design.pdf][Lathe-design.pdf]]
+§2205200839 first year lathe work [[file:~/Documents/books/bookshelf/Woodwork/Turning/First-Year-Lathe-Book.SouthBend.pdf][First Year Lathe Book]]

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2412312352 virtual guitar-images
+:END:
+#+TITLE: virtual guitar
+# Tags #music
+[[https://www.apronus.com/music/onlineguitar.htm][Online Guitar]]
+[[file:2412312352 virtual guitar-images/screenshot-20241231-235351.png]]
+
+[[https://recursivearts.com/online-guitar/][Recursive Arts]]
+[[file:2412312352 virtual guitar-images/screenshot-20241231-235538.png]]

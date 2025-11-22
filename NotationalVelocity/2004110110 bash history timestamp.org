@@ -1,0 +1,7 @@
+#+TITLE: bash history timestamp
+# TAGS #bash #shell
+
+"If the HISTTIMEFORMAT is set, the time stamp information associated with each history entry is written to the history file"
+from: https://www.cyberciti.biz/faq/unix-linux-bash-history-display-date-time/
+
+$ HISTTIMEFORMAT="%d/%m/%y %T "

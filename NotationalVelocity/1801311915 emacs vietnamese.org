@@ -1,0 +1,8 @@
+#+TITLE: emacs vietnamese
+# TAGS #emacs
+
+M-x set-input-method
+
+also useful is tex input method, use \ to precede weird characters
+
+§2109181514 vietnamese input telex

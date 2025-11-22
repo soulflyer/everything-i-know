@@ -1,0 +1,8 @@
+#+TITLE: emacs recursive edit
+# Tags #emacs
+
+C-r   to enter recursive edititing
+C-M-c to exit back to original edit
+C-]   to quit
+
+see (info "(emacs)recursive edit")

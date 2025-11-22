@@ -1,0 +1,8 @@
+#+TITLE: bash path cache
+# TAGS #bash
+
+clear cache with:
+hash -d ......
+or:
+hash -r
+to clear the entire cache of executables

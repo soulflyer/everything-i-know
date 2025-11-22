@@ -1,0 +1,20 @@
+#+TITLE: git discard changes in working directory
+# TAGS #git
+
+git checkout -f
+
+also to remove added files and dirs
+
+git clean -fd
+
+from: https://stackoverflow.com/a/34270430/1671119
+
+or perhaps:
+
+git reset --hard
+
+or 
+
+git checkout -- .
+
+from https://stackoverflow.com/a/52713/1671119

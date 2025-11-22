@@ -1,0 +1,8 @@
+#+TITLE: emacs dired
+# TAGS #emacs #dired
+
+^   to go up a directory
+C-u s     to edit the ls options (try -alS)
+q   to close directory
+C-c C-e enter edit mode to change file names
+(    to simplify the display

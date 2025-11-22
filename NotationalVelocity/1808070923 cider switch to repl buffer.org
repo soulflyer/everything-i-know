@@ -1,0 +1,5 @@
+#+TITLE: cider switch to repl buffer
+# TAGS #cider
+
+C-c C-z cider-load-buffer-and-switch-to-repl-buffer
+with prefix it will switch namespace too.

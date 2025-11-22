@@ -1,0 +1,4 @@
+#+TITLE: state machine visualizer
+# TAGS #webbookmark
+
+https://xstate.js.org/viz/

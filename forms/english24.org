@@ -1,0 +1,34 @@
+|------------------------------+--------------+--------------+---------+---------+------+-----------+----------------------|
+| English                      | Weighted leg | Hand forward | Stance  | Section | Step | Direction | Chinese              |
+|------------------------------+--------------+--------------+---------+---------+------+-----------+----------------------|
+| Prepare                      | =            | =            | togther |       1 |   1a | S         | Qi shi               |
+| Open                         | =            | =            | ma-bu   |       1 |   1b | S         | -                    |
+| Wild horse parts mane        | L            | L            | Gong-bu |       1 |   1c | S         | -                    |
+| Ward off                     | R            | R            | Gong-bu |       1 |   2a | W         | Lan que wei (Peng)   |
+| Roll back                    | R            | R            | Gong-bu |       1 |   2b | W         | (Liu)                |
+| Press                        | R            | =            | Gong-bu |       1 |   2c | W         | (Gi)                 |
+| Push                         | R            | =            | Gong-bu |       1 |   2d | W         | (An)                 |
+| Single whip                  | L            | L            | Gong-bu |       1 |    3 | E         | Dan bien             |
+| Lifting hands                | L            | R            | Xiu-bu  |       1 |    4 | SW        | Ti shou              |
+| white crane                  | R            | R            | Xiu-bu  |       1 |    5 | E         | Bai he liang chi     |
+| Brush knee twist step        | L            | R            | Gong-bu |       1 |    6 | E         | Lou xi ao bu         |
+| Strum the lute               | R            | L            | Xiu-bu  |       1 |    7 | E         | Shou hui pipa        |
+| Repulse the monkey           | L            | R            | Empty   |       2 |    8 | E         | Dao juan hong        |
+| Diagonal flying              | R            | R            | Gong-bu |       2 |    9 | SW        | Xie fei shi          |
+| Cloudy hands                 |              |              | Ma-bu   |       2 |   10 | S         | Yun shou             |
+| Single whip                  | L            | L            | Gong-bu |       2 |   11 | W         | Dan bien             |
+| High pat on horse            | R            | R            | Xiu-bu  |       3 |   12 | W         | Gao tan ma           |
+| Right heel kick              | L            | L            | Xiu-bu  |       3 |   13 | SE        | You deng jiao        |
+| Punch to ears                | R            | =            | Gong-bu |       3 |   14 | SE        | Shuang feng guan er  |
+| Left heel kick               | R            | L            | Xiu-bu  |       3 |   15 | NW        | Zuo deng jiao        |
+| Snake creeps down            | R            | L            | Xiu-bu  |       3 |   16 | W         | Zuo xia shi          |
+| Golden rooster               | L            | R            | Xiu-bu  |       3 |   17 | W         | You du li shi        |
+| Fair lady weaves at shuttles | L            | R            | Gong-bu |       4 |   18 | W         | Zuo yu nu chuan shuo |
+| Needle at the sea bottom     | R            | R            | Xiu-bu  |       4 |   19 | W         | Hai di zhen          |
+| Fan through the back         | L            | L            | Gong-bu |       4 |   20 | W         | Shan tong bei        |
+| Block parry punch            | L            | R            | Gong-bu |       4 |   21 | E         | Ban lan chui         |
+| Withdraw & push              | L            | =            | Gong-bu |       4 |   22 | E         | Ru feng shi bi       |
+| Cross hands                  | =            | =            | Ma-bu   |       4 |   23 | S         | Shi zi shou          |
+| Close                        | =            | =            | togethr |       4 |   24 | S         | Shou shi             |
+|------------------------------+--------------+--------------+---------+---------+------+-----------+----------------------|
+

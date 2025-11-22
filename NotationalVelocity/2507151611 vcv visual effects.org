@@ -1,0 +1,31 @@
+#+TITLE: vcv visual effects
+# Tags #vcv #music
+* Visual Effects
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Documents/org-mode/NotationalVelocity/2507151611 vcv visual effects-images
+:END:
+** [[https://github.com/alexey-komarov/fruitsofkarma-vcvrack][Coloured Glass / Broken Glass]]
+[[file:2507151611 vcv visual effects-images/screenshot-20250715-161149.png]]
+There was a name change at some point. Its the same module. 
+Limited to the rack unit window, but immediate and easy to use. Just turn the knobs or send it some CVs to change the display.
+
+** [[https://github.com/silver-ag/visions/tree/main?tab=readme-ov-file#imagein][Vision]]
+Intro video [[https://www.youtube.com/watch?v=oo0nHmBzQoA][here]] has no sound and cables are set to invisible. My attempt at recreating it looks like this:
+[[file:2507151611 vcv visual effects-images/screenshot-20250715-165040.png]]
+However the *load* function on the *ImageIn* module is not working so I don't know if I got it right. [[file:~/Code/vcvrack/patches/Vision-Experiment.vcv][Patch is here]]
+Also it seems to stop *VCV* from running. I guess its waiting for response from a file select dialog I can't see. Update to 2.1.1 didn't help.
+It is a known [[https://github.com/silver-ag/visions/issues/4][Issue]]
+
+** [[https://github.com/kockie69/Visualizer/tree/main/docs][LFM by RPJ]]
+[[file:2507151611 vcv visual effects-images/lfm.png]]
+A real rabbithole. Lots of pretty images, but it isn't at all obvious how they respond to sound. Does allow for display in a separate window by using the *LFMFull* rather than the *LFMEmbedded* module. Rather a ot of presets and I'm not certain the module always respects the preset change settings.
+Had some sucess using an extra send from the mixer and carefully setting the send level. Used the *Zylot* patches ie *Azirphaeli's Mirror*. *The Inner Workings of My New Computer* shows distinctly different effects according to the levels on the left and right inputs.
+*nil, can't stop the blithering* is interesting, trees sprouting out of the ground. Seems to be a longish cycle and not obvious how anything affects it other than the *gradient* control. If that is set too low then nothing is visible.
+
+** [[file:~/Documents/books/bookshelf/Music-Manuals/VCV-Rack/CV_funk_Manual.pdf][Flower Patch]]
+[[file:2507151611 vcv visual effects-images/screenshot-20250715-183422.png]][[file:2507151611 vcv visual effects-images/screenshot-20250715-183451.png]]
+Does Fourier Analysis, but can look quite pretty.
+
+** [[https://github.com/jeremymuller/Sha-Bang-Modules#photron][Photron]]
+[[file:2507151611 vcv visual effects-images/screenshot-20250718-102259.png]]
+Tricky to figure out what to do with the various inputs and options but may have potential.

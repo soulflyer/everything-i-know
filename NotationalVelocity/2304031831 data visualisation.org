@@ -1,0 +1,9 @@
+#+TITLE: data visualisation
+# Tags #clojure #data-science
+
+[[https://book.klipse.tech/][klipse]] run code snippets in a web page, intro [[https://book.klipse.tech/how-to-create-interactive-reactjs-snippets.html][blog post]]
+
+[[https://scicloj.github.io/kindly/][kindly]] "Kindly is a proposed common ground for Clojure literate programming."
+[[https://scicloj.github.io/clay/][Clay]] is a minimalistic Clojure tool for data visualization and literate programming, compatible with the Kindly convention.
+
+[[https://kloimhardt.github.io/blog/html/sicmutils-as-js-book-part1.html][sicmutils]] examples from [[https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/9579/sicm_edition_2.zip/book.html][Structure and Interpretation of Classical Mechanics]] book 

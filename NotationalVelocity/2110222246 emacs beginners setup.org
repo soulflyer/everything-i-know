@@ -1,0 +1,3 @@
+#+TITLE: emacs beginners setup
+# Tags #webbookmark
+https://www.juniordeveloperdiaries.com/emacs-intro/

@@ -1,0 +1,11 @@
+#+TITLE: web app notes
+
+* Web Apps
+** Frontend
+The frontend handles displaying information to the user and collecting user input. It is built using HTML and Javascript. When the user goes to *https://myapp* this html/javascript is downloaded from the *backend* 
+** Backend
+The backend handles all requests from the user, starting with the initial call to the home page. It also accepts any requests from the frontend for more information and sends back the results.
+** API
+The *api* is the interface between the *frontend* and the *backend* . An API request is just like a web page address. ie *https://myapp/api/restaurants?city=NhaTrang* might be how myapp frontend asks the myapp backend for all the restaraunts in NhaTrang
+** Database
+There is usually a separate databas that the *backend* can access which contains all the information it might need, like the list of resaurants and all the registered drivers.

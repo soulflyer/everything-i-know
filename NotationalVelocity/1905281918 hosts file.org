@@ -1,0 +1,4 @@
+#+TITLE:hosts file
+on mimi
+Use this to refresh:
+dscacheutil -flushcache

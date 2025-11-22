@@ -1,0 +1,16 @@
+#+TITLE: Linux Debian reverse scroll
+# TAGS #linux #scroll
+
+synclient VertScrollDelta=-48
+synclient HorizScrollDelta=-48
+
+/usr/share/X11/xorg.conf
+
+or:
+
+echo "pointer = 1 2 3 5 4 7 6 8 9 10 11 12" > ~/.Xmodmap && xmodmap ~/.Xmodmap
+
+swap 5 and 4 and 7 and 6 to revert
+
+
+http://askubuntu.com/questions/91426/reverse-two-finger-scroll-direction

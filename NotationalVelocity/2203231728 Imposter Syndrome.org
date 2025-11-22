@@ -1,0 +1,28 @@
+#+TITLE: Imposter Syndrome
+# Tags #blog
+
+* Imposter Syndrome and the importance saying I don't know
+
+Imposter syndrome. The feeling that we don't deserve to be where we are, and if we aren't careful people will find out we aren't good enough, fast enough, smart enough. Under these conditions saying "I don't know" becomes a problem. Doesn't that mean everyone will find out? Maybe not...
+
+According to wikipedia "It is a phenomenon (an experience) that occurs in an individual, not a mental disorder" This implies a couple of things: 
+
+Anyone can get it
+There is nothing wrong with you if you do
+and thinking about the situation around the clojure development experience, it would seem that we are a prime target for this effect.
+
+Why? Well:
+Most clojure devs are experienced developers. [footnote why?] Typically a dev comes to clojure after years of experience with other languages. <Maybe quote that github dev survey or something similar> I would also make the conjecture that any dev that can make the leap from the familiar to the totally alien LISP mindset is someone that never lost their childlike fascination and curiosity. Probably a perfectionist too. In short if you made it here, you will find yourself surounded by some formidable people. Making comparisons might not end well...
+
+If we could be sure of our skills it would be easier to be confident, but defining mastery is hard. There is no end to the learning here. The mental model that lots of us use may well be based on the assumption that there is. In older industries there was a percieved progression from apprentice to journeyman to master. A master could be confident that they knew how to handle their craft, the proof was there to see. In development we still have a bunch of skills that need to be learned, but there is no clearly defined mastery at the end. The senior dev is not one that has all the answers. This is not possible given that the technology changes continuously and there is always something new to learn.
+
+<flip to the positive>
+On the other hand, being sure of all our skills could actual be counterproductive. Learning and being an expert don't always go well together. It's not possible to learn anything if you think you already know the answer
+
+One helpful shift can be to what we take pride in. After the mastering the tools of the trade, and some familiarity with the landscape, it becomes not what we know, but what we know we can learn. Typified by "I don't know, let's find out!", and pride in the ability to home in on the problem at hand, separate the relavant from the distractions and, well, figure it out...
+
+"I don't know" is the start. That's where the ideas start to kick in, the connections start to be made to things that we do know, and new ground gets broken.
+ 
+[footnote]
+Why are so many clojure devs already experienced devs? I guess it's because beginners just don't get exposed to LISPs. I didn't come across it till University and even there it was considered an interesting curiosity for the odd characters that were into AI. In terms of syntax, clojure and lisps are simpler than other languages. And although thinking in a lispy way is alien to the way most of us are taught to think about programming, it has a simplicity and a clarity that make things so much easier once we embrace it. 
+So what happens if beginners are exposed to a lisp as their first language? That's a subject for another day.

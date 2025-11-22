@@ -1,0 +1,4 @@
+#+TITLE: executable code in lein project file
+# Tags #leiningen #webbookmark
+
+[[https://github.com/jafingerhut/haironfire][https://github.com/jafingerhut/haironfire]] mentions the possibility of executable code in *project.clj* but doesn'thelp all that much.

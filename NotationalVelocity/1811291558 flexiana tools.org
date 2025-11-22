@@ -1,0 +1,9 @@
+#+TITLE: flexiana tools
+# TAGS
+
+https://github.com/funcool/cats
+https://github.com/druids/rop
+
+railway oriented programming
+
+https://fsharpforfunandprofit.com/posts/recipe-part2/

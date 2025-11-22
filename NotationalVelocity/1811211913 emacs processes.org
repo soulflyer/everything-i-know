@@ -1,0 +1,6 @@
+#+TITLE: emacs processes
+# TAGS #emacs
+
+run (list-processes)
+
+M-: (list-processes)

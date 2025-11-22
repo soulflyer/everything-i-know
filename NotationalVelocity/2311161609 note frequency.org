@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Documents/org-mode/NotationalVelocity/2311161609 note frequency-images
+:END:
+#+TITLE: note frequency
+
+[[file:2311161609 note frequency-images/Note-To-Frequency-Chart.jpg]]
+
+[[file:2311161609 note frequency-images/screenshot-20250208-214147.png]]

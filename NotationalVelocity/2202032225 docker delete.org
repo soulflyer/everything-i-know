@@ -1,0 +1,8 @@
+#+TITLE: docker delete
+# Tags #docker
+
+Delete in *Docker Desktop* doesn't actually delete anything. Do this instead:
+#+begin_src shell
+docker compose down --rmi all && docker volume rm <volume name>
+#+end_src
+get the volume name under the Volumes screen. It's not the same name as the one visible under containers/apps

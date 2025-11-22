@@ -1,0 +1,44 @@
+* Emacs TODOs
+Hit C-c C-x C-s to archive a completed issue. (Or C-c $)
+** TODO [#C] Fix flute-data snippet to match new schema
+** DONE [#B] delete should exit from search
+CLOSED: [2025-11-09 Sun 23:07]
+** DONE [#B] Correct the spacing of stars 🔶 in emms
+CLOSED: [2025-11-03 Mon 09:30]
+** DONE [#G] Fix org-attatch-screenshot
+CLOSED: [2025-10-23 Thu 23:25]
+** DONE [#G] Setup filesharing on Acceptance and Transcendence
+CLOSED: [2025-10-23 Thu 22:17]
+** DONE [#G] Fix Sixpence None the Richer in EMMS
+CLOSED: [2025-10-27 Mon 00:39]
+can't play any sixpence none the righer via *EMMS*. Works ok in *mpd* so its something wrong in *EMMS*, possibly to do with the paths.
+Error message is complaining about *Sister, Mother* which has a *comma* in the name. The listing in emms also shows duplicate tracks. These don't appear in *Euphonica* mpd client.
+** DONE [#B] Make completion delete path segments not characters
+CLOSED: [2025-10-07 Tue 11:10]
+** TODO [#F] Fix org-capture so it always opens in the same window
+** TODO [#H] Make archived TODO entries stay in the same file
+** DONE [#G] Try removing paradox
+CLOSED: [2025-10-05 Sun 11:12]
+** DONE [#E] Investigate orderless
+CLOSED: [2025-10-05 Sun 00:48]
+This is a completion package that will find results even if the pieces are given out of order
+** DONE [#E] Investigate org-modern
+CLOSED: [2025-10-07 Tue 01:45]
+org-pretty-table mode doesn't handle table.el tables afaik. Also it's not being updated. Looks like org-modern can replace it and org-superstar
+** DONE [#B] Rewrite emms additions (playcount left to do)
+CLOSED: [2025-11-06 Thu 20:19]
+Don't want to have a customised version of *emms* so add the changes I made to the emms source to emacs startup file
+** TODO [#G] Make Emacs windows appear in the right place
+Currently this mostly works, but by making assumptions about what is currently in a particular window. ie hit return on a task the agenda window should open the relevant agenda file in the left hand window. It does this now by re-using org buffers so it breaks if I happen to have dired open in the left window.
+** DONE [#G] Add fn to import music
+CLOSED: [2025-11-09 Sun 22:59]
+Should:
+- call mpc import to add tracks to mpd
+- call convert to create small versions of cover.jpg
+- call emms-cahe-set-from-mpd-directory
+- maybe something for mpdev too
+
+** DONE [#G] Add a play-count option to emms-browser-format-line
+CLOSED: [2025-11-07 Fri 10:24]
+In emms-browser.el, line 1749
+

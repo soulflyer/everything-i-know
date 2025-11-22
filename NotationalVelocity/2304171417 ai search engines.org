@@ -1,0 +1,5 @@
+#+TITLE: ai search engines
+# Tags #AI
+[[https://www.phind.com/][phind]]
+[[https://grep.app/][grep.app]] searches github repos
+[[https://myaskai.com/][myasakai]] paid

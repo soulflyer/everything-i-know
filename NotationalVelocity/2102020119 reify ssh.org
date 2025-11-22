@@ -1,0 +1,21 @@
+#+TITLE: reify ssh
+# TAGS
+
+Getting errors trying to resolve dependancies. Fixed by:
+
+eval `ssh-agent -s`
+ssh-add  ~/.ssh/id_rsa
+
+in the same shell that was having the problems. No idea how to make this permanent.
+
+initia error from lein looked like this:
+
+Retrieving reifyhealth/pantry/7b6bdbc2e4127e4a17f216797ec9e9392fd17ba4/pantry-7b6bdbc2e4127e4a17f216797ec9e9392fd17ba4.pom from github-private
+Retrieving reifyhealth/pantry/7b6bdbc2e4127e4a17f216797ec9e9392fd17ba4/pantry-7b6bdbc2e4127e4a17f216797ec9e9392fd17ba4.jar from github-private
+Could not find artifact reifyhealth:pantry:jar:7b6bdbc2e4127e4a17f216797ec9e9392fd17ba4 in central (https://repo1.maven.org/maven2/)
+Could not find artifact reifyhealth:pantry:jar:7b6bdbc2e4127e4a17f216797ec9e9392fd17ba4 in clojars (https://repo.clojars.org/)
+Could not transfer artifact reifyhealth:pantry:jar:7b6bdbc2e4127e4a17f216797ec9e9392fd17ba4 from/to github-private (git://github.com): Destination path "pantry" already exists and is not an empty directory
+Could not transfer artifact reifyhealth:pantry:pom:7b6bdbc2e4127e4a17f216797ec9e9392fd17ba4 from/to github-private (git://github.com): Destination path "pantry" already exists and is not an empty directory
+This could be due to a typo in :dependencies, file system permissions, or network issues.
+If you are behind a proxy, try setting the 'http_proxy' environment variable.
+Could not resolve dependencies

@@ -1,0 +1,5 @@
+#+TITLE: buddhabrot mandelbrot google map
+# TAGS #fractal
+
+Bit dissapointing, can't zoom in very much
+http://nebula.scottandmichelle.net/nebula/index.html#bbrot

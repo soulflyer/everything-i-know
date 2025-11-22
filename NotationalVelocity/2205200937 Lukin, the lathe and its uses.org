@@ -1,0 +1,16 @@
+#+TITLE: Lukin, the lathe and its uses
+# Tags #book #Lukin #woodwork #metalwork #turning #621.942
+
+Published 1868
+ISBN-13: 9781330492147
+ISBN-10: 1330492145
+
+Google version with the logos removed
+[[file:~/Documents/books/bookshelf/Turning/Lukin/the_lathe_and_its_uses.pdf][the_lathe_and_its_uses.pdf]]
+
+A cropped version. Small margins and occasional missing edges of diagrams
+[[file:~/Documents/books/bookshelf/Turning/Lukin/the_lathe_and_its_uses_edited.pdf][the_lathe_and_its_uses_edited.pdf]]
+
+Published 1868
+pg 11 has info on the use of an eccentric instead of a crank to drive the flywheel, 
+and use of bearings to support the flywheel shaft.

@@ -1,0 +1,5 @@
+#+TITLE: clojure re-find
+# Tags #clojure
+
+Can find a clojure fn given the params it takes and returns
+https://github.com/borkdude/re-find

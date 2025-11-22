@@ -1,0 +1,5 @@
+#+TITLE: transmission
+# TAGS  #webbookmark #linux
+
+Help for the linux transmission server
+https://help.ubuntu.com/community/TransmissionHowTo

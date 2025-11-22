@@ -1,0 +1,84 @@
+#+TITLE: verb http request
+# Tags #emacs #http
+
+* Frankie
+
+Exported from *postman*
+#+begin_src shell
+curl --location --request POST 'localhost:3000/api/login' \
+--header 'Content-Type: application/json' \
+--data-raw '{"login": "frankie",
+"password": "not_nul"}'
+#+end_src
+
+Go to the heading or the second level heading for the nested version and hit 
+*C-c C-r C-f* *verb-send-request-on-point*
+*Note* that there must be no blank lines in the headers section, 
+*but* there must be one before the body
+* Frankie with verb :verb:
+template http://localhost:3000/api/
+Accept: application/json
+** login
+post login
+Content-Type: application/json; charset=utf-8
+
+{
+    "login": "frankie",
+    "password": "not_nul"
+}
+
+* simplified :verb:
+post http://localhost:3000/api/login
+Accept: application/json
+Content-Type: application/json; charset=utf-8
+
+{
+    "login": "frankie",
+    "password": "not_nul"
+}
+
+* exported from verb
+*C-c C-r C-e* from the *login* subheader above and select curl, then yank.
+#+begin_src shell
+curl 'http://localhost:3000/api/login' \
+-H 'Accept: application/json' \
+-H 'Content-Type: application/json; charset=utf-8' \
+-X POST \
+--data-raw '{
+    "login": "frankie",
+    "password": "not_nul"
+}
+#+end_src
+
+* As a code block
+Execute with *C-c C-c*
+*Note* This method will block emacs until the call is complete
+#+begin_src verb
+post http://localhost:3000/api/login
+Accept: application/json
+Content-Type: application/json; charset=utf-8
+
+{
+    "login": "frankie",
+    "password": "not_nul"
+}
+#+end_src
+
+#+RESULTS:
+#+begin_example
+HTTP/1.1 200 OK
+session-id: 5869cd14-45b2-44e8-938b-2833b23010f0
+access-control-expose-headers: Set-Cookie
+Content-Type: application/json;charset=utf-8
+Set-Cookie: session-id=5869cd14-45b2-44e8-938b-2833b23010f0
+Content-Length: 97
+Server: Jetty(11.0.13)
+
+{
+  "view-type": "login",
+  "data": {
+    "login": "succeed",
+    "user-id": "31c2c58f-28cb-4013-8765-9240626a18a2"
+  }
+}
+#+end_example

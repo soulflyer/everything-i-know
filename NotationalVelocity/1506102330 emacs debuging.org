@@ -1,0 +1,4 @@
+#+TITLE: emacs debuging
+# TAGS
+
+(message "hello %s %d" "world" 1)

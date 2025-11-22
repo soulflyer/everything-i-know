@@ -1,0 +1,5 @@
+#+TITLE: phonegap-cordova find data files in ios simulator
+# TAGS #phonegap
+
+
+sudo find / -name 'genres'

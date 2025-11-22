@@ -1,0 +1,5 @@
+(use 'clojure.pprint) 
+
+in clojurescript, add this to the requires:
+
+   [cljs.pprint :refer [pprint]]

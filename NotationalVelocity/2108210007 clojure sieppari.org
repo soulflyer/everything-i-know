@@ -1,0 +1,7 @@
+#+TITLE: clojure sieppari
+# TAGS #clojure #webbookmark
+
+https://github.com/metosin/sieppari
+https://github.com/metosin/reitit/tree/master/examples/http
+https://cljdoc.org/d/metosin/reitit/0.5.15/doc/http/sieppari#sieppari
+https://cljdoc.org/d/metosin/reitit-core/0.5.15/doc/http/transforming-interceptor-chain

@@ -1,0 +1,12 @@
+#+TITLE: photo processing perfect photo suite 9
+# TAGS #photo
+
+Cons:
+Not very responsive.
+Edits are one off. Looks like once applied, thats it. Only option is to delete and redo in a new layer
+
+Pros:
+Perfect Portrait for touching up faces. Fast to use, but the speedup is all lost by waiting for the program to respond.
+Layers and masks looks promising
+
+Overall FAIL

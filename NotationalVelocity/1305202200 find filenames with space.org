@@ -1,0 +1,4 @@
+#+TITLE: find filenames with space
+# TAGS #shell
+
+find . -name "* *" -print

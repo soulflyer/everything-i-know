@@ -1,0 +1,33 @@
+#+TITLE: andromeda
+# Tags #music
+#+begin_src abc :file "2509051655-andromeda-files/andromeda.svg" :cmdline -g
+  %abc-2.2
+  %%bgcolor white
+  %%pagewidth 12cm
+  %%rightmargin 0.8cm
+  %%leftmargin 0.8cm
+  %%topspace 0
+  X:1
+  M:5/4
+  T:Andromeda
+  C:Alex Kniazev
+  %%aligncomposer 1
+  M:C
+  K:G
+  L:1/4
+  P:Flute
+  |:EGB3|EGE3|EGB3|BG^G3:|
+  [|^GBE3|FAF3|^GB^c3|^A=AF3|]
+  [|\
+  M:4/4
+  BA^G2|\
+  M:5/4
+  B^c!trill!e3|de=f3|^F=FE3|]
+#+end_src
+#+ATTR_ORG: :width 800
+#+RESULTS:
+[[file:2509051655-andromeda-files/andromeda.svg]]
+
+#+ATTR_ORG: :width 800
+[[file:2509051655-andromeda-files/full-440.mp3][mp3]]
+[[file:2509051655-andromeda-files/Ноты андромеда.pdf][Alex's original]]

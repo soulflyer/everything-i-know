@@ -1,0 +1,4 @@
+#+TITLE: emacs rectangle
+# TAGS #emacs
+
+C-x r t new-text to replace a rectangle with newtext

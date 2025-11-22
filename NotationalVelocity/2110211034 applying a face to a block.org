@@ -1,0 +1,36 @@
+#+TITLE: applying a face to a block
+# Tags #emacs
+
+Use (font-lock-add-keywords). See (info "(emacs)font lock")
+Note: toggling (font-lock-mode) will show the changes
+#+begin_src emacs-lisp
+  (font-lock-add-keywords
+   nil ; change to org-mode, nil does the current buffer
+   '(("\\(┃\\|┏.*┓\\|┣.*┫\\|┗.*┛\\)" 1
+      'font-lock-comment-face prepend)))
+#+end_src
+
+#+RESULTS:
+| t | ((\(┃\ | ┏.*┓\ | ┣.*┫\ | ┗.*┛\) 1 'font-lock-comment-face prepend) (\(┃\ | ┏.*┓\ | ┣.*┫\) 1 'font-lock-comment-face prepend) (\(┃\ | ┏.*┓\) 1 'font-lock-comment-face prepend) (\(┃\) 1 'font-lock-comment-face prepend) (§[0-9]\{4\}\(-[0-9]\{2,\}\)\{3\} . font-lock-warning-face) (org-font-lock-hook) (^\(\**\)\(\* \)\(.*\) (1 (org-get-level-face 1)) (2 (org-get-level-face 2)) (3 (org-get-level-face 3))) (^[ 	]*\(\( | \ | \+-[-+]\).*\S-\) (1 'org-table t)) (^[ 	]* | \(?:.*? | \)? *\(:?=[^ |
+
+blah TEST
+TEST-STRING
+TEST-STRING:
+TEST_STRING:
+
+
+┏━┓
+┃
+┣━┫
+┗━┛
+┏━━━┳━━━┳━━━┳━━━┳━━━┓
+┃ x ┃   ┃   ┃   ┃   ┃
+┣━━━╋━━━╋━━━╋━━━╋━━━┫
+┃   ┃<_\┃   ┃   ┃   ┃
+┣━━━╋━━━╋━━━╋━━━╋━━━┫
+┃   ┃   ┃   ┃   ┃   ┃
+┣━━━╋━━━╋━━━╋━━━╋━━━┫
+┃   ┃   ┃   ┃   ┃   ┃
+┣━━━╋━━━╋━━━╋━━━╋━━━┫
+┃   ┃   ┃   ┃   ┃   ┃
+┗━━━┻━━━┻━━━┻━━━┻━━━┛

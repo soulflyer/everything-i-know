@@ -1,0 +1,4 @@
+#+TITLE: emacs save registers
+# TAGS #emacs #webbookmark
+
+https://emacs.stackexchange.com/questions/16919/how-can-i-get-sessions-el-to-save-my-registers

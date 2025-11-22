@@ -1,0 +1,7 @@
+#+TITLE: profile
+# Tags #shell
+[[https://serverfault.com/a/261807][serverfault answer]]
+** *.profile* or *.bash_profile* 
+read by login shells. Good place for *Environment Variables* that are inherited by subshells
+** *.bash_rc*
+read by subshells. Good place for aliases which are not inherited by subshells.

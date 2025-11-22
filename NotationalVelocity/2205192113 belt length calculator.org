@@ -1,0 +1,4 @@
+#+TITLE: belt length calculator
+# Tags #link
+https://www.omnicalculator.com/physics/belt-length#two-pulley-system-belt-length
+https://www.tec-science.com/mechanical-power-transmission/belt-drive/calculation-of-the-belt-length/

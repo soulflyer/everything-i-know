@@ -1,0 +1,7 @@
+#+TITLE: emacs dired rename
+# TAGS #emacs #completion
+
+messes up if the name you want is a substring of something that exists. Can put it somewhere else then move it back :-/
+maybe C-c backspace works? https://emacs.stackexchange.com/questions/5335/helm-mode-dired-do-rename-change-name-of-file-to-a-prefix-of-itself
+
+checkout: §1811191817 emacs fix for unwanted completion

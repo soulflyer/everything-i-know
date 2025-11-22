@@ -1,0 +1,14 @@
+#+TITLE: mac osx task switcher
+# TAGS
+
+https://apple.stackexchange.com/questions/107419/task-switcher-moves-to-non-primary-display-on-mavericks#112829
+
+Make quicksilver appear in a fixed spot, respecting the monitor by not using the bezel display:
+https://groups.google.com/g/blacktree-quicksilver/c/5hYbQc3k9Pw/m/8P5bIGjp0VoJ
+
+Puts the app switcher on all screens:
+https://apple.stackexchange.com/a/419822/323876
+#+begin_src hell
+defaults write com.apple.dock appswitcher-all-displays -bool true
+killall Dock
+#+end_src

@@ -1,0 +1,12 @@
+#+TITLE: org mode images`
+# Tags #emacs
+
+Not fully automated yet but do it by hand like this:
+#+begin_src elisp
+(org-attach-screenshot-get-attach-dir)
+#+end_src
+open the directory and run
+#+begin_src elisp
+(org-download-enable)
+#+end_src
+Then drag image or url and refresh the buffer

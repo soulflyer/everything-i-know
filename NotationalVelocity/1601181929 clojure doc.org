@@ -1,0 +1,8 @@
+#+TITLE: clojure doc
+# TAGS #clojure
+
+(use 'clojure.repl)
+(use 'clojure.java.javadoc)
+
+(use 'clj-ns-browser.sdoc)
+(sdoc)

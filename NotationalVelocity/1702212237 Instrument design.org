@@ -1,0 +1,5 @@
+#+TITLE: Instrument design
+# TAGS #flute
+
+http://www.logarithmic.net/pfh/design
+python 3d printer for making woodwind instruments

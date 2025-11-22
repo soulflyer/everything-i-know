@@ -1,0 +1,4 @@
+#+TITLE: bluetooth debug menu
+# TAGS #debug #bluetooth
+
+hold down shift and option and click on the bluetooth menu

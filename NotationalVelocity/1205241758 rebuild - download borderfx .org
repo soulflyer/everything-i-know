@@ -1,0 +1,4 @@
+#+TITLE: rebuild - download borderfx 
+# TAGS #aperture
+
+BorderFX from iborderfx.com can add captions or watermarks to pictures in aperture

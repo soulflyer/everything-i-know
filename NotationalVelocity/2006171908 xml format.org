@@ -1,0 +1,4 @@
+#+TITLE: xml format
+# TAGS #xml
+
+xmllint --format <xmlfile>  >  <formatted-xml-file>

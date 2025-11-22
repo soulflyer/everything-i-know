@@ -1,0 +1,10 @@
+#+TITLE: git checkout and track remote branch
+# TAGS #git
+
+git checkout --track origin/feature/integrate-lacinia/DAPS-33
+
+To set a branch to track after it has been pushed upstream:
+git branch -u upstream/foo foo
+
+or this, if already on the same branch
+git branch -u upstream/foo 

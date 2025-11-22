@@ -1,0 +1,4 @@
+#+TITLE: emacs paredit animation
+# TAGS #emacs #webbookmark
+Animated guide to paredit
+http://danmidwood.com/content/2014/11/21/animated-paredit.html

@@ -1,0 +1,70 @@
+#+TITLE: looper
+# Tags #looper
+
+* Audio Unit Hosts
+SooperLooper will run ok in *ardour* as an output plugin. Works on *arm*. =Very= annoying. Sometimes works, sometimes doesn't, meanwhile *Ardour* is constantly nagging about payment.
+Sadly Audacity fucks up trying to do the same thing. Sometimes it works, usually *SooperLooper* wont start.
+Havent tried it in *MPC Beats* yet. Not sure it even does *VST/AU* plugins.
+
+** AU-Lab
+will run *sooperlooper* but also seem to suffer from the same [[https://github.com/essej/sooperlooper/issues/43][isthusue]] and [[https://github.com/essej/sooperlooper/issues/32][issue]] (the workaround doesn't work)
+Also *AULab* doesn't request access to the microphone (necessary for all sound inputs). Starting from *iTerm* gets around this
+** [[https://github.com/kushview/element][Element]] 
+Doesn't handle *SooperLooper* well. Looks like the same problems as elsewhere, but *Element* keeps trying to reconnect and is unresponsive until it gives up.
+Works well with *Mobius* with no apparant timing problems unlike *VCV*, even without tweaking block size and sample rate. Also handles *GuitarRig*
+** VCV
+Has timing problems. Might be able to sort it out by adjusting input/output latencies.
+** [[https://github.com/falkTX/Carla/][Carla]]
+Open source plugin host. Handles *Mobius* well, but there is a problem getting midi in to *GuitarRig*
+** [[https://github.com/DISTRHO/Cardinal/][Cardinal]]
+*CardinalNative* Fully open source version of VCV rack
+
+* Patchbay
+[[https://github.com/notahat/midi_patchbay][midi-patchbay]] wont run on 10.15 It's a 32bit app. There is a [[https://github.com/notahat/midi_patchbay/pull/22][PR]] that might be a 64 bit build
+
+* Links
+[[https://loopers-delight.com/loop.html][Loopers Delight]]
+[[http://www.livelooping.org/][Livelooping]]
+
+* Software
+** [[https://www.mobiuslooper.com/][Möbius]]
+looks good. Standalone and VST. Based on the *Echoplex* but not a strict emulation
+[[https://schrodingerscat-mobius.github.io/Mobius3/][Schrodingers Cat]] info on using scripting in Mobius.`
+** +[[https://www.logelloop.com/][Logeloop]]+
+paid but not expensive. Pretty complex but it looks like it might be able to do both chorus/verse switching and multiple synced loops in each [[pdf:/Volumes/Crucial/bookshelf/Music-Manuals/Logelloop_6_Manual.pdf::1++0.00][Logelloop_6_Manual.pdf]]
+[[https://www.youtube.com/watch?v=1X84Loh6COQ][Video]] showing stepping between different loops. App is over 2Gb, and a bit annoying. Doesn't respect 2nd monitor placement.
+** [[https://loopypro.com/][LoopyPro]]
+iPad only atm, but mac version is "coming soon". It can record before and after loop start/end. Also timestretch running loops.
+** [[https://www.quantiloop.com/][Quantiloop]] 
+ipad only. 4 tracks that can be intro/verse/chorus/bridge
+** +[[https://www.giadamusic.com/][Giada]]+
+Standalone only, no VST as yet. Will act as a host though, but may not handle verse/chorus switching.
+** +[[https://github.com/essej/sooperlooper][SooperLooper]]
+problems, see above. Also it is only available as *AU*, not *VST* so it will not run as a *VCV* plugin. Also I'm not certain it can do the chorus/verse thing. I only ever used it with multiple synchronous loops. It may be possible with the *Solo* command.+
+** +[[https://www.expert-sleepers.co.uk/augustusloop.html][Augustus Loop]]+
+paid and probably too old. [[pdf:/Volumes/Crucial/bookshelf/Music-Manuals/augustusloop_2_4_1_manual.pdf::1++0.00][augustusloop_2_4_1_manual.pdf]] Probably wont do verse/chorus and multiple loops.
+** +[[https://www.native-instruments.com/en/products/komplete/guitar/guitar-rig-7-pro/][Guitar Rig]]+
+might be worth trying. Looper looks good, but not sure if it can handle multiple loops.
+** +[[https://www.kenaxis.com/wp/products/kenaxis-2/][Kenaxis]]+
+Quite complex, appears to be a lot more than just a looper. Might be good for messing about with samples. Pretty sure it wont cut it as a live looper
+** +[[https://library.vcvrack.com/][VCV]]+
+also has multiple looper modules. [[pdf:/Volumes/Crucial/bookshelf/Music-Manuals/VCV-Rack/sickoLooper user manual \[EN\].pdf::1++0.00][sickoLooper]] looks good. *Lilac Looper* may be too simple. Might be possible to do the verse/chorus thing, but will require patching. None of the looper modules appear to have it built in.
+** +[[https://www.reasonstudios.com/shop/rack-extension/repeat-looper/][Reason Repeat]]+
+paid addition to reason. Not expensive, looks good. Doesn't do much, can find no way to do the verse/chorus thing.
+
+* Setup
+*VCV* seems like the way to go. Either as a host or as a plugin for whatever looper plugin works best.
+- If it is to be the host then I will need to buy the *VCV* host plugin. Bought it...
+- If it is to be a plugin then I will need to buy the full version of *VCV*
+The first is probably the best for a number of reasons:
+- Based on open source *VCV*
+- Likely to be usung multiple synths etc which can be done in *VCV* but not *Guitar Rig* probably don't want multiple instances of a processor/memory hungry app as a plugin
+- Its cheaper
+Why not?
+- *Reason* might be a good choice as the base system. Quicker to get moving with various synths. But using *Reason* as a plugin would be ok, and if it proves to be too resource heavy to have multiple instances then anything *Reason* can do can be rebuilt in *VCV*, which would be lots of fun and highly educational.
+
+=VCV host= and =Mobius= it is then. Maybe try =LogeLoop= if mobius has problems.
+Abandon =VCV= as host for now, due to [[https://mobiuslooper.com/forum/public/d/198-overdub-out-of-sync-latency-calibration-in-mobius-3][timing issues]]
+
+* Controller
+[[https://luminitefx.com/][Graviton]]

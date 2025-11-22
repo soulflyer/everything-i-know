@@ -1,0 +1,44 @@
+#+TITLE: iterm send keys
+# Tags #emacs #iterm
+
+I think this one is there to make shift ctrl tab work when stepping backwards round tmux panes
+<file:///Users/iain/Documents/org-mode/NotationalVelocity/Screen-Shot-2018-04-05-at-09.08.21.png>
+
+And these are probably there to
+send Ctrl-Q Ctrl-W to step through tmux windows with command ~
+send alt-w to copy region by command-c
+send ctrl-q ctrl-q to step back through tmux windows
+step through tmux panes with ctrl tab
+
+<file:///Users/iain/Documents/org-mode/NotationalVelocity/Screen-Shot-2018-04-05-at-09.16.07.png>
+
+  Yeah, it is. Go to the profiles in iterm and add a shortcut key. Set it to send an escape sequence and put in the codes that match the USER0 and USER1 keys defined in tmux.conf
+
+bind-key -n User0 select-pane -t+
+bind-key -n User1 select-pane -t-
+
+Then add the correct key sequence ie [1;5I
+
+that is a capital i on the end.
+
+Also got entries for cmd-left right up down to send the codes for paredit barf and slurp (ctr-c p f s etc)
+
+useful stuff here:
+https://medium.freecodecamp.org/tmux-in-practice-iterm2-and-tmux-integration-7fb0991c6c01
+"So how you can get those hex codes? Use showkey, od or hexdump commands to view binary representation of key presses from keyboard:"
+
+better still use mac key codes app
+
+## How to add send ctrl-tab and shift-ctrl-tab again:
+
+go to:
+iterm preferences profiles keys key-mappings
+
+add a new mapping for C-Tab with Send escape sequence [1;5I
+similarly for C-S-Tab with Send Escape Sequence [1;6I
+
+(That is a capital i on the end.)
+
+Also useful:
+Option/Meta key combinations don't work. Some Ctrl combinations don't either. Use keycodes app and observe the Unicode field.
+ie CTRL-/ and / both show the same value. To get command-z to work as an emacs undo I had to bind C-x z to undo first and then send the keys for that rather than C-/

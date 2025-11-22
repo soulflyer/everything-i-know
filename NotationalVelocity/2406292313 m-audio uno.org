@@ -1,0 +1,5 @@
+#+TITLE: m-audio uno
+# Tags #music
+
+Wont work with newer macs because they no longer support 32bit devices. 
+Open source firmware updater [[https://github.com/leighsmith/midisport-macos][here]]

@@ -1,0 +1,3 @@
+#+TITLE: forensic architecture
+# Tags #news
+[[https://forensic-architecture.org/][https://forensic-architecture.org/]]

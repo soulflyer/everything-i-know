@@ -1,0 +1,25 @@
+#+TITLE: frankie test fixture notes
+# Tags #frankie #clojure
+
+Investigating why integration tests don't work when frankie is already running. Get available port is not reporting correctly.
+Note the logging config. By default none of the test namespaces have logging turned on. The *merge-config!* command will allow addition of debug statements to test files.
+#+begin_src clojure
+(comment
+  (get-port {:port [3000 0]})
+  (log/debug "WHut")
+  (log/debug (str "Open sessions for customer '" 1234 "':")
+             (count [1 2 3 4]))
+  (get-port )
+  log/*config*
+  (log/merge-config! {:ns-filter {:allow #{"frontend.*" "test-common.*"}}})
+  (get-available-port 3000)
+  (ServerSocket. 3000)
+  )
+
+(defn- get-available-port
+  "Return a random available TCP port in allowed range (between 1024 and 65535) or a specified one"
+  ([] (get-available-port 0))
+  ([port]
+   (with-open [socket (ServerSocket. port)]
+     (.getLocalPort socket))))
+#+end_src

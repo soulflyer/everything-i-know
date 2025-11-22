@@ -1,0 +1,5 @@
+#+TITLE: fretboard tool
+# TAGS #luthiery #woodwork
+
+http://www.ekips.org/tools/guitar/fretfind2d/
+https://github.com/acspike/FretFind2D

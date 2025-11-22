@@ -1,0 +1,14 @@
+#+TITLE: clojure debug Eduardo
+# TAGS #debug #clojure
+
+Just wrap something in taoensso.timbre/spy or clojure.pprint/pprint it
+
+[[file:///Users/iain/Dropbox/org-mode/NotationalVelocity/Screenshot-2019-04-13-at-15.42.03.png]]
+
+datomic, take a look at everything in a datomic entity:
+
+(defn touch-entities
+  [m]
+  (let [f (fn [[k v]] (if (instance? datomic.Entity v) [k (d/touch v)] [k v]))]
+    ;; only apply to maps
+    (clojure.walk/postwalk (fn [x] (if (map? x) (into {} (map f x)) x)) m)))

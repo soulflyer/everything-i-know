@@ -1,0 +1,7 @@
+#+TITLE: git PR from fork
+# Tags #git
+
+PR number from the main repository and use *:* and a new branch name.
+#+begin_src shell
+git fetch origin pull/278/head:fix/patbrown
+#+end_src

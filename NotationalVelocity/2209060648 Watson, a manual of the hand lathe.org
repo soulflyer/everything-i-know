@@ -1,0 +1,9 @@
+#+TITLE: Watson, a manual of the hand lathe
+# Tags #book #turning #metalwork
+
+Published 1869
+
+pdf, but looks like it was a conversion from another ebook format:
+[[file:~/Documents/books/bookshelf/Turning/A-Manual-of-the-Hand-Lathe-_-Comprising-Concise-Directions-for-Working-Meta.pdf][A manual of the hand lathe]]
+
+Some good stuff on hand turning metal. A very disorganised book though, skips from one topic to another.

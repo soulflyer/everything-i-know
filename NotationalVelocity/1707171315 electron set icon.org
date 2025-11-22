@@ -1,0 +1,4 @@
+#+TITLE: electron set icon
+# TAGS #electron
+
+https://stackoverflow.com/questions/31529772/how-to-set-app-icon-for-electron-atom-shell-app

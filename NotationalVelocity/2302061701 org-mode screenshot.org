@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2302061701 org-mode screenshot-images
+:END:
+#+TITLE: org-mode screenshot
+# Tags #org-mode
+
+Images can be stored in various places:
+[[file:2302061701 org-mode screenshot-images/screenshot-20230206-170120.png]]
+[[file:2302061701 org-mode screenshot-images/screenshot-20230206-170632.png]]
+the *d* option is useful as it stores them in a folder right next to the deft note in *org-mode/NotationalVelocity*

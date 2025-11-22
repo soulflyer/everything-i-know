@@ -1,0 +1,16 @@
+:PROPERTIES:
+:DIR:      ~/Dropbox/org-mode/NotationalVelocity/images
+:END:
+#+TITLE: blender video editing
+# Tags #blender
+
+[[https://docs.blender.org/manual/en/latest/video_editing/index.html][Man Page]]
+[[https://docs.blender.org/manual/en/latest/video_editing/edit/montage/strips/effects/speed_control.html][Speed Control]]
+[[https://docs.blender.org/manual/en/latest/editors/clip/index.html][Movie Clip Editor]]
+
+How to clean up the workspace:
+[[file:images/blender-join.png]]
+
+[[https://www.youtube.com/watch?v=OtoM5b7i5z0][Video editing basics video]]
+
+Use *cmd-g* to join video and audio tracks into one, or right click and select *make-meta-strip* *tab* will separate them again.

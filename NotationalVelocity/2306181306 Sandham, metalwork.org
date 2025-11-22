@@ -1,0 +1,32 @@
+
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2306181306 Sandham, metalwork-images
+:END:
+#+TITLE: Sandham, metalwork
+# Tags #metalwork
+[[https://archive.org/details/metalwork0000sand][Archive]]
+I don't recognise the cover, but this looks to be the book we used at school.
+[[file:2306181306 Sandham, metalwork-images/cover.png]]
+* Lathe tools
+[[file:2306181306 Sandham, metalwork-images/pg170.png]]
+[[file:2306181306 Sandham, metalwork-images/pg172.png]]
+[[file:2306181306 Sandham, metalwork-images/pg174.png]]
+[[file:2306181306 Sandham, metalwork-images/pg176.png]]
+[[file:2306181306 Sandham, metalwork-images/pg178.png]]
+[[file:2306181306 Sandham, metalwork-images/pg180.png]]
+
+* Drills
+[[file:2306181306 Sandham, metalwork-images/drill11.png]] [[file:2306181306 Sandham, metalwork-images/drill12.png]]
+[[file:2306181306 Sandham, metalwork-images/drill.png]]  [[file:2306181306 Sandham, metalwork-images/drill2.png]]
+[[file:2306181306 Sandham, metalwork-images/drill3.png]] Q[[file:2306181306 Sandham, metalwork-images/drill4.png]]
+[[file:2306181306 Sandham, metalwork-images/drill5.png]] [[file:2306181306 Sandham, metalwork-images/drill6.png]]
+[[file:2306181306 Sandham, metalwork-images/drill7.png]] [[file:2306181306 Sandham, metalwork-images/drill8.png]]
+[[file:2306181306 Sandham, metalwork-images/drill9.png]] [[file:2306181306 Sandham, metalwork-images/drill10.png]]
+
+* Sharpening
+[[file:2306181306 Sandham, metalwork-images/pg214.png]]
+[[file:2306181306 Sandham, metalwork-images/pg216.png]]
+[[file:2306181306 Sandham, metalwork-images/pg218.png]]
+[[file:2306181306 Sandham, metalwork-images/pg220.png]]
+[[file:2306181306 Sandham, metalwork-images/pg222.png]]
+[[file:2306181306 Sandham, metalwork-images/pg224.png]]

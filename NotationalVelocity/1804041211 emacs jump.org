@@ -1,0 +1,14 @@
+#+TITLE: emacs jump
+# TAGS #emacs
+
+C-xrSPC runs point-to-register
+C-xrj runs jump-to-register
+
+Type any character to specify a register when prompted.1
+
+Bookmarks:
+
+C-xrm runs bookmark-set
+C-xrb runs bookmark-jump
+
+https://emacs.stackexchange.com/questions/3421/how-to-switch-back-and-forth-between-two-locations-in-a-buffer

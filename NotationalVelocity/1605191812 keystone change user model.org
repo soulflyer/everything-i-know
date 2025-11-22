@@ -1,0 +1,8 @@
+#+TITLE: keystone change user model
+# TAGS
+
+Wanted to change from "Admin" to "User"
+create a new model, User.js based on Admin.js
+create a new user. DON"T PROCEED UNTIL THIS IS DONE
+edit keystone,js, change 'user model': 'Admin' to 'user model': 'User'
+delete model/Admin.js

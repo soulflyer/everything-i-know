@@ -1,0 +1,14 @@
+#+TITLE: shell tool upgrades
+# TAGS #shell
+
+A bunch of replacements for some standard shell tools, and a regex helper
+https://zaiste.net/posts/shell-commands-rust
+
+fd			find				https://github.com/sharkdp/fd
+bat			cat				https://github.com/sharkdp/bat
+procs		ps				https://github.com/dalance/procs
+dust			du				https://github.com/bootandy/dust
+ytop			top				https://github.com/cjbassi/ytop
+bandwhich	lsof				https://github.com/imsnif/bandwhich
+grex			builds regexes	https://github.com/pemistahl/grex
+zoxide		cd				https://github.com/ajeetdsouza/zoxide

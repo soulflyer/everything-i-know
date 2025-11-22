@@ -1,0 +1,5 @@
+#+TITLE: emacs highlight scroll
+# TAGS #emacs
+
+highlight-context looks useful
+golden-ratio-scr... might be too

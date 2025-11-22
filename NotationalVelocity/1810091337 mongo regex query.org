@@ -1,0 +1,4 @@
+#+TITLE: mongo regex query
+# TAGS #mongo
+
+db.getCollection('images').find({"Keywords":/Epineph/})

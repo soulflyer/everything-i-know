@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Documents/org-mode/NotationalVelocity/2508050916 chest of drawers-images
+:END:
+#+TITLE: chest of drawers
+# Tags #woodwork
+[[file:2508050916 chest of drawers-images/screenshot-20250805-091750.png]]
+From a *FineWoodworking* post on facebook
+[[file:2508050916 chest of drawers-images/screenshot-20250805-091902.png]]
+[[file:2508050916 chest of drawers-images/screenshot-20250805-091929.png]]

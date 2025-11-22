@@ -1,0 +1,26 @@
+#+TITLE: tea - front page (photo competition)
+# TAGS 
+
+[suffusion-widgets id='1']
+<div id="right-panel">
+<h4>TAKE US TO YOUR HAPPY PLACE!</h4>
+
+<p>Travel Easy Asia wants to know where your happy place in Bangkok is!</br>
+Email: Iexplore@traveleasyasia.com with your picture and why it's your favorite spot and each week we'll pick OUR favorite submission and send the winner a FREE BANGKOK, TEA City Card set!</p>
+
+<p>Happy snapping!</p>
+</div>
+<div id="tea-panels">
+<div id="explore-panel" class="tea-panel">
+[suffusion-widgets id='2']
+</div>
+<div id="indulge-panel" class="tea-panel">
+[suffusion-widgets id='3']
+</div>
+<div id="shop-panel" class="tea-panel">
+[suffusion-widgets id='4']
+</div>
+<div id="recharge-panel" class="tea-panel">
+[suffusion-widgets id='5']
+</div>
+</div>

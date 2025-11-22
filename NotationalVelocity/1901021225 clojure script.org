@@ -1,0 +1,14 @@
+#+TITLE: clojure script
+# TAGS #clojure
+
+Note that this title is clojure script. NOT clojurescript. The space is significant.
+
+#!/usr/bin/env planck
+http://planck-repl.org/guide-all.html
+This is actually clojurescript
+
+#!/usr/bin/env inlein
+https://github.com/hypirion/inlein
+
+and for clojurescript:
+https://github.com/anmonteiro/lumo

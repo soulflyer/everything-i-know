@@ -1,0 +1,4 @@
+#+TITLE: reduce pdf size
+# TAGS #pdf
+
+use colorsync utility: Edit the reduce size filter if necessary and open with the pdf colorsync. Apply the filter and save

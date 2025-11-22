@@ -1,0 +1,14 @@
+#+TITLE: emacs org-mode
+# TAGS #emacs
+
+start with M-x org-todo-list
+
+hit return over any entry to go to the associated file
+
+Put cursor over leftmost char and type
+t               makes the item a TODO
+1           sets priority to A
+
+C-c C-x C-m     new item at same level
+C-c ,           set priority
+C-c C-t     mark TODO as done

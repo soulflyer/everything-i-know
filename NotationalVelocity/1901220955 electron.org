@@ -1,0 +1,8 @@
+#+TITLE: electron
+# TAGS #electron
+
+clockwork-electron from https://github.com/bru/clockwork-electron 
+
+descjop based electron project implementing a time tracker.
+
+looks like it has icon set, and may in the future have a menu example 

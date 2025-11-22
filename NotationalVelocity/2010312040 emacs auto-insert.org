@@ -1,0 +1,4 @@
+#+TITLE: emacs auto-insert
+# TAGS #emacs
+
+Adds the boilerplate to a new file

@@ -1,0 +1,26 @@
+#+TITLE: window management in emacs
+# Tags #emacs #tmux
+
+* Notes on how to get emacs to take over the functions of tmux so I can switch to gui emacs.
+** packages that might help
+[[https://github.com/Bad-ptr/persp-mode.el][Perspective mode]]
+[[https://github.com/ajgrf/edwina][Edwina]]
+[[https://github.com/pashinin/workgroups2][Workgroups2]]
+[[https://github.com/alphapapa/burly.el][Burly]]
+[[https://depp.brause.cc/eyebrowse/][Eybrowse]]
+
+** exwm
+[[https://github.com/ch11ng/exwm/wiki/Installation-on-macOS][Install on Mac]]
+These might help getting emacs to work with X11:
+§2108201341 emacs homebrew head
+§2107051746 attempting to build X11 emacs
+
+** useful functions
+
+#+begin_src emacs-lisp
+;; This will label each window with a number. Works across concurrent gui and terminal clients
+(ace-swap-window)
+
+;; This swap windows, similar to C-q RET in tmux
+(window-swap-states)
+#+end_src

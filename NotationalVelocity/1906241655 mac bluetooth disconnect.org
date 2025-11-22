@@ -1,0 +1,16 @@
+#+TITLE: mac bluetooth disconnect
+# TAGS
+
+https://apple.stackexchange.com/questions/118783/bluetooth-peripherals-randomly-disconnecting-under-mavericks
+
+kill kextd from activity monitor 
+(Doesn't seem to work)
+
+or:
+
+$ sudo kextunload -b com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport
+$ sudo kextload -b com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport
+
+(Not tried this yet)
+
+https://www.idownloadblog.com/2016/02/01/experiencing-bluetooth-problems-on-your-mac-try-this/

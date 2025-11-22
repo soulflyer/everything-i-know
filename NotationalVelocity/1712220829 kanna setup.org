@@ -1,0 +1,8 @@
+#+TITLE: kanna setup
+# TAGS  #woodwork #plane
+
+Dead link
+http://www.gallarotti.net/woodworking/kanna-project-translations/
+
+but this is ok
+[[https://www.lumberjocks.com/mafe/blog/24608][Lumberjocks kanna setup]]

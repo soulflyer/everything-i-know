@@ -1,0 +1,4 @@
+#+TITLE: emacs useful for gui version (no tmux)
+# TAGS #emacs
+
+auto-dim-other-buffers

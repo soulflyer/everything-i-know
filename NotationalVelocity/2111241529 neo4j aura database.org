@@ -1,0 +1,16 @@
+#+TITLE: neo4j aura database
+# Tags #neo4j #database
+
+Sign up here
+https://neo4j.com/cloud/aura
+
+Access it here
+https://console.neo4j.io/
+
+neo4j+s://3f65b94e.databases.neo4j.io
+
+* Useful commands
+:help keys
+cmd-up previous command
+:history
+

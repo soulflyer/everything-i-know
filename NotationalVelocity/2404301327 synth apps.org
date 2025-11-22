@@ -1,0 +1,13 @@
+#+TITLE: synth apps
+# Tags #music
+* *Vintage* 
+is a free standalone emulation of a vintage hardwired synth from Behringer. (vst)
+* *Bespoke*  
+is a modular synth that looks a lot like a visual programming language. [[https://www.bespokesynth.com/][bespoke]]
+Seems to handle screen use in a non conventional way, taking over the laptop screen. Try hitting *?* a couple of times. The first time should show the internal menus, and the second time turn the window into a regular mac window that can be dragged onto the big screen.
+* Virtual Acoustic Modelling
+[[https://www.tracktion.com/products/outersect-modeler][Traction Modeler]] Paid but not too expensive and there is a free trial
+[[https://flowstoners.com/quilcom][Quilcom PMS]] Free, windows only
+[[https://www.applied-acoustics.com/chromaphone-3/][Chromaphone 3]] Expensive, 15 day free trial. Looks to be heavily percussion biased.
+[[https://www.reasonstudios.com/shop/rack-extension/objekt/][Reason Objekt]] Fairly expensive $99 and biased towards percussion
+[[https://github.com/gabrielsoule/resonarium][Resonarium]] Free, open source

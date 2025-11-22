@@ -1,0 +1,24 @@
+#+TITLE: cider functions
+# TAGS #cider
+These bindings are probably out of date now:
+
+C-c M-p    cider-insert-last-sexp-in-repl    transfers a sexp to the repl                  repl needs to be in same namespace as file buffer
+C-c M-e    cider-eval-last-sexp-to-repl      transfers result of last sexp to repl
+C-c M-n n cider-repl-set-ns                       switch repl to current namespace
+C-c C-o    cider-find-and-clear-output       clears output of last command
+C-u C-c C-o                                              clear all output
+
+C-c M-d    cider-describe-connection       connection specifiec info
+C-c C-s i   sesman-info                            get info on all linked and friendly sessions.
+C-u C-c C-s i  					      gives info on all cider sessions
+C-c C-s w sesman-browser                     interactive view of cider sessions
+
+C-c C-z    cider-switch-to-repl-buffer       switch between source file and associated repl
+
+C-c C-v v cider-eval-sexp-at-point          works most reliably with the cursor on the opening paren
+C-c C-v r  cider-eval-region
+C-c C-v n cider-eval-ns-form
+
+C-c M-p   send sexp to repl
+
+go to the very start of the line and hit , for a list of cider commands. browse-ns will correctly display the current one without asking

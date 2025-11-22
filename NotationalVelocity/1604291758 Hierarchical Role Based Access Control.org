@@ -1,0 +1,5 @@
+#+TITLE: Hierarchical Role Based Access Control
+# TAGS
+
+rbac
+https://www.npmjs.com/package/rbac

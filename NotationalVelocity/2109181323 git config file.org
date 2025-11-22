@@ -1,0 +1,20 @@
+#+TITLE: git config file
+# Tags #git
+#+begin_src gitconfig
+  [user]
+          name = iain
+          email = iain@soulflyer.co.uk
+  [core]
+          autocrlf = input
+          excludesfile = ~/.gitignore
+  [alias]
+          hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+  [pull]
+          rebase = false
+  [init]
+          defaultBranch = main
+#+end_src
+Mostly self explanatory but .
+
+The autocrlf is to adjust line endings when working with windows users.
+The excludeesfile is there to allow global ignores in ~/.gitignore see §2109181315 git gitignore files

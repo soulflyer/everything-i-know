@@ -1,0 +1,7 @@
+#+TITLE: remove scanned by google from pdf
+# TAGS #pdf
+
+use pdfimages from the cmd line
+open page + images as layers in the gimp
+resize images to fit
+export (dialog box doesn't always get focus. Switch to something else and back, just clicking on it doesn't work)

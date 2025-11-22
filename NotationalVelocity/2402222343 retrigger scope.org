@@ -1,0 +1,10 @@
+#+TITLE: retrigger scope
+# Tags #synth #vcv
+
+[[file:2402222343 retrigger scope-images/scope1.png]]
+
+Use μMap to reset the scope so the trace stays still. This is from a patch to generate complex rythmns like 11/8 divided in 4, 4, 3. The μMap is clocked to the 11
+
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2402222343 retrigger scope-images
+:END:

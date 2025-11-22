@@ -1,0 +1,73 @@
+#+TITLE: stanesby flute
+# Tags #flute
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2410282308 stanesby flute-images
+:END:
+* [[https://librairie.philharmoniedeparis.fr/dessins-techniques/flute-traversiere-10][E920.2.7]] in the Philharmonie de Paris
+A 415
+Metal rings
+
+[[file:2410282308 stanesby flute-images/screenshot-20241028-230915.png]]
+
+** Description
+
+Description
+    4 corps en ivoire. 5 viroles, cabochon et 1 clé. Embouchure ovalisée. Diapason moyen : 424.
+
+Dimensions
+    Longueur totale 605 mm.
+
+Matériaux
+    ivoire.
+
+Marques et inscriptions
+    Marque sur les 4 corps : "STANESBY / IUNIOR".
+
+Historique
+    Ancienne collection Geneviève Thibault de Chambure.
+
+Acquisition
+    Achat - 03/06/1980
+
+Localisation au Musée
+    Non exposé. 
+
+** Images 
+[[file:2410282308 stanesby flute-images/screenshot-20241030-002607.png]] [[file:2410282308 stanesby flute-images/screenshot-20241030-002655.png]]
+
+* [[https://librairie.philharmoniedeparis.fr/dessins-techniques/flute-traversiere-9][E979.2.33]]
+A 412
+also has metal rings
+
+[[file:2410282308 stanesby flute-images/screenshot-20241030-001157.png]]
+
+** Description
+    4 corps en ivoire. 4 viroles et 1 clef en or. Diapason moyen : 412. Gerces sur le premier corps.
+
+Dimensions
+    Longueur totale 610 mm. Perce diam. min 18 mm. Perce diam. max 20 mm.
+
+Matériaux
+    ivoire, or.
+
+Marques et inscriptions
+    Marque au fer sur chaque corps : "STANESBY / JUNIOR".
+
+Décor
+    Motifs musicaux ciselés sur la clé.
+
+Historique
+    Ancienne collection Geneviève Thibault de Chambure (achat en vente publique à Londres,1972).
+
+Acquisition
+    Dation - 15/03/1979
+
+Localisation au Musée
+    Espace XVIIe - La naissance de l'opéra 
+
+** Images
+
+[[file:2410282308 stanesby flute-images/screenshot-20241030-001520.png]] [[file:2410282308 stanesby flute-images/screenshot-20241030-001559.png]] [[file:2410282308 stanesby flute-images/screenshot-20241030-001631.png]] [[file:2410282308 stanesby flute-images/screenshot-20241030-001701.png]] [[file:2410282308 stanesby flute-images/screenshot-20241030-001732.png]]
+
+
+* [[file:~/Documents/books/bookshelf/Musical-Instruments/Flute/Technical Drawings/Stanesby/Stanesby-3370.jpeg][DCM1125]] in the Dayton Miller Collection

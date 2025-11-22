@@ -1,0 +1,16 @@
+#+TITLE: electron rename menu
+# TAGS #electron
+
+For mac osx, menu title is taken from the app name, so rename the app in the .plist file of the version of electron used to run the app.
+This might be in node-modules or elswhere depending on how it is called in the project.
+
+in Electron.app/Contents/info.plist:
+
+change:
+#+begin_src xml
+
+	<key>CFBundleName</key>
+#+end_src
+to the desired title
+
+The name in the doc (hover) is set by the name of the app. or by changing CFDisplayName

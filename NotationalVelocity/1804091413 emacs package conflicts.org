@@ -1,0 +1,5 @@
+#+TITLE: emacs package conflicts
+# TAGS #emacs
+
+look at output of:
+M-x list-load-path-shadows

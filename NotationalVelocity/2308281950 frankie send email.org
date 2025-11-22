@@ -1,0 +1,8 @@
+#+TITLE: frankie send email
+# Tags #clojure
+
+in dev/config.edn
+#+begin_src clojure
+ :sendgrid                 {:api-url "https://api.sendgrid.com/v3/"
+                            :api-token "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"}
+#+end_src

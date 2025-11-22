@@ -1,0 +1,45 @@
+#+TITLE: Clojure symbols
+# Tags #clojure
+
+Odd characters in clojure(script)
+
+#+begin_src clojure
+:>
+#+end_src
+reagent/adapt-react-class see "creating reagent components" in the reagent docs
+(Might not work in a map or a list comprehension. Use the full fn name instead)
+
+#+begin_src clojure
+:<>
+#+end_src
+react fragment. reagent fn can only return one element
+#+begin_src clojure
+[:<>
+  [:div nnnnn]
+  [:div mmmmm]]
+#+end_src
+alows siblings without having to wrap them in a div
+
+ **symbol ending in #**
+is using auto gensym to create a garuanteed unique name
+
+#+begin_src clojure
+  (JS* "nnnnnn")
+#+end_src
+takes a string and emits it as javascript code
+
+#+begin_src clojure
+(.. nnnn)
+#+end_src
+Interact with nested objects. Seen in FormGroup from smoothUI
+
+#+begin_src clojure
+#'
+#+end_src
+a reader macro #'foo  expands to (var foo)
+
+#+begin_src clojurescript
+:<-
+#+end_src
+reg-sub syntactic sugar
+ 

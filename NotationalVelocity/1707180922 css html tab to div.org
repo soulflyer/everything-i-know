@@ -1,0 +1,9 @@
+#+TITLE: css html tab to div
+# TAGS #html
+
+Use one of these:
+
+<div contenteditable>
+<div tabindex="0">
+
+0 to just fit in with the natural order, or specify a number

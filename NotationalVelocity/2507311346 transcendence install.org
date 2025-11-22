@@ -1,0 +1,328 @@
+#+TITLE: transcendence install
+# Tags #linux
+* Linux Install
+:PROPERTIES:
+:ATTACH_DIR: /home/iain/Documents/org-mode/NotationalVelocity/2507311346 transcendence install-images
+:END:
+Install from usb boot
+Connect to wifi
+*sudo apt update*
+allow Software Updater to install updates
+*sudo apt install* emacs (chose not to change email settings when asked)
+*sudo apt install git*
+adjust settings in *privacy snd security:Screen Lock* so I don't have to keep typing my password
+adjust settings in *System:Secure Shell* to allow ssh access
+Log in to Mozilla so *Firefox* will sync.
+Generate ssh key and add to github
+clone emacs-config and add a symbolic link from *.emacs.d*
+adjust *terminal* *preferences* to get rid of the bell and improve the colours
+Copy dropbox files manually. (org-mode) Don't want dropbox running here, will use *Unison* instead
+Install *gnome-tweaks* and set *Caps-Lock* to be *CTRL* also increase the text size a little
+clone profile
+Add links to various setup files, profile and rc files. Also *ln -s Documents/org-mode/lyrics .lyrics* 
+copy *Photos*, *Collection* and *Bookshelf*
+*sudo apt install ubuntustudio-installer* and run it, to get low latency kernel plus lots of apps including *inkscape* *jack* *darktable* *hugin* *sooperlooper* etc
+setup ssh with *sudo apt install openssh-server openssh-client* and *sudo systemctl enable ssh -now* and allow ssh access using *system settings* 
+Add a gtk.css file so terminal has a border as per this [[https://askubuntu.com/a/980761/960653][Stack Exchange]] answer.
+*sudo apt install gnome-shell-extension-manager* to move the clock. Install *Just Perfection* extension and change *Clock Menu Position* and *Clock Offset*
+add public keys to *authorized_hosts*
+*sudo apt install ripgrep*
+Adjust some of the emacs config so it finds the right home directory. In particular, the directory where backups are created.
+*sudo apt install direnv zoxide*
+
+*sudo apt install fz* and add *source usr/share/doc/fzf/examples/key-bindings.bash* to *transcendence_rc* ??
+This change seems to have disappeared. Did *cp usr/share/doc/fzf/examples/key-bindings.bash ~/.fzf.bash* to take advantage of the existing mechanism present in *.bash_rc* 
+Install *VCV RACK* and a script to do 
+#+begin_src bash
+CD /opt/VCV/Rack2Free
+./ Rack
+#+end_src
+Setup second screen, mouse and keyboard
+Install *deskflow* which involved installing *flatpak* and then *gnome-software-plugin-flatpak* so that flatpack apps are visible from the *Software Center* I think it may also set the *PATH* but I haven't checked yet.
+Install *VSCode* and add the various extensions
+Added the *comics* script. Needed to add *setsid* to the open command so it would work from *eshell*
+Installed *Thunderbird* and connect to my email
+Installed *Zalo* and *Whatsapp*
+** User settings
+Stuff to make it look and behave in a way similar to osx
+*** Install some extensions
+[[file:2507311346 transcendence install-images/extensions.png]]
+*Just-Perfection* is not needed if *Dash-To-Panel* is in use. Both will move the clock to the right. *Dash-To-Panel* gives a display of the opened apps allowing me to see which app is focussed. 
+**** These are its settings:
+[[file:2507311346 transcendence install-images/dock-to-panel-1.png]][[file:2507311346 transcendence install-images/dock-to-panel-2.png]]
+[[file:2507311346 transcendence install-images/dock-to-panel-3.png]][[file:2507311346 transcendence install-images/dock-to-panel-4.png]]
+
+** Software Center
+Update settings for *Sofware Centre* 
+In activites, find "Software and Updates"
+Go to the "Ubuntu Software tab"
+Next to "Download from", there should be a dropdown menu, click on it and choose "other"
+Then in the net screen that populates, choose "Select Best Server" 
+Although there are servers listed for *Vietnam* the automatic detect best thing first picked one from *Indonesia*
+** Unison
+add *unison*
+added *unison* emacs integration. *(unison)* needs a call to *(process-send-string nil "y")* to confirm the transfer. . Unfortunately *(unison)* uses fundamental mode which won't allow binding commands to *y* and *RET* or something simple like that. Got round it by not advising the existing save function to also run unison, but creating a fn to do both:
+#+begin_src emacs-lisp
+(use-package unison
+  :ensure t
+  :config
+  (setq unison-args '("org-mode"))
+  (keymap-unset org-agenda-mode-map "S")
+  :bind (:map
+         org-agenda-mode-map
+         ("P" . iw-save-org-files))) 
+
+(defun iw-save-org-files ()
+  (interactive)
+  (org-save-all-org-buffers)
+  (unison)
+  (let ((user-input (read-string "Input for unison:")))
+    (if (get-buffer-process "*unison*")
+        (process-send-string "*unison*" user-input)
+      (kill-buffer "*unison*"))))
+#+end_src
+** Fingerprints
+add fingerprints via *Settings:System:Users*
+also ran *sudo pam-auth-update* and added *fingerprint authentication* so it works with *sudo*
+** OCR
+*** Trex
+ [[https://github.com/amebalabs/trex-linux][github repo]] built for *Arch* not sure what to do to make it work on *Ubuntu*
+Installed *python* *pip* and *pipx* then did *pipx install trex-ocr*
+sudo apt install *wl-clipboard*, *grim* and *slurp* when trex complained they couldn't be found
+Now running it gives the message *Screen capture cancelled* This message doesn't appear in the *Trex* source so I guess it is coming from whatever it uses to do the screen capture.
+*** Frog
+#+begin_src bash
+sudo snap install frog
+#+end_src
+Works, but doesn't automatically copy to the clipboard, and it leaves screenshots for every use.
+*** Textsnatcher
+From appcenter. Runs but gives an error *Error reading image*
+*** Tesseract Script
+[[https://askubuntu.com/questions/280475/how-can-instantaneously-extract-text-from-a-screen-area-using-ocr-tools][Ask Ubuntu]] question has some good clues
+[[https://dev.to/slobodan4nista/automating-text-extraction-from-screenshots-with-tesseract-and-gnome-screenshot-maj][Blog]] *X* based but may be useful
+[[https://willbush.dev/blog/fast-ocr-to-clipboard/][Better blog]] covers *Wayland* too
+*** xclip-ocr
+[[https://github.com/rpriven/xclip-ocr][github]] Looks like this is for X, needs *xclip* and *xsel*
+** Webcam
+from [[https://knowledgebase.frame.work/en_us/ubuntu-webcam-By0SfgGno][framework documentation]]
+sudo apt install v4l-utils
+v4l2-ctl --list-devices
+sudo apt install guvcview
+guvcview
+** Hinh Anh 
+Install *node* and *npm*
+Git clone *Hinh-anh*, *Image-lib*, and *Photo-API*
+Install *Leiningen*
+*npm install electron --save-dev* Complains of a vulnerability in electron that would need an *npm audit fix --force* to solve. This means forcing an install of a version of electron that has a breaking change. Will try to get it running before doing this.
+Ran *lein rebuild* and *./node_modules/.bin/electron app/dev/* Starts the app
+Set the *API* adress to *acceptance.local:31001/api* to check the front end works
+The preferences have references to */Users/iain/....* so as a temporary measure I did *sudo ln -s home Users* in */*
+** RGB-Keypad
+*** Install tools
+Install *Lock Keys* extension so I can see the keypad is in the correct mode.
+Install *showmethekey* Had to compile it and this needed multiple packages installing. Run with *showmethekey-gtk*  Tried *screenkey* first but it only works with *X11* not *wayland*
+*** Read directly from keypad
+Can read directly from the keypad with:
+#+begin_src bash
+sudo evtest
+# check which path is the RGB Macropad Keyboard
+sudo su -c 'sleep 1; timeout -k5 10 evtest --grab /dev/input/event9'
+#+end_src
+from [[https://askubuntu.com/a/1197742/960653][askubuntu]]
+*** VIA
+[[http://keyboard.frame.work][keyboard.frame.work]] doesn't work with firefox. Works with *Opera* and *Edge* but was getting an error connecting to the macropad. Fixed by doing this:
+#+begin_src bash
+sudo chmod 777 /dev/hidraw
+#+end_src
+Found in a [[https://github.com/the-via/releases/issues/257][github issue]]
+More stuff about it on [[https://www.reddit.com/r/Keychron/comments/13nmnph/received_invalid_protocol_version_from_device_and/][Reddit]]
+Useful entry on [[https://community.frame.work/t/rgb-macropad-wont-go-into-bootloader-flash-drive-mode/54465/6][FRamework Community]] about using VIA
+QMK keycodes are [[https://docs.qmk.fm/keycodes_basic][here]]
+
+*** Existing layout
+May be useable as is. Although the numpad sends numbers, they are recognised as different keys from the top row of the keyboard.
+This is no longer working. Numbers are being recognised by vcv whether they come from the pad or the top row. Reprogrammed the pad with other keys, including F13 to F24. This needed some changes to */usr/share/X11/xkb/symbols/inet* There are details on [[https://unix.stackexchange.com/questions/793641/how-to-tweak-an-xkb-keymap-without-having-to-create-my-own-under-wayland][unix stackexchange]] on how to make these changes without editing this file, which will get overwritten by any upgrades. Looks like *KDE* can do this from settings [[https://discuss.kde.org/t/remapping-keys-such-as-f13/10275/2][details here]]
+The c code describing the default layout is [[https://github.com/FrameworkComputer/qmk_firmware/blob/v0.2.9/keyboards/framework/macropad/keymaps/default/keymap.c][here]]
+#+begin_src c
+const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
+     /*
+     *         ┌────┬────┬────┬────┐
+     *  4 keys │Esc │Calc│ =  │ <- │
+     *         ├────┼────┼────┼────┤
+     *  4 keys │ Num│ /  │ *  │ -  │
+     *         ├────┼────┼────┼────┤
+     *  3 keys │ 7  │ 8  │ 9  │ +  │
+     *         ├────┼────┼────┼────┤
+     *  4 keys │ 4  │ 5  │ 6  │ +  │
+     *         ├────┼────┼────┼────┤
+     *  3 keys │ 1  │ 2  │ 3  │Entr│
+     *         ├────┼────┼────┼────┤
+     *  3 keys │ 0  │ 0  │ .  │Entr│
+     *         └────┴────┴────┴────┴
+     * 21 total
+     */
+    [_NUMLOCK] = LAYOUT(
+        KC_ESC,  KC_CALC, KC_EQL,  KC_BSPC,
+        KC_NUM,  KC_PSLS, KC_PAST, KC_PMNS,
+        KC_P7,   KC_P8,   KC_P9,   KC_PPLS,
+        KC_P4,   KC_P5,   KC_P6,   KC_PPLS,
+        KC_P1,   KC_P2,   KC_P3,   KC_PENT,
+        KC_P0,   KC_P0,   KC_PDOT, KC_PENT
+    ),
+     /*
+     *         ┌───────┬───────┬───────┬───────┐
+     *  4 keys │ RGB   │ RGB + │ RGB + │ RGB + │
+     *         │Toggle │ Speed │ Hue   │ Sat   │
+     *         ├───────┼───────┼───────┼───────┤
+     *  4 keys │Numlock│ RGB - │ RGB - │ RGB - │
+     *         │       │ Speed │ Hue   │ Sat   │
+     *         ├───────┼───────┼───────┼───────┤
+     *  4 keys │ Home  │   ↑   │ Page  │RGB Nxt│
+     *         │       │       │ Up    │Effect │
+     *         ├───────┼───────┼───────┼───────┤
+     *  4 keys │  ←    │       │   →   │RGB Prv│
+     *         │       │       │       │Effect │
+     *         ├───────┼───────┼───────┼───────┤
+     *  4 keys │ End   │  ↓    │ Page  │ BL    │
+     *         │       │       │ Down  │ Step  │
+     *         ├───────┼───────┼───────┼───────┤
+     *  4 keys │ Insert│ Insert│ Delete│ BL    │
+     *         │       │       │       │ Step  │
+     *         └───────┴───────┴───────┴───────┘
+     * 24 total
+     */
+    [_FN] = LAYOUT(
+        RGB_TOG, RGB_SPI, RGB_HUI, RGB_SAI,
+        _______, RGB_SPD, RGB_HUD, RGB_SAD,
+        _______, _______, _______, RGB_MOD,
+        _______, _______, _______, RGB_RMOD,
+        _______, _______, _______, BL_STEP,
+        _______, _______, _______, BL_STEP
+    ),
+     /* Alphabet
+     *         ┌────┬────┬────┬────┐
+     *  4 keys │ A  │ B  │ C  │ D  │
+     *         ├────┼────┼────┼────┤
+     *  4 keys │ E  │ F  │ G  │ H  │
+     *         ├────┼────┼────┼────┤
+     *  4 keys │ I  │ J  │ K  │ L  │
+     *         ├────┼────┼────┼────┤
+     *  4 keys │ M  │ N  │ O  │ P  │
+     *         ├────┼────┼────┼────┤
+     *  4 keys │ Q  │ R  │ S  │ T  │
+     *         ├────┼────┼────┼────┤
+     *  4 keys │ U  │ V  │ W  │ X  │
+     *         └────┴────┴────┴────┘
+     * 24 total
+     */
+    [_FACTORY] = LAYOUT(
+        KC_A,    KC_B,    KC_C,    KC_D,
+        KC_E,    KC_F,    KC_G,    KC_H,
+        KC_I,    KC_J,    KC_K,    KC_L,
+        KC_M,    KC_N,    KC_O,    KC_P,
+        KC_Q,    KC_R,    KC_S,    KC_T,
+        KC_U,    KC_V,    KC_W,    KC_X
+    ),
+};
+#+end_src
+and the layout description in the framework knowledge base is [[https://knowledgebase.frame.work/default-keymap-for-the-rgb-macropad-rkBIgqmva][here]]
+
+Description of the behaviour of the layers, and how layer 1 is associated with the state of the *NUM-LOCK* key is [[https://community.frame.work/t/macropad-and-via-what-am-i-missing/51218][here]]. In particular, layer 1 becomes active according to the state of NUM-LOCK and it may be best to set all of layer 1 to transparent
+
+** Setup Mac Keyboard
+[[https://help.ubuntu.com/community/AppleKeyboard#Change_Function_Key_behavior][Ubuntu Help]]  on changing fn key behaviour
+[[https://askubuntu.com/a/1423769/960653][Stack Exchange Answer]] on tilde fix
+
+#+begin_src text
+The answer from Zanna wasn't working for me, but this answer was. So in my case I had to create /etc/modprobe.d/hid_apple.conf and set its contents to:
+
+options hid_apple iso_layout=0
+
+I also wanted the F keys to work like regular F1-F12 keys so I also added
+
+options hid_apple fnmode=2
+
+This worked after rebooting my computer.
+#+end_src
+
+This partially worked for me in that now the fn keys behave correctly, but the tilde key doesn't
+I think this may be the correct behaviour. The tilde char appears when pressing the \ key next to return. Possibly the keyboard was already being seen as ISO layout.
+
+Added some more keybindings so musclememory still works when hopping around in emacs
+** Set Background
+So far, unsuccessful. Considering switch from *Gnome* to *KDE*
+*** hyprpaper
+[[https://github.com/hyprwm/hyprpaper][github]] no package for *Ubuntu* would have to build it...
+*** Wallutils
+Just incase I want to uninstall it again.
+#+begin_src bash
+Transcendence:(main) wallutils: sudo make PREFIX=/usr/local install
+Place your finger on the fingerprint reader
+install -Dm755 -t "/usr/local/bin" cmd/getdpi/getdpi
+install -Dm755 -t "/usr/local/bin" cmd/heic2stw/heic2stw && \
+  install -Dm755 -t "/usr/local/bin" scripts/heic-install
+install -Dm755 -t "/usr/local/bin" cmd/lscollection/lscollection
+install -Dm755 -t "/usr/local/bin" cmd/lsmon/lsmon
+install -Dm755 -t "/usr/local/bin" cmd/lstimed/lstimed
+install -Dm755 -t "/usr/local/bin" cmd/lswallpaper/lswallpaper
+install -Dm755 -t "/usr/local/bin" cmd/setcollection/setcollection
+install -Dm755 -t "/usr/local/bin" cmd/setrandom/setrandom
+install -Dm755 -t "/usr/local/bin" cmd/settimed/settimed
+install -Dm755 -t "/usr/local/bin" cmd/setwallpaper/setwallpaper
+install -Dm755 -t "/usr/local/bin" cmd/timedinfo/timedinfo
+install -Dm755 -t "/usr/local/bin" cmd/wayinfo/wayinfo
+install -Dm755 -t "/usr/local/bin" cmd/xinfo/xinfo
+install -Dm755 -t "/usr/local/bin" cmd/xml2stw/xml2stw
+install -Dm755 -t "/usr/local/bin" cmd/vram/vram
+Transcendence:(main) wallutils: 
+#+end_src
+Seems to work but *setwallpaper* doesn't handle multiple monitors
+*** Don't work
+**** superpaper
+**** hydrapaper
+**** swaybg
+[main.c:587] Missing a required Wayland interface
+**** swww
+wont run on gnome, too complex, its meant for using videos as a bg
+**** wpaperd
+same as swww
+** File Manager
+*** File Types
+edit *.config/mimeapps.list* to get different file types to open in different apps, ir *VLC* for mp3, but *Audacity* for wav.
+*** Nautilus substitute
+Nautilus won't let me redefine keys without editing the source code. This is necessary because *delete-file* is bound to the *delete* key and my *Mac keyboard* has only *backspace*
+**** Nemo and Caja
+both look like they will allow redefinition, but although I can get the new shortcut to appear in the menu, it doesn't work. [[https://askubuntu.com/a/1417947/960653][Ask Ubuntu]] answer has the method I used. [[https://ubuntugenius.wordpress.com/2022/01/14/caja-keyboard-shortcuts-open-in-terminal-for-current-folder-with-the-f4-key/][Blog]] with details for *Caja*, which is roughly the same, as both are forks of *Nautilus*
+**** Dolphin
+Ugly and the newly assigned shortcuts don't work.
+**** Thunar
+*sudo apt install thunar*
+Works and looks ok. Search is no good, but I can live without that I think.
+** Music Player
+added mpd
+added Euphonica (mpd client)
+added mpc
+installed mpdev
+installed emmc
+switched from mpdev to *mppopmd* check with *systemctl status --user mppopmd.service*
+*** TODO
++Cleanup emmc, setup mpdev+
+replaced mpdev with *mppopmd*
+** 3D Mouse
+Useful info from [[https://wiki.archlinux.org/title/3D_Mouse][archlinux.org]]
+Useful info from [[https://forum.freecad.org/viewtopic.php?t=99001][freecad forum]] (in German)
+[[https://spacenav.sourceforge.net/index.html][Spacenav Project]] (spacenavd)
+*** [[https://github.com/jorbuedo/spacenav][spacenav]]
+I don't think this is related to the *Spacenav Project* Not yet successful
+*** [[https://github.com/FreeSpacenav/spacenavd][spacenavd]]
+Recognises devices but I keep seeing *"Trying to open X11 display:0"* May need to try under *KDE*
+[[https://sourceforge.net/p/spacenav/mailman/spacenav-users/thread/CAM7s1w63cU33jbRxnkR5Lshv%2BLpk%3D3hx5zDx0v6e1xX1RrM7NA%40mail.gmail.com/#msg37705616][Forum thread]] that may be of use in relation to *Wayland*
+Old [[https://github.com/FreeSpacenav/spacenavd/discussions/37][Github Issue]] that might help re *display:0*
+*** [[https://github.com/FreeSpacenav/libspnav][libspnav]] 
+Installed for the example programs which appear to work. Appeared to start working when I unplugged the usb cable leaving the wireless dongle connection in place. Continued to work when I plugged it back in so this may be a coincidence. Managed to get it to work with *openscad* too, although its a little confusing as the movements are all tied to the axes not relative to the current position. This may be what the *Axis Mapping* settings do in the preferences.
+** Syntorial
+Trying with *wine*
+Problems with entering an authentication code. [[https://www.reddit.com/r/winehq/comments/1eyeku5/has_anyone_gotten_syntorial_2_to_work_properly/][Reddit thread]] may help, something to do with *Winetricks*
+
+
+

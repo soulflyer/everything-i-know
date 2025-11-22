@@ -1,0 +1,7 @@
+#+TITLE: mac os version from command line
+# Tags #mac
+
+#+begin_src sh
+sw_vers
+#+end_src
+from https://apple.stackexchange.com/a/368244/323876

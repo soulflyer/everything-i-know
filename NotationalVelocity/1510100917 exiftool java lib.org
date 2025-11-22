@@ -1,0 +1,6 @@
+#+TITLE: exiftool java lib
+# TAGS #clojure
+
+http://search.maven.org/#search|ga|1|im4java
+
+actually its imagemagick, but includes exiftool

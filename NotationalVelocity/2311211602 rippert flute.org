@@ -1,0 +1,12 @@
+#+TITLE: rippert flute
+# Tags #flute #3piece
+
+[[file:2311211602 rippert flute-images/1.png]]
+[[file:2311211602 rippert flute-images/2.png]]
+[[file:2311211602 rippert flute-images/3.png]]
+[[file:2311211602 rippert flute-images/4.png]]
+[[file:2311211602 rippert flute-images/5.png]]
+
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2311211602 rippert flute-images
+:END:

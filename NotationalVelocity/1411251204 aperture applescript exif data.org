@@ -1,0 +1,31 @@
+#+TITLE: aperture applescript exif data
+# TAGS #photo #exif #applescript
+
+To see what info is stored in a pic use:
+
+#+begin_src applescript
+get name of every EXIF tag of first item of cursel
+get name of every IPTC tag of first item of cursel
+get name of every other tag of first item of cursel
+#+end_src
+
+ie:
+#+begin_src applescript
+tell application "Aperture"
+    set cursel to the selection
+    repeat with sel in cursel
+        set temp to get name of every EXIF tag of first item of cursel
+        (my logg:temp)
+        set temp to get name of every IPTC tag of first item of cursel
+        (my logg:temp)
+        set temp to get name of every other tag of first item of cursel
+        (my logg:temp)
+    end repeat
+end tell
+
+on logg:(stringg)
+    tell current application
+        log stringg
+    end tell
+end logg:
+#+end_src

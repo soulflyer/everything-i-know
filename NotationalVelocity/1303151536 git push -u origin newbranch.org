@@ -1,0 +1,4 @@
+#+TITLE: git push -u origin newbranch
+# TAGS #git
+
+Pushes a branch created locally up to origin

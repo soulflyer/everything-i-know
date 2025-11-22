@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-09-24 Tue 17:19 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="author" content="Iain Wood" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org1107068">1. Ready EADGBE</a>
+<ul>
+<li><a href="#org7a15dda">1.1. Runaway Train: Soul Asylum</a></li>
+<li><a href="#org34a0ccd">1.2. Riddle Of The Sphinx: Armaggedon Zoo</a>
+<ul>
+<li><a href="#org27dbd73">1.2.1. links</a></li>
+</ul>
+</li>
+<li><a href="#org06791d6">1.3. How Many: Armaggedon Zoo</a>
+<ul>
+<li><a href="#orgfed326e">1.3.1. Links</a></li>
+</ul>
+</li>
+<li><a href="#orgedb955a">1.4. Psycho Killer: Talking Heads</a>
+<ul>
+<li><a href="#orgf579820">1.4.1. links</a></li>
+</ul>
+</li>
+<li><a href="#org26ad556">1.5. Refugee: Tom Petty</a></li>
+<li><a href="#org6ea433f">1.6. Sleep the clock around: Belle and Sebastian</a></li>
+<li><a href="#org5e93a05">1.7. The Bad Touch: Bloodhound Gang</a></li>
+<li><a href="#org94b7c6c">1.8. Battle of the Beanfield: The Levellers</a></li>
+<li><a href="#org137cd4b">1.9. Roll over Beethoven: Electric Light Orchestra</a></li>
+<li><a href="#orgdae4306">1.10. I will follow you into the dark: Death cab for cutie</a></li>
+<li><a href="#orge76bc93">1.11. On the turning away: Pink Floyd</a></li>
+<li><a href="#org454fdd9">1.12. Too Far Gone: Russell Crowe</a></li>
+<li><a href="#orge506997">1.13. Behind A Mask: Machine Head</a></li>
+<li><a href="#org1ec8651">1.14. Common People: Pulp</a></li>
+</ul>
+</li>
+<li><a href="#org8417539">2. Ready Baritone</a>
+<ul>
+<li><a href="#org39ed195">2.1. Run to the water: Live</a></li>
+<li><a href="#orgb8eb26f">2.2. Another Girl Another Planet: The only ones</a></li>
+<li><a href="#org441f13e">2.3. Big Muff: John Martyn</a></li>
+</ul>
+</li>
+<li><a href="#orgb5403bd">3. Working on</a>
+<ul>
+<li><a href="#orgbb72639">3.1. Lightning Crashes: Live</a></li>
+<li><a href="#orgcb1e913">3.2. Bastards: Machine Head</a></li>
+<li><a href="#orge0f3df7">3.3. Jenny was a friend of mine: Killers</a></li>
+<li><a href="#org1a6baa9">3.4. Ballad of a Dead Man: Powderfinger</a></li>
+<li><a href="#orgc3ad60f">3.5. Dream Catch Me: Newton Faulkner</a></li>
+<li><a href="#org19c05c0">3.6. Don't fear the reaper: Blue Oyster Cult</a></li>
+<li><a href="#orgbbfcd76">3.7. Follow me up to Carlow: Planxty</a></li>
+<li><a href="#orgdc287da">3.8. Rocky Mountain Way: Joe Walsh</a></li>
+<li><a href="#orgda8fef4">3.9. Romeo and Juliet: Dire Straits</a></li>
+<li><a href="#orgbd38b14">3.10. Right in two: Tool</a></li>
+<li><a href="#org61c9d95">3.11. Suppers ready: genesis</a></li>
+<li><a href="#org9849e87">3.12. Paint it black: Rolling Stones</a></li>
+<li><a href="#orgdfcd812">3.13. Rocky Road To Dublin: Dubliners</a></li>
+<li><a href="#org10c9711">3.14. All my life: Foo Fighters</a></li>
+<li><a href="#orgb7c6e0c">3.15. I'm not like everybody else: Kinks</a></li>
+<li><a href="#orge509ffc">3.16. The Green Fields of France: 1914</a></li>
+<li><a href="#org5f9023a">3.17. Sober: Tool</a></li>
+<li><a href="#org0f8615e">3.18. Blood River: Bush</a></li>
+<li><a href="#orgfd9d17d">3.19. Learning to fly: Pink floyd</a></li>
+</ul>
+</li>
+<li><a href="#org05a3799">4. Candidates</a>
+<ul>
+<li><a href="#org223414b">4.1. Undone: Bush</a></li>
+<li><a href="#org9d90c26">4.2. Would you believe: Spirit</a></li>
+<li><a href="#orgc9790fc">4.3. Master of the Universe: Hawkwind</a></li>
+<li><a href="#org1a21a4a">4.4. While my guitar gently weeps: Beatles</a></li>
+<li><a href="#org30c6a05">4.5. The War Inside: Tom Morello</a></li>
+<li><a href="#org0b8c6be">4.6. SOS: Jonas Brothers</a></li>
+<li><a href="#org4d13cef">4.7. Stargazer: Rainbow</a></li>
+<li><a href="#org0b076da">4.8. I'd love to change the world: Ten years after</a></li>
+<li><a href="#orge11245e">4.9. The End: Klergy</a></li>
+<li><a href="#org8cd9795">4.10. Losing Heart: Brandi Carlile</a></li>
+<li><a href="#orgba8347f">4.11. The resistance. Muse.</a></li>
+<li><a href="#org52adef4">4.12. The Dolphins cry: Live</a></li>
+<li><a href="#org05d0dfc">4.13. Not ready to make nice: Dixie Chicks</a></li>
+<li><a href="#org85904f2">4.14. Louder than hell: Mono inc</a></li>
+<li><a href="#org2d55717">4.15. Children of the Dark: Mono inc.</a></li>
+<li><a href="#org16c670c">4.16. Voices of Doom: Mono inc</a></li>
+<li><a href="#orgf57098b">4.17. Raining Stars: Lord of the lost</a></li>
+<li><a href="#orgd7c06f7">4.18. So human of you: Shireen</a></li>
+<li><a href="#org708c802">4.19. Monarch: Soen</a></li>
+<li><a href="#orgfd0d692">4.20. Modesty: Soen</a></li>
+<li><a href="#org1908975">4.21. Dissident: Soen</a></li>
+<li><a href="#org5269193">4.22. What a shame: Mushroomhead</a></li>
+<li><a href="#orgb27503b">4.23. The heresy: Mushroomhead</a></li>
+<li><a href="#orgd6fcb88">4.24. Pulse: Mushroomhead</a></li>
+<li><a href="#org137135b">4.25. The Flood: Mushroomhead</a></li>
+<li><a href="#org8d8aa94">4.26. The Nurturing Glance: Soilwork</a></li>
+<li><a href="#org20f32b1">4.27. Death Diviner: Soilwork</a></li>
+<li><a href="#org8d874dd">4.28. Electric again: Soilwork</a></li>
+<li><a href="#org24c4a07">4.29. Dancing on Broken Glass: Poets of the Fall</a></li>
+<li><a href="#orgc046fc3">4.30. My Dark Disquiet: Poets of the Fall</a></li>
+<li><a href="#org6726153">4.31. False Kings: Poets of the Fall</a></li>
+<li><a href="#org10fa8ea">4.32. Standstill: Poets of the Fall</a></li>
+<li><a href="#org762009d">4.33. Ghosts in the Machine: Bush</a></li>
+<li><a href="#org15ae56c">4.34. True Ugly: Coheed and Cambria</a></li>
+<li><a href="#orgfa3aa44">4.35. Creatures of habit: Polaris</a></li>
+<li><a href="#org089fa9a">4.36. Ahang e Dousti: Surplus</a></li>
+<li><a href="#org6ee1696">4.37. So long, and thanks for all the fish: A perfect circle</a></li>
+<li><a href="#org2f381bc">4.38. The Spellbound Line: Dzeta</a></li>
+<li><a href="#orgd22464e">4.39. Third Law: Leprous</a></li>
+<li><a href="#orgf5b8e62">4.40. Rumi: Serj Tankian</a></li>
+<li><a href="#org0b6a772">4.41. Spirits in the Night: Manfred Mann's earth band</a></li>
+<li><a href="#org5f4f1f5">4.42. Sanctimonious: Halo</a></li>
+<li><a href="#orgb95133f">4.43. Echoes: Pink Floyd</a></li>
+<li><a href="#org4869be6">4.44. Take the Power Back: Rage Against The Machine</a></li>
+<li><a href="#org74cecd2">4.45. Smoke and mirrors: Echoes of Eternity</a></li>
+<li><a href="#org9c9dce4">4.46. Schism: Tool</a></li>
+<li><a href="#orgc4890ae">4.47. Baby Blue: Badfinger</a></li>
+<li><a href="#org6dda75f">4.48. I'm Gonna be (500 miles): The Proclaimers</a></li>
+<li><a href="#org7e6bbac">4.49. Kaisarion: Ghostbc</a></li>
+<li><a href="#org08ce9f9">4.50. Hey you: Disturbed</a></li>
+<li><a href="#org1b95884">4.51. Biko: Peter Gabriel</a></li>
+<li><a href="#org2bd4909">4.52. The Bends: Rabbit Junk</a></li>
+<li><a href="#org3f9dda4">4.53. Nostromo: Rabbit Junk</a></li>
+<li><a href="#orgf28ceec">4.54. Run: Amy MacDonald</a></li>
+</ul>
+</li>
+<li><a href="#org9b1e32d">5. Cooperations</a>
+<ul>
+<li><a href="#org34440e4">5.1. Happy: Pharrell Williams</a></li>
+<li><a href="#org347455d">5.2. Smoke on the water: Deep Purple</a></li>
+<li><a href="#org3864b3c">5.3. Sunshine of your love: Cream</a></li>
+<li><a href="#org264ffdf">5.4. Every Breath You Take: Police</a></li>
+<li><a href="#orge2cabda">5.5. Time: Pink Floyd</a></li>
+</ul>
+</li>
+<li><a href="#orgb7f172c">6. <span class="todo TODO">TODO</span> New Song or Tune</a></li>
+<li><a href="#org6993f1d">7. <span class="todo TODO">TODO</span> Practice</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org1107068" class="outline-2">
+<h2 id="org1107068"><span class="section-number-2">1.</span> Ready EADGBE</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-org7a15dda" class="outline-3">
+<h3 id="org7a15dda"><span class="section-number-3">1.1.</span> Runaway Train: Soul Asylum</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+"Call you up in the middle of the night"
+Whatever, works on eadgbe or baritone
+</p>
+<ul class="org-ul">
+<li>C Em Am G</li>
+<li>F G C Am</li>
+<li>F Em G</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org34a0ccd" class="outline-3">
+<h3 id="org34a0ccd"><span class="section-number-3">1.2.</span> Riddle Of The Sphinx: Armaggedon Zoo</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+"Whos idea of liberty"
+</p>
+<ul class="org-ul">
+<li>A D</li>
+<li>E D</li>
+</ul>
+</div>
+<div id="outline-container-org27dbd73" class="outline-4">
+<h4 id="org27dbd73"><span class="section-number-4">1.2.1.</span> links</h4>
+<div class="outline-text-4" id="text-1-2-1">
+<p>
+<a href="https://soulflyer.co.uk/riddle-of-the-sphynx.mp4">Zoo at the Cumberland</a>
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org06791d6" class="outline-3">
+<h3 id="org06791d6"><span class="section-number-3">1.3.</span> How Many: Armaggedon Zoo</h3>
+<div class="outline-text-3" id="text-1-3">
+<ul class="org-ul">
+<li>E5 D5</li>
+<li>Riff (E5)</li>
+<li>G C A D</li>
+<li>E D C B A</li>
+</ul>
+</div>
+<div id="outline-container-orgfed326e" class="outline-4">
+<h4 id="orgfed326e"><span class="section-number-4">1.3.1.</span> Links</h4>
+<div class="outline-text-4" id="text-1-3-1">
+<p>
+<a href="https://soulflyer.co.uk/Sounds/How-Many.mp3">How-Many.mp3</a>
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgedb955a" class="outline-3">
+<h3 id="orgedb955a"><span class="section-number-3">1.4.</span> Psycho Killer: Talking Heads</h3>
+<div class="outline-text-3" id="text-1-4">
+<p>
+"Can't seem to face up to the facts"
+Best on EADGBE
+</p>
+<ul class="org-ul">
+<li>Am G</li>
+<li>F G Am</li>
+<li>F G C</li>
+<li>F#m G</li>
+</ul>
+</div>
+<div id="outline-container-orgf579820" class="outline-4">
+<h4 id="orgf579820"><span class="section-number-4">1.4.1.</span> links</h4>
+<div class="outline-text-4" id="text-1-4-1">
+<p>
+<a href="https://www.youtube.com/watch?v=CKti7QixnJI">https://www.youtube.com/watch?v=CKti7QixnJI</a>
+<a href="https://www.youtube.com/watch?v=jzIuZ-mrIL0">https://www.youtube.com/watch?v=jzIuZ-mrIL0</a>
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org26ad556" class="outline-3">
+<h3 id="org26ad556"><span class="section-number-3">1.5.</span> Refugee: Tom Petty</h3>
+<div class="outline-text-3" id="text-1-5">
+<p>
+Best on EADGBE, but possible on baritone using different tab to stay at roughly the same pitch. Dropping the pitch is do-able but lacks something in the vocal part.
+</p>
+<ul class="org-ul">
+<li>Bm D A</li>
+<li>G A</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org6ea433f" class="outline-3">
+<h3 id="org6ea433f"><span class="section-number-3">1.6.</span> Sleep the clock around: Belle and Sebastian</h3>
+<div class="outline-text-3" id="text-1-6">
+<p>
+Whatever
+</p>
+<ul class="org-ul">
+<li>E B C#m A</li>
+</ul>
+<p>
+"And the moment will come"
+</p>
+</div>
+</div>
+
+<div id="outline-container-org5e93a05" class="outline-3">
+<h3 id="org5e93a05"><span class="section-number-3">1.7.</span> The Bad Touch: Bloodhound Gang</h3>
+<div class="outline-text-3" id="text-1-7">
+<ul class="org-ul">
+<li>C#m E B A (- Bm D A G)</li>
+</ul>
+<p>
+"Sweat baby sweat"
+</p>
+</div>
+</div>
+
+<div id="outline-container-org94b7c6c" class="outline-3">
+<h3 id="org94b7c6c"><span class="section-number-3">1.8.</span> Battle of the Beanfield: The Levellers</h3>
+<div class="outline-text-3" id="text-1-8">
+<ul class="org-ul">
+<li>E5 D5 C5</li>
+</ul>
+<p>
+"I thought I heard something calling me"
+Starts on a B, fairly high.
+</p>
+</div>
+</div>
+<div id="outline-container-org137cd4b" class="outline-3">
+<h3 id="org137cd4b"><span class="section-number-3">1.9.</span> Roll over Beethoven: Electric Light Orchestra</h3>
+<div class="outline-text-3" id="text-1-9">
+<ul class="org-ul">
+<li>B E B</li>
+<li>E B</li>
+<li>F# E B</li>
+</ul>
+<p>
+"Gonna write a little letter"
+</p>
+</div>
+</div>
+<div id="outline-container-orgdae4306" class="outline-3">
+<h3 id="orgdae4306"><span class="section-number-3">1.10.</span> I will follow you into the dark: Death cab for cutie</h3>
+<div class="outline-text-3" id="text-1-10">
+<ul class="org-ul">
+<li>C Am F C G</li>
+<li>Am C F C</li>
+<li>Am C G</li>
+<li>Am C E Am</li>
+<li>Am G F Fm C</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orge76bc93" class="outline-3">
+<h3 id="orge76bc93"><span class="section-number-3">1.11.</span> On the turning away: Pink Floyd</h3>
+<div class="outline-text-3" id="text-1-11">
+<p>
+Really needs the 12 string&#x2026;
+</p>
+</div>
+</div>
+<div id="outline-container-org454fdd9" class="outline-3">
+<h3 id="org454fdd9"><span class="section-number-3">1.12.</span> Too Far Gone: Russell Crowe</h3>
+<div class="outline-text-3" id="text-1-12">
+<p>
+eadgbe
+</p>
+<ul class="org-ul">
+<li>Am G C F G</li>
+<li>C G F G</li>
+<li>Dm Am Dm G</li>
+<li>Am Em F G</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orge506997" class="outline-3">
+<h3 id="orge506997"><span class="section-number-3">1.13.</span> Behind A Mask: Machine Head</h3>
+<div class="outline-text-3" id="text-1-13">
+<p>
+<a href="https://tab.tuneguitar.net/machine-head/behind-a-mask">tab</a>
+Best on EADGBE, works well enough with capo on Baritone.
+</p>
+<ul class="org-ul">
+<li>Am C F E</li>
+<li>F G Am</li>
+<li>F G Am G F G F</li>
+<li>F G E / F G D</li>
+</ul>
+<p>
+solo: 
+</p>
+<ul class="org-ul">
+<li>Am F5 E5 D5</li>
+<li>F E/F C B G</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org1ec8651" class="outline-3">
+<h3 id="org1ec8651"><span class="section-number-3">1.14.</span> Common People: Pulp</h3>
+<div class="outline-text-3" id="text-1-14">
+<ul class="org-ul">
+<li>B F# E</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org8417539" class="outline-2">
+<h2 id="org8417539"><span class="section-number-2">2.</span> Ready Baritone</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-org39ed195" class="outline-3">
+<h3 id="org39ed195"><span class="section-number-3">2.1.</span> Run to the water: Live</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+Baritone only
+</p>
+</div>
+</div>
+<div id="outline-container-orgb8eb26f" class="outline-3">
+<h3 id="orgb8eb26f"><span class="section-number-3">2.2.</span> Another Girl Another Planet: The only ones</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+<a href="https://www.youtube.com/watch?v=ilDD5SeHxXE">youtube</a>
+Baritone
+</p>
+<ul class="org-ul">
+<li>A E D C</li>
+<li>A D A D A D C# B E</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org441f13e" class="outline-3">
+<h3 id="org441f13e"><span class="section-number-3">2.3.</span> Big Muff: John Martyn</h3>
+</div>
+</div>
+
+<div id="outline-container-orgb5403bd" class="outline-2">
+<h2 id="orgb5403bd"><span class="section-number-2">3.</span> Working on</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-orgbb72639" class="outline-3">
+<h3 id="orgbb72639"><span class="section-number-3">3.1.</span> Lightning Crashes: Live</h3>
+</div>
+<div id="outline-container-orgcb1e913" class="outline-3">
+<h3 id="orgcb1e913"><span class="section-number-3">3.2.</span> Bastards: Machine Head</h3>
+</div>
+<div id="outline-container-orge0f3df7" class="outline-3">
+<h3 id="orge0f3df7"><span class="section-number-3">3.3.</span> Jenny was a friend of mine: Killers</h3>
+<div class="outline-text-3" id="text-3-3">
+<p>
+Baritone. Vocals are tough on EADGBE.
+</p>
+</div>
+</div>
+<div id="outline-container-org1a6baa9" class="outline-3">
+<h3 id="org1a6baa9"><span class="section-number-3">3.4.</span> Ballad of a Dead Man: Powderfinger</h3>
+<div class="outline-text-3" id="text-3-4">
+<p>
+Difficult on EADGBE
+</p>
+</div>
+</div>
+<div id="outline-container-orgc3ad60f" class="outline-3">
+<h3 id="orgc3ad60f"><span class="section-number-3">3.5.</span> Dream Catch Me: Newton Faulkner</h3>
+<div class="outline-text-3" id="text-3-5">
+<p>
+Doable but difficult on EADGBE
+</p>
+</div>
+</div>
+<div id="outline-container-org19c05c0" class="outline-3">
+<h3 id="org19c05c0"><span class="section-number-3">3.6.</span> Don't fear the reaper: Blue Oyster Cult</h3>
+<div class="outline-text-3" id="text-3-6">
+<p>
+Best on EADGBE
+</p>
+</div>
+</div>
+<div id="outline-container-orgbbfcd76" class="outline-3">
+<h3 id="orgbbfcd76"><span class="section-number-3">3.7.</span> Follow me up to Carlow: Planxty</h3>
+</div>
+<div id="outline-container-orgdc287da" class="outline-3">
+<h3 id="orgdc287da"><span class="section-number-3">3.8.</span> Rocky Mountain Way: Joe Walsh</h3>
+</div>
+<div id="outline-container-orgda8fef4" class="outline-3">
+<h3 id="orgda8fef4"><span class="section-number-3">3.9.</span> Romeo and Juliet: Dire Straits</h3>
+</div>
+<div id="outline-container-orgbd38b14" class="outline-3">
+<h3 id="orgbd38b14"><span class="section-number-3">3.10.</span> Right in two: Tool</h3>
+<div class="outline-text-3" id="text-3-10">
+<p>
+<a href="https://www.youtube.com/watch?v=6E1DkgUNfBc">youtube, beard of harmony</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org61c9d95" class="outline-3">
+<h3 id="org61c9d95"><span class="section-number-3">3.11.</span> Suppers ready: genesis</h3>
+</div>
+<div id="outline-container-org9849e87" class="outline-3">
+<h3 id="org9849e87"><span class="section-number-3">3.12.</span> Paint it black: Rolling Stones</h3>
+</div>
+<div id="outline-container-orgdfcd812" class="outline-3">
+<h3 id="orgdfcd812"><span class="section-number-3">3.13.</span> Rocky Road To Dublin: Dubliners</h3>
+</div>
+<div id="outline-container-org10c9711" class="outline-3">
+<h3 id="org10c9711"><span class="section-number-3">3.14.</span> All my life: Foo Fighters</h3>
+</div>
+<div id="outline-container-orgb7c6e0c" class="outline-3">
+<h3 id="orgb7c6e0c"><span class="section-number-3">3.15.</span> I'm not like everybody else: Kinks</h3>
+</div>
+<div id="outline-container-orge509ffc" class="outline-3">
+<h3 id="orge509ffc"><span class="section-number-3">3.16.</span> The Green Fields of France: 1914</h3>
+</div>
+<div id="outline-container-org5f9023a" class="outline-3">
+<h3 id="org5f9023a"><span class="section-number-3">3.17.</span> Sober: Tool</h3>
+</div>
+<div id="outline-container-org0f8615e" class="outline-3">
+<h3 id="org0f8615e"><span class="section-number-3">3.18.</span> Blood River: Bush</h3>
+</div>
+<div id="outline-container-orgfd9d17d" class="outline-3">
+<h3 id="orgfd9d17d"><span class="section-number-3">3.19.</span> Learning to fly: Pink floyd</h3>
+<div class="outline-text-3" id="text-3-19">
+<ul class="org-ul">
+<li>G Em D G</li>
+<li>C Am F C</li>
+<li>C Am F C D G</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org05a3799" class="outline-2">
+<h2 id="org05a3799"><span class="section-number-2">4.</span> Candidates</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-org223414b" class="outline-3">
+<h3 id="org223414b"><span class="section-number-3">4.1.</span> Undone: Bush</h3>
+</div>
+<div id="outline-container-org9d90c26" class="outline-3">
+<h3 id="org9d90c26"><span class="section-number-3">4.2.</span> Would you believe: Spirit</h3>
+</div>
+<div id="outline-container-orgc9790fc" class="outline-3">
+<h3 id="orgc9790fc"><span class="section-number-3">4.3.</span> Master of the Universe: Hawkwind</h3>
+</div>
+<div id="outline-container-org1a21a4a" class="outline-3">
+<h3 id="org1a21a4a"><span class="section-number-3">4.4.</span> While my guitar gently weeps: Beatles</h3>
+</div>
+<div id="outline-container-org30c6a05" class="outline-3">
+<h3 id="org30c6a05"><span class="section-number-3">4.5.</span> The War Inside: Tom Morello</h3>
+</div>
+<div id="outline-container-org0b8c6be" class="outline-3">
+<h3 id="org0b8c6be"><span class="section-number-3">4.6.</span> SOS: Jonas Brothers</h3>
+</div>
+<div id="outline-container-org4d13cef" class="outline-3">
+<h3 id="org4d13cef"><span class="section-number-3">4.7.</span> Stargazer: Rainbow</h3>
+</div>
+<div id="outline-container-org0b076da" class="outline-3">
+<h3 id="org0b076da"><span class="section-number-3">4.8.</span> I'd love to change the world: Ten years after</h3>
+</div>
+<div id="outline-container-orge11245e" class="outline-3">
+<h3 id="orge11245e"><span class="section-number-3">4.9.</span> The End: Klergy</h3>
+<div class="outline-text-3" id="text-4-9">
+<p>
+<a href="https://www.youtube.com/watch?v=ImsXlOBhhV8">https://www.youtube.com/watch?v=ImsXlOBhhV8</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org8cd9795" class="outline-3">
+<h3 id="org8cd9795"><span class="section-number-3">4.10.</span> Losing Heart: Brandi Carlile</h3>
+<div class="outline-text-3" id="text-4-10">
+<p>
+<a href="https://www.youtube.com/watch?v=QPAfytlpdAI">https://www.youtube.com/watch?v=QPAfytlpdAI</a>
+</p>
+</div>
+</div>
+<div id="outline-container-orgba8347f" class="outline-3">
+<h3 id="orgba8347f"><span class="section-number-3">4.11.</span> The resistance. Muse.</h3>
+<div class="outline-text-3" id="text-4-11">
+<p>
+Possibly the title track, but there are other candidates.
+</p>
+</div>
+</div>
+<div id="outline-container-org52adef4" class="outline-3">
+<h3 id="org52adef4"><span class="section-number-3">4.12.</span> The Dolphins cry: Live</h3>
+</div>
+<div id="outline-container-org05d0dfc" class="outline-3">
+<h3 id="org05d0dfc"><span class="section-number-3">4.13.</span> Not ready to make nice: Dixie Chicks</h3>
+</div>
+<div id="outline-container-org85904f2" class="outline-3">
+<h3 id="org85904f2"><span class="section-number-3">4.14.</span> Louder than hell: Mono inc</h3>
+</div>
+<div id="outline-container-org2d55717" class="outline-3">
+<h3 id="org2d55717"><span class="section-number-3">4.15.</span> Children of the Dark: Mono inc.</h3>
+</div>
+<div id="outline-container-org16c670c" class="outline-3">
+<h3 id="org16c670c"><span class="section-number-3">4.16.</span> Voices of Doom: Mono inc</h3>
+<div class="outline-text-3" id="text-4-16">
+<p>
+<a href="https://www.youtube.com/watch?v=0W-ltdZusjo">https://www.youtube.com/watch?v=0W-ltdZusjo</a>
+</p>
+</div>
+</div>
+<div id="outline-container-orgf57098b" class="outline-3">
+<h3 id="orgf57098b"><span class="section-number-3">4.17.</span> Raining Stars: Lord of the lost</h3>
+</div>
+<div id="outline-container-orgd7c06f7" class="outline-3">
+<h3 id="orgd7c06f7"><span class="section-number-3">4.18.</span> So human of you: Shireen</h3>
+<div class="outline-text-3" id="text-4-18">
+<p>
+<a href="https://www.youtube.com/watch?v=dNeTflipN6w">https://www.youtube.com/watch?v=dNeTflipN6w</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org708c802" class="outline-3">
+<h3 id="org708c802"><span class="section-number-3">4.19.</span> Monarch: Soen</h3>
+</div>
+<div id="outline-container-orgfd0d692" class="outline-3">
+<h3 id="orgfd0d692"><span class="section-number-3">4.20.</span> Modesty: Soen</h3>
+</div>
+<div id="outline-container-org1908975" class="outline-3">
+<h3 id="org1908975"><span class="section-number-3">4.21.</span> Dissident: Soen</h3>
+</div>
+<div id="outline-container-org5269193" class="outline-3">
+<h3 id="org5269193"><span class="section-number-3">4.22.</span> What a shame: Mushroomhead</h3>
+</div>
+<div id="outline-container-orgb27503b" class="outline-3">
+<h3 id="orgb27503b"><span class="section-number-3">4.23.</span> The heresy: Mushroomhead</h3>
+</div>
+<div id="outline-container-orgd6fcb88" class="outline-3">
+<h3 id="orgd6fcb88"><span class="section-number-3">4.24.</span> Pulse: Mushroomhead</h3>
+</div>
+<div id="outline-container-org137135b" class="outline-3">
+<h3 id="org137135b"><span class="section-number-3">4.25.</span> The Flood: Mushroomhead</h3>
+</div>
+<div id="outline-container-org8d8aa94" class="outline-3">
+<h3 id="org8d8aa94"><span class="section-number-3">4.26.</span> The Nurturing Glance: Soilwork</h3>
+</div>
+<div id="outline-container-org20f32b1" class="outline-3">
+<h3 id="org20f32b1"><span class="section-number-3">4.27.</span> Death Diviner: Soilwork</h3>
+<div class="outline-text-3" id="text-4-27">
+<p>
+Great guitar riff, relentless.
+</p>
+</div>
+</div>
+<div id="outline-container-org8d874dd" class="outline-3">
+<h3 id="org8d874dd"><span class="section-number-3">4.28.</span> Electric again: Soilwork</h3>
+</div>
+<div id="outline-container-org24c4a07" class="outline-3">
+<h3 id="org24c4a07"><span class="section-number-3">4.29.</span> Dancing on Broken Glass: Poets of the Fall</h3>
+</div>
+<div id="outline-container-orgc046fc3" class="outline-3">
+<h3 id="orgc046fc3"><span class="section-number-3">4.30.</span> My Dark Disquiet: Poets of the Fall</h3>
+</div>
+<div id="outline-container-org6726153" class="outline-3">
+<h3 id="org6726153"><span class="section-number-3">4.31.</span> False Kings: Poets of the Fall</h3>
+</div>
+<div id="outline-container-org10fa8ea" class="outline-3">
+<h3 id="org10fa8ea"><span class="section-number-3">4.32.</span> Standstill: Poets of the Fall</h3>
+</div>
+<div id="outline-container-org762009d" class="outline-3">
+<h3 id="org762009d"><span class="section-number-3">4.33.</span> Ghosts in the Machine: Bush</h3>
+</div>
+<div id="outline-container-org15ae56c" class="outline-3">
+<h3 id="org15ae56c"><span class="section-number-3">4.34.</span> True Ugly: Coheed and Cambria</h3>
+</div>
+<div id="outline-container-orgfa3aa44" class="outline-3">
+<h3 id="orgfa3aa44"><span class="section-number-3">4.35.</span> Creatures of habit: Polaris</h3>
+<div class="outline-text-3" id="text-4-35">
+<p>
+Beautiful mix of growl and sweet
+</p>
+</div>
+</div>
+<div id="outline-container-org089fa9a" class="outline-3">
+<h3 id="org089fa9a"><span class="section-number-3">4.36.</span> Ahang e Dousti: Surplus</h3>
+<div class="outline-text-3" id="text-4-36">
+<p>
+Need to translate the word and that guitar part will be a bitch to figure out. Guitar part isn't so bad, but words are impossible.
+</p>
+</div>
+</div>
+<div id="outline-container-org6ee1696" class="outline-3">
+<h3 id="org6ee1696"><span class="section-number-3">4.37.</span> So long, and thanks for all the fish: A perfect circle</h3>
+</div>
+<div id="outline-container-org2f381bc" class="outline-3">
+<h3 id="org2f381bc"><span class="section-number-3">4.38.</span> The Spellbound Line: Dzeta</h3>
+<div class="outline-text-3" id="text-4-38">
+<p>
+Great riff. Not sure if this would work&#x2026;
+</p>
+</div>
+</div>
+<div id="outline-container-orgd22464e" class="outline-3">
+<h3 id="orgd22464e"><span class="section-number-3">4.39.</span> Third Law: Leprous</h3>
+<div class="outline-text-3" id="text-4-39">
+<p>
+Maybe not.
+</p>
+</div>
+</div>
+<div id="outline-container-orgf5b8e62" class="outline-3">
+<h3 id="orgf5b8e62"><span class="section-number-3">4.40.</span> Rumi: Serj Tankian</h3>
+</div>
+<div id="outline-container-org0b6a772" class="outline-3">
+<h3 id="org0b6a772"><span class="section-number-3">4.41.</span> Spirits in the Night: Manfred Mann's earth band</h3>
+</div>
+<div id="outline-container-org5f4f1f5" class="outline-3">
+<h3 id="org5f4f1f5"><span class="section-number-3">4.42.</span> Sanctimonious: Halo</h3>
+</div>
+<div id="outline-container-orgb95133f" class="outline-3">
+<h3 id="orgb95133f"><span class="section-number-3">4.43.</span> Echoes: Pink Floyd</h3>
+</div>
+<div id="outline-container-org4869be6" class="outline-3">
+<h3 id="org4869be6"><span class="section-number-3">4.44.</span> Take the Power Back: Rage Against The Machine</h3>
+</div>
+<div id="outline-container-org74cecd2" class="outline-3">
+<h3 id="org74cecd2"><span class="section-number-3">4.45.</span> Smoke and mirrors: Echoes of Eternity</h3>
+<div class="outline-text-3" id="text-4-45">
+<ul class="org-ul">
+<li>Em C D Bm</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org9c9dce4" class="outline-3">
+<h3 id="org9c9dce4"><span class="section-number-3">4.46.</span> Schism: Tool</h3>
+</div>
+<div id="outline-container-orgc4890ae" class="outline-3">
+<h3 id="orgc4890ae"><span class="section-number-3">4.47.</span> Baby Blue: Badfinger</h3>
+</div>
+<div id="outline-container-org6dda75f" class="outline-3">
+<h3 id="org6dda75f"><span class="section-number-3">4.48.</span> I'm Gonna be (500 miles): The Proclaimers</h3>
+</div>
+<div id="outline-container-org7e6bbac" class="outline-3">
+<h3 id="org7e6bbac"><span class="section-number-3">4.49.</span> Kaisarion: Ghostbc</h3>
+<div class="outline-text-3" id="text-4-49">
+<p>
+Great hook, but need to remove the cheese. Total rework, DONT cover the arrangement. Acapella?
+</p>
+</div>
+</div>
+<div id="outline-container-org08ce9f9" class="outline-3">
+<h3 id="org08ce9f9"><span class="section-number-3">4.50.</span> Hey you: Disturbed</h3>
+</div>
+<div id="outline-container-org1b95884" class="outline-3">
+<h3 id="org1b95884"><span class="section-number-3">4.51.</span> Biko: Peter Gabriel</h3>
+</div>
+<div id="outline-container-org2bd4909" class="outline-3">
+<h3 id="org2bd4909"><span class="section-number-3">4.52.</span> The Bends: Rabbit Junk</h3>
+</div>
+<div id="outline-container-org3f9dda4" class="outline-3">
+<h3 id="org3f9dda4"><span class="section-number-3">4.53.</span> Nostromo: Rabbit Junk</h3>
+</div>
+<div id="outline-container-orgf28ceec" class="outline-3">
+<h3 id="orgf28ceec"><span class="section-number-3">4.54.</span> Run: Amy MacDonald</h3>
+</div>
+</div>
+<div id="outline-container-org9b1e32d" class="outline-2">
+<h2 id="org9b1e32d"><span class="section-number-2">5.</span> Cooperations</h2>
+<div class="outline-text-2" id="text-5">
+</div>
+<div id="outline-container-org34440e4" class="outline-3">
+<h3 id="org34440e4"><span class="section-number-3">5.1.</span> Happy: Pharrell Williams</h3>
+<div class="outline-text-3" id="text-5-1">
+<p>
+<a href="https://www.youtube.com/watch?v=ZbZSe6N_BXs">youtube</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org347455d" class="outline-3">
+<h3 id="org347455d"><span class="section-number-3">5.2.</span> Smoke on the water: Deep Purple</h3>
+</div>
+<div id="outline-container-org3864b3c" class="outline-3">
+<h3 id="org3864b3c"><span class="section-number-3">5.3.</span> Sunshine of your love: Cream</h3>
+</div>
+
+<div id="outline-container-org264ffdf" class="outline-3">
+<h3 id="org264ffdf"><span class="section-number-3">5.4.</span> Every Breath You Take: Police</h3>
+</div>
+
+<div id="outline-container-orge2cabda" class="outline-3">
+<h3 id="orge2cabda"><span class="section-number-3">5.5.</span> Time: Pink Floyd</h3>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Iain Wood</p>
+<p class="date">Created: 2024-09-24 Tue 17:19</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

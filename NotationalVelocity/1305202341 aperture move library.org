@@ -1,0 +1,7 @@
+#+TITLE: aperture move library
+# TAGS #aperture
+
+sudo chflags -R nouchg backup.apvault/
+unlocks it so it can be moved or deleted
+sudo chflags -R uchg backup.apvault/
+locks it again

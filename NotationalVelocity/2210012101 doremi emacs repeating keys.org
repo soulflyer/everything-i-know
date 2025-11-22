@@ -1,0 +1,7 @@
+#+TITLE: doremi emacs repeating keys
+# Tags #emacs
+https://www.emacswiki.org/emacs/doremi.el
+
+Also:
+https://github.com/e17i/emacs-config/
+There is also some stuff there about window-display.

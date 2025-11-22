@@ -1,0 +1,14 @@
+#+TITLE: emacs web-mode
+# TAGS #emacs
+
+Outdated keybindings.
+
+C-c C-n     skip from open tag to close tag and vv
+M-;     comment, uncomment
+C-c C-i     re-indent entire buffer
+C-c tab ""  ""
+C-c C-w toggle display whitespace
+C-c C-d d   check for mismatched tags
+C-c C-e     end of current enclosing element
+C-c C-b beginning of enclosing element
+C-c C-e w wrap selection in an element

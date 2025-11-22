@@ -1,0 +1,6 @@
+#+TITLE: age highlighting buffer content.
+# Tags #emacs #webbookmark
+
+Smeargle will highlight a buffer according to the time it was updated so its easy to see where you were working.
+
+https://github.com/emacsorphanage/smeargle

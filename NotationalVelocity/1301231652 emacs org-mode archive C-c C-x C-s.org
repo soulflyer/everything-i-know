@@ -1,0 +1,6 @@
+#+TITLE: emacs org-mode archive C-c C-x C-s
+# TAGS #emacs
+
+or C-c $
+or C-c C-x C-a
+or C-c C-x C-A to archive into the same file.

@@ -1,0 +1,10 @@
+#+TITLE: photogrametry
+# TAGS #photogrametry
+
+https://github.com/flanggut/smvs
+
+https://demuc.de/colmap/
+
+http://cdcseacave.github.io/openMVS/
+
+https://peterfalkingham.com/2016/09/14/trying-all-the-free-photogrammetry/

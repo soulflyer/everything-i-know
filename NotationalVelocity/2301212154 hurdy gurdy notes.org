@@ -1,0 +1,61 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2301212154 hurdy gurdy notes-images
+:END:
+#+TITLE: hurdy gurdy
+ notes
+# Tags #hurdy-gurdy
+
+Designs for adjustable bridges, inc trompette in [[pdf:~/Documents/books/bookshelf/Musical-Instruments/hurdy gurdy/McCormac/Henri 02.pdf::1++3.79][Henri 02.pdf]]
+details are in [[pdf:~/Documents/books/bookshelf/Musical-Instruments/hurdy gurdy/McCormac/Henri 3 hurdy gurdy.pdf::1++0.00][Henri 3 hurdy gurdy.pdf]] including sketchy details of fitting the soundboard.
+
+* Nick Nourse's Instructions
+[[https://web.archive.org/web/20010714163347/http://home.freeuk.net/musicworks/marchand_hg.htm][Archive]]
+Duplicated here. The pictures are small, don't bother clicking on them...
+
+I hope to be able to reasonably cover the construction of a 'Vielle carreé' or 'square' hurdy gurdy, based upon a rather poor A4 drawing purporting to be a Marchand of 1775. I have based a large part of the internal construction on Marcello Bono's Bosch model HG (see the Bosch HG page), and the rest is (I hope) good common instrument-making sense.
+[[file:2301212154 hurdy gurdy notes-images/screenshot-20241206-173650.png]]
+
+The two substantial end blocks, made of maple. These are 120mm deep, and their construction benefits from some sort of mechanical assistance.	
+[[file:2301212154 hurdy gurdy notes-images/screenshot-20241206-173920.png]]
+
+The end blocks and the two straight ribs of 2.5mm maple, fitted and glued up. The ribs are set into saw cuts as shown in the lower picture. The white paper under the end blocks is so that the blocks can be removed from the building board without damage. I am using animal (or bone) glue throughout, unless otherwise stated.
+[[file:2301212154 hurdy gurdy notes-images/screenshot-20241206-174014.png]] [[file:2301212154 hurdy gurdy notes-images/screenshot-20241206-174031.png]]
+
+All three back struts, of 18mm spruce.	
+[[file:2301212154 hurdy gurdy notes-images/screenshot-20241206-174103.png]]
+
+The back struts are now in place, as are the lower linings.
+[[file:2301212154 hurdy gurdy notes-images/screenshot-20241206-174137.png]]
+
+This picture clearly shows the relatively flat curvature of the back, and the substantial curve built into the soundboard.
+[[file:2301212154 hurdy gurdy notes-images/screenshot-20241206-174222.png]]
+
+The body of the instrument, complete with the three front suuport struts in place, and their soundposts, and the front linings too.
+[[file:2301212154 hurdy gurdy notes-images/screenshot-20241206-174258.png]]
+
+The top block cut to take the two peg head supports - these are simple housing joints, using the back material to act as a 'stop' to the joints.
+[[file:2301212154 hurdy gurdy notes-images/screenshot-20241206-174331.png]]
+
+The two peg support pieces fitted, with a scrap piece of balsa to hold them parallel while gluing. The wheel has also been fitted at this stage, as it will be impossible once the front is glued on.
+[[file:2301212154 hurdy gurdy notes-images/screenshot-20241206-174416.png]]
+
+Preparing the peg head, in two parts. this part is finished by continued carving.
+[[file:2301212154 hurdy gurdy notes-images/screenshot-20241206-174456.png]]
+
+The soundboard fitted apart from final finishing at the peg head. The glue wash around the soundholes is to help prevent the wood from splitting.
+[[file:2301212154 hurdy gurdy notes-images/screenshot-20241206-174523.png]]
+
+The half-housing joints in the peg head used to attach the peg head to the support struts and the keybox sides.	
+[[file:2301212154 hurdy gurdy notes-images/screenshot-20241206-174601.png]]
+
+The peg head fitted, and the two turned supports ready for fitting into the top block.
+[[file:2301212154 hurdy gurdy notes-images/screenshot-20241206-174625.png]]
+
+As above but fitted, and pegged into the top block.
+[[file:2301212154 hurdy gurdy notes-images/screenshot-20241206-174655.png]]
+
+Pegbox sides fitted.
+[[file:2301212154 hurdy gurdy notes-images/screenshot-20241206-174726.png]]
+
+The 'white' keys rough fitted.
+[[file:2301212154 hurdy gurdy notes-images/screenshot-20241206-174804.png]]

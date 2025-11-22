@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2006091035 tab lilypond-images
+:END:
+#+TITLE: tab lilypond
+# TAGS #music
+
+http://lilypond.org/doc/v2.19/Documentation/notation/common-notation-for-fretted-strings#references-for-fretted-strings
+
+#+begin_src lilypond :file "lilypond/lilypond.png"
+  {<e' g'>2. <d' f'>8 <c' e'> <ees' ges'>2 <c' ees'>}
+#+end_src
+
+#+RESULTS:
+[[file:lilypond/lilypond.png]]
+
+Not 100% sure if the high harmony is E or Eb on the last note of bar 1
+
+[[https://lilypond.org/doc/v2.24/Documentation/notation/index][Manual]]
+

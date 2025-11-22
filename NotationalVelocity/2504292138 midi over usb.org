@@ -1,0 +1,12 @@
+#+TITLE: midi over usb
+# Tags #music
+
+[[https://tttapa.github.io/Control-Surface/Doxygen/d8/d4a/md_pages_MIDI-over-USB.html][Small boards]] table of boards that implement midi features
+
+[[https://shopee.vn/B%E1%BB%99-Arduino-Starter-Kit-Uno-R3-FULL-T%C3%80I-LI%E1%BB%86U-GI%C3%81-T%E1%BB%90T-NH%E1%BA%A4T-i.59721254.967080684?sp_atk=3099ceec-2e57-4eb9-9bbd-5fc12d20b5cb&xptdk=3099ceec-2e57-4eb9-9bbd-5fc12d20b5cb][Arduino leonardo starter kit]] shop also sells [[https://shopee.vn/M%E1%BA%A1ch-encoder-Module-m%C3%A3-h%C3%B3a-g%C3%B3c-quay-KY-040-i.59721254.1064674630][rotary encoders]]
+
+[[https://arduino.github.io/arduino-cli/1.2/installation/][Arduino-cli]]
+[[https://github.com/motform/arduino-cli-mode][arduino-cli-mode]]
+
+or run "Arduino\ IDE" and edit in emacs.
+

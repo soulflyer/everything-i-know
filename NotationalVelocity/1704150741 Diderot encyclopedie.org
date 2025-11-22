@@ -1,0 +1,12 @@
+#+TITLE: Diderot encyclopedie
+# TAGS #book
+
+http://encyclopedie.uchicago.edu/
+
+On archive.org, search for  RECUEIL DE PLANCHES DE L'ENCYCLOPÉDIE
+https://archive.org/search.php?query=RECUEIL+DE+PLANCHES+DE+L%27ENCYCLOP%C3%89DIE&sin=
+
+Vol 3 has instruments and Luthier:
+https://archive.org/details/bub_gb_TyYUnWCIHlsC/page/n329/mode/2up
+
+Doesn't appear to have volume 4 with the tourneur section

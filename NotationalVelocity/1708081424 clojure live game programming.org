@@ -1,0 +1,6 @@
+#+TITLE: clojure live game programming
+# TAGS #clojure #game
+
+Might be a good teaching tool
+
+https://sekao.net/nightmod/

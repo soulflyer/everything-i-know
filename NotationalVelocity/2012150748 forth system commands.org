@@ -1,0 +1,12 @@
+#+TITLE: forth system commands
+# TAGS #forth
+
+/put the string HOME into memory and leaves a pointer and a count on the stack.
+/Note that there is no space before the closing "
+s" HOME"
+
+getenv
+/takes the pointer and uses it as a param to getenv, leaves a pointer to result on the stack
+
+type
+/outputs the result, ie the contents of the env var $HOME

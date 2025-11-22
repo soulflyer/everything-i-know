@@ -1,0 +1,4 @@
+#+TITLE: linux lubuntu vnc server
+# TAGS #linux #vnc
+
+https://askubuntu.com/questions/87401/how-can-i-enable-remote-control-desktop-sharing-on-lubuntu

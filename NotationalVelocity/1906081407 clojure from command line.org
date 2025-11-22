@@ -1,0 +1,10 @@
+#+TITLE: clojure from command line
+# TAGS #clojure
+
+https://yobriefca.se/blog/2014/03/02/building-command-line-apps-with-clojure/
+https://github.com/Raynes/e-bin
+http://stackoverflow.com/questions/1341154/building-a-clojure-app-with-a-command-line-interface
+http://beaconhilltechnologysolutions.com/solutions/kb/clojure/building-command-line-applications-with-clojure.html
+also  clojure cookbook by VanderHart and Neufeld
+
+lein bin is probably what you are looking for... make sure [lein-bin "0.3.5"] is in the plugins

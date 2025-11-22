@@ -1,0 +1,6 @@
+#+TITLE: build-json -d Sailing Club 20150901Haris
+# TAGS
+
+build-json -d"Sailing Club" 20150901Haris
+
+add -z to make the zip file

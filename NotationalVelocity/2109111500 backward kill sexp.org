@@ -1,0 +1,7 @@
+#+TITLE: backward kill sexp
+# Tags #emacs #smartparens #paredit
+
+I currently have 2 fns to kill a line backward, and kill a sexp backwards that have the same keybinding, the sexp one over-riding the other when smartparens-mode is in use.
+
+This might work better:
+https://emacs.stackexchange.com/questions/29664/how-to-do-paredit-kill-backwards

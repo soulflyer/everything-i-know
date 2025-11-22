@@ -1,0 +1,8 @@
+#+TITLE: cider debug
+# TAGS #cider
+
+Useful functions:
+cider-inspect-expr
+cider-toggle-trace-var
+cider-browse-ns
+cider-inspect

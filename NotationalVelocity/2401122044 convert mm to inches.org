@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2401122044 convert mm to inches-images
+:END:
+#+TITLE: convert mm to inches
+
+[[file:2401122044 convert mm to inches-images/ruler.png]]

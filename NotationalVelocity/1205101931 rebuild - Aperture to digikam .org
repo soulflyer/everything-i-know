@@ -1,0 +1,4 @@
+#+TITLE: rebuild - Aperture to digikam 
+# TAGS #photo
+
+More applescripts to read ratings and convert to urgency

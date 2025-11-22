@@ -1,0 +1,3 @@
+#+TITLE: artificial intelligence
+# Tags #AI
+[[https://leanpub.com/clojureai/read][Practical Artificial Intelligence]] by M.Watson Uses clojure/python

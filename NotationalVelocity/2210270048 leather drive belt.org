@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2210270048 leather drive belt-images
+:END:
+#+TITLE: leather drive belt
+# Tags #lathe
+
+https://leatherworker.net/forum/topic/52922-how-to-make-my-own-leather-cord/
+https://www.libertyleathergoods.com/leather-edge-beveler/
+http://www.hansenstringcutter.com/
+https://www.etsy.com/uk/listing/1096194640/adjustable-leather-belt-cutter-belt
+https://www.decocuir.com/coupe-laniere-coupe-lacet-c102x3697668
+
+[[pdf:~/Documents/books/bookshelf/Leather/BruceJohnsonLeatherTutorialReinRounderUse.pdf::1++0.00][rein rounder pdf]]
+
+Or use tube, joined with a connector like this:
+[[file:2210270048 leather drive belt-images/connector.png]]
+
+from [[https://store.lathes.co.uk/belts/hollow-round-plastic-belting][https://store.lathes.co.uk/]]

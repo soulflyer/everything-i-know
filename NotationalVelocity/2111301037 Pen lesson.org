@@ -1,0 +1,25 @@
+#+TITLE: Pen lesson
+# Tags #
+
+#+begin_src c
+#include<stdio.h>	//Pre-processor directive
+int main()		//main function declaration
+{
+  printf("Hello Pen and Iain\n");  //to output the string on a display
+  return 0;
+}
+#+end_src
+
+g++ -o <output file name> <source file>
+g++ -o hello hello.c
+
+g++ --help > /tmp/g++help
+
+cat <very big file> | more
+more <very big file>
+
+>  sends output to a file
+|  sends output to a program
+
+Homework:
+Write a c program called goodbye that outputs "goodbye"

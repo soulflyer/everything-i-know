@@ -1,0 +1,34 @@
+#+TITLE: Haskell notes
+# Tags #haskell
+** Stack
+bit like make. Installed by 
+#+begin_src shell
+brew install haskell-stack*
+#+end_src
+
+Can be used to create a new project with 
+#+begin_src shell
+stack new my-project
+#+end_src
+
+Also:
+#+begin_src shell
+stack build
+stack exec
+#+end_src
+
+Can also build stuff the hard way ie for a single file my-prog.hs:
+#+begin_src shell
+ghc -o my-prog my-prog.hs
+./my-prog
+#+end_src
+
+** Syntax
+*** function types
+#+begin_src
+  my-function :: [char] -> [char]
+#+end_src
+:: separates name from type declaration
+-> separates the types. In this case *my-function* takes a string and returns a string
+
+Stopped reading here: http://learnyouahaskell.com/higher-order-functions

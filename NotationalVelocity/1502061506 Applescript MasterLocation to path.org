@@ -1,0 +1,8 @@
+#+TITLE: Applescript MasterLocation to path
+# TAGS #applescript
+
+set picurl to value of other tag "MasterLocation" of pic
+        set thescript to "echo " & quoted form of picurl & "| sed " & quoted form of "s[ > [/[g"
+        set picurl to do shell script thescript
+
+Gotcha: Gives month name as a word not a 2 digit integer

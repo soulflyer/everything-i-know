@@ -1,0 +1,4 @@
+#+TITLE: phonegap-cordova plugin wrappers
+# TAGS #phonegap
+
+ngCordova http://ngcordova.com/ wrps plugins using angular.js 

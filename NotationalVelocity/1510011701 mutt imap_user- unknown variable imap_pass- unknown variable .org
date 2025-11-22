@@ -1,0 +1,6 @@
+#+TITLE: mutt imap_user- unknown variable imap_pass- unknown variable 
+# TAGS #mutt
+
+caused by using the default build of mutt which doesn't have smtp support. Try:
+
+sudo port install mutt-devel +smtp+sidebar

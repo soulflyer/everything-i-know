@@ -1,0 +1,13 @@
+#+TITLE: Villarsflute
+# Tags #flute
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2410282354 Villarsflute-images
+:END:
+[[https://collectionsdumusee.philharmoniedeparis.fr/doc/MUSEE/0130159][Catalog entry]]
+around 1780
+A 415
+Silver rings
+[[https://librairie.philharmoniedeparis.fr/dessins-techniques/flute-traversiere-7][E980.2.16]]
+[[file:2410282354 Villarsflute-images/screenshot-20241028-235428.png]]
+
+[[file:2410282354 Villarsflute-images/screenshot-20241030-004012.png]] [[file:2410282354 Villarsflute-images/screenshot-20241030-004047.png]] [[file:2410282354 Villarsflute-images/screenshot-20241030-004118.png]]

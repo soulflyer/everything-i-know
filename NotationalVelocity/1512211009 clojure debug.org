@@ -1,0 +1,9 @@
+#+TITLE: clojure debug
+# TAGS #debug #clojure
+
+https://github.com/dgrnbrg/spyscope
+
+C-u C-M-x 		Sets a breakpoint on the enclosing sexp
+C-M-x			Recompile the enclosing sexp (gets rid of breakpoint)
+
+C-c M-t v			Sets a trace on a var. Not sure what a var is in this context, but a function name works.

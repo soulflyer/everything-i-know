@@ -1,0 +1,14 @@
+#+TITLE: clojure map-all
+# TAGS #clojure
+
+#+begin_src clojure
+(defn map-all [f & colls]
+  (lazy-seq
+   (when (some seq colls)
+     (cons (apply f (map first colls))
+           (apply map-all f (map rest colls))))))
+#+end_src
+
+Keeps going until all collections are empty rather than stopping when the first is empty like map does.
+
+http://stackoverflow.com/questions/15769530/whats-the-idiomatic-way-to-map-vector-according-to-the-longest-seq-in-clojure

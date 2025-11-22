@@ -1,0 +1,25 @@
+#+TITLE: photo geolocation tags
+# Tags #photos
+
+In the past I used *Aperture* to set the location of many pics. The Aperture db is long gone, but it looks like the geolocation data made it into the exported photos.
+
+#+begin_src bash
+cd /Users/iain/Pictures/Published/fullsize/2012
+exiftool -S -q -m -GPSPosition */*/*.@(JPG|jpg) | wc -l
+#+end_src
+
+returns 440
+
+Run in the corresponding masters directory there are far fewer. 91 when searching for *jpegs* and 93 when including *RAW*
+These are the extra 2:
+#+begin_src bash
+exiftool -S -m -GPSPosition /Users/iain/Pictures/Photos/2012/01/31-cephalopods/DIW_0178.NEF /Users/iain/Pictures/Photos/2012/01/31-cephalopods/DIW_0166.NEF
+#+end_src
+#+RESULTS:
+| ========       | /Users/iain/Pictures/Photos/2012/01/31-cephalopods/DIW_0178.NEF |       |      |         |     |     |     |        |        |   |
+| GPSPosition: | 12                                                              | deg   | 9'   | 50.28"  |  N, | 109 | deg | 18'    | 31.73" | E |
+| ========       | /Users/iain/Pictures/Photos/2012/01/31-cephalopods/DIW_0166.NEF |       |      |         |     |     |     |        |        |   |
+| GPSPosition: | 12                                                              | deg   | 9'   | 50.28", | 109 | deg | 18' | 31.73" |        |   |
+| 2            | image                                                           | files | read |         |     |     |     |        |        |   |
+
+Both have an associated *jpeg* version tagged *Edited in Aperture* but I don't know how the tags have ended up in the *NEF* files.

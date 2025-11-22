@@ -1,0 +1,17 @@
+#+TITLE: storytelling code talk
+# Tags #clojure
+
+Spans
+
+- memory span
+- attention span
+- structure span
+
+Code should be written to be read. Make this easy by:
+
+- Small functions
+- Single level of abstraction
+- Descriptive names (not comments)
+
+separate what from how
+

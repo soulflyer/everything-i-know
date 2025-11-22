@@ -1,0 +1,24 @@
+#+TITLE: mount external file systems on acceptance
+# Tags #shell
+
+Mount the external disk
+#+begin_src shell
+cd ~/Documents/books
+rm bookshelf
+ln -s /Volumes/Crucial/bookshelf bookshelf
+# Now do photos
+#+end_src
+
+Mount the home fileservers
+#+begin_src shell
+cd ~/Documents/books
+rm bookshelf
+osascript -e 'mount volume "smb://iain@subversion.local/bookshelf"'
+cd ~/Documents/books
+rm bookshelf
+ln -s /Volumes/bookshelf bookshelf
+# Now do photos
+#+end_src
+
+#+RESULTS:
+: file bookshelf:

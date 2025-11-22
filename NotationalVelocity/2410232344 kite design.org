@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2410232344 kite design-images
+:END:
+#+TITLE: kite design
+# Tags #kite
+
+The hobbit, an unexpected journey 4:57
+[[file:2410232344 kite design-images/screenshot-20241023-234654.png]]
+[[file:2410232344 kite design-images/screenshot-20241023-234721.png]]
+
+[[file:2410232344 kite design-images/screenshot-20241023-234813.png]]

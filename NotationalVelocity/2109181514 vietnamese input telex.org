@@ -1,0 +1,31 @@
+#+TITLE: vietnamese input telex
+# Tags #vietnamese
+
+Non-tonal diacritics
+| Character | Keys pressed | Sample input     | Sample output |
+|-----------+--------------+------------------+---------------|
+| ă         | aw           | trang-w          | trăng         |
+| â         | aa           | can-a            | cân           |
+| đ         | dd           | d-dau-a          | đâu           |
+| ê         | ee           | d-dem-e          | đêm           |
+| ô         | oo           | nho-o            | nhô           |
+| ơ         | ow or [      | mo-w or m[       | mơ            |
+| ư         | uw or w or ] | tu-w or tw or t] | tư            |
+|-----------+--------------+------------------+---------------|
+
+
+Tone markings
+|----------------------------+------------------------+--------------+---------------|
+| Tone                       | Keys added to syllable | Sample input | Sample output |
+|----------------------------+------------------------+--------------+---------------|
+| Ngang (level)              | z or nothing           | ngang        | ngang         |
+| Huyền (falling)            | f                      | huyeenf      | huyền         |
+| Sắc (rising)               | s                      | sawcs        | sắc           |
+| Hỏi (dipping-rising)       | r                      | hoir         | hỏi           |
+| Ngã (rising glottalized)   | x                      | ngax         | ngã           |
+| Nặng (falling glottalized) | j                      | nawngj       | nặng          |
+|----------------------------+------------------------+--------------+---------------|
+
+from https://en.wikipedia.org/wiki/Telex_(input_method)
+
+§2109192024 automatic accent insertion

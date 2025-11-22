@@ -1,0 +1,12 @@
+#+TITLE: inserting unicode chars
+# Tags #emacs
+§2109110841 unicode characters
+
+This works, but the binding isn't visible in which-key
+#+begin_src emacs-lisp
+(define-key key-translation-map (kbd "C-x 8 r") (kbd "🟥"))
+#+end_src
+But this works and shows up in which-key
+#+begin_src emacs-lisp
+(global-set-key (kbd "C-x 8 r")    "🟥")
+#+end_src

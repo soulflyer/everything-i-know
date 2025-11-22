@@ -1,0 +1,7 @@
+#+TITLE: clojure debug print
+# TAGS #debug #clojure
+
+(print "message")
+(println "message")
+
+works via cider

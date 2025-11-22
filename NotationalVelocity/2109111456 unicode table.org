@@ -1,0 +1,17 @@
+#+TITLE: unicode table
+# Tags #emacs #unicode
+g§2109110841 Unicode Characters
+
+## From http://ergoemacs.org/emacs/emacs_n_unicode.html
+
+Update emacs unicode data database
+Unicode has a new version every year. Emacs's unicode info for describe-char may not be up-to-date. (it doesn't know the new character).
+
+You can make emacs use the latest unicode data.
+
+Download the latest UnicodeData.txt at https://www.unicode.org/Public/UCD/latest/ucd/UnicodeData.txt
+
+Put that file in your emacs init dir. Put this in your emacs init file:
+
+(when (file-exists-p "~/.emacs.d/UnicodeData.txt")
+  (setq describe-char-unicodedata-file "~/.emacs.d/UnicodeData.txt"))

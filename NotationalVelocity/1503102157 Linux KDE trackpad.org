@@ -1,0 +1,5 @@
+#+TITLE: Linux KDE trackpad
+# TAGS #linux #trackpad
+
+synclient TapButton1=0
+turns off touch to click

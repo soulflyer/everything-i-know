@@ -1,0 +1,13 @@
+#+TITLE: lathe toolbox
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2308281533 lathe toolbox-images
+:END:
+# Tags #woodwork #turning
+[[file:2308281533 lathe toolbox-images/01.png]] [[file:2308281533 lathe toolbox-images/02.png]]
+[[file:2308281533 lathe toolbox-images/03.png]] [[file:2308281533 lathe toolbox-images/4.png]]
+[[file:2308281533 lathe toolbox-images/5.png]] [[file:2308281533 lathe toolbox-images/6.png]]
+[[file:2308281533 lathe toolbox-images/7.png]]
+[[file:2308281533 lathe toolbox-images/8.png]] [[file:2308281533 lathe toolbox-images/9.png]]
+[[file:2308281533 lathe toolbox-images/10.png]]
+[[file:2308281533 lathe toolbox-images/11.png]] [[pdf:/Volumes/bookshelf/Woodwork/Mouldings/Furniture Mouldings - Full Size Sections Of Moulded Details On English Furniture 1574-1820.pdf::103++0.00][Furniture Mouldings - Page 103]]
+[[file:2308281533 lathe toolbox-images/12.png]] [[pdf:/Volumes/bookshelf/Woodwork/Mouldings/New universal moulding book, containing latest styles of mouldings and architectural designs of exterior and interior finish (1891).pdf::26++0.00][New universal moulding book - Page 26]]

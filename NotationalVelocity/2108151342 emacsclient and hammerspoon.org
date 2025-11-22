@@ -1,0 +1,13 @@
+#+TITLE: emacsclient and hammerspoon
+# TAGS #emacs #emacsclient
+
+Hammerspoon is looking for emacsclient in /Applications/Emacs/Contents/MacOS/bin and won't be persuaded otherwise. I have Emacs.app as a link: Emacs.app -> /usr/local/opt/emacs-head@28/Emacs.app This is built using brew install emacs-head@28 and the mac app bit doesn't have a bin directory in it. Added it by hand:
+
+
+MacOS: pwd
+/Applications/Emacs.app/Contents/MacOS
+MacOS: mkdir bin
+MacOS: which emacsclient
+/usr/local/bin/emacsclient
+MacOS: ln -s /usr/local/bin/emacsclient
+MacOS:

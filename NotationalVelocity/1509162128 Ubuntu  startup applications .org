@@ -1,0 +1,4 @@
+#+TITLE: Ubuntu  startup applications 
+# TAGS #linux
+
+Hit super and type startup applications

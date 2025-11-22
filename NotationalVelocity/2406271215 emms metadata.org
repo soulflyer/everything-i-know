@@ -1,0 +1,7 @@
+#+TITLE: emms metadata
+# Tags #emms
+
+Mark tracks in the play buffer with *m* and then hit *E* to open the tag editing buffer.
+use *emms-tag-editor-set-all* bound to *C-c C-r* to set tags like year etc that apply to all the tracks, and *C-c C-c* to save and exit.
+
+Use *emms-mark-all* but delete the lines that aren't tracks first.

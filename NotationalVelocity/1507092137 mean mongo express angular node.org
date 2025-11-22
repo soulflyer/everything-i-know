@@ -1,0 +1,10 @@
+#+TITLE: mean mongo express angular node
+# TAGS
+
+mean.js - a yo generator to build scaffold for all the bits of a mean app
+
+npm install -g generator-meanjs
+
+mean.io - similar, but self contained. Has packages and users
+
+npm install -g mean-cli

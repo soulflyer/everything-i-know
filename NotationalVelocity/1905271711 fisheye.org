@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/1905271711 fisheye-images
+:END:
+#+TITLE: fisheye
+# TAGS #photo
+
+might be able to reproduce fisheye hemi using shepards distortion in imagemagick. Just have to plot coords for the transform.
+
+https://www.lonelyspeck.com/defish/
+
+[[https://github.com/duducosmos/defisheye][defisheye]] python, open source
+[[https://github.com/elcorto/unfish][unfish]] setup by taking photos of a chessboard, open source
+[[http://www.paulbourke.net/dome/fisheyecorrect/][paper]] on fisheye correction
+[[pdf:/Volumes/Crucial/bookshelf/Photography/fisheyerectify.pdf::1++0.00][fisheyerectify.pdf]] local, more recent variation of the previous link without the lens specific charts
+[[https://medium.com/@kennethjiang/calibrate-fisheye-lens-using-opencv-333b05afa0b0][blog article]] on fisheye lens calibration using [[https://opencv.org/][opencv]]
+[[https://www.baeldung.com/cs/correcting-fisheye-images][blog article]] on correcting distortion
+
+[[https://www.dxo.com/dxo-viewpoint/][DxO Viewpoint]] might work well, but its paid. Allows freely distorting any part of a pic.
+[[file:1905271711 fisheye-images/screenshot-20250218-181836.png]]
+
+[[https://hugin.sourceforge.io/][Hugin]] might work too
+[[https://gml-undistorter.software.informer.com/][Gml Undistorter]] windows freeware
+GIMP [[https://docs.gimp.org/2.10/en/gimp-tool-warp.html][warp-tool]] might work, or the [[https://docs.gimp.org/2.10/en/gimp-tool-cage.html][cage-tool]], or the [[https://docs.gimp.org/2.10/en/gimp-filter-lens-distortion.html][lens-distortion]] tool, or the [[https://docs.gimp.org/2.10/en/plug-in-curve-bend.html][curve-bend]] tool

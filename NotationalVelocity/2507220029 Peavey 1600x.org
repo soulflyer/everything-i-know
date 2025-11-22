@@ -1,0 +1,7 @@
+#+TITLE: Peavey 1600x
+# Tags #music
+[[https://www.defectiverecords.com/pc1600/pc1600.html][defectiverecords]] has some info about editors
+
+[[https://cd-romney.com/pc-1600v/][PC-1600v]] works ok on the old mac, but afaik it won't if I upgrade it to 10.15. Can't upgrade Reason unless I do upgrade, but probably don't need to. Reason 6 works just fine as a sound module.
+
+Not sure how to get presets from the hardware to the app, it looks like it might be a case of requesting a sysex dump and then loading that. Editing a preset and sending it to the H/W is easy enough, although I can't figure out how to specify which slot it goes to. Last time I tried it was going to slot 16, but I'm pretty sure I have seen it go to slot 0 too. Probably best to duplicate useful presets incase they get overwritten.

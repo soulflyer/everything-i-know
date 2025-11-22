@@ -1,0 +1,15 @@
+#+TITLE: Linux install ubuntu
+# TAGS #linux
+
+Looks great, but weird disk problems that I don't see with other installs. ie /tmp and othe filesystems get changed to ro and updates fail because logs can't be written. wtf?
+Also painfully slow to get started sometimes. freezes sometimes
+It loses network connection when the install starts, maybe this is causing the freeze. Need to try ethernet instead. 
+
+ Iain Wood
+   and sadly I never got as far as plasma and breeze. My antique opensuse install cd works fine, but current versions trash grub as they install. Tried a couple of variations, both did the same. Never found a way of patching up grub that worked... 12 March at 10:32 · Like  
+
+Martin Dunn    Sounds like a UEFI issue Iain. Try setting your BIOS to legacy mode and trying Ubuntu (or whatever) again. Grub should pick up the partitions properly then. 12 March at 14:12 · Edited · Like   
+
+Will Stephenson    Agreed, the first couple of generations of UEFI support were rough. 12 March at 14:40 · Like   
+
+Iain Wood thanks, good to know. Not sure if I will go round again now debian is working. Might have to, I don't like to be beaten  12 March at 15:18 · Like      

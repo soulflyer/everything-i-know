@@ -1,0 +1,5 @@
+#+TITLE: shell edit command in $EDITOR with ctl x ctl e
+# TAGS #shell #emacs
+
+Close the editor with C-x # 
+This also runs the edited command

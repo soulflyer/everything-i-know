@@ -1,0 +1,49 @@
+#+TITLE: new flute
+# Tags #music
+
+* Candidates for my next flute:
+
+§2410282312 =Delusse= E2147 - 415Hz Tuning looks really good
+
+§2410282318 =Lot= E1517 looks good, but there is some confusion over its pitch. My notes say 420Hz, the plans say 40Hz??
+
+§2410282354 =Villars= E415 - 415Hz Tuning looks good
+
+§2410282308 =Stanesby= E920.2.7 - 415Hz Tuning looks really good
+                     E979.2.33 - 412Hz Tuning looks good
+                     DCM1125 - 410Hz Tuning looks reasonably good
+
+§2410282347 =Bizey= E598 - Tuning looks good at 419Hz. Also has a second LH joint at 410Hz
+                  Second link has no tuning info, 410-415Hz
+                  Beaudin drawing, A-397Hz, tuning pretty good
+
+§2410282344 =Freyer= E0614 - Tuning looks really good at 395Hz. Quantz style flute with 2 keys
+
+§2504181237 =Rottenburgh= flute. Good tuning with both middle joints at 415Hz and 397Hz
+
+§2004121611 instrument plans
+
+[[pdf:~/Documents/books/bookshelf/Musical-Instruments/FOMRHI/Fomrhi-049.pdf::21++0.00][Millhouse]] ca. 1790 This is a low res copy from FOMRII but may be useable. Looks like 440Hz, but no tuning information.
+
+[[pdf:~/Documents/books/bookshelf/Musical-Instruments/FOMRHI/Fomrhi-055.pdf::29++0.00][Wijne flutes]] article with drawings and profiles. Various pitches, mostly around 415Hz. No complete plans but lots of comparitive measurements.
+
+[[pdf:/Volumes/Crucial/bookshelf/Musical-Instruments/FOMRHI/Fomrhi-Q138-Supplementlowres.pdf::5++0.61][Fomrhi-Q138]] Has a design based on a flute by =Deppe= purportedly with good intonation. This has been adjusted by J Bouterse to play at 440Hz
+
+[[pdf:/Volumes/Crucial/bookshelf/Musical-Instruments/FOMRHI/Fomrhi-Q158.pdf::59++7.23][Fomrhi-Q158.pdf]] Has drawings of E142, an ivory =Grenser= probably playing at 405Hz. Tuning thought to be good but not proven. Also [[file:~/Documents/books/bookshelf/Musical-Instruments/Flute/Technical Drawings/Grenser/Grenser.pdf][here]]
+
+[[pdf:/Volumes/Crucial/bookshelf/Musical-Instruments/FOMRHI/Fomrhi-Q159.pdf::6++0.25][Fomrhi-Q159]] Has photos with measurements of a flute with several left hand joints by =Biglioni=. All are a bit low pitch and there is no evidence of good tuning.
+
+[[pdf:/Volumes/Crucial/bookshelf/Musical-Instruments/FOMRHI/Fomrhi-043.pdf::21++0.00][Fomrhi-043]] Has a low res drawing of a flute by =Eerens= at 414Hz. No tuning info
+
+[[pdf:/Volumes/Crucial/bookshelf/Musical-Instruments/FOMRHI/Fomrhi-049.pdf::20++0.00][Fomrhi-049]] Has low-res (probably useable) drawings of a flute by =Milhouse= at 440Hz. High notes a little flat.
+
+* Tuning adjustments
+[[pdf:/Volumes/Crucial/bookshelf/Musical-Instruments/FOMRHI/Fomrhi-Q137.pdf::42++0.00][Fomrhi-Q137, Comm 2069]] by =Jan Boertse= has a lengthy comparison of an original =Stanesby= and a copy made by =Coolsma= (1970s recorder maker) with discussion of the reasons for the differences. [[pdf:/Volumes/Crucial/bookshelf/Musical-Instruments/FOMRHI/Fomrhi-Q137-supplement-StanesbyJr-Coolsma-copy-drawings.pdf::1++0.00][Fomrhi-Q137]] has details of the copy.
+
+[[pdf:/Volumes/Crucial/bookshelf/Musical-Instruments/FOMRHI/Fomrhi-132/Comm 2040-Woodwind-Acoustics.pdf::1++0.17][Fomrhi-Q132, Comm 2040]] has a discussion of nodes and antinodes and the effects of bore changes on tuning. Continued in [[pdf:/Volumes/Crucial/bookshelf/Musical-Instruments/FOMRHI/Fomrhi-132/Comm 2041-Woodwind-Acoustics.pdf::1++0.00][Comm 2041]] 
+
+[[pdf:/Volumes/Crucial/bookshelf/Musical-Instruments/FOMRHI/Fomrhi-Q150.pdf::5++0.00][Fomrhi-Q150]] has a more theoretical discussion of the tuning of a flute
+
+[[pdf:/Volumes/Crucial/bookshelf/Musical-Instruments/FOMRHI/Fomrhi-041.pdf::25++0.00][Fomrhi-041]] Has a practical guide to the process of tuning a traverso by =Jan Bouterse=
+
+[[pdf:/Volumes/Crucial/bookshelf/Musical-Instruments/FOMRHI/Fomrhi-Q106.pdf::24++0.00][Fomrhi-Q106]] Comments on problems with A440 Hz

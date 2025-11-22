@@ -1,0 +1,8 @@
+#+TITLE: clojurescript from javascript
+# TAGS #javascript #clojurescript
+
+(defn ^:export <function-name>
+
+makes <function-name> available from js
+
+https://yogthos.net/posts/2012-10-26-ClojureScript-Adventures.html

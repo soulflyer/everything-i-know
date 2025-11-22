@@ -1,0 +1,4 @@
+#+TITLE: git diff reduced output
+# TAGS #git
+
+git diff --stat

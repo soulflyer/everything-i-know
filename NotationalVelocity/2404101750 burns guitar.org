@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2404101750 burns guitar-images
+:END:
+#+TITLE: burns guitar
+# Tags #guitar
+
+[[file:2404101750 burns guitar-images/screenshot-20240410-175017.png]]
+
+From a facebook post by Bill Lovegrove in Burns guitars and amplifiers

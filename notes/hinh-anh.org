@@ -1,0 +1,4 @@
+** TODO [#G] Add keybindings for linux
+** TODO [#H] Make a devcard for button-set to help debug it.
+** TODO [#H] save-meta in metadata mongo should read mongo db address from an environment variable
+** TODO [#G] Create static web pages for each keyword

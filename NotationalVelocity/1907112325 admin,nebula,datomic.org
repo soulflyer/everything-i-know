@@ -1,0 +1,8 @@
+#+TITLE: admin,nebula,datomic
+# TAGS
+
+Eduardos cli
+
+ssh -i "henrik-mbp-keypair.pem" ec2-user@ec2-35-156-24-93.eu-central-1.compute.amazonaws.com
+docker exec -it ecs-nebula-admin-24-ourhub-cli-beae96b291b9b4921c00 bash
+ourhub -h

@@ -1,0 +1,12 @@
+#+TITLE: windsynth
+# Tags #music
+* Windsynth
+** Sounds
+*** [[https://appcordions.com/][AppCordions]] whistle, flute, warpipes, uilleann pipes, border pipes
+*** Resonarium
+Lots of weird stuff, often clipping.
+*** [[https://www.imoxplus.com/site/index.php][Respiro]]
+App and VST for windsynth. Looks like physical modelling.
+*** [[https://www.imoxplus.com/site/index.php/purchase/vl-wizard-demo-download][VL-Wizard]]  
+Already [[file:/Applications/VL-Wizard.app/Contents/MacOS/VL-Wizard][downloaded]], runs but haven't tried using it to upload an edited voice to the VL70m yet.
+

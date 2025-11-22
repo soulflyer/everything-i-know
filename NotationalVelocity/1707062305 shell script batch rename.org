@@ -1,0 +1,7 @@
+#+TITLE: shell script batch rename
+# TAGS #shell
+
+for infile in $(ls -1 *); do outfile=$(echo $infile | sed s/\.TIF//); mv $infile $outfile; done;
+
+does:
+mv IMG_01.TIF.jpg IMG_01.jpg

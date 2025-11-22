@@ -1,0 +1,11 @@
+#+TITLE: keyword browser
+# TAGS #clojure
+
+Use:
+ image-lib
+current mongo db (photos)
+html/css front end
+
+No current gui interface available for clojure, so go for server/client architecture and build html/css front end. Luminus might be the way to go. Also considering pedestal and hoplon 
+http://pedestal.io/
+http://hoplon.io/

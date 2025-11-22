@@ -1,0 +1,14 @@
+#+TITLE: emacs lisp info node
+# Tags #emacs
+
+get to the elisp manual with:
+
+C-h r TAB RET
+
+C-h r goes to the emacs node and the link to the elisp node is the first one in the doc. This link is NOT visible in the page reached by:
+
+C-h i
+
+Found in the comments [[https://emacs.stackexchange.com/q/753/2666][here]]
+
+or click [[info:elisp#Top][here]]

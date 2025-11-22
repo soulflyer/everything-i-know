@@ -1,0 +1,19 @@
+#+TITLE: blues harp
+# Tags #music #Harmonica
+|-----+---------|
+| Key | 2nd Pos |
+|-----+---------|
+| C   | G       |
+|     | G#      |
+|     | A       |
+| E   | B       |
+|     | Bb      |
+|     | C       |
+| F#  | C#      |
+| G   | D       |
+|     | D#      |
+| A   | E       |
+| Bb  | F       |
+|     | F#      |
+|-----+---------|
+

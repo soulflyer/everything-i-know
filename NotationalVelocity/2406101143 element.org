@@ -1,0 +1,26 @@
+#+TITLE: element
+# Tags #music
+
+*[[https://kushview.net/element/][Element]]* is modular audio software, routing midi and audio and accessing vsts.
+It is [[https://github.com/kushview/element][open source]], with paid versions that are managed and automatically updated.
+
+Install came with this uninstall script:
+#+begin_src shell
+#!/bin/sh
+
+sudo rm -rf "/Applications/Element.app"
+
+sudo rm -rf "/Library/Audio/Plug-Ins/Components/KV_Element.component"
+sudo rm -rf "/Library/Audio/Plug-Ins/VST/KV_Element.vst"
+sudo rm -rf "/Library/Audio/Plug-Ins/VST3/KV_Element.vst3"
+sudo rm -rf "/Library/Application Support/Avid/Audio/Plug-Ins/KV_Element.aaxplugin"
+
+sudo rm -rf "/Library/Audio/Plug-Ins/Components/KV_ElementFX.component"
+sudo rm -rf "/Library/Audio/Plug-Ins/VST/KV_ElementFX.vst"
+sudo rm -rf "/Library/Audio/Plug-Ins/VST3/KV_ElementFX.vst3"
+sudo rm -rf "/Library/Application Support/Avid/Audio/Plug-Ins/KV_ElementFX.aaxplugin"
+
+sudo rm -rf "/Library/Audio/Plug-Ins/Components/KV_ElementMFX.component"
+
+rm -rf "$HOME/Library/Application Support/Kushview/Element"
+#+end_src

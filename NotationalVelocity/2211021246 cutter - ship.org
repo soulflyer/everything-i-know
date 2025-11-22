@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2211021246 cutter - ship-images
+:END:
+#+TITLE: cutter - ship
+# Tags #ship
+
+https://www.modelships.de/Cutter-FLY/Photos_cutter_FLY.htm
+https://www.shippingwondersoftheworld.com/smugglers.html
+[[https://i.pinimg.com/originals/80/06/b3/8006b3449a634bf495a1a55fdeedba6e.jpg][Painting including outer sails]]
+https://paulinespiratesandprivateers.blogspot.com/2010/11/ships-chase-tide.html
+[[https://modelloursworkshop.blogspot.com/2012/07/hm-cutter-alert-diorama-of-day.html][diorama - stormy sea]]
+[[https://www.rijksmuseum.nl/en/collection/NG-MC-667][Museum Model]]
+[[https://www.etsy.com/listing/598040149/british-revenue-cutter-1799-profile][Print on Etsy]] 
+[[file:2211021246 cutter - ship-images/screenshot-20230326-232853.png]]
+[[https://www.gutenberg.org/files/17563/17563-h/17563-h.htm][Kings cutters and smugglers ebook]]
+* [[https://cs.finescale.com/fsm/modeling_subjects/f/7/t/172738.aspx][Scratch build Diligence]]
+book refs at the end: 
+Sources of information for this thread:
+
+"The English Cutter", by D.L. McCalip, Model Shipwright, #27, March 1979                        
+
+"Flags for Revenue Cutters" By Alec Parves, Model Shipwright",#27, March 1979
+
+"Anatomy of the Ship,The Naval Cutter", by Peter Goodwin, Phoenix Publication 1991
+

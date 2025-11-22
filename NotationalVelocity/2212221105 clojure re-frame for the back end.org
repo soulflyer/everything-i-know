@@ -1,0 +1,8 @@
+#+TITLE: clojure re-frame for the back end
+# Tags #clojure
+
+[[https://github.com/domino-clj/domino][domino]] provides events and effects in a way that looks like re-frame but for the back end. 
+
+"Domino is a data flow engine that helps you organize the interactions between your data model and events. Domino allows you to declare your business logic using a directed acyclic graph of events and effects. Whenever an external change is transacted to the data model, the graph determines the chain of events that will be executed, and side effects triggered as a result of the computation."
+
+[[https://github.com/zen-lang/zen][zen]] DSL framework

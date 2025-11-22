@@ -1,0 +1,133 @@
+#+TITLE: mailto mu4e
+# TAGS #mail #emacs
+
+https://groups.google.com/forum/#!msg/mu-discuss/Uce5fTro9gU/ib0-of5ycPwJ
+
+Steve Dowe’s profile photo
+Steve Dowe
+7 May 2013, 16:37:41
+to mu-di...@googlegroups.com
+Hey Marius,
+
+I don't know about Chrome, but I set up a mailto handler in Firefox. I
+got this code from elsewhere so I don't assume any authorship, and I'm
+afraid I can't really now where I got it from - but it works ;)
+
+The first trick is running Emacs in server mode, whereby it can accept
+incoming messages from other apps. This helps avoid another instance of
+Emacs starting separately.
+
+There's more info on all that here:
+
+.. but effectively all you need to do is put this at the top of your
+.emacs:
+
+;; start the server to allow emacsclient
+(server-start)
+
+
+The next thing is to use this bash script as your mailto shell script:
+
+#+begin_src shell
+#!/bin/sh
+# emacs-mailto-handler
+
+mailto=$1
+mailto="mailto:${mailto#mailto:}"
+mailto=$(printf '%s\n' "$mailto" | sed -e 's/[\"]/\\&/g')
+elisp_expr="(mailto-compose-mail \"$mailto\")"
+
+# replace mu4e-compose-new/browse-url with mailto-compose-mail if problems
+
+emacsclient -a "" -c -n --eval "$elisp_expr" \
+'(set-window-dedicated-p (selected-window) t)'
+#+end_src
+
+You can put this somewhere in your $PATH if you want
+(e.g. /usr/local/bin) or keep it locally in your ~, say in ~/bin.
+
+
+Now, revisit your .emacs and put this in:
+
+;; enable mailto: link handling
+(load-file "~/.emacs.d/mailto-handler.el")
+
+
+.. and finally, create that file in Emacs and paste this in:
+
+#+begin_src emacs-lisp
+;;;; mailto-compose-mail.el (2010-08-15)
+
+;;;###autoload
+(defun mailto-compose-mail (mailto-url)
+"Parse MAILTO-URL and start composing mail."
+(if (and (stringp mailto-url)
+(string-match "\\`mailto:" mailto-url))
+(progn
+(require 'rfc2368)
+(require 'rfc2047)
+(require 'mailheader)
+
+(let ((hdr-alist (rfc2368-parse-mailto-url mailto-url))
+(body "")
+to subject
+;; In addition to To, Subject and Body these headers are
+;; allowed:
+(allowed-xtra-hdrs '(cc bcc in-reply-to)))
+
+(with-temp-buffer
+;; Extract body if it's defined
+(when (assoc "Body" hdr-alist)
+(dolist (hdr hdr-alist)
+(when (equal "Body" (car hdr))
+(insert (format "%s\n" (cdr hdr)))))
+(rfc2047-decode-region (point-min) (point-max))
+(setq body (buffer-substring-no-properties
+(point-min) (point-max)))
+(erase-buffer))
+
+;; Extract headers
+(dolist (hdr hdr-alist)
+(unless (equal "Body" (car hdr))
+(insert (format "%s: %s\n" (car hdr) (cdr hdr)))))
+(rfc2047-decode-region (point-min) (point-max))
+(goto-char (point-min))
+(setq hdr-alist (mail-header-extract-no-properties)))
+
+(setq to (or (cdr (assq 'to hdr-alist)) "")
+subject (or (cdr (assq 'subject hdr-alist)) "")
+hdr-alist
+(remove nil (mapcar
+#'(lambda (item)
+(when (memq (car item) allowed-xtra-hdrs)
+(cons (capitalize (symbol-name (car item)))
+(cdr item))))
+hdr-alist)))
+
+(compose-mail to subject hdr-alist nil nil
+(list (lambda (string)
+(insert string))
+body))))
+(compose-mail)))
+#+end_src
+
+
+I think that's "all" there is to it, but I'm a bit wary that I may not
+be specifying the link between mu4e's compose and Emacs' standard mail
+compose window - but see how you get on.
+
+In Chrome, see if you can edit the mailto handler and change it to point
+to your ~/bin/mailto_emacs.sh script. And make sure that script is
+executable, with:
+
+# chmod 750 ~/bin/mailto_emacs.sh
+
+
+When clicking on a mailto: link in Firefox, the effect for me is that a
+small, separate emacsclient window opens with the message composer
+waiting for my input. When I am ready to send and hit C-c C-c, the
+message gets sent and the window closes.
+
+Hope this helps.
+
+Steve

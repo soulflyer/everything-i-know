@@ -1,0 +1,7 @@
+#+TITLE: Desables - Manuel du Tourneur
+# Tags #book
+
+Published: 1831
+In French, no pictures till the end of Volume 2
+[[file:~/Documents/books/bookshelf/Turning/Desables/manuel-du-tourner-1.pdf][Volume 1]]
+[[file:~/Documents/books/bookshelf/Turning/Desables/manuel-du-tourneur-2.pdf][Volume 2]]

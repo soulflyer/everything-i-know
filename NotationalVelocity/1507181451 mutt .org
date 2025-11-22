@@ -1,0 +1,7 @@
+#+TITLE: mutt 
+# TAGS #mutt
+
+http://www.mutt.org/doc/manual/manual.html
+https://wiki.archlinux.org/index.php/Mutt
+http://baptiste-wicht.com/posts/2014/08/a-mutt-journey-search-mails-with-notmuch.html
+http://www.therandymon.com/woodnotes/mutt/node1.html

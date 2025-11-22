@@ -1,0 +1,5 @@
+#+TITLE: emacs window separator
+# Tags #emacs
+#+begin_src emacs-lisp
+(set-face-foreground 'vertical-border "green")
+#+end_src

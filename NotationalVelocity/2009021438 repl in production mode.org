@@ -1,0 +1,10 @@
+#+TITLE: repl in production mode
+# TAGS #clojure #repl
+
+export JAVA_TOOL_OPTIONS='-Dclojure.server.repl="{:port 0 :accept clojure.core.server/repl}"'
+
+all java processes will be started with clojure SocketREPL server running
+each with a random port
+
+and to figure out the port of a particular vertical (process) I use:
+lsof -a -p $(cat pids.d/woco.pid) -i @localhost

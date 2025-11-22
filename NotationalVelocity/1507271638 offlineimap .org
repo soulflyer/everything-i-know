@@ -1,0 +1,22 @@
+#+TITLE: offlineimap 
+# TAGS #mail
+
+fetches mail in the background. Run it with:
+
+offlineimap
+
+reads config file .offlineimaprc for the necessary setup details. Docs at:
+
+http://offlineimap.org/documentation.html
+
+security here:
+
+http://stevelosh.com/blog/2012/10/the-homely-mutt/
+
+kill hung offlineimap with:
+
+kill -9 $(cat ~/.offlineimap/pid)
+
+can schedule repeat run every 2 mins with entry in offlineimaprc:
+
+autorefresh = 2

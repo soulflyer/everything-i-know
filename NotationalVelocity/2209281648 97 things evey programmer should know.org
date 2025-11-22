@@ -1,0 +1,12 @@
+#+TITLE: 97 things evey programmer should know
+# Tags #book
+
+Edited by K.Henney
+
+[[file:~/Documents/books/bookshelf/Programming/97_Things_Every_Programmer_Should_Know.pdf][97 Things]]
+
+A collection of short chapters, each of which can be read in isolation. 
+
+A message to the future: coding for comprehensibility
+
+Learn to estimate: Estimating can be negotiating rather than "estimating"

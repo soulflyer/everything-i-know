@@ -1,0 +1,9 @@
+#+TITLE: Hasluck smiths work
+# Tags #book #Hasluck #metalwork
+
+[[file:~/Documents/books/bookshelf/Woodwork/Old-Books/Hasluck/1904-SmithsWork-Hasluck.pdf][1904-SmithsWork-Hasluck.pdf]]
+
+Published 1904
+Has methods of forging a crankshaft and designs for forges.
+Case hardening on pg 155
+Hardening and tempering with details of how to accurately achieve the correct temperature using a bath of molten lead and tin in various mixtures. Pg 153

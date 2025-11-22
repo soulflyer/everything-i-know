@@ -1,0 +1,52 @@
+#+TITLE: photo manager
+# TAGS #photo
+
+ViewNX-i
+
+good crop and rotate
+no key assignment
+
+ACDSee
+
+good crop and rotate
+has key assignment
+lens distortion looks promising for fisheye correction
+
+CaptureNx-D
+
+rubbish rotate
+
+Digikam
+
+Good crop (use aspect ratio crop)
+reasonable rotate by setting a horizontal line
+
+Rawtherapee
+
+Good crop (hold down shift)
+reasonable rotate by specifying a line
+No key assignment
+some menus require click and hold - not comfortable to use
+
+Darktable
+
+Good crop 
+Not so good rotate
+
+Picktorial
+
+Good crop and rotate
+No key assignment
+Fully non destructive
+
+Photos
+
+Pretty good crop and rotate but shitty control over export``
+
+Photo Ninja
+
+Good crop and rotate. Fisheye correction looks promising but not as good as fisheye-hemi. Distorts face shapes. Default tweaks to levels applied don't look good
+
+Capture One
+
+good crop, easonable rotate (horizontal line) Looks like good black/white/mid adjustment. Lens correction not as good as fisheye-hemi but maybe useable underwater. Export looks ok

@@ -1,0 +1,4 @@
+#+TITLE: bash cd -
+# TAGS #bash
+
+goes back to the previous directory

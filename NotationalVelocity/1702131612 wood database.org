@@ -1,0 +1,8 @@
+#+TITLE: wood database
+# Tags #wood
+
+[[http://insidewood.lib.ncsu.edu/search?4][NCS University]]
+Provides a pdf guide to identifying features and a db lookup
+
+http://www.wood-database.com/
+http://www.hobbithouseinc.com/personal/woodpics/index.htm

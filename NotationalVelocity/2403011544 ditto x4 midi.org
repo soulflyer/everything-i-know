@@ -1,0 +1,41 @@
+#+TITLE: ditto x4 midi
+# Tags #music
+
+EDIT: Here is the list of MIDI CC’s that’s supposed to be accepted:
+
+MIDI Spec
+Responds to MIDI Channel 4 (hardcoded – can’t be changed)
+
+CC3 Looper 1 Rec/Dub/Start
+CC9 Looper 1 Stop
+CC14 Looper 1 Clear
+CC15 Looper 1 Level
+CC20 Looper 1 Hold to Store
+CC21 Looper 1 Clear Backtrack
+CC22 Looper 2 Rec/Dub/Start
+CC23 Looper 2 Stop
+CC24 Looper 2 Clear
+CC25 Looper 2 Level
+CC26 Looper 2 Hold to Store
+CC27 Looper 2 Clear Backtrack
+CC28 Decay “Level”
+CC29 All Loops Stop
+CC30 All Loops Clear
+CC31 FX On/Off
+CC85 Parallel/Serial Toggle
+
+the FX respond to Prg change message 1 to 7
+
+Midi CC commands/ Prg change messages are programmed into a midi track / clip in your DAW or sequencer (Midi channel 4!)
+
+
+from [[https://www.elektronauts.com/t/noob-midi-cc-question-regarding-ditto-x4-solved/89599/4][elektronauts]] forum
+Prinzabu
+Apr '19 2019
+"Just adding: the ditto syncs well. So I know the device is getting the tempo and the midi connection is good. It just doesnt react to any controller messages."
+
+also here on [[https://www.reddit.com/r/guitarpedals/comments/dsnh9z/eli5_ditto_x4_midi/][reddit]]
+
+[[https://www.youtube.com/watch?v=1mpWTgW0XQU][youtube video]]
+
+Another [[https://www.youtube.com/watch?v=gc--XScZq7M][youtube video]] that shows connecting the ditto to a drum pedal. Looks to be litteraly just send it midi clock and it will sync. The stop light flashes, alegedly in time with the clock. It does appear to sync nicely.

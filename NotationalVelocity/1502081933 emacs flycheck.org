@@ -1,0 +1,5 @@
+#+TITLE: emacs flycheck
+# TAGS #emacs
+
+C-c ! l  meta-x flychech-list-errors
+C-c ! n meta-x flycheck-next-error

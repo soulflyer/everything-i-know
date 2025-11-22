@@ -1,0 +1,59 @@
+#+TITLE: flute bore
+# TAGS #flute #woodwork
+:PROPERTIES:
+:ID:       97B4A171-F308-4F1E-BD8F-D9B88BD8ED43
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/1909160610 flute bore-images
+:END:
+* [[http://www.mcgee-flutes.com/bores.htm][Classical Bores]]
+
+** Classical Bores (From Terry McGee)
+Fascinating to compare the bores of some of the great flutes of history.  We look at the bores of flutes by:
+
+- Prowse (C. Nicholson's Improved)
+- Boehm (a later French version by Laube of his 1832 conical)
+- Rudall & Rose's No 5501
+- Clinton's 1851 flute, made by Henry Potter
+- Boosey & Co's RS Pratten's Perfected
+- Rudall Carte's No 7174, and
+- Hawkes
+
+** What can we expect to see?
+We expect a more-or-less conical bore, which starts at a diameter a little less than the head bore (which is normally close to 19mm).  A common feature is a choke in the upper part - this seems mostly to be needed to keep the octave relationship in the upper tube notes from going too wide.  Another typical feature is a slight flare at the bottom.  This is needed to prevent the lowest tube note going too sharp in the second octave.
+
+In the chart below, we see just the body and foot bores, the conical sections.  The head stretches out to the left, at or just below the 19mm mark.  Note that this makes for a sudden drop in diameter at the start of the conical section.
+
+[[file:1909160610 flute bore-images/clinto2.gif]]
+
+** Prowse (C. Nicholson's Improved)
+Not much to say about the Prowse, excepting to notice its greater length than most of the other flutes, an issue we'll cover when we come to scaling.
+
+** Boehm (a later French version by Laube of his 1832 conical)
+A very small bore, being one way to achieve a good third octave.  A very straightforward bore, probably because of the logical layout and uniform size of the finger holes.  
+
+** Rudall & Rose's No 5501
+Quite a bit in common with the Nicholson's (both are from about the same period), but note the hallmark bore expansions where the three sections of body meet.
+
+** Clinton's 1851 flute, made by Henry Potter
+By far the biggest bore, also relatively straightforward like the Boehm.  Probably also a tribute to logical hole layout and sizing.  Note though the substantial discontinuity where body meets foot (also a feature of many of the other bores).
+
+** Boosey & Co's RS Pratten's Perfected
+The second biggest bore, also pretty straightforward.  Pratten snitched his bore from Siccama and shortened it a little to make it easier to play at the higher pitch coming into vogue.  The big bore, compared to most of the others is what gives the Prattens and Siccama their full-bodied smooth sound.
+
+Note that it, the Hawkes and Rudall Carte's 7174 are shorter than the others.  For good reason - these are all close to the end of the century flutes when pitch had gone up.
+
+** Rudall Carte's No 7174
+A lot in common with R&R # 5501, just a little bigger.  The hallmark bore expansions at the joints are still evident in this very late (1898) flute.  Unlike Siccama and Pratten,  Rudall & Carte do not appear to have made larger bore 8-key style flutes, but rather stuck to the medium bores that were Rudall & Rose's claim to fame.
+
+** Hawkes
+About the same size as a late Rudall, apart from the greatly enlarged foot.  Seemingly the most complex of the bores, and certainly inviting of further study.  Did this extra complication achieve extra performance?
+
+** Summary on Bore comparisons
+We can see that over the first 50 years of the 19th century, bore design changed considerably (even ignoring Boehm and his cylinder!).  Early in the century, bores were narrow, lending a tone rich in harmonics.  Positive index word - reedy, negative index word - thin.  We can see that Rudall & Rose employed a bore similar to Nicholson's.  Boehm's 1832 had the thinnest bore of all, and this flute found little favour with the English, despite its many other improvements.  Siccama adopted a much larger bore for his 1847 flute, lending a full-bodied, round, sweet sound.  Pratten redeployed the same bore, thus retaining the same fuller-bodied sound.  John Clinton used the biggest conical bore, giving his flutes a lot of power.  Rudall Carte didn't follow this new trend but stuck with the older smaller bore.
+
+
+* [[http://www.mcgee-flutes.com/PaskLong.htm][Pask/Pratten comparison]]
+
+[[file:1909160610 flute bore-images/PaskLo1.gif]]
+
+[[pdf:/Volumes/bookshelf/Musical-Instruments/Flute/THE_FLUTE_IN_TRANSITION_A_COMPARISON_OF.pdf::1++0.00][THE_FLUTE_IN_TRANSITION_A_COMPARISON_OF.pdf]] Kelly Nivison's thesis.
+[[pdf:/Volumes/bookshelf/Musical-Instruments/Flute/The_Hole_in_The_Middle_Transverse_Flute.pdf::1++0.00][The_Hole_in_The_Middle_Transverse_Flute.pdf]] Ardal Powell

@@ -1,0 +1,4 @@
+#+TITLE: cordova debugger
+# TAGS #debug #cordova
+
+gapdebug

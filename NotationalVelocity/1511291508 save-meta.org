@@ -1,0 +1,8 @@
+#+TITLE: save-meta
+# TAGS
+
+Use this from a month directory to do the whole month:
+for proj in `ls`; do save-meta $proj; done
+
+Use this from the base directory to get all pics from all years
+for proj in  `ls -d */*/*`; do save-meta $proj; done

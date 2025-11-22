@@ -1,0 +1,10 @@
+#+TITLE: xml edit file tool
+# TAGS #ed #xml
+https://opensource.com/article/21/7/parse-xml-linux
+https://sourceforge.net/projects/xmlstar/
+
+xmlstarlet ed  -d '//item[position()>100]' GTD000180000.xml > gtd-100.xml
+
+gets rid off anything except the first 100 nodes
+
+from Karol Wieloch

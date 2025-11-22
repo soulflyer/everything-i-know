@@ -1,0 +1,14 @@
+#+TITLE: commandline mongo
+# TAGS #mongo #shell
+
+Get the newest entry:
+
+mongo uckelewiserobot --eval "cursor=db.observations.find().sort({createdAt: 1}).limit(1); while (cursor.hasNext()){printjson(cursor.next().name);}"
+
+mongo uckelewiserobot --eval "db.observations.find({},{name: 1, _id: 0}).sort({createdAt: 1}).limit(1);"
+
+(master) uckele-wiserobot: mongo uckelewiserobot --eval "db.observations.find({},{name: 1, createdAt: 1}).sort({createdAt: 1}).limit(1);"
+MongoDB shell version: 3.2.4
+connecting to: uckelewiserobot
+{ "_id" : ObjectId("572ca42ea39d78253ed8b8d0"), "createdAt" : ISODate("2016-05-06T14:03:26.164Z"), "name" : { "first" : "bbb" } }
+(master) uckele-wiserobot:

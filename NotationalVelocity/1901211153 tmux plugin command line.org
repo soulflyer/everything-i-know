@@ -1,0 +1,16 @@
+#+TITLE: tmux plugin command line
+# TAGS #tmux
+
+~/.tmux/plugins/tpm/bin/install_plugins
+https://github.com/tmux-plugins/tpm/blob/master/docs/managing_plugins_via_cmd_line.md
+
+plugin manager
+https://github.com/tmux-plugins/tpm
+
+Add to .tmux/tmux.conf
+
+set -g @plugin 'tmux-plugins/tpm'
+set -g @plugin 'tmux-plugins/tmux-resurrect'
+set -g @plugin 'tmux-plugins/tmux-continuum'
+
+run '~/.tmux/plugins/tpm/tpm'

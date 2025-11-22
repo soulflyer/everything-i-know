@@ -1,0 +1,7 @@
+#+TITLE: instant backend
+# Tags  #clojure
+
+Rambling [[https://www.youtube.com/watch?v=N0pxjHgNUxs][video]] from *Karthikeyan A K* about [[https://injee.codeberg.page/][injee]] and how it was packaged to appear as a native mac app from an uberjar. Uses [[https://docs.oracle.com/en/java/javase/17/docs/specs/man/jpackage.html][jpackage]] 
+NOTE: watch out for size of the packaged app. Might get big.
+
+Injee is an in memory database/backend for development use aimed at frontend devs.

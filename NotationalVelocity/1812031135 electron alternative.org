@@ -1,0 +1,32 @@
+#+TITLE: electron alternative
+# TAGS #electron
+
+https://proton-native.js.org/#/?id=proton-native
+
+and to use from clojurescript:
+
+https://gist.github.com/polymeris/0112389243890709108c4b8b0a186f46
+#+begin_src clojurescript
+;; Add the following to cljsbuild :compiler options
+;; :npm-deps      {:proton-native "1.1.10"}
+;; :install-deps  true
+
+(ns hello-proton-native.core
+  (:require [cljs.nodejs :as nodejs]
+            [reagent.core :as reagent]
+            ["proton-native" :as proton :refer [App Window Button]]))
+
+(nodejs/enable-util-print!)
+
+(defn example [{:keys [args]}]
+  [:> App
+   [:> Window {:title "Example"}
+    [:> Button "Button"]]])
+
+(defn -main [& args]
+  (-> (reagent/reactify-component example)
+      (reagent/create-element #js {:args args})
+      (proton/render)))
+
+(set! *main-cli-fn* -main)
+#+end_src

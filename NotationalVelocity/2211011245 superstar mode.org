@@ -1,0 +1,23 @@
+#+TITLE: superstar mode
+# Tags #emacs #org-mode
+
+Superstar turns the stars used in org-mode headers into whatever.
+#+begin_src emacs-lisp
+  (org-superstar-mode 'toggle)
+  (org-superstar-mode)
+  ;; FIXME Calling org-superstar-mode in :config is not enough. Still need to be set in each file visited
+  (add-hook 'org-mode-hook 'org-superstar-mode)
+
+  ;; (setq org-superstar-cycle-headline-bullets 4)
+  (setq org-superstar-cycle-headline-bullets nil)
+  
+  (setq org-superstar-headline-bullets-list '(11035 9724 9642))
+#+end_src
+
+
+* Heading 1
+** Heading 2
+*** Heading 3
+**** Heading 4
+***** Heading 5
+****** Heading 6

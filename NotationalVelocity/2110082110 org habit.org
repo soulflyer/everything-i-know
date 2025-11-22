@@ -1,0 +1,13 @@
+#+TITLE: org habit
+# Tags #emacs
+
+Set up a TODO as normal, then schedule it using (org-schedule) C-c C-s and make it a habit with (org-set-property) C-c C-x p and give it a style containing habit. Then add in an interval to thedate field in scheduled
+#+begin_src emacs
+  SCHEDULED: <2021-10-10 Sun .+2d>
+#+end_src
+
+add this to each file if they are sometimes showing up as *???* instead of the file name:
+*#+CATEGORY: guitar*
+Works if added above the *Properties*
+
+found in a comment on an unanswered question on [[https://emacs.stackexchange.com/q/79078/2666][Emacs StackExchange]]

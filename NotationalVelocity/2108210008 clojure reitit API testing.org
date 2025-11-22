@@ -1,0 +1,4 @@
+#+TITLE: clojure reitit API testing
+# TAGS
+
+https://dev.solita.fi/2021/03/05/automatically-generated-api-tests-with-clojure-and-reitit.html

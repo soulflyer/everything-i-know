@@ -1,0 +1,10 @@
+#+TITLE: shellscript pattern match
+# TAGS #shell
+
+shopt -s extglob
+
+enables extended pattern matching stuff like this:
+
+PICTUREFILES=${PICTUREFILES//\.@(jpg|JPG|PSD|psd|nef|NEF|CR2|cr2)*(,)/$'\n'}
+
+which removes suffixes and comma separators from a list of pathnames

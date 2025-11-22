@@ -1,0 +1,9 @@
+#+TITLE: go console  tools
+# TAGS
+
+https://github.com/jroimartin/gocui
+
+command line json browser and html tool look good
+
+also clojurescript command line tools, based on node:
+https://github.com/eccentric-j/cljs-tui-template

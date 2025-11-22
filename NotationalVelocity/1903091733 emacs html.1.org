@@ -1,0 +1,4 @@
+#+TITLE: emacs html.1
+# TAGS #emacs
+
+Install impatient mode to enable live reloading

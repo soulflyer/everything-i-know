@@ -1,0 +1,13 @@
+#+TITLE: clojure list files
+# Tags #clojure #java
+
+It is not possible to use map with a java function directly. Wrap it in an inline function.
+#+begin_src clojure
+  (map
+    #(.getName %)
+    (filter
+      #(.isDirectory %)
+      (.listFiles (file "/Users/iain/Music/Collection/Compilations"))))
+#+end_src
+This will list all the directories in the given directory
+Found in a comment on this [[https://stackoverflow.com/a/32713323/1671119][stackoverflow]] answer.

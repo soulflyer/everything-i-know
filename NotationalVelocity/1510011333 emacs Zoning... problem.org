@@ -1,0 +1,12 @@
+#+TITLE: emacs Zoning... problem
+# TAGS #emacs
+
+Is global-flycheck-mode installed?
+temporarily comment out this line in user-pack/config/core.el:
+
+;; This will cause "Zoning.." problem if flycheck is not installed (package-install)
+(add-hook 'after-init-hook #'global-flycheck-mode)
+
+then do m-x package-install ret flycheck
+
+might have to persuade it to look on melpa as well as elpa

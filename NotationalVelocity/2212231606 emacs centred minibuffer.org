@@ -1,0 +1,3 @@
+#+TITLE: emacs centred minibuffer
+# Tags #emacs
+[[https://emacs.stackexchange.com/a/1078/2666][Stack exchange]] answer that describes how to have the minibuffer pop up as a new frame so it can be more visible.

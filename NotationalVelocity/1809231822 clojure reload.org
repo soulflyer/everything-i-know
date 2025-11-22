@@ -1,0 +1,8 @@
+#+TITLE: clojure reload
+# TAGS #clojure
+
+(require 'my.namespace :reload-all)
+
+reloads without having to restart repl (including dependancies)
+
+https://stackoverflow.com/questions/7658981/how-to-reload-a-clojure-file-in-repl

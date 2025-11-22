@@ -1,0 +1,13 @@
+#+TITLE: use-package
+# Tags #emacs
+
+Each package has an *ensure* statement 
+#+begin_src emacs-lisp
+  (use-package blah
+    :ensure t)
+#+end_src
+This could be avoided by setting a variable:
+#+begin_src emacs-lisp
+  (setq use-package-always-ensure t)
+#+end_src
+from [[https://www.youtube.com/watch?v=RDrG-_kapaQ][youtube vid]] at 19:00 mins

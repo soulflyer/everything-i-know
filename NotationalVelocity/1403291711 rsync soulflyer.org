@@ -1,0 +1,4 @@
+#+TITLE: rsync soulflyer
+# TAGS
+
+rsync -vai --exclude=.* /Users/iain/Code/soulflyer/ jphuquoc@soulflyer.com:public_html

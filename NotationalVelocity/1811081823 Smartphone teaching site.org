@@ -1,0 +1,4 @@
+#+TITLE: Smartphone teaching site
+# TAGS
+
+https://create.kahoot.it/

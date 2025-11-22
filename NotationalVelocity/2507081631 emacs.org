@@ -1,0 +1,6 @@
+#+TITLE: emacs
+# Tags #emacs
+I know I had something to do X but I can't remember what it was called
+
+* New File boilerplate
+*M-x auto-insert* will insert all the tedious crap a .el file is expected to contain.

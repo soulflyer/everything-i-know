@@ -1,0 +1,11 @@
+#+TITLE: lein background
+# TAGS #leiningen
+
+from:  https://github.com/technomancy/leiningen/issues/1173
+
+bash -c "lein run &" works
+lein trampoline run & works (if you dont' read from stdin)
+lein run <&- & works
+lein run </dev/null & works
+
+I used number 3

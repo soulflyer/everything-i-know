@@ -1,0 +1,93 @@
+#+TITLE: apl
+# Tags #apl
+
+M-x toggle-input-method
+
+* Links
+https://mathspp.com/blog/why-apl-is-a-language-worth-knowing
+https://tryapl.org/
+[[https://aplcart.info/][Tell me about:]]
+[[https://xpqz.github.io/learnapl/aplway.html][The APL Way]]
+
+* Books
+[[file:~/Documents/books/bookshelf/APL/An_Introduction_to_APL.pdf][An_introduction_to_APL]]
+[[file:~/Documents/books/bookshelf/APL/196800_APL 360 Reference Manual.pdf][APL360 Reference Manual]]
+[[file:~/Documents/books/bookshelf/APL/A_Programming_Language.pdf][Original book]]
+[[file:~/Documents/books/bookshelf/APL/G320-6103-0_APL_Programming_Guide_May78.pdf][APL Programming Guide]]
+ 
+* Gnu Apl
+https://www.gnu.org/software/apl/
+https://github.com/lokedhs/gnu-apl-mode
+
+* Dyalog
+https://www.dyalog.com/
+https://github.com/harsman/dyalog-mode
+[[https://xpqz.github.io/learnapl/intro.html][Book]]
+
+* J
+essentially the same, but without weird characters
+[[https://www.youtube.com/watch?v=t32bIbzQdCU][re:clojure talk]]
+[[https://www.jsoftware.com/#/][J Language site]]
+[[https://code.jsoftware.com/wiki/NuVoc][Dictionary]]
+
+** J Notes
+ob-J has been removed from emacs, but still exists in the *org-contrib* package.
+
+Use these commands to install the package manager and a whole load of useful packages:
+(might be best to do this from j-console. Takes a while and if run from ob-j seems to
+lock up emacs until it is finished) 
+In fact, don't do this. Almost certainly don't need to install everything.
+#+begin_src j
+load'pacman'
+'install'jpkg'*'
+#+end_src
+
+This will show how fns are combined. First line is unnecessary if the above 
+install command has been run.
+#+begin_src j
+  'install' jpkg 'general/misc'
+  load'general/misc/fndisplay'
+  setfnform'math'
+  defverbs 'f g h'
+  defnouns 'x y'
+  x(f g h)y
+#+end_src
+
+#+RESULTS:
+: |value error: jpkg
+: |   'install'    jpkg'general/misc'
+: 
+: ┌────────────────┐
+: │g(f(x,y),h(x,y))│
+: └────────────────┘
+
+
+#+begin_src j
+1 + 2 3 4
+#+end_src
+
+#+RESULTS:
+: 3 4 5
+
+#+begin_src J
+load 'plot'
+plot 1 o. 0.1 * i.200
+#+end_src
+
+#+RESULTS:
+
+* April
+APL implemented in common lisp: [[https://github.com/phantomics/april][github]]
+[[file:~/Documents/books/bookshelf/APL/april-paper.pdf][April paper (pdf)]]
+[[https://github.com/phantomics/april/blob/master/README.md][Install on common lisp instructions]] are missing one command:
+#+begin_src lisp
+(in-package april)
+#+end_src
+
+* Keyboard Layout
+May not be much use in Emacs
+[[https://github.com/abrudz/Kbd/blob/master/compuk.keylayout][.keylayout for Mac]]
+[[https://www.dyalog.com/apl-font-keyboard.htm][dyalog page]]
+
+For emacs use *set-input-method* - *APL-Z* then *toggle-nput-method* to switch between that and the default.
+

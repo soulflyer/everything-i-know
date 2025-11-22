@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2303141806 nosql-images
+:END:
+#+TITLE: nosql
+# Tags #blog
+
+SQL bad
+[[http://www.wmmi.net/documents/PGSQL-Schemaless.pdf][this]] suggests its mysql that is the source of the problems
+[[file:2303141806 nosql-images/screenshot-20230314-195215.png]]
+*** TODO [#C] find out the difference between pgsql and mysql
+
+"Simply put, in a document database, multiple values for an attribute can exist within a single record. If a person has multiple phone numbers, you don’t need a different table to store them. And you don’t need to define individual fields for each number. You can simply have an array of phone numbers or number objects. It’s like embedding rows from one table inside another at the storage layer."
+from [[https://thenewstack.io/debunking-the-myth-of-going-schemaless/][thenewstack]]
+
+"There are in fact various schemas:
+
+The one in your head when you designed the data structures
+The one that your database really implemented to store your data structures
+The one you should have implemented to fulfill your requirements"
+from [[https://blog.jooq.org/stop-claiming-that-youre-using-a-schemaless-database/][blog.jooq.org]]
+

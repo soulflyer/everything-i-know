@@ -1,0 +1,11 @@
+#+TITLE: phonegap-cordova iOS debugging
+# TAGS #phonegap
+
+Add an alert to make the app pause as it starts up
+
+function init() {
+    alert("Hello");
+    document.addEventListener("deviceready", onDeviceReady, false);
+}
+
+Then start safari and go to develop:iOS simulator:"app name"

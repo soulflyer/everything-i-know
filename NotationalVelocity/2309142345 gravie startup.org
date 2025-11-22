@@ -1,0 +1,14 @@
+#+TITLE: gravie startup
+# Tags #gravie
+
+#+begin_src shell
+JAVA_HOME="$(/usr/libexec/java_home -v 1.8.0)"
+export PATH=$JAVA_HOME/bin:$PATH
+
+# In admin-client
+aws sso login
+yawsso -e > .env
+echo 'SSL_KEYSTORE_PATH="/Users/iain/.gravie/opt/secure/nginx-certs/local.gravie.us.pfx"' >> .env
+echo 'GRAVIE_TRAIN_PATH="../gravie-train"' >> .env
+
+#+end_src

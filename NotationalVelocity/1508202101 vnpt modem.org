@@ -1,0 +1,5 @@
+#+TITLE: vnpt modem
+# TAGS
+
+login admin
+password vnpt

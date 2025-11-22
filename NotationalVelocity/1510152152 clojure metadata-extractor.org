@@ -1,0 +1,61 @@
+#+TITLE: clojure metadata-extractor
+# TAGS #clojure
+
+#+begin_src clojure
+(ns metadata-extractor-test.core
+  (:import com.drew.metadata.Metadata
+           com.drew.imaging.ImageMetadataReader))
+
+(def file
+  (java.io.File. "/Users/iain/Pictures/Published/fullsize/2015/09/01-Dragon/IMG_6666.jpg"))
+
+file
+(def metadata (Metadata.))
+metadata
+
+(ImageMetadataReader/readMetadata file)
+#+end_src
+
+More recent versions of metadata-extractor don't handle XMP data in the same way. See [[https://github.com/drewnoakes/metadata-extractor/wiki/XMP][here]] for a way of getting the XMP data from an image. Not managed to get the same info out of tha above jpeg file yet, but then I may not have  correctly translated all the jave to clojure...
+#+begin_src clojure
+(ns metadata-mongo.metadata
+  (:import
+   com.drew.metadata.Metadata
+   com.drew.metadata.Directory
+   com.drew.metadata.Tag
+   com.drew.metadata.xmp.XmpDirectory
+   com.drew.imaging.ImageMetadataReader))
+
+(defn gettags [taglist]
+  (let [acc {}]
+    (reduce
+     (fn [a b]
+       (assoc a (.getTagName b) (.getDescription b)))
+     acc (.getTags taglist))))
+
+(defn getmeta
+  "Returns a hash-map containing the metadata from an image file.
+  Expects a java.io.File and an optional sequence of field names."
+  ([file]
+   (let [imagedata (ImageMetadataReader/readMetadata file)
+         acc {}]
+     (reduce (fn [list tags]
+               (merge list (gettags tags)))
+             acc (.getDirectories imagedata))))
+  ([file fields]
+   (select-keys (getmeta file) fields)))
+
+(def filename "/Users/iain/Pictures/Published/fullsize/2015/09/01-Dragon/IMG_6666.jpg")
+(def file (java.io.File. filename))
+(getmeta file)
+(.getDirectories (ImageMetadataReader/readMetadata file))
+(let [imagedata (ImageMetadataReader/readMetadata file)
+         acc {}]
+     (reduce (fn [list tags]
+               (println "****" (gettags tags))
+               (merge list (gettags tags)))
+             acc (.getDirectories imagedata)))
+
+(.getValue (.next (.iterator (.getXMPMeta (first (.getDirectoriesOfType (ImageMetadataReader/readMetadata file) XmpDirectory))))))
+#+end_src
+Navigates through the various java calls but returns nil. It's not looping but it looks like there is only one tag to read (not 100% sure of that)

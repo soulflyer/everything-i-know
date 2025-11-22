@@ -1,0 +1,8 @@
+#+TITLE: Angular Guidelines
+# TAGS #angular
+
+Only access the DOM using directives. Write new ones if necessary...
+Why? Testability...
+
+One controller for each view, extract anything that needs re-using into a service
+

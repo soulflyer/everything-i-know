@@ -1,0 +1,8 @@
+#+TITLE: cocoa objective c update ui in loop
+# TAGS #objective-c
+
+http://stackoverflow.com/questions/6363828/updating-uilabel-in-the-middle-of-a-for-loop
+
+[[NSRunLoop currentRunLoop] runMode:NSDefaultRunLoopMode beforeDate:[NSDate distantPast]];
+
+causes the runloop to be triggered allowing updates to happen

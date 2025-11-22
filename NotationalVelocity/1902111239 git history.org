@@ -1,0 +1,13 @@
+#+TITLE: git history
+# TAGS #git
+
+added alias section to .gitconfig
+
+[alias]
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+
+use:
+git hist
+or
+git hist --all
+to give a tree view of commits

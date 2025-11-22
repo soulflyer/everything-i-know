@@ -1,0 +1,5 @@
+#+TITLE: Mac osx alternative terminal programs
+# TAGS iterm
+
+https://github.com/jwilm/alacritty
+https://sw.kovidgoyal.net/kitty/

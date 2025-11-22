@@ -1,0 +1,15 @@
+#+TITLE: cordova create BP
+# TAGS #cordova
+
+cd <temporary directory not the source directory>
+rm -rf BarPerfect
+cordova create barperfect com.wiserobot.barperfect  BarPerfect
+cd BarPerfect
+rm -rf www
+cp <path to www directory> .
+cordova platform add android
+cordova plugin add https://git-wip-us.apache.org/repos/asf/cordova-plugin-file.git
+cordova plugin add https://git-wip-us.apache.org/repos/asf/cordova-plugin-network-information.git
+cordova plugin add https://git-wip-us.apache.org/repos/asf/cordova-plugin-file-transfer.git
+cordova build
+cordova emulate android

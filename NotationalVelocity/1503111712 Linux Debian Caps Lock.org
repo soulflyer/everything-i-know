@@ -1,0 +1,8 @@
+#+TITLE: Linux Debian Caps Lock
+# TAGS #linux #capslock
+
+xmodmap -e "remove Lock = Caps_Lock"
+xmodmap -e "keysym Caps_Lock = Control_L"
+xmodmap -e "add Control = Control_L"
+
+http://www.johndcook.com/blog/2010/07/27/remapping-caps-lock/

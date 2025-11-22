@@ -1,0 +1,17 @@
+#+TITLE: wiserobot  
+# TAGS
+
+ip 192.168.1.100 port 22 
+uckele			||	(*#K:HLKD;3;l
+
+
+Host:    78.129.158.147
+
+SSH
+user:    uckele
+pass:    q@jlrn5ThvT99Mab
+port:    21 (as default)
+
+FTP
+user:    uckele_wise
+pass:    d9kdyq9Ad*8krMcG

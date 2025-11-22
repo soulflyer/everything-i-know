@@ -1,0 +1,45 @@
+#+TITLE: ubuntu install
+# Tags #linux
+
+
+after booting from usb:
+* add ssh
+#+begin_src bash
+sudo apt update
+sudo apt install ssh
+passwd
+#+end_src
+passwd is there because trying to connect with no password doesn't seem to work. Connect like this:
+#+begin_src bash
+ssh ubuntu@192.168.88.xx
+#+end_src
+* add samba
+[[https://ubuntu.com/tutorials/install-and-configure-samba#1-overview][Ubuntu Tutorial]]
+[[https://documentation.ubuntu.com/server/how-to/samba/file-server/][Ubuntu HowTo]]
+#+begin_src bash
+sudo apt install samba
+sudo vi /etc/samba/smb.conf
+#+end_src
+#+begin_src 
+[reddelhome]
+    comment = Samba on Ubuntu
+    path = /media/ubuntu
+    read only = no
+    guest ok = yes
+    browsable = yes
+#+end_src
+=NOTE= nothing will appear in the directory until it is mounted by visiting it with the *ubuntu file explorer*
+#+begin_src bash
+sudo service smbd restart
+sudo ufw allow samba
+sudo smbpasswd -a ubuntu
+#+end_src
+Connect to it with user *ubuntu* and password as set in the *smbpasswd* command above.
+
+After *Ubuntu* is installed on the main disk the proceedure is similar, but use *Disks* to edit the *Mount Options* of the relevant partition: [[https://askubuntu.com/a/375319/960653][Ask Ubuntu]]
+
+* Mounting Seagate
+Seagate is formatted ExFAT so it is readable from mac and linux, but this poses problems mounting it. This [[https://unix.stackexchange.com/questions/720284/exfat-mount-permission][Stack Exchange]] question helped get it to be writeable.
+
+* Emacs
+Trouble with pdf-tools. It looked like it was unable to install some packages when running *pdf-tools-install*, so I installed them by hand. Still didn't work but got further in the build process. Did a package delete on pdf-tools (plus things that had it as a dependancy) then added the package again and it worked.

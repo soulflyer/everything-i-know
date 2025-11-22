@@ -1,0 +1,4 @@
+#+TITLE: emacs sudo
+# TAGS #emacs
+
+C-x C-f /sudo::/filename

@@ -1,0 +1,8 @@
+#+TITLE: ical from google
+ical from google
+Used these 2 commands to get diary entries from flexiana calendar:
+
+curl https://calendar.google.com/calendar/ical/iain.wood%40flexiana.com/private-7f0d1549d8783795c98292c8cb24c81e/basic.ics > /tmp/calendar
+ical2orgpy /tmp/calendar Documents/org-mode/agenda/flexiana.org
+
+could probably pipe it and wrap it in an alias or a bash fn

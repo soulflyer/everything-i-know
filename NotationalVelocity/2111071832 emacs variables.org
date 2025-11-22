@@ -1,0 +1,3 @@
+#+TITLE: emacs variables
+# Tags #emacs #webbookmark
+https://opensource.com/article/20/3/variables-emacs

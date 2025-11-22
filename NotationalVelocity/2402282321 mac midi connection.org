@@ -1,0 +1,4 @@
+#+TITLE: mac midi connection
+# Tags #music
+
+To get a midi connected device to talk to another via macos, use *Midi Patchbay*, at least on the old intel mac. It won't work on arm. It looks like *Midi Pipe* will do the same kind of thing and it runs ok on arm.

@@ -1,0 +1,16 @@
+#+TITLE: running projects
+# TAGS #photo #clojure
+
+tm Code/Clojure/Luminus/photo-api
+C-c C-j to start clojure repl in emacs
+user> (mount/start)
+
+tm Code/Clojure/Descjop/photo-front-end
+C-c M-j to start clojurescript repl
+electron/Electron.app/Contents/MacOS/Electron app/dev&
+
+Build production version
+
+lein descjop-uberapp-osx --overwrite
+
+may need to update the descjop-uberapp-osx alias in projects.clj. The version doesn't get updated when updating the electron version.

@@ -1,0 +1,4 @@
+#+TITLE: linux update-alternatives
+# TAGS #linux #emacs
+
+used to choose emacs 26 over 25

@@ -1,0 +1,4 @@
+#+TITLE: start photo-api
+# TAGS #photo
+
+java -Ddatabase-url="mongodb://127.0.0.1/photos" -jar target/uberjar/photo-a.jar

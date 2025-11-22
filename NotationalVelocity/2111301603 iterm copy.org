@@ -1,0 +1,8 @@
+#+TITLE: iterm copy
+# Tags #iterm
+
+shift-cmd-c
+ctrl-v 
+
+y ;; copy selection to clipboard
+

@@ -1,0 +1,6 @@
+#+TITLE: command line get my IP address (external)
+# TAGS
+
+curl ipinfo.io/ip
+curl ipecho.net/plain ; echo
+dig +short myip.opendns.com @resolver1.opendns.com

@@ -1,0 +1,4 @@
+#+TITLE: emacs repeat key
+# TAGS #emacs #webbookmark
+
+https://github.com/myuhe/smartrep.el

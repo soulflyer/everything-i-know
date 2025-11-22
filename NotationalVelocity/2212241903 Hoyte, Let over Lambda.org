@@ -1,0 +1,19 @@
+#+TITLE: Hoyte, Let over Lambda
+
+# Tags #book
+
+Doug Hoyte, Let over Lambda, 50 years of Lisp
+Published 2008
+
+[[https://letoverlambda.com/][website]]
+[[file:~/Documents/books/bookshelf/Functional/lisp/Doug Hoyte - Let Over Lambda _ 50 years of lisp-Doug Hoyte_HCSW and Hoytech production (2008.).djvu][ebook]]
+
+Free to read online. Very opinionated, Interesting read.
+
+"Haskell is an exciting, innovative language that is shaping how people think about programming. Not learning Haskell means depriving yourself of some of the most interesting research in Blub languages today. But the most important reason to gain experience with Haskell is to educate yourself on just how little static type systems actually contribute to productive programming - even ones as unobtrusive and extensible as Haskell's."
+
+"A language without lisp macros is a Blub."
+
+"The U- language word Blub comes from an essay by Paul Graham, Beating the Averages, where Blub is a hypothetical language used to highlight the fact that lisp is not like other languages: lisp is different. Blub is characterised by infix syntax, annoying type systems, and crippled object systems but its only unifying trait is its lack of lisp macros. Blub terminology is useful to us because sometimes the easiest way to understand an advanced macro technique is to consider why the technique is impossible in Blub. The purpose of Blub terminology is not to poke fun at non-lisp languages⁵."
+
+"⁵There will be little bit of fun."

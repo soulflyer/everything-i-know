@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2304251935 Holtzapffel headstock-images
+:END:
+#+TITLE: Holtzapffel headstock
+# Tags #lathe
+[[file:2304251935 Holtzapffel headstock-images/headstock1.png]]
+[[file:2304251935 Holtzapffel headstock-images/dead-centre-oiler.png]]
+[[file:2304251935 Holtzapffel headstock-images/dead-centre-oiler2.png]]
+[[file:2304251935 Holtzapffel headstock-images/headstock2.png]]
+Details from @nolansponsler ‘s Holtzapffel No. 2209.  
+It’s remarkable that any piece of equipment made in 1866 for the purpose of cutting and milling any substance should remain in this good of condition.  However, some things almost defy comprehension.   
+Here you can see the overall condition of the headstock is astounding, but one thing really stands out.   That cylindrical canister with the brass top and ball finial is an oil reservoir for keeping the dead center in the tailstock lubricated.   In the old days they used a lubricant called “white lead,” and the small ball at the top has a long pin attached to it that dips into the lubricant and carries a small portion to be applied as needed.  As remarkable as it is that the cylinder is still intact, the fact that the dipper is still there is even more so, as they are almost always lost because they just sit loosely in the top.  The canister is affixed to the headstock by means of a thin, brass strap that is screwed into the headstock.  The brass lid can be unscrewed for refilling.  
+This picture also shows the back side of the headstock worm feed.  From the back side one can see that it pivots on two cone bearings.   On the front, which is not shown, there is a cam which allows it to be engaged and disengaged.  To be effective in leaving good finishes there can be no backlash in the worm drive, which means there can be no backlash in the worm.  To ensure this, the thrust had to be adjustable, so they provided an adjustable screw at the end of the worm.  
+There is no part of this that wasn’t made to be elegant, period.   Holtzapffel masterfully combined the two.  Form truly followed function, but in no case were aesthetics not at the front of their minds.  

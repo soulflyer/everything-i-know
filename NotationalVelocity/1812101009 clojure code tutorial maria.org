@@ -1,0 +1,11 @@
+#+TITLE: clojure code tutorial maria
+# TAGS #clojure
+
+Interactive web page. Runs clojure code examples embeded in the tutorial.
+https://www.maria.cloud/intro
+
+Good demo of programming technique, can run sub expressions in the same way as is possible in emacs/cider etc.
+
+[[https://github.com/mhuebert/maria][github]]
+[[https://www.youtube.com/watch?v=CUBHrS4ZzO4][ClojureD talk]]
+

@@ -1,0 +1,9 @@
+#+TITLE: android file system
+# Tags #android
+
+Hard to find the actual path to the sd card to use it in the image settings of *orgzly*
+Found it in *ReadEra*
+
+/storage/6132/3235/org-mode/NotationalVelocity
+
+was what I was looking for.

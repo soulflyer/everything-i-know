@@ -1,0 +1,7 @@
+#+TITLE: planet maps
+# TAGS #map
+
+https://pilot.wr.usgs.gov/
+
+Pangea, equirectangular
+http://capitan-mas-ideas.blogspot.com/2016/02/new-pangaea-map.html

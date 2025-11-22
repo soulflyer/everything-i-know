@@ -1,0 +1,4 @@
+#+TITLE: music notation
+# TAGS #music
+
+https://dolmetsch.com/musicalsymbols.htm

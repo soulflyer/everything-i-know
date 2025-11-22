@@ -1,0 +1,8 @@
+#+TITLE: emacs char value
+# TAGS #emacs
+
+(string-to-char "=")
+
+or:
+
+?=

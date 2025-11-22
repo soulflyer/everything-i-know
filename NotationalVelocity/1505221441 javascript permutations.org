@@ -1,0 +1,64 @@
+#+TITLE: javascript permutations
+# TAGS #javascript
+#+begin_src javascript
+perm= (function permutator(inputArr) {
+    var results = [];
+
+    function permute(arr, memo) {
+        var cur, memo = memo || [];
+
+        for (var i = 0; i < arr.length; i++) {
+            cur = arr.splice(i, 1);
+            if (arr.length === 0) {
+                results.push(memo.concat(cur));
+            }
+            permute(arr.slice(), memo.concat(cur));
+            arr.splice(i, 0, cur[0]);
+        }
+
+        return results;
+    }
+
+    return permute(inputArr);
+})
+#+end_src
+
+perm([1,2,3,4,5,6,7,8,9])  takes 10s to run and lots longer to print out.
+
+*****************************************************************************
+This version takes a function that operates on each permutation:
+
+#+begin_src javascript
+ppp=(function permutate(array, callback) {
+    // Do the actual permuation work on array[], starting at index
+    function p(array, index, callback) {
+        // Swap elements i1 and i2 in array a[]
+        function swap(a, i1, i2) {
+            var t = a[i1];
+            a[i1] = a[i2];
+            a[i2] = t;
+        }
+
+        if (index == array.length - 1) {
+            callback(array);
+            return 1;
+        } else {
+            var count = p(array, index + 1, callback);
+            for (var i = index + 1; i < array.length; i++) {
+                swap(array, i, index);
+                count += p(array, index + 1, callback);
+                swap(array, i, index);
+            }
+            return count;
+        }
+    }
+
+    if (!array || array.length == 0) {
+        return 0;
+    }
+    return p(array, 0, callback);
+})
+#+end_src
+
+And print out each one found like this:
+ ppp([1,2,3], (function(a){console.log(a)}))

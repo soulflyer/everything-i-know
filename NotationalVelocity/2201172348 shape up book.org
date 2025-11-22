@@ -1,0 +1,19 @@
+#+TITLE: shape up book
+# Tags #agile
+
+https://basecamp.com/shapeup/shape-up.pdf
+
+** shaping
+Introduces the concept of *shaping*, which is defining a task at a level that is sufficient to anticipate problems but leaves freedom for creative solutions. The shaping phase happens before development and is done by a small team or an individual. End product is a *pitch* which contains:
+- problem 
+- Appetite
+- Solution - a sketch
+- Rabbit Holes - what might cause problems
+- No-gos - what we had to rule out in order to stay within the appetite.
+
+** Appetite
+How long do we want to spend on this? This seems to be a central concept. Focussing on it has to be a good idea as it will prevent or limit sidetracks and task expansion.
+
+
+** Hill charts
+Chart. Looks like a hill. Plots progress. Left side is working out what to do, right side is doing it. Supposedly good for spotting blockers.

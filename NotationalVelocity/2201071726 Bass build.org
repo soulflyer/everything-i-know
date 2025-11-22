@@ -1,0 +1,6 @@
+#+TITLE: Bass build
+# Tags #guitar
+Bass by Dave Higham.
+This is theoretically a headless bass, but the head is still there so it looks right, but the strings go through the head where the string posts would be and are locked with an allen screw where the tuning pegs would be.
+
+https://www.talkbass.com/threads/5-string-fanned-hybrid-headless.898958/

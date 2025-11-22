@@ -1,0 +1,9 @@
+#+TITLE: angular cordova create
+# TAGS #angular #cordova #phonegap
+
+mkdir AngularCordovaTest
+cd AngularCordovaTest
+mkdir angular
+yo angular
+cd ..
+cordova create cordova com.soulflyer.angularcordovatest AngularCordovaTest --link-to=angular/app

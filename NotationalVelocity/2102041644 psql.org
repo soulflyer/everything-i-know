@@ -1,0 +1,6 @@
+#+TITLE: psql
+# TAGS #postgres #database
+
+Command line interface to postgres db instead of pgadmin
+
+psql -U esource -h localhost -p 5432 esource

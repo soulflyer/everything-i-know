@@ -1,0 +1,13 @@
+* Archive                                                           :ARCHIVE:
+** DONE Bolts
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2021-10-15 Fri 13:13
+   :END:
+   12mm diameter, 240mm and 80mm
+
+ #+RESULTS:
+ [[file:test.png]]
+** DONE Panel Pins
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2021-10-15 Fri 13:14
+   :END:

@@ -1,0 +1,24 @@
+#+TITLE: emacsclient open with
+# TAGS #emacs #emacsclient
+
+Trying to use open-with in the finder and emacsclient isn't available.
+
+Use an applescript saved as an application..
+
+Add stuff to the applets info .plist file
+
+Bundle identifier       diw.emacsclient
+
+and maybe the file types it understands? (Steal them from textedits info.plist)
+
+Tell launchservices about the changes:
+/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchSe
+rvices.framework/Versions/A/Support/lsregister -kill -r -domain local -domain sy
+stem -domain user
+
+[[https://superuser.com/a/1743038/169596][Superuser answer]]
+
+Script for use in *Automator* The -n option causes emacsclient to return immediately. If it isn't there then it is necessary to close one file opened this way using *C-x #* before another can be opened.
+#+begin_src bash
+/opt/homebrew/bin/emacsclient -n "$1"
+#+end_src

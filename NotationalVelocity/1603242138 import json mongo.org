@@ -1,0 +1,4 @@
+#+TITLE: import json mongo
+# TAGS #mongo
+
+ mongoimport --db=wealth --collection=scrape --jsonArray brokercheck.finra.org.json

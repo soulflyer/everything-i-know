@@ -1,0 +1,11 @@
+#+TITLE: emacs regex
+# Tags #emacs #regex
+
+*(regexp-builder)* is useful, as it shows you what it finds as you are building the regex. It creates it's own buffer, but continues to work when you switch to the text being edited. Call *reb-next-match* from there rather than usind *C-c C-s* and *C-c C-r* from the regexp-builder buffer.
+
+Call *(reb-quit)* to quit, or use the binding *C-c C-q* Note that *tmux* will steal the *C-q* in terminal emacs.
+
+ *(M-x occur)* creates a buffer displaying all matching lines. By default, it wants to open up a new frame with the original file and switch to it even in edit mode. This means its not possible to quickly step through the results. Rebinding some keys fixed that. See [[file:~/Code/emacs-config/iw-lib/iw-occur.el::define-key occur-mode-map (kbd "n") 'occur-next]]
+
+[[http://ergoemacs.org/emacs/emacs_regex.html][regex on ergoemacs]]
+[[https://emacs.stackexchange.com/questions/5568/why-do-regular-expressions-created-with-the-regex-builder-use-syntax-different-f][Different syntax forms for regex-builder]]

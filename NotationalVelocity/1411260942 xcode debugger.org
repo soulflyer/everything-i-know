@@ -1,0 +1,4 @@
+#+TITLE: xcode debugger
+# TAGS #debug #xcode
+
+(lldb) po <variable name>

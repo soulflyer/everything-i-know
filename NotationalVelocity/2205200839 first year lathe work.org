@@ -1,0 +1,8 @@
+#+TITLE: first year lathe work
+# Tags #book #turning
+
+[[file:~/Documents/books/bookshelf/Turning/First-Year-Lathe-Book.SouthBend.pdf][First Year Lathe Book]]
+
+Published 1917 by South Bend Lathe Works
+Has some info on poured bearings in a nice aprentice exercise to build an 8inch grinder.
+Pg 44 for main info on babbiting the bearings, but other useful stuff in the drawings preceeding that.

@@ -1,0 +1,3 @@
+#+TITLE: planet sizes
+# Tags #astronomy
+[[file:~/Dropbox/org-mode/notes/planets.org][List of planet and other heavenly bodies by size]]

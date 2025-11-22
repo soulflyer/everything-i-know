@@ -1,0 +1,7 @@
+#+TITLE: bash variable scope
+# TAGS #bash #shell
+
+By default variables are global. To avoid problems in functions, 
+
+1) declare them as local  ie local VAR="I'm a local variable"
+2) run the function in a subshell. Just wrap the whole thing in () or wrap the call to the fn in ()

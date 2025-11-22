@@ -1,0 +1,22 @@
+#+TITLE: clojure routing compojure
+# TAGS #clojure
+
+#+begin_src clojure
+(GET "/user/:user-id" [user-id] (str (db/get-user {:id user-id})))
+#+end_src
+Note that the info pulled from the db is wrapped as a string, otherwise the response gets downloaded as an empty file rather than viewed. However this seems to work without converting to a string:
+#+begin_src clojure
+(GET "/users" [] (db/get-users))
+#+end_src
+
+This displays the contents ok:
+#+begin_src clojure
+(GET "/user/:user-id" [user-id] {:status 200
+                                   :body (db/get-user {:id user-id})}))
+#+end_src
+
+But this, with the call to get-user wrapped as a string, causes the contents to be downloaded as a file:
+#+begin_src clojure
+(GET "/user/:user-id" [user-id] {:status 200
+                                   :body (str (db/get-user {:id user-id}))}))
+#+end_src

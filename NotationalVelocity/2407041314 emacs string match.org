@@ -1,0 +1,8 @@
+#+TITLE: emacs string match
+# Tags #emacs
+
+#+begin_src emacs-lisp
+(string-match-p (regexp-quote needle) haystack)
+#+end_src
+
+from [[https://emacs.stackexchange.com/a/14861/2666][Stackexchange]]

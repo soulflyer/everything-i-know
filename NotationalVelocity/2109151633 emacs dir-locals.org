@@ -1,0 +1,7 @@
+#+TITLE: emacs dir-locals
+# Tags #emacs #clojurescript #lisp
+Add this to .dir-locals.el at the root of the project to autamatically choose clojurescript repl type and build.
+#+begin_src emacs-lisp
+((nil . ((cider-default-cljs-repl . shadow)
+         (cider-shadow-default-options . "<your-build-name-here>"))))
+#+end_src

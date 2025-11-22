@@ -1,0 +1,10 @@
+#+TITLE: Watson, modern practice
+# Tags #book #metalwork
+
+[[file:~/Documents/books/bookshelf/Turning/modern_practice_watsrich.pdf][Modern Practice]]
+
+Published 1869
+
+Good coverage of early metalwork techniques in the context of steam engines.
+First chapters are about drilling. Some good stuff on making and using different types of drills. 
+Second section on lathe work has more stuff on boring

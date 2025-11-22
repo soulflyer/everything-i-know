@@ -1,0 +1,4 @@
+#+TITLE: emacs embark 
+# Tags #emacs
+Enhancement of command completion including this which looks useful:
+https://github.com/oantolin/embark/#switching-to-a-different-command-without-losing-what-youve-typed

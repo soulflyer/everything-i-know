@@ -1,0 +1,9 @@
+#+TITLE: emacs fix for unwanted completion
+# TAGS #emacs
+
+https://github.com/abo-abo/swiper#frequently-asked-questions
+
+
+Q: How do I enter an input that matches one of the candidates instead of this candidate? Example: create a file bar when a file barricade exists in the current directory.
+
+A: Press C-M-j. Alternatively, you can make the prompt line selectable with (setq ivy-use-selectable-prompt t).

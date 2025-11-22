@@ -1,0 +1,5 @@
+#+TITLE: emacs centre cursor
+# TAGS #emacs
+
+C-S-l
+steps through bottom top centre

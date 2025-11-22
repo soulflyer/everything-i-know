@@ -1,0 +1,42 @@
+#+TITLE: angular cordova cordova-3-angular
+# TAGS #angular #cordova #phonegap
+
+https://github.com/nick-pww/cordova-3-angular
+
+git clone https://github.com/nick-pww/cordova-3-angular.git
+cd cordova-3-angular
+rm -rf c3c
+cordova create c3c --link-to=c3a/app
+cd c3a
+bower install
+npm install karma-jasmine --save-dev
+npm install karma-chrome-launcher --save-dev
+npm install
+grunt
+cd ../c3c
+cordova platform add android
+cordova build
+cordova emulate android
+
+At this point it works, and angular can be seen running on the emulator :-)
+Note that the angular stuff is straight from the git repository. Rebuilding it using yo angular ends up giving grunt errors like this:
+
+app/scripts/CordovaInit.js
+  line 11  col 27  '$' is not defined.
+  line 29  col 1   '$' is not defined.
+  line 9   col 34  'event' is defined but never used.
+  
+index.html contains a script link to jquery.js before the script link for angular.js so jquery should be loading ok:
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+
+editing karma.conf.js to add jquery.js before angular.js doesn't help. Running grunt --force does. After that, grunt will run ok but the errors reappear if CordovaInit.js is edited.
+
+The cordova project can then be built and run, but angular is not starting. All that appears on the emulator screen is the contents of index.html. The view is not being loaded. If I run grunt serve and access the code using a browser, it all seems to work fine
+
+Try again
+========
+
+lots of trouble with npm install
+
+helped by adding grunt-karma and karma-phantom-js-launcher

@@ -1,0 +1,7 @@
+#+TITLE: guitar rig
+# Tags #music
+
+* Flair
+Ostensibly a flanger but will do *pitch* specific sounds. Checkout *C-Minor Run* patch. It's not really a run, but a rhythmic effect based around C 
+* Resochord
+A similar thing to *Flair*. Its a comb filter where the filter bands can be tuned to a specified chord. Check out *AB Toebeans* which uses 2 different instances of *Resochord*. Not sure how I might extend this to give 3 or 4 chords, but just the 2 is good as a kind of enhanced drone effect. Perhaps splitting the low frequencies off and just using those might give a drone effect that is dependant on only the low strings.

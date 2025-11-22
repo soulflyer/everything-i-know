@@ -1,0 +1,15 @@
+#+TITLE: tailwind react app
+# Tags #react #tailwind
+
+#+begin_src shell
+npx create-react-app react-app
+cd react-app
+npm install tailwindcss@latest postcss@latest autoprefixer@latest 
+#+end_src
+
+Add tailwind styles to style.css as per [[https://app.tailwinduikit.com/docs][the docs]]
+
+#+begin_src shell
+npx tailwindcss init
+npx tailwindcss -i public/style.css -o public/output.css --watch 
+#+end_src

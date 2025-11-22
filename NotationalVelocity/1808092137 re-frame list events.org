@@ -1,0 +1,8 @@
+#+TITLE: re-frame list events
+# TAGS #clojure #re-frame
+
+egrep -r -A 1 'reg-event-db|reg-event-fx' src_front/anh_front/ | egrep  -v 'reg-event-db|reg-event-fx|~|--'
+
+In emacs do C-u C-x rgrep then add the -A 1 option before the -e option before running the search
+
+use M-x rgrep-context, search for reg-event

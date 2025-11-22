@@ -1,0 +1,22 @@
+#+TITLE: bash expand path
+# TAGS #shell #bash
+
+JUNK=$(cd ~/Code/ 2>/dev/null && pwd -P)
+echo $JUNK
+or:
+JUNK=$(stat -f "%N" ~/Code)
+
+from https://stackoverflow.com/questions/7126580/expand-a-possible-relative-path-in-bash#7126780
+
+also this, but readlink --canonicalize doesn't work on Mac OSX :
+
+# The path you want to get information on... (for readability)
+your_path=..
+
+# Using /bin/readlink (resolves symlinks)
+export SRC_DIR=$(readlink --canonicalize $your_path)
+
+# Using /usr/bin/dirname (keeps symlinks)
+export SRC_DIR=$(cd $your_path ; pwd)
+
+from: https://stackoverflow.com/questions/11621639/how-to-expand-relative-paths-in-shell-script

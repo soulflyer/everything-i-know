@@ -1,0 +1,17 @@
+#+TITLE: babashka script to run codox
+# Tags #clojure #babashka
+
+#+begin_src clojure
+#!/usr/bin/env bb
+(require '[babashka.fs :as fs]
+         '[clojure.java.shell :refer [sh]])
+
+(println (sh "lein" "codox"))
+(let [version (nth (read-string (slurp "project.clj")) 2)
+      version-path (str "docs/" version)]
+  (sh "rm" "-r" version-path)
+  (sh "mv" "docs/new" (str "docs/" version))
+  (sh "rm" "docs/index.html")
+  (sh "bash" "-c" (str "cat script/template-index.html | sed 's/<current-version-number>/" version "/'" "> docs/index.html")))
+
+#+end_src

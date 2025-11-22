@@ -1,0 +1,4 @@
+#+TITLE: Sacha Chua on text expansion
+# Tags #emacs #webbookmark
+
+https://sachachua.com/blog/2015/01/developing-emacs-micro-habits-text-automation/

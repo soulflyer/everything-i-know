@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2410282312 Delusse flute-images
+:END:
+#+TITLE: Delusse flute
+# Tags #flute
+
+* [[https://librairie.philharmoniedeparis.fr/dessins-techniques/flute-traversiere-3][E2147]]
+[[https://collectionsdumusee.philharmoniedeparis.fr/doc/MUSEE/0158726][Catalog entry]]
+A 415Hz
+End of the 18th Century
+[[file:2410282312 Delusse flute-images/screenshot-20241031-114252.png]]
+
+[[file:2410282312 Delusse flute-images/screenshot-20241031-114608.png]] [[file:2410282312 Delusse flute-images/screenshot-20241031-114642.png]] [[file:2410282312 Delusse flute-images/screenshot-20241031-114712.png]] [[file:2410282312 Delusse flute-images/screenshot-20241031-114726.png]]
+[[file:2410282312 Delusse flute-images/screenshot-20241031-114937.png]] [[file:2410282312 Delusse flute-images/screenshot-20241031-115002.png]] [[file:2410282312 Delusse flute-images/screenshot-20241031-115046.png]] [[file:2410282312 Delusse flute-images/screenshot-20241031-115109.png]]
+* [[https://librairie.philharmoniedeparis.fr/dessins-techniques/flute-traversiere-2][E1368]] in the Philharmonie de Paris
+[[https://collectionsdumusee.philharmoniedeparis.fr/doc/MUSEE/0161008][Catalog entry]]
+A 430Hz
+End of the 18th Century
+[[file:2410282312 Delusse flute-images/screenshot-20241028-231219.png]]
+
+[[file:2410282312 Delusse flute-images/screenshot-20241030-005025.png]] [[file:2410282312 Delusse flute-images/screenshot-20241030-005110.png]] [[file:2410282312 Delusse flute-images/screenshot-20241030-005141.png]]
+[[file:2410282312 Delusse flute-images/screenshot-20241030-005232.png]] [[file:2410282312 Delusse flute-images/screenshot-20241030-005314.png]][[file:2410282312 Delusse flute-images/screenshot-20241030-005336.png]]
+[[file:2410282312 Delusse flute-images/screenshot-20241030-005414.png]]
+
+* Bass flute
+A 408 Hz
+[[https://librairie.philharmoniedeparis.fr/dessins-techniques/flute-traversiere-basse][E1079]]
+
+[[file:2410282312 Delusse flute-images/screenshot-20241028-235658.png]]
+
+[[file:2410282312 Delusse flute-images/screenshot-20241030-005535.png]] [[file:2410282312 Delusse flute-images/screenshot-20241030-005620.png]] [[file:2410282312 Delusse flute-images/screenshot-20241030-005719.png]]
+[[file:2410282312 Delusse flute-images/screenshot-20241030-005754.png]] [[file:2410282312 Delusse flute-images/screenshot-20241030-005830.png]] [[file:2410282312 Delusse flute-images/screenshot-20241030-005853.png]]
+[[file:2410282312 Delusse flute-images/screenshot-20241030-005917.png]] 

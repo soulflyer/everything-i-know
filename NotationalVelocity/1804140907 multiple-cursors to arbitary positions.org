@@ -1,0 +1,6 @@
+#+TITLE: multiple-cursors to arbitary positions
+# TAGS #emacs
+
+mark with M-x spc
+move to next posn
+M-x mc/mark-pop

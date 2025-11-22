@@ -1,0 +1,12 @@
+#+TITLE: Moai
+# TAGS #moai #lua
+
+run moai-dev/xcode/osx/build.sh 
+builds in /tmp, so do:
+ cd /tmp/moai/osx/MoaiSample/moai/macosx/Debug/
+ cp moai ~/Code/moai-dev/bin/osx/
+ 
+ also needed to create config.lua (I put it in ~/Code/moai-dev/config)  and set some environment vars:
+ 
+ MOAI_CONFIG=~/Code/moai-dev/config
+ MOAI_BIN=~/Code/moai-dev/bin/osx

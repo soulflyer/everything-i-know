@@ -1,0 +1,32 @@
+#+TITLE: Setup clojurescript node project with shadow
+# Tags #clojurescript #node #shadow
+# Backlink: §2109140215 clojure executables
+
+Install shadow-cljs globally with:
+#+begin_src shell
+npm install -g shadow-cljs
+#+end_src
+Set up the new project (from an existing project dir)
+#+begin_src shell
+  npm init -y
+  npm install --save-dev shadow-cljs
+  shadow-cljs init
+  #+end_src
+Add a build to the :builds section of the newly created shadow-cls.edn file ie:
+#+begin_src clojure
+{:app {:target :node-script
+        :main nv-zd.core/main
+        :output-to "out/nv-zd.js"}}
+#+end_src
+Create the src/nv-zd/core.cljs file and add a main fn:
+#+begin_src clojurescript
+(defn main []
+  (println "hello"))
+#+end_src
+Jack-in to cljs, or run shadow-cljs compile :app and run the node executable:
+#+begin_src shell
+node out/nv-zd.js
+#+end_src
+Watch out for the sync and async versions of before and after load hooks. The async versions must specify a fn that ends by calling the return fn passed in as a parameter. The sync versions have no parameter. Weird things happen if these get mixed up.
+
+https://shadow-cljs.github.io/docs/UsersGuide.html

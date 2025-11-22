@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2201041609 headless guitar tuner plans-images
+:END:
+#+TITLE: headless guitar tuner plans
+# Tags #guitar
+https://buildingtheergonomicguitar.com/wp-content/uploads/Eric-Olds/Tuning-Tailstop-3a.pdf
+
+[[file:2201041609 headless guitar tuner plans-images/screenshot-20231101-094456.png]]

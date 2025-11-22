@@ -1,0 +1,12 @@
+#+TITLE: books to find
+# TAGS #book
+
+Hotteterre Principles of the flute, recorder and oboe"
+Baines bagpipes
+Baines Woodwind Instruments and their history
+Kottick, Tone and intonation of the recorder https://vcisinc.com/flute.htm#Recorder%20Books
+Trevor Robinson, The amateur wind instrument maker
+http://barthopkin.com/books-cds/air-columns-and-toneholes-principles-for-wind-instrument-design/
+lute construction Robert S Cooper 1963
+F.J.Camm Practical Mechanics how to make it book https://www.amazon.co.uk/Second-Practical-Mechanics-How-Make/dp/B0013BEL9Q/ref=sr_1_256?keywords=f+j+camm&qid=1573151367&sr=8-256 (ordered)
+Steve Jones: mastering the art of clojure programming

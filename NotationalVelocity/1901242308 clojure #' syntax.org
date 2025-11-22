@@ -1,0 +1,12 @@
+#+TITLE: clojure #' syntax
+# TAGS #clojure
+
+(#'a) always refers to the var a, while (a) can be shadowed by local bindings:
+
+user> (defn a [] 1)
+#'user/a
+user> (let [a (fn [] "booh")] [(a) (#'a)])
+["booh" 1]
+
+
+from:https://stackoverflow.com/questions/14763301/calling-clojure-functions-using-var-quote-syntax

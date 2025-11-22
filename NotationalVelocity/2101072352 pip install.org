@@ -1,0 +1,4 @@
+#+TITLE: pip install
+# TAGS
+
+pip install ical2orgpy doesn't work, use /usr/local/opt/python@3.8/bin/pip3 install ical2orgpy

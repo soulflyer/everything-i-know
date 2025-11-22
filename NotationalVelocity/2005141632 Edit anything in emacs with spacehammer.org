@@ -1,0 +1,8 @@
+#+TITLE: Edit anything in emacs with spacehammer
+# TAGS #emacs
+
+https://github.com/agzam/spacehammer/blob/master/docs/emacs.org
+
+https://github.com/agzam/spacehammer
+
+Uses a lisp that compiles to lua.

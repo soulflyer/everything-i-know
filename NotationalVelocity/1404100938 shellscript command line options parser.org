@@ -1,0 +1,5 @@
+#+TITLE: shellscript command line options parser
+# TAGS #shell
+
+check out this:
+https://github.com/docopt/docopts

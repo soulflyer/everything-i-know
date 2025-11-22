@@ -1,0 +1,6 @@
+#+TITLE: ionic app
+# TAGS #ionic
+
+ionic start <projectname> blank
+cd <projectname>
+ionic serve

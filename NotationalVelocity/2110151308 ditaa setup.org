@@ -1,0 +1,21 @@
+#+TITLE: ditaa setup
+# Tags #org-mode #ascii-art
+
+Had to do this on acceptance, emacs couldn't find the jar:
+#+begin_src bash
+brew install ditaa
+#+end_src
+#+begin_src emacs-lisp
+  (setq org-ditaa-jar-path "/opt/homebrew/Cellar/ditaa/0.11.0_1/libexec/ditaa-0.11.0-standalone.jar")
+  (org-babel-do-load-languages 'org-babel-load-languages '((ditaa . t)))
+#+end_src
+#+begin_src ditaa :file images/test.png :cmdline -r
+  +-------------+
+  | Hello-there | 
+  +-------+-----+
+#+end_src
+
+#+RESULTS:
+[[file:images/test.png]]
+see:
+https://www.johndcook.com/blog/2016/06/15/ascii-art-diagrams-in-emacs-org-mode/

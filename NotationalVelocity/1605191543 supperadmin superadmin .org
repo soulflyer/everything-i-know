@@ -1,0 +1,8 @@
+#+TITLE: supperadmin superadmin 
+# TAGS #wiserobot
+
+https://github.com/wangpingsx/keystone_supperAdmin
+
+- Only a supperadmin can create or edit users (other than their own user)
+- Roles can be allocated to a user, and other objects. An object can only be edited if the user editing it has matching roles
+

@@ -1,0 +1,25 @@
+#+TITLE: phonegap-cordova command line
+# TAGS #phonegap #cordova
+
+cordova build
+
+install on a running emulator:
+adb install platforms/android/bin/[project].apk  
+adb install platforms/android/bin/[project]-debug.apk
+
+adb install -r ... to reinstall
+
+adb -s [emulator-name] install platforms/android/bin/[project].apk
+(get emulator name from android list avd)
+
+list available avds:
+android list avd
+
+start an avd:
+emulator -avd "avd name" &
+
+examine data on a running avd:
+adb shell
+
+run on ios emulator:
+cordova run --emulator

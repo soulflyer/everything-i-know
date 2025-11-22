@@ -1,0 +1,18 @@
+#+TITLE: emacs ibuffer tips
+# TAGS #emacs #webbookmark
+
+https://mytechrants.wordpress.com/2010/03/25/emacs-tip-of-the-day-start-using-ibuffer-asap/
+
+remove all the org mode files from ibuffer with: */M org-mode k* 
+just do a refresh *g* to get them back
+
+*,* steps through various sorting methods
+
+*t* toggles marks
+
+*=* on a modified buffer shows the differences between the buffer and the file
+
+Save a filter group with */g* then add it to the display with */a* ?
+*/v /i /g* seems to do it. Not sure what */a* does
+
+Once the buffer filters are saved as a group, */R* will switch to the saved group

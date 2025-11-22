@@ -1,0 +1,3 @@
+#+TITLE: ls color
+/bin/ls --color=auto
+ls --color can cause problems when piped into sort. auto makes sure colour codes are only applied when displaying.

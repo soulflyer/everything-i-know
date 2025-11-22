@@ -1,0 +1,4 @@
+#+TITLE: ssh Agent admitted failure to sign using the key.
+# TAGS #ssh
+
+do ssh-add after generating the key

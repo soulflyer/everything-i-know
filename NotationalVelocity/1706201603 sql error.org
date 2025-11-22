@@ -1,0 +1,5 @@
+#+TITLE: sql error
+# TAGS #sql
+
+creating an sql table from php, getting a mysterious sql error, turns out it was a hyphen in the table name. 
+SQL DOESN'T LIKE HYPHENS IN  TABLE NAMES

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2506021702 led matrix pinout-images
+:END:
+#+TITLE: led matrix pinout
+# Tags #arduino
+* 1088AS
+[[file:2506021702 led matrix pinout-images/screenshot-20250602-170224.png]]

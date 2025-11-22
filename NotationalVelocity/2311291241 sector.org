@@ -1,0 +1,5 @@
+#+TITLE: sector
+
+[[https://archive.org/details/bim_early-english-books-1475-1640_the-making-and-use-of-th_hood-thomas_1598][The Making and use of the Sector]] Thomas Hood, 1598
+[[https://archive.org/details/constructionprin00bion][The Construction and Principal Uses of Mathematical Instruments]] M. Bion, Translated by Edmund Stone
+[[https://kartsci.org/kocomu/computer-history/proportional-compass-sector/][Koch Arts and Science page]]

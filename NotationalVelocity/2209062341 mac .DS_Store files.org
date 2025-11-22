@@ -1,0 +1,11 @@
+#+TITLE: mac .DS_Store files
+# Tags #mac
+
+Get rid:
+
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE
+
+check:
+defaults read com.apple.desktopservices
+
+only works for remote file systems, I don't think it is possible to stop local ones being created.

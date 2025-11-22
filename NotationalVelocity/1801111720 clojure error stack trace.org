@@ -1,0 +1,4 @@
+#+TITLE: clojure error stack trace
+# TAGS #clojure
+
+http://grokbase.com/t/gg/clojure/1442fhcr2f/how-to-troubleshoot-filenotfoundexception-could-not-locate-clojure-tools-namespace-parse

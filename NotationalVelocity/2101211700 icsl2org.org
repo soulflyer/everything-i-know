@@ -1,0 +1,5 @@
+#+TITLE: icsl2org
+# TAGS
+
+https://github.com/msherry/ical2org
+Might do a better job of handling reecurring events

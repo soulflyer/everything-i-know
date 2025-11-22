@@ -1,0 +1,5 @@
+#+TITLE: gravie sam links
+
+[[https://docs.google.com/spreadsheets/d/1QnZBIW6C2eNwH67yY5KXUU1GX6dv7h0dRweKR0KS2Vo/edit#gid=1115838130][PTO]]
+[[https://docs.google.com/spreadsheets/d/1emouTRQt_7fpI73quSPKYfkEFNcdPdr3pTyuyvKgoYE/edit#gid=791304063][Retro]]
+[[https://docs.google.com/spreadsheets/d/1Vmk-W3_x6VT289ykDDg3a439g_r9sMMmjcY7wnqvXQ0/edit#gid=2072918712][Estimation]]

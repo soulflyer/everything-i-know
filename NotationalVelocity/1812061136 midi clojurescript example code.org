@@ -1,0 +1,4 @@
+#+TITLE: midi clojurescript example code
+# TAGS #clojurescript 
+
+https://github.com/pdv/fugue/blob/master/src/fugue/midi.cljs

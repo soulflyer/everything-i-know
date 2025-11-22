@@ -1,0 +1,6 @@
+#+TITLE: enlive-tutorial
+# TAGS #clojure
+
+lots of interesting stuff about web scraping with clojure
+https://github.com/cgrand/enlive
+https://github.com/swannodette/enlive-tutorial

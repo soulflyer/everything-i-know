@@ -1,0 +1,14 @@
+#+TITLE: mp3 metadata
+# TAGS #mp3
+
+audioranger
+This looks like it could be useful for editing and searching mp3 metadata, currently not available for mac, eta early 21:
+https://www.audioranger.com/faq.php
+
+kid3
+will search metadata but it's really slow and doesn't seem to be able to pull out a list, ie it finds one, then you have to click find again and wait another 5 minutes to see the next one.
+Might be able to do this with filters...
+try %c matches *listen*
+
+MusicBrainz Picard:
+seems ok for manipulating metadata but can't search through the comments field. Looks like it could do a great job of finding and correcting metadata problems.

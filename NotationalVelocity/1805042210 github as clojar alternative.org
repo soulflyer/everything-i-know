@@ -1,0 +1,18 @@
+#+TITLE: github as clojar alternative
+# TAGS #clojure
+
+All you need to do is create a git tag and push it Github.
+
+$ git tag v1.0.2-with-hydrate-fix
+$ git push plexus --tags
+
+Now add the Jitpack maven repository, and you can load your library straight aways.
+
+(defproject lambdaisland "0.160.0"
+  :dependencies [,,,
+                 [com.github.plexus/toucan "v1.0.2-hydrate-fix"]]
+  :repositories [["jitpack" "https://jitpack.io"]])
+
+Notice the format of the dependency vector: [com.github.your-github-name/your-project-name "git-tag"].
+
+from: https://lambdaisland.com/blog/17-05-2017-loading-clojure-libraries-directly-from-github

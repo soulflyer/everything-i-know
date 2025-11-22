@@ -1,0 +1,3 @@
+#+TITLE: uncanny valley
+# Tags #film
+Short film about VR game [[https://vimeo.com/147365861][Uncanny Valley]]

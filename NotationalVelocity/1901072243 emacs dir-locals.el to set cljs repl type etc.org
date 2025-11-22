@@ -1,0 +1,4 @@
+#+TITLE: emacs dir-locals.el to set cljs repl type etc
+# TAGS #emacs #webbookmark
+
+https://www.youtube.com/watch?v=hcFx-QL5ySM

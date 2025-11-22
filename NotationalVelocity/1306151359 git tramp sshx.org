@@ -1,0 +1,15 @@
+#+TITLE: git tramp sshx
+# TAGS #ssh #emacs
+
+tramp doesn't seem to work on default settings. I think it is my .profile setting PS1 to something it can't recognise. Using sshx as the connection method gets round this:
+C-x C-f /sshx:jphuquoc@soulflyer.co.uk:filename
+http://www.gnu.org/software/emacs/manual/html_node/tramp/Frequently-Asked-Questions.html#Frequently-Asked-Questions
+add this?:
+(setq tramp-default-method "sshx")
+yes, but this then breaks mimi, which needs ssh not sshx
+
+soulflyer prompt now modified so it has a $ on the end. Works ok.
+
+C-x C-f /ssh:jphuquoc@soulflyer.co.uk:filename
+
+C-x C-d /ssh:mimi.local:

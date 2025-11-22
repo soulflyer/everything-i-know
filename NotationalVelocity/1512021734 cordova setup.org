@@ -1,0 +1,24 @@
+#+TITLE: cordova setup
+# TAGS #cordova
+
+install node http://nodejs.org
+sudo npm install -g cordova
+
+To try out the barperfect project:
+cordova create barperfect com.wiserobot.barperfect  BarPerfect
+cd barperfect
+rm -rf www
+
+clone the barperfect-wiserobot repo from gitlab (this is the www dir for the project)
+link it with ln -s ../barperfect-wiserobot www
+
+cordova platform add android
+
+cordova plugin add https://git-wip-us.apache.org/repos/asf/cordova-plugin-file.git
+cordova plugin add https://git-wip-us.apache.org/repos/asf/cordova-plugin-network-information.git
+cordova plugin add https://git-wip-us.apache.org/repos/asf/cordova-plugin-file-transfer.git
+cordova build
+cordova emulate android
+
+I had to do this to fix prob with the file plugin:
+cordova platform update android@5.0.0

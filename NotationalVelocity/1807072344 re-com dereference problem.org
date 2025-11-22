@@ -1,0 +1,4 @@
+#+TITLE: re-com dereference problem
+# TAGS #clojurescript
+
+inside a for list comprehension 2whatever doesn't get noticed so the display doesn't update automatically. dereference it in a let outside the for loop to fix this.

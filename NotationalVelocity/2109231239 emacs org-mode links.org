@@ -1,0 +1,12 @@
+#+TITLE: emacs org-mode links
+# Tags #emacs  #org-mode
+
+The format is: =[[file://whatever][this]]=
+Note the use of = = to force literal display, otherwise it looks like [[file://whatever][this]]
+Using *(org-toggle-link-display)* will show the raw link
+
+Capture a link from another file using *M-x org-store-link* and insert it with *(org-insert-link)* bound to *C-c C-l* Use the up key to select the recently stored file.
+
+Use *M-x org-open-link* to open the link, bound to *C-c C-o*
+
+[[file:2109122138 index.org::+TITLE: index][Here's a link to the zetteldeft index file]] made as above.

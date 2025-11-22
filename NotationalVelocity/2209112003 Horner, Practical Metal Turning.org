@@ -1,0 +1,8 @@
+#+TITLE: Horner, Practical Metal Turning
+# Tags #book #metalwork #turning
+
+Published 1906
+
+[[file:~/Documents/books/bookshelf/Turning/Practical_metal_turning.pdf][Practical Metal Turning]]
+
+Does what it says on the tin. Good coverage of turning techniques.

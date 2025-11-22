@@ -1,0 +1,9 @@
+#+TITLE: forth unlink
+# TAGS  
+
+/usr/local/bin/gforth
+/usr/local/bin/gforth-fast
+/usr/local/bin/gforth-itc
+/usr/local/bin/gforthmi
+/usr/local/bin/vmgen
+/usr/local/share/man/man1/gforth.1

@@ -1,0 +1,12 @@
+#+TITLE: git update-index
+# TAGS #git
+
+git update-index --skip-worktree emacs-custom.el
+
+This will allow local changes to be ignored but still have a basic file committed to the repo
+
+git update-index --no-skip-worktree <file_name>
+
+undoes it.
+
+https://compiledsuccessfully.dev/git-skip-worktree/

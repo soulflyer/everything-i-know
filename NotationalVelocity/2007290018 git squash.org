@@ -1,0 +1,14 @@
+#+TITLE: git squash
+# TAGS #git
+
+To squash the last 3 commits into one:
+
+git reset --soft HEAD~3
+git commit -m "New message for the combined commit"
+
+soft reset doesn't change any of the files and they all appear as changes to be committed.
+commit and push, using + to force upstream to accept the rewritten history if the branch was previously pushed
+
+git push origin +name-of-branch
+
+from:https://gist.github.com/patik/b8a9dc5cd356f9f6f980

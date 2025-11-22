@@ -1,0 +1,8 @@
+#+TITLE: lein re-frame fails with frisk
+# TAGS #re-frame #clojure
+
+I had this in ./lein/profiles
+
+[lein-re-frisk "0.5.5"]
+
+removing it allowed lein new re-frame to run sucessfully

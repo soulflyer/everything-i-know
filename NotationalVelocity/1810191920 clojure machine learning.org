@@ -1,0 +1,14 @@
+#+TITLE: clojure machine learning
+# TAGS #clojure
+
+Clojure lib for xgboost (https://github.com/dmlc/xgboost)
+ https://gitlab.com/alanmarazzi/clj-boost
+ 
+ OpenCL
+ https://clojurecl.uncomplicate.org/
+ 
+ CUDA
+ https://clojurecuda.uncomplicate.org/
+ 
+Something else
+ https://neanderthal.uncomplicate.org/

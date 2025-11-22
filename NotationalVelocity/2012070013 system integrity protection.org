@@ -1,0 +1,12 @@
+#+TITLE: system integrity protection
+# TAGS #sip
+
+check with :
+csrutil status
+
+disable by:
+restart
+hold CMD R
+open a terminal (under the utilities menu)
+csrutil disable
+restart

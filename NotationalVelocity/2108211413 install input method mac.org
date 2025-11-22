@@ -1,0 +1,5 @@
+#+TITLE: install input method mac
+# TAGS #mac #input
+
+http://chinesemac.org/pages/osx11.html
+https://support.apple.com/en-gb/guide/mac-help/mchlp2866/11.0/mac/11.0

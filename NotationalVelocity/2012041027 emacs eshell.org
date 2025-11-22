@@ -1,0 +1,4 @@
+#+TITLE: emacs eshell
+# TAGS #emacs #webbookmark
+
+https://ambrevar.xyz/emacs-eshell/

@@ -1,0 +1,12 @@
+#+TITLE: hyperfiddle
+# Tags #clojure
+
+In hyperfiddle/photon back end and front end code can be in the same file.
+
+blog article
+https://hyperfiddle.notion.site/Reactive-Clojure-You-don-t-need-a-web-framework-you-need-a-web-language-44b5bfa526be4af282863f34fa1cfffc
+
+repo (for the test tool associated with hypwerfiddle. Main code is not yet open sourced)
+https://github.com/hyperfiddle/rcf?utm_campaign=The%2BREPL&utm_medium=web&utm_source=The_REPL_3
+
+test tool is a bit like having a comment section, but can run in one command when enabled in dev, and as it is written as a macro that  compiles to nothing whenits not enabled in dev, has no impact on the compiled code there.

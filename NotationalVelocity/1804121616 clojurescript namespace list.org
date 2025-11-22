@@ -1,0 +1,9 @@
+#+TITLE: clojurescript namespace list
+# TAGS #clojurescript
+
+(dir name.space)
+
+get around current weirdness where output is all on one line:
+(println (with-out-string (dir name.space)))
+
+(keys (ns-publics 'anh-front.tree))

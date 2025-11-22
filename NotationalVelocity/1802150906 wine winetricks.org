@@ -1,0 +1,17 @@
+#+TITLE: wine winetricks
+# TAGS #wine
+
+  wine has the following notes:
+    When using the Mac Driver, it might be useful to enable RetinaMode when
+    you're using a high DPI monitor. To do that, open up Wine's Registry
+    Editor:
+
+      wine regedit
+
+    and then navigate to:
+
+      [HKEY_CURRENT_USER\Software\Wine\Mac Driver]
+
+    and then set "RetinaMode" to "y". You may also want to adjust your DPI
+    under the Graphics tab in winecfg.
+~:

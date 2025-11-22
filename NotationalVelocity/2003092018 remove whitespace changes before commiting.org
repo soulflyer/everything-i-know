@@ -1,0 +1,22 @@
+#+TITLE: remove whitespace changes before commiting
+# TAGS #git
+
+git diff > backup
+git diff -w > changes
+git reset --hard
+patch < changes
+
+from: 
+https://stackoverflow.com/questions/3515597/add-only-non-whitespace-changes
+
+patch may also need --ignore-whitespace
+https://stackoverflow.com/a/52381309/1671119
+
+and -p1
+which removes the first / from the pathnames
+ie I successfully used this:
+patch -p1 --ignore-whitespace /tmp/changes
+
+
+also interesting:
+https://til.hashrocket.com/posts/696df00135-remove-whitespace-changes-then-git-add-p

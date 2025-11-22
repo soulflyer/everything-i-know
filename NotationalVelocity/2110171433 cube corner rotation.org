@@ -1,0 +1,13 @@
+#+TITLE: cube corner rotation
+# Tags #cube
+# Backlink: §2110141410 rubiks cube
+
+To rotate the top front right corner three times (ie back to where it started) do this 3 times:
+
+(R' D' R  D) x2
+
+The top layer can be rotated in betwen any of the 3 steps to rotate other top layer corners.
+
+Alternatively:
+
+(R' D  R  D') x2

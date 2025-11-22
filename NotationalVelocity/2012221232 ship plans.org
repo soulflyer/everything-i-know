@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2012221232 ship plans-images
+:END:
+#+TITLE: ship plans
+# TAGS #ship
+
+Ship plans:
+https://www.shipmodell.com/
+
+and books:
+http://www.pielcraftsmen.com/modeler/modelbook/howtobooks.html
+
+and prints
+https://prints.rmg.co.uk/collections/ship-plans
+
+in Russian (English Cutter)
+https://www.goldenhind.ru/chapman/view60_06.htm
+
+[[file:2012221232 ship plans-images/cutter.png]]

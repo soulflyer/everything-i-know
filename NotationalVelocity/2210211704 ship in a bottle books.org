@@ -1,0 +1,33 @@
+#+TITLE: ship in a bottle books
+# Tags #book
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2210211704 ship in a bottle books-images
+:END:
+* Peter Thorne, Secrets of ships in bottles
+
+[[file:2210211704 ship in a bottle books-images/screenshot-20230320-185405.png]]
+Elaborate models includes the Kon-Tiki
+[[https://archive.org/details/secretsofshipsin0000thor/mode/2up][Archive]]
+
+* Donald Hubbard, ships in bottles
+
+[[file:2210211704 ship in a bottle books-images/screenshot-20230320-185235.png]]
+Some useful drawings. Book is familiar, I think I borrowed it from Mere Green Library. This one is where I learnt to use putty instead of plasticene. Recommends using *Prussian Blue* oil colour, possibly a little *viridian* to add some green for costal waters.
+Also recommends use of clear nail varnish.
+[[https://archive.org/details/shipsinbottlesst00hubb/mode/2up][Archive]]
+
+* John Leopard, Ships in Bottles
+
+Also familiar, but too recent (1990). Maybe recycling ideas from earlier books? Has the idea of using a broken needle eye as a dolphin striker. Pretty sure I saw and used that, but that would have been pre 1977.
+A few good bits but fairly short. Good drawings at the end in the *Projects* section. Topsail schooner in particular.
+[[file:2210211704 ship in a bottle books-images/screenshot-20230320-184910.png]]
+[[https://archive.org/details/shipsinbottlesmo0000leop/mode/2up][Archive]]
+
+* F R Berchem, Ships in bottles
+[[pdf:~/Documents/books/bookshelf/boats/Ships-in-Bottles.pdf::1++0.00][Local copy]]
+
+* Jack Needham. Modelling ships in bottles
+
+[[file:2210211704 ship in a bottle books-images/screenshot-20230320-185549.png]]
+The first one I read IIRC
+[[https://archive.org/details/modellingshipsin0000need][Archive]]

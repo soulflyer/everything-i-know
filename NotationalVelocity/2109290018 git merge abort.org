@@ -1,0 +1,7 @@
+#+TITLE: git merge abort
+# Tags #git
+To reset a merge instead of resolving the conflicts and commiting do:
+
+#+begin_src shell
+git merge --abort
+#+end_src

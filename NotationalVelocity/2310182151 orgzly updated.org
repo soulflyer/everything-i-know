@@ -1,0 +1,4 @@
+#+TITLE: orgzly updated
+# Tags #emacs
+[[https://github.com/orgzly-revived/orgzly-android-revived][orgzly revived]] recently updated fork of orgzly
+

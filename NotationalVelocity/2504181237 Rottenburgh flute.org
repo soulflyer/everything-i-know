@@ -1,0 +1,4 @@
+#+TITLE: Rottenburgh flute
+# Tags #flute
+
+[[file:~/Documents/books/bookshelf/Musical-Instruments/Flute/Technical Drawings/Rottenburgh/0507d1u.tif][Beaudin drawing]] A415Hz, second [[file:~/Documents/books/bookshelf/Musical-Instruments/Flute/Technical Drawings/Rottenburgh/0507d2u.tif][middle joint]] at A397. Tuning looks good for both.

@@ -1,0 +1,3 @@
+#+TITLE: museum collections
+
+[[https://collection.sciencemuseumgroup.org.uk/][Birmingham museum]] has some lathe stuff

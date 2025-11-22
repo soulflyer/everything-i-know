@@ -1,0 +1,6 @@
+#+TITLE: lubuntu desktop manager not active
+# TAGS #linux
+
+"Default applications for LXSession", then went to the "Core Applications" tab, then clicked "Reload" next to Desktop Manager.
+
+from: https://ubuntuforums.org/showthread.php?t=2218084

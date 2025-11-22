@@ -1,0 +1,10 @@
+#+TITLE: Precision Locating and Dividing
+# Tags #book #metalwork
+
+Published 1914
+No author given
+Part of "Machinery's reference series"
+
+[[file:~/Documents/books/bookshelf/Turning/precision_locating_and_dividing_MRS_No135_1914.pdf][Precision locating and dividing]]
+
+Contains methods for accurately setting out a dividing wheel

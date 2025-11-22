@@ -1,0 +1,4 @@
+#+TITLE: tap tempo pedal
+# Tags #midi
+[[https://www.ploytec.com/one2/][ploytec one.2]]
+Simple pedal that just sends midi clock set by tapping on it.

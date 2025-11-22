@@ -1,0 +1,7 @@
+#+TITLE: wire inlay
+# Tags #link
+
+[[https://www.kimballarms.ca/articles/categories/longrifle-build-techniques/metal-wire-inlay-part-three/][Gunsmith blog link]]
+Covers what appears to be a traditional technique producing reasonably high standard inlay that may work to reproduce the [[pdf:~/Documents/books/bookshelf/Musical-Instruments/Flute/Galpin-Bressan-flute.pdf::5++0.00][Bressan flute]]
+
+"Draw or transfer your design onto your stock however you like, freehand, tracing paper, it really does not matter. Prepare your wire for inlay by cutting it to length, filing a profile if necessary and roughing up or scoring the sides. Once your wire is prepared you will then cut into the stock to create a mortice along your layout lines using a knife and stabbing tools. Do only one line at a time. Once a mortice is completely cut along your line you will embed your wire into the stock using a hammer and a punch.  When your wire is almost completely embedded in the stock, wet the stock surrounding the wire slightly so that the wood swells up around your wire. Continue preparing, cutting, hammering and wetting until your inlay is complete.  Once your inlay is complete you can file of the protruding wire flush or very nearly flush to the surface of the wood."

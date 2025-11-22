@@ -1,0 +1,7 @@
+#+TITLE: the case against monads and rop
+# Tags #monad
+https://fsharpforfunandprofit.com/posts/against-railway-oriented-programming/
+
+* For
+exceptions should not be used for flow control. Only to stop.
+using an exception drops out and may bypass cleanup on the way out.

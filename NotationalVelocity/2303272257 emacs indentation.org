@@ -1,0 +1,6 @@
+#+TITLE: emacs indentation
+# Tags #emacs
+
+[[file:~/bin/comics][Shell script]] wasn't indenting correctly. Used *M-x smie-config-set-indent* to fix it.
+
+[[https://superuser.com/a/1038557/169596][Stack Exchange answer]]

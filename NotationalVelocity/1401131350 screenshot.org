@@ -1,0 +1,7 @@
+#+TITLE: screenshot
+# TAGS
+
+Shift-Apple-4  space to take a shot of a window and put it on the desktop.
+S-A-C-4 space to put it in the clipboard
+
+Android- hold power and home button

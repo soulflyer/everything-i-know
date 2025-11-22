@@ -1,0 +1,8 @@
+#+TITLE: json format
+# TAGS #json #emacs
+
+Format json so it is readable:
+cat Indvlaaaab.json | python -m json.tool > formated.json
+
+or in emacs (select everything first)
+M-x json-pretty-print

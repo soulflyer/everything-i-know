@@ -1,0 +1,29 @@
+#+TITLE: imap debuggery
+# Tags #mail
+
+can use openssl to talk to the *IMAP* server:
+#+begin_src shell
+openssl s_client -showcerts -connect mail.soulflyer.co.uk:143 -starttls imap
+#+end_src
+Note that this is using the open *143* port not the *993* port. I think this is a mechanism that connects first on 143 then switches over to secure. Not sure how this relates to the mailer settings where *993* is specified.
+
+It also works going directly to *993* without the *starttls* option
+#+begin_src shell
+openssl s_client -showcerts -connect mail.soulflyer.co.uk:993
+#+end_src
+
+Inside the session commands look like this:
+#+begin_src shell
+a login iain@soulflyer.co.uk <password>
+a list """*"
+a list ""*
+a select inbox
+a fetch 1 full
+a fetch 1 body[text]
+#+end_src
+I think the *a* can be any arbitary string, probably part of a command re-use mechanism?
+
+More about this here:
+[[https://www.atmail.com/blog/imap-101-manual-imap-sessions/][atmail blog]] sessions
+[[https://www.atmail.com/blog/imap-commands/][atmail blog]] commands
+[[https://stackoverflow.com/questions/14959461/how-to-talk-to-imap-server-in-shell-via-openssl][stack overflow]]

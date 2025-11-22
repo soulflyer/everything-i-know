@@ -1,0 +1,15 @@
+#+TITLE: duolingo css
+# Tags #css
+Need this to make the accents visible.
+#+begin_src css
+._1UqAr {
+    font-size: 34px;
+    color: black;
+    line-height: 34px;
+}
+
+._1QDX9 {
+    font-size: 28px;
+    line-height: 28px;
+}
+#+end_src

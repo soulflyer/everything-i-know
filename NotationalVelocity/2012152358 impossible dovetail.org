@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2012152358 impossible dovetail-images
+:END:
+#+TITLE: impossible dovetail
+# TAGS #woodwork #joint #dovetail
+
+[[file:2012152358 impossible dovetail-images/box.png]][[file:2012152358 impossible dovetail-images/box2.png]][[file:2012152358 impossible dovetail-images/box3.png]]
+
+http://www.eurus.dti.ne.jp/~k-yazawa/jointwork.html
+
+Clues in here
+https://www.popularwoodworking.com/techniques/impossible-dovetails/
+
+Discussion here
+http://www.woodworkforums.com/f87/method-kintaro-yazawas-trick-box-joint-59870
+
+Possible clue here:
+§2207300559 Hasluck cabinetmakers handybook
+
+3d model of possible solution:
+https://3dwarehouse.sketchup.com/model/u79ac8292-2850-4695-a10b-e2a80057c85f/Impossible-Key-Hole-Key-Hall-Joint?hl=en
+
+Another possible solution, no details given though:
+https://thecarpentryway.blog/2012/12/chasing-transcendence/
+
+https://www.youtube.com/watch?v=zxGk6r2LUgs
+
+[[k-yazawa@eurus.dti.ne.jp][Kintaro Yazawa's e-mail]]

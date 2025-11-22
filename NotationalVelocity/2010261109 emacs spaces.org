@@ -1,0 +1,4 @@
+#+TITLE: emacs spaces
+# TAGS #emacs
+
+add dynamic-spaces package to make neat layout of requires easier

@@ -1,0 +1,19 @@
+#+TITLE: monger from the repl
+# TAGS #clojure #mongo
+
+assumes:
+#+begin_src clojure
+[monger
+   [collection :as mc]
+   [core :as mg]]
+   
+(def con (mg/connect))
+(def db (mg/get-db con "soulflyer"))
+(mc/find-maps db "preferences")
+
+(mc/insert
+ db "preferences" { :_id "fullsize-directory" :path "/Users/iain/Pictures/Published/fullsize"})
+
+;; To add a field to an existing entry:
+(mc/update-by-id db "keywords" "Root" (conj {:sample "2015/11/06-Carrot-and-MyMy/DIW_6225.jpg"} (mc/find-map-by-id db "keywords" "Root")))
+#+end_src

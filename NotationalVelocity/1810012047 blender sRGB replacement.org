@@ -1,0 +1,5 @@
+#+TITLE: blender sRGB replacement
+# TAGS #blender
+
+https://github.com/sobotka/filmic-blender
+https://www.blenderguru.com/tutorials/secret-ingredient-photorealism

@@ -1,0 +1,4 @@
+#+TITLE: iterm alternative
+# Tags #iterm
+https://sw.kovidgoyal.net/kitty/
+offers ability to specify different fonts for specific code points. Non trivial install on arm. Works ok on intel, but does lose the ability to have a fullscreen window with other windows on top.

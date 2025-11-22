@@ -1,0 +1,25 @@
+#+TITLE: Flexiana Starcity links
+# TAGS
+
+https://www.starcity.com/
+
+Money
+https://stripe.com/
+https://www.moderntreasury.com/
+
+UI Testing
+https://github.com/igrishaev/etaoin
+https://github.com/caseworker/caseworker/pull/40/commits/f3c86f62d9a0f0c525a440cf947fec1644a02813
+
+GraphQL
+https://github.com/walmartlabs/lacinia
+https://github.com/tendant/graphql-clj-starter
+
+timer
+https://www.toggl.com/app/timer
+
+mail
+https://mail.google.com/mail/u/1/#inbox
+
+contract
+https://docs.google.com/document/d/1YFVWczltvTCKweiUPmfa1piTN3BPG9-rePo_9LVS-ns/edit?ts=5bc5fa5f

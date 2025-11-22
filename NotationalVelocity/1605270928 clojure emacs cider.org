@@ -1,0 +1,24 @@
+#+TITLE: clojure emacs cider
+# TAGS #clojure
+
+M-x cider-jack-in
+starts a headless repl and connects to it
+
+lein repl
+M-x cider
+to create a repl and then connect to it
+
+C-c M-n 	switch repl buffer namespace to the current buffer's namespace
+
+C-c C-e     evaluate an expression
+C-c C-k     evaluate the whole file
+C-c M-e evaluate an expression and send the result to the repl
+
+C-M-x   or
+C-c C-c     evaluate the enclosing expression
+
+C-c C-x     reload the classpath.
+more at
+https://github.com/clojure-emacs/cider#keyboard-shortcuts
+
+http://clojure-doc.org/articles/tutorials/emacs.html

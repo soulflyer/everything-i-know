@@ -1,0 +1,22 @@
+#+TITLE: java versions on m1
+# Tags #java
+
+Install with:
+#+begin_src bash
+brew install openjdk
+#+end_src
+
+This doesn't link to the place that */usr/libexec/java_home* expects to find java, but this:
+#+begin_src bash
+sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
+#+end_src
+will add the necessary link. It can be found by doing"
+#+begin_src bash
+brew info openjdk
+#+end_src
+This will confirm it worked:
+#+begin_src bash
+/usr/libexec/java_home -V
+#+end_src
+
+from https://stackoverflow.com/a/70456947/1671119

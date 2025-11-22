@@ -1,0 +1,6 @@
+#+TITLE: Screen mirroring shortcut
+# Tags #mac
+
+*CMD-Fn-f1*
+Works on both 10.14 and 14.1 (Subversion and Acceptance)
+*Barrier* doesn't handle this, have to use the actual keyboard on *Subversion*

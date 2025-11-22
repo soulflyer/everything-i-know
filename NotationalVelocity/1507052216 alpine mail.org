@@ -1,0 +1,4 @@
+#+TITLE: alpine mail
+# TAGS #mail
+
+https://howto.ccs.neu.edu/howto/mail/configuring-alpine/

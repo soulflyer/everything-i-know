@@ -1,0 +1,35 @@
+#+TITLE: emacs buffer display
+# Tags #emacs #webbookmark
+[[https://www.youtube.com/watch?v=-H2nU0rsUMY&t=1s][youtube]]
+[[https://github.com/daviwil/emacs-from-scratch/blob/master/show-notes/Emacs-Tips-DisplayBuffer-1.org][github show-notes]]
+[[https://www.reddit.com/r/emacs/comments/llvyxe/hey_emacs_dont_move_my_windows_customizing/][reddit]]
+[[info:elisp#Choosing Window Options][elisp#Choosing Window Options]]
+there is an example at the end of how to not use the deprecated *pop-up-windows*
+
+checkout shackle.el (melpa), in particular *(shackle-trace-functions)* to observe calls to display-buffer. Look in buffer *shackle-trace*
+[[https://depp.brause.cc/shackle/][shackle]]
+[[https://github.com/emacsorphanage/popwin][popwin]]
+
+I don't know why *Org links* won't behave. It always splits the window 50:50 and ignores atttempts to use display-buffer-alist entries to modify its behaviour.
+Editing the src of *(org-insert-link)* in *ol.el* by adding *(resize-temp-buffer-window)* helps but it isn't a permanent solution.
+
+#+begin_src emacs-lisp
+  (with-current-buffer "*Org Links*"
+	(erase-buffer)
+	(insert "Insert a link.
+Use TAB to complete link prefixes, then RET for type-specific completion support\n")
+	(when org-stored-links
+	  (insert "\nStored links are available with <up>/<down> or M-p/n \
+\(most recent with RET):\n\n")
+	  (insert (mapconcat #'org-link--prettify
+			     (reverse org-stored-links)
+			     "\n")))
+        (resize-temp-buffer-window)
+	(goto-char (point-min)))
+#+end_src
+
+Here is info about a patch that will hopefully be applied eventually:
+§2109271033 hide org-links buffer
+Looks like it has been applied. Not sure if it will allow control of the display or just hiding it altogether.
+
+[[https://codeberg.org/joe-adams/display-buffer-alist-lesson][display-buffer-alist-lesson]]

@@ -1,0 +1,25 @@
+#+TITLE: barperfect download cards
+# TAGS
+
+http://barperfe.nextmp.net/flashcardsapi/api/CreateOrder?email=minh@wiserobot.com&sku=MPRE&key=cf68c93f69d0cc460203380fa021e867&platform=IOS&flag=yes1
+[22/05/2015 15:49:27] Tình Nguyễn Đức: this url to create order
+[22/05/2015 15:49:42] Tình Nguyễn Đức: after response from apple store
+[22/05/2015 15:50:06] Tình Nguyễn Đức: but we dont know what they response
+[22/05/2015 15:52:41] Tình Nguyễn Đức: in flashcard_level2.html
+[22/05/2015 15:53:30] Iain Wood: and its just a redirect, no javascript?
+[22/05/2015 15:53:48] Tình Nguyễn Đức: about line 407
+[22/05/2015 15:53:54] Tình Nguyễn Đức: yes
+[22/05/2015 15:54:12] Tình Nguyễn Đức: currently its just redirect to webpage
+[22/05/2015 15:54:49] Tình Nguyễn Đức: when click, we need to check the platform and redirect to different function
+[22/05/2015 16:10:11] Tình Nguyễn Đức: that function mean
+[22/05/2015 16:10:26] Tình Nguyễn Đức: get product url
+[22/05/2015 16:10:29] Tình Nguyễn Đức: from the SKU
+[22/05/2015 16:15:49] Tình Nguyễn Đức: that link has: 
+- emai
+- sku
+- key (for secure)
+- platform (IOS)
+- flag (purchase success)
+[22/05/2015 16:22:37] Tình Nguyễn Đức: the key generate with md5 from email and 'barperfectapp' text
+[22/05/2015 16:22:57] Tình Nguyễn Đức: ex: md5(minh@wiserobotbarperfectapp)
+[22/05/2015 16:24:07] Tình Nguyễn Đức: http://phpjs.org/functions/md5/ md5 library for js

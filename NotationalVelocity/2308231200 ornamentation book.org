@@ -1,0 +1,4 @@
+#+TITLE: ornamentation book
+# Tags #book
+
+[[https://elopage.com/s/music-ornaments/the-ornamentation-of-baroque-music][The Ornamentation of Baroque Music - eBook]]

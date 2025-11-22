@@ -1,0 +1,4 @@
+#+TITLE: clojure 2d-3d
+# TAGS #clojure #geometry #visualization
+
+https://github.com/thi-ng/geom

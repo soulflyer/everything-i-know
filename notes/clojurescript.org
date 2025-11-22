@@ -1,0 +1,64 @@
+* Clojurescript
+Being a collection of notes on the vagueries of clojurscript and its interaction with javascript and the web.
+
+** project.clj
+This is where lein gets its instructions for any clojure or clojurescript program. (ok, it doesn't have to be used, but it is the norm).
+
+*** :cljsbuild
+Clojurescript build is controlled by the cljsbuild section, like this from the [[https://github.com/bhauman/lein-figwheel/wiki/Quick-Start][Lein Figwheel Quickstart]]:
+#+BEGIN_SRC clojure
+:cljsbuild {
+    :builds [{:id "dev"
+              :source-paths ["src"]
+              :figwheel true
+              :compiler {:main "hello-seymore.core"
+                         :asset-path "cljs/out"
+                         :output-to  "resources/public/cljs/main.js"
+                         :output-dir "resources/public/cljs/out"}}]}
+#+END_SRC
+This defines a build called dev that compiles everything under the src directory. The namespace hello-seymore.core is the entry point, note that it doesn't need to have a function called main. Whatever is in hello-seymore.core will be run. This file contains definitions and a call on the last line to a single function defined there. Idiomatic, apparantly.
+
+Here is a subsection of that from [[https://8thlight.com/blog/eric-smith/2016/10/05/a-testable-clojurescript-setup.html][Another blog]] with useful comments. In particular note the one about :asset-path being relative. I believe this is hardwired to resources/public. [[https://owensd.io/2017/02/14/electron-figwheel-support/][Yet Another Blog]] mentions this in conjunction with figwheel, and uses a symlink to redirect it as it can't be specified to go anywhere else. Also uses grunt to build and remove the link which seems like an interesting trick.
+#+BEGIN_SRC clojure
+:compiler {:main clojurescript_tdd_application.core   ; your main namespace
+           :asset-path "cljs/out"                     ; Where the load-dependent files will go, mind you this one is relative
+           :output-to "resources/public/cljs/main.js" ; Where the main file will be built
+           :output-dir "resources/public/cljs/out"    ; Directory for temporary files
+           :source-map-timestamp true}                ; Sourcemaps hurray!
+#+END_SRC
+**** calling build from the repl
+from the [[https://clojurescript.org/guides/quick-start][Clojurescript QuickStart]]:
+#+BEGIN_SRC clojure
+(require 'cljs.build.api)
+
+(cljs.build.api/build "src" {:output-to "out/main.js"})
+#+END_SRC
+This is in a file called build.clj which is used to build a very simple project without leiningen and the parameters passed to cljs.build.api/build match up with ones we might specify in the :cljsbuild section. Here's another snippet from the [[https://clojurescript.org/guides/quick-start][Clojurescript Quickstart]]:
+#+BEGIN_SRC clojure
+(require 'cljs.build.api)
+(cljs.build.api/build "src"
+  {:main 'hello-world.core
+   :output-to "out/main.js"})
+#+END_SRC
+Note the use of :main.
+
+*** :clean-targets
+this section specifies all the stuff that lein clean will remove. here's one from the above example:
+#+begin_src clojure
+:clean-targets ^{:protect false} [:target-path "out" "resources/public/cljs"]
+#+end_src
+make sure this is at the top level, not inside another section.
+
+*** :figwheel
+watch and reload css:
+#+begin_src clojure
+:figwheel { :css-dirs ["resources/public/css"] }
+#+end_src
+watch and reload html is also possible, but possibly not worth the hassle. see [[https://github.com/bhauman/lein-figwheel/wiki/html-watcher-including-browser-reloading][the figwheel Wiki]].
+
+*** :main
+If this is specified the html file no longer needs the call to goog.require, or inclusion of goog/base.js. From the [[https://clojurescript.org/guides/quick-start][Clojurescript Quickstart]]:
+
+"Refresh the page and you should still see "Hello world!" printed to the JavaScript console. If you examine out/main.js you’ll see that it writes out the boilerplate script tags for you. The previous contents of main.js are now in out/cljs_deps.js, which is loaded alongside our namespace by the new out/main.js."
+
+Note that the quickstart guide doesn't use leiningen, but the params to cljs.build.api/build appear to be exactly the same as the parameters specified in the cljsbuild section of projects.clj.

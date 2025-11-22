@@ -1,0 +1,11 @@
+#+TITLE: L-Systems simulators
+# TAGS #fractal #l-systems
+
+Online
+http://nolandc.com/sandbox/fractals/
+http://jsxgraph.uni-bayreuth.de/wiki/index.php/L-systems
+http://madflame991.blogspot.com/p/lindenmayer-power.html
+http://www.kevs3d.co.uk/dev/lsystems/
+
+Install
+http://openalea.gforge.inria.fr/dokuwiki/doku.php?id=openalea

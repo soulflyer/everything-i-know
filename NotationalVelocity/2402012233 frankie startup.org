@@ -1,0 +1,27 @@
+#+TITLE: frankie startup
+# Tags #frankie
+
+Starting *Frankie* locally:
+
+#+begin_src shell
+make db
+make build
+make backend
+#+end_src
+
+Looks like *make build* handles the db so the first command is not necessary
+
+Go to http://new-customer.frankie-local.pro:3000 and log in with *test+frankie@frankie.pro* pasword *not_nul*
+
+Recommended by Jacobo:
+#+begin_src shell
+make db
+make backend
+make frontend
+#+end_src
+
+Recommended by Slava
+#+begin_src 
+make build
+make repl ;; (start-dev-system)
+#+end_src

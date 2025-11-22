@@ -1,0 +1,9 @@
+#+TITLE: javascript functional
+# TAGS #javascript
+
+
+clojurescript -- write clojure, compile to javascript
+
+mori https://github.com/swannodette/mori use functional techniques directly from javascript. Includes maps, immutable data, lazy seq etc.
+
+underscore.js http://underscorejs.org/ provides functional helpers. Same as mori?

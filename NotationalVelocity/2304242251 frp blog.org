@@ -1,0 +1,31 @@
+#+TITLE: frp blog
+# Tags #blog
+[[https://blog.janestreet.com/breaking-down-frp/][Janestreet blog]] different types of functional reactive programming and their advantges/disadvantages.
+Mentioned in the [[https://hyperfiddle.notion.site/UIs-are-streaming-DAGs-e181461681a8452bb9c7a9f10f507991][hyperfiddle electric]] video at 7:50
+
+Here are some properties that you might want from your FRP system:
+
+* Properties
+** History-sensitivity,
+or the ability to construct calculations that react not just to the current state of the world, but also to what has happened in the past.
+
+** Efficiency.
+This comes in two forms: space efficiency, mostly meaning that you want to minimize the amount of your past that you need to remember; and computational efficiency, meaning that you want to minimize the amount of the computation that must be rerun when inputs change.
+
+** Dynamism,
+or the ability to reconfigure the computation over time, as the inputs to your system change.
+
+** Ease of reasoning.
+You’d like the resulting system to have a clean semantics that’s easy to reason about.
+
+
+* Types of FRP
+** Pure Monadic FRP
+This approach gives you dynamism, history-sensitivity and ease of reasoning, but has unacceptable space efficiency.
+** Pure Applicative FRP
+The idea behind applicative FRP is simple enough: just drop the join operator, thus giving up dynamism. This means that you end up constructing static dependency graphs.
+** Impure Monadic FRP
+Impure monadic FRP basically gives up on equational reasoning. In other words, the meaning of (max_dist_to_origin mouse_pos) depends on when you call it.
+** Self-Adjusting Computations
+Self-adjusting computations are what you get when you give up on history-sensitivity.
+

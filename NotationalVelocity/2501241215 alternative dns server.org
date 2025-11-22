@@ -1,0 +1,4 @@
+#+TITLE: alternative dns server
+9.9.9.9 dns.quad9.net
+[[https://www.quad9.net/][quad9]]
+an alternative to google on 8.8.8.8 and 8.8.4.4

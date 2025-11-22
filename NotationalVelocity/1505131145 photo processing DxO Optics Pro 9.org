@@ -1,0 +1,10 @@
+#+TITLE: photo processing DxO Optics Pro 9
+# TAGS #photo
+
+Pros:
+Lens correction. Not as good as fisheye-hemi but can be applied as part of the processing, and adjusted later
+Parrallel correction
+Can run the lens correction and rexport as a raw file (DNG)
+
+Cons:
+No customising of kbd shortcuts

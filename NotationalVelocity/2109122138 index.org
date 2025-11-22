@@ -1,0 +1,23 @@
+#+TITLE: index
+# Tags #home
+
+[[file:~/Documents/books/bookshelf/][bookshelf]]
+[[file:~/Documents/books/bookshelf/Woodwork/][Woodwork]]
+[[file:~/Documents/books/bookshelf/Woodwork/Turning][Turning]]
+
+Add links to pages in current use here using C-c d I
+(use * before the search term)
+
+§2206230744 library
+§2112160936 shopping
+§2110071326 tool making and maintaining
+§2110071348 things to make
+
+§2111211128 teaching clojure from the clojure-koans
+§2110141410 rubiks cube
+§2112021553 Vietnamese technical terms
+
+§2109110841 Unicode Characters
+§2109181514 vietnamese input telex
+§2109101310 Setup zetteldeft
+§2109121720 Window management in emacs

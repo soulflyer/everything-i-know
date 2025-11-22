@@ -1,0 +1,30 @@
+#+TITLE: org mode set browser
+# Tags #emacs
+
+Pick one of these
+#+begin_src emacs-lisp
+(setq browse-url-browser-function 'xwidget-webkit-browse-url)
+(setq browse-url-browser-function 'browse-url-default-macosx-browser)
+(setq browse-url-browser-function 'eww)
+#+end_src
+
+or write a fn to do it:
+#+begin_src emacs-lisp
+  (defun browse-eww ()
+    "Set browse-url-browser-function to `eww`"
+    (interactive)
+    (message "Setting 'eww' as default browser")
+    (setq browse-url-browser-function 'eww))
+
+  (defun browse-default ()
+    "Set browse-url-browser-function to `eww`"
+    (interactive)
+    (message "Setting 'default' as default browser")
+    (setq browse-url-browser-function 'browse-url-default-macosx-browser))
+
+  (defun browse-webkit ()
+    "Set browse-url-browser-function to `eww`"
+    (interactive)
+    (message "Setting 'webkit' as default browser")
+    (setq browse-url-browser-function 'xwidget-webkit-browse-url))
+#+end_src

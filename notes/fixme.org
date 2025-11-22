@@ -1,0 +1,40 @@
+* FIXME TODOs
+** DONE [#E] repot turmeric, ginger and pineapples.
+CLOSED: [2025-10-19 Sun 11:23]
+** TODO [#E] Repot Bougianvilleas
+** DONE [#C] Investigate linux camera settings
+CLOSED: [2025-10-03 Fri 13:14]
+Try guvcview in the daylight
+** DONE [#C] Install openscad on ubuntu
+CLOSED: [2025-10-02 Thu 18:15]
+
+** Archive                                                          :ARCHIVE:
+*** DONE [#B] Fix publish/versions.sh
+CLOSED: [2022-04-19 Tue 23:20]
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-04-19 Tue 23:23
+:END:
+It has to be run twice before all versions are created. The first one fails, possibly because the directories don't exist. Or possibly the check that the file is newer only works when there is a file there to compare it to. 
+It wasn't broken, I was using the wrong incantation.
+*** DONE [#C] CTRL-R is discarding anything already typed
+CLOSED: [2022-05-24 Tue 10:57]
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-05-24 Tue 10:57
+:END:
+On subversion the search starts with anything previously typed on the line before hitting C-r. Why not on acceptance too?
+Because acceptance is using /bin/bash which is hopelessly out of date. Added /opt/homebre/bin/bash to /etc/shells and did:
+#+begin_src shell
+chsh -s /opt/homebrew/bin/bash
+#+end_src
+*** DONE [#H] Find out how to pour a bearing
+CLOSED: [2022-05-24 Tue 10:58]
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-05-24 Tue 10:58
+:END:
+Holtzapfell should have it, maybe in volume 2
+look at: §2205200837 
+*** DONE [#A] Change deprecated calls to mc/save in all monger code.
+CLOSED: [2022-11-20 Sun 13:18]
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-11-20 Sun 13:18
+:END:

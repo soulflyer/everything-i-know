@@ -1,0 +1,45 @@
+#+TITLE: re-clojure
+# Tags #conference #clojure #apl
+
+TLDR mathmatica/wolfram lang is amazing. There are multiple open source libraries being developed that between them have the potential to equal or supass mathematica. A lot of this event was about making tha happen.
+
+Notebooks are cool, but really come into their own as tools for doing data science rather than development. 
+
+Day 3 was mostly about showcasing the existing data science tools.
+
+** Notebooks and related libraries
+https://github.com/scicloj/notespace
+
+https://github.com/nextjournal/clerk
+https://nextjournal.github.io/clerk-demo/
+
+https://github.com/jsa-aerial/saite
+
+https://vlaaad.github.io/reveal/ More like an enhanced repl, and possibly a good dev tool. Looks very interesting.
+
+** vlojure
+https://vlojure.io/
+https://github.com/Ella-Hoeppner/Vlojure
+
+** Data visualization
+https://github.com/metasoarous/oz
+
+** J
+https://www.jsoftware.com/#/
+prolog? APL based language with very concise syntax
+(From the 3rd day, the intro to data science)
+https://www.youtube.com/watch?v=t32bIbzQdCU
+
+** Personal Highlights
+https://github.com/kiramclean/hanami-workshop
+This is the github repo that went with a very condensed talk by Kira McClean demoing hanami and clerk. Start here if datascience and notebooks are new to you. Main branch sets up a new blank clerk notebook to play with, and one of the other branches gives the notebook used in the talk. I caught this on day 3, but I believe she gave a longer version at the begining of day 2 that I missed. Looking forward to the videos coming out...
+
+https://github.com/johnmn3/injest
+Interesting tool that can give threaded macros that automatically convert to transducers or parallelize the steps just by changing the first char, ie:
+#+begin_src clojure
+  (->>
+ ...) ;regular version
+  (=>> ...) ;parallel version
+  (+>> ...) ;transducer version
+#+end_src
+Great for experimenting with peformance comparisons. Talk is on day 3 somewhere around 15:00UTC

@@ -1,0 +1,8 @@
+#+TITLE: Linux install Debian
+# TAGS #linux #install
+
+Wants to be fed proprietary drivers for the network :-/
+Asks to choose a mirror site :-/
+Looks good, but I can't be arsed trying to figure out how to get the wireless working (no wireless card seen). Gnome classic option looks very useable.
+
+missing files: brcm/bcm43xx-0.fw

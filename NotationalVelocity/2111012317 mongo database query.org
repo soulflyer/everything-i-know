@@ -1,0 +1,7 @@
+#+TITLE: mongo database query
+# Tags #clojure #mongo #photo
+
+Usr *robomongo* or *robo3t*
+
+A query would look something like this:
+db.getCollection('images').find({Year:'2021', Month:'01'})

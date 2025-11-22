@@ -1,0 +1,8 @@
+#+TITLE: eshell vterm
+# Tags #emacs
+
+Using package eshell-vterm to try to make git commands work:
+#+begin_src emacs-lisp
+(eshell-exec-visual "git" "log" "--oneline" "--graph" "--decorate")
+#+end_src
+Sort of works but doesn't die gracefully

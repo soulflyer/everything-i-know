@@ -1,0 +1,11 @@
+#+TITLE: harmonicas
+# Tags #music
+
+C
+
+G
+A
+Bb
+
+F#
+E

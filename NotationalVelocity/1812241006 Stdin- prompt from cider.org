@@ -1,0 +1,9 @@
+#+TITLE: Stdin- prompt from cider
+# TAGS #clojurescript
+
+Implies that piggieback is not working
+
+"At this point, your figwheel REPL will come back into life and you can start using it inside emacs, with cljs file changes being reflected in the application. Without piggieback, you’ll get a “Stdin:” prompt in your REPL instead of being able to edit the page directly."
+
+taken from:
+https://fenrock.wordpress.com/2015/12/01/developing-electron-apps-in-clojurescript-with-emacs-setting-up-guide/

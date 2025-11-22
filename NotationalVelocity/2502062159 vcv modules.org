@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2502062159 vcv modules-images
+:END:
+#+TITLE: vcv modules
+# Tags #vcv
+* Euler
+#+ATTR_ORG: :width 60
+[[file:2502062159 vcv modules-images/screenshot-20250206-220216.png]]
+Rate of change of an input signal. Could be good for triggers from complex audio.
+
+* Harp
+#+ATTR_ORG: :width 60
+[[file:2502062159 vcv modules-images/screenshot-20250206-222226.png]]
+Maps a continuous pitch CV input signal to a scale and generates gated notes as you "strum". Remake for vcv of Iasos' golden harp.
+[[https://github.com/chinenual/Chinenual-VCV/blob/main/README.md#harp][manual]]
+
+* Startup Delay
+#+ATTR_ORG: :width 60
+[[file:2502062159 vcv modules-images/screenshot-20250206-224818.png]]
+*Delay* sends a trigger as soon as the patch loads, *Trig* waits for the duration set by the delay.

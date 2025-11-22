@@ -1,0 +1,6 @@
+#+TITLE: inkscape drop shadow
+# TAGS #inkscape
+
+cut and paste is fucked up, but duplicate works C-d
+
+filter:drop-shadow works. Select the text tool and just put the cursor in the text to be dropshadowed

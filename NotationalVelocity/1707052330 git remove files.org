@@ -1,0 +1,9 @@
+#+TITLE: git remove files
+# TAGS #git
+
+add to git ignore then do:
+git  rm --cached [filename] 
+
+http://staxmanade.com/2015/02/how-to-remove-files-in-git-that-should-have-been-ignored/
+
+Also possible from *magit* using *K*

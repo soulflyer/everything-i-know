@@ -1,0 +1,7 @@
+#+TITLE: emacs remote file
+# TAGS #emacs
+
+C-x C-f /ssh:<user>@<remote host IP>:<filename>
+
+/ssh:178.128.72.51:.
+opens home dir on wiserobot dev machine

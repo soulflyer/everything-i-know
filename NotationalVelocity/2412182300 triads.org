@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2412182300 triads-images
+:END:
+#+TITLE: triads
+# Tags #music
+[[file:2412182300 triads-images/screenshot-20241218-230055.png]]
+from vicpiano on facebook

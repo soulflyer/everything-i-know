@@ -1,0 +1,12 @@
+#+TITLE: assisi flute
+# Tags #flute #3piece
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2311211437 assisi flute-images
+:END:
+
+[[https://www.jstor.org/stable/841135][JSTOR]]
+[[file:2311211437 assisi flute-images/1.png]]
+[[file:2311211437 assisi flute-images/2.png]]
+[[file:2311211437 assisi flute-images/3.png]]
+[[file:2311211437 assisi flute-images/4.png]]
+[[file:2311211437 assisi flute-images/5.png]]

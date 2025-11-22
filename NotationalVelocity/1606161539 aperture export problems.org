@@ -1,0 +1,6 @@
+#+TITLE: aperture export problems
+# TAGS #aperture
+
+Version name should match with filename, but setting the version from the filename gives pic1.tiff.jpg or similar
+Set the filename from the version name, but check for duplicated version names first
+also check for aperture doing stupid things with spaces in filenames.

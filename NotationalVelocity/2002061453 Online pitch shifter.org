@@ -1,0 +1,7 @@
+#+TITLE: Online pitch shifter
+# TAGS
+
+http://onlinetonegenerator.com/pitch-shifter.html
+
+also (untried)
+https://www.audiospeedchanger.com/

@@ -1,0 +1,7 @@
+#+TITLE: lsp no file descriptors left
+# TAGS
+
+https://www.reddit.com/r/emacs/comments/mq2znn/no_file_descriptors_left/
+
+"Instead, I found another solution - you can either prevent lsp-mode from creating watches by setting `lsp-enable-file-watchers` in dir-locals or globally. Or add a few more folder to the ignore list `lsp-file-watch-ignored-directories`
+"

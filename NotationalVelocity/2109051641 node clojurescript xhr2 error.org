@@ -1,0 +1,6 @@
+#+TITLE: node clojurescript xhr2 error
+# TAGS #clojurescript #node #error
+
+ReferenceError: XMLHttpRequest is not defined
+
+http://www.jimlynchcodes.com/blog/solved-xmlhttprequest-is-not-defined-with-clojurescript-coreasync

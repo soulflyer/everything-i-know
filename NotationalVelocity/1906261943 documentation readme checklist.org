@@ -1,0 +1,4 @@
+#+TITLE: documentation readme checklist
+# TAGS #webbookmark
+
+https://github.com/ddbeck/readme-checklist/blob/master/checklist.md

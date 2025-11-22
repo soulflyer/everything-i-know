@@ -1,0 +1,6 @@
+#+TITLE: clara rules
+# TAGS #clojure
+
+http://www.clara-rules.org
+
+Clojure macros to specify business rules

@@ -1,0 +1,168 @@
+#+TITLE: instrument plans
+# TAGS #flute #lute #theorbo #clavichord #webbookmark
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2004121611 instrument plans-images
+:END:
+§1909160609 Hotteterre Flute
+
+* BeaudinFlutes
+[[http://www.flutebeaudin.com/Plans.html][Plans list]]
+[[https://www.flutebeaudin.com/FR_Plans.html][Plans list]] old page that has some missing from the current one.
+[[https://www.flutebeaudin.com/plans/][Plans list]] new version
+
+* [[https://shop.nmmusd.org/collections/technical-drawings][National Music Museum (Dakota)]]
+ archlute plans, pdf or paper
+* [[https://www.simpk.de/shop/technische-zeichnungen.html][Staatliches Institut für Musikforschung]]
+clavichord and theorbo
+* [[https://www.lutesociety.org/pages/catalogue#ma][Lute Society]]
+* [[https://librairie.philharmoniedeparis.fr/dessins-techniques][Philharmonie de Paris]] 
+
+** Theorbo
+by Sellas, around 1640
+[[https://librairie.philharmoniedeparis.fr/dessins-techniques/theorbe][drawings]] 
+[[https://collectionsdumusee.philharmoniedeparis.fr/doc/MUSEE/0161804/theorbe][details]]
+[[file:2004121611 instrument plans-images/CMIM000019483.jpg]] [[file:2004121611 instrument plans-images/CMIM000019484.jpg]]
+[[file:2004121611 instrument plans-images/CMIM000019485.jpg]] [[file:2004121611 instrument plans-images/CMIM000019486.jpg]]
+[[file:2004121611 instrument plans-images/CMIM000019487.jpg]] [[file:2004121611 instrument plans-images/CMIM000019488.jpg]]
+[[file:2004121611 instrument plans-images/CMIM000019489.jpg]] [[file:2004121611 instrument plans-images/CMIM000019490.jpg]]
+[[file:2004121611 instrument plans-images/CMIM000019498.jpg]] [[file:2004121611 instrument plans-images/CMIM000019499.jpg]]
+** flutes 
+including Beaudin drawings of:
+Lot, Freyer, Delusse, Stanesby, Villars, and Sherer 4 piece flutes, 
+Delusse bass flute,
+** 3 piece flutes
+*** Naust
+[[https://librairie.philharmoniedeparis.fr/dessins-techniques/flute-traversiere-0][plans]]
+[[https://collectionsdumusee.philharmoniedeparis.fr/doc/MUSEE/0162004][details]]
+[[file:2004121611 instrument plans-images/CMIM000013560.jpg]] [[file:2004121611 instrument plans-images/CMIM000013561.jpg]] [[file:2004121611 instrument plans-images/CMIM000013235.jpg]]
+*** Fortier
+[[https://librairie.philharmoniedeparis.fr/dessins-techniques/flute-traversiere-4][plans]]
+[[https://collectionsdumusee.philharmoniedeparis.fr/doc/MUSEE/0130234][details]]
+[[file:2004121611 instrument plans-images/CMIM000013128.jpg]] [[file:2004121611 instrument plans-images/CMIM000014330.jpg]] [[file:2004121611 instrument plans-images/CMIM000014331.jpg]]
+** clavichord
+[[https://librairie.philharmoniedeparis.fr/dessins-techniques/clavicorde][Drawings]]
+[[https://collectionsdumusee.philharmoniedeparis.fr/doc/MUSEE/0161630][Details]]
+
+*** Description
+Cordage moderne en laiton. Tangentes en fer. Caisse rectangulaire en sapin recouverte de gomme-laque noirâtre. Fond en sapin dont les champs sont à pans coupés muni d'une trappe de réparation ancienne. Couvercle en sapin en 2 parties dont une porte le rabat de clavier muni d'un crochet, trace de peinture rouge sur la face interne du couvercle ainsi que sur le pourtour interne des éclisses. Table en résineux. Chevalet en hêtre. Touches en tilleul ou peuplier sculptées sur leur face supérieure. Naturelle en buis ? teintée à 3 traits gravés, bout de touche sculpté à 2 encoches. Feintes en chêne teinté. Cache-étouffoir amovible en tilleul ou peuplier teinté. Guichet en chêne teinté. Boîte à outils à couvercle pivotant.
+*** Dimensions
+Longueur totale 961 mm. Largeur clavier 677 mm.
+*** Étendue
+Etendue d'origine : C-c3, étendue actuelle : C-d3, 51 notes.
+*** Matériaux
+laiton, fer, sapin, bois résineux, hêtre, tilleul ou peuplier, buis, chêne.
+*** Notes
+Lieu de création incertain.
+*** Historique
+A appartenu à André Ernest Modeste Grétry. Classé monument historique le 12 juillet 1943. Ancienne collection Louis Clapisson.
+*** Acquisition
+Don - 02/1865
+*** Localisation au Musée
+Espace XVIIIe - La musique des Lumières
+
+[[file:2004121611 instrument plans-images/CMIM000023451.jpg]] [[file:2004121611 instrument plans-images/CMIM000023452.jpg]] 
+[[file:2004121611 instrument plans-images/CMIM000023453.jpg]] [[file:2004121611 instrument plans-images/CMIM000023454.jpg]] 
+[[file:2004121611 instrument plans-images/CMIM000023455.jpg]] [[file:2004121611 instrument plans-images/CMIM000023456.jpg]] 
+[[file:2004121611 instrument plans-images/CMIM000023457.jpg]] [[file:2004121611 instrument plans-images/CMIM000023458.jpg]] 
+
+* [[https://en.natmus.dk/museums-and-palaces/the-danish-music-museum/instrument-drawings/][Musikmuseet]]
+* [[https://collections.ed.ac.uk/mimed][Edinburgh]]
+[[pdf:~/Documents/books/bookshelf/Musical-Instruments/FOMRHI/Fomrhi-043.pdf::21++0.00][Eerens Flute]] FOMRI low res (4 part)
+
+* [[https://www.oxforduniversitystores.co.uk/product-catalogue/music-faculty-bate-collection/music-faculty-bate-collection/technical-diagrams][Bate Collection]]
+** FOMRI, low res versions. 
+Drawings available from Oxford Uni
+[[pdf:~/Documents/books/bookshelf/Musical-Instruments/FOMRHI/Fomrhi-036.pdf::13++0.00][Schuchart Flute]] 4 part
+[[pdf:~/Documents/books/bookshelf/Musical-Instruments/FOMRHI/Fomrhi-037.pdf::16++0.00][Stanesby, Cahusac, Prosser and Bizey]] all 4 part
+[[pdf:~/Documents/books/bookshelf/Musical-Instruments/FOMRHI/Fomrhi-039.pdf::11++6.27][Millhouse]] 4 part
+
+* More FOMRI Plans
+ [[pdf:~/Documents/books/bookshelf/Musical-Instruments/FOMRHI/Fomrhi-049.pdf::19++1.74][Naust]] 3 part
+ [[pdf:~/Documents/books/bookshelf/Musical-Instruments/FOMRHI/Fomrhi-049.pdf::21++0.00][Millhouse]] ca. 1790, 4 piece
+ [[pdf:~/Documents/books/bookshelf/Musical-Instruments/FOMRHI/Fomrhi-055.pdf::29++0.00][Wijne flutes]] article with drawings and profiles
+ [[pdf:~/Documents/books/bookshelf/Musical-Instruments/FOMRHI/Fomrhi-069.pdf::21++0.50][How to design a traverso]] article based on Beaudin's drwaings with some info about the Naust and a Stanesby 3 piece.
+
+* [[http://www.flutebeaudin.com/Plans.html][Beaudin Plans]]
+** 3.    Rottenburgh G.A.
+415Hz, boxwood, small in f. Collection B. Kuijken, Belgium.
+** 4.    Scherer. (Maker proposed)
+412Hz, ivory. Coll B. Kuijken,
+** 5.    Rottenburgh G.A.
+415, 410Hz, boxwood, (very good sound and tuning). Coll, B. Kuijken.
+** 6.    Lecler
+415Hz, ivory, (good tuning). Museum at the conservatory of Brussels.
+** 8.    Lot Thomas
+410Hz, boxwood. Late shape. Private Collection, Lyon, France.
+** 10.   Lot Thomas
+415Hz, boxwood. Museum de LaHaye, Holland.
+** 11.   Rottenburgh J.H.
+400Hz, light ebony, (very good). Museum,cons, Bruxelles. Inv. : 2001
+** 12.   Grenser H. 
+420Hz, boxwood. Museum,( Gementemuseum ),DeHague, Holland.
+** 13.   Vincent D.
+405Hz, ivory. Collection F. Bruggen, Amsterdam, Holland
+** 15.   Stanesby Jr.
+410Hz, ebony. Collection M. Arita, Tokyo, Japan.
+** 16.   Lot T. 
+415Hz, boxwood. Coll. Miller, Lib. of Congress, Washington D .C. Inv. : 615
+** 17.   Bressan P.
+Mentioned on pg 55 of [[pdf:~/Documents/books/bookshelf/Musical-Instruments/Flute/THE_FLUTE_IN_TRANSITION_A_COMPARISON_OF.pdf::69++4.92][Nivison]]
+(405Hz) box, rare, three sections, center joint non orig. Miller, W. Inv. : 1207
+** 19.   Quantz J.J.
+392 à 415Hz, ebony, nice,six middle joints, two keys. Miller, W. Inv. : 916
+** 20.   Dumont
+410Hz, pearwood, big in Bb, France ± 1720. Miller, W. Inv. : 870
+** 21.   Lot T.
+415Hz, boxwood, big in A. Museum des arts et métiers, Paris
+** 26.   Quantz J.J.
+405Hz, ebony, one middle joint. Museum Schloss Köpenick, east of Berlin.
+** 27.   Lot T.
+410Hz, boxwood, scew cap, Musée municipal de Clamecy, France.
+** 28.   Rippert J.J.
+This and the following are mentioned on pg 45 of [[pdf:~/Documents/books/bookshelf/Musical-Instruments/Flute/THE_FLUTE_IN_TRANSITION_A_COMPARISON_OF.pdf::59++5.20][Nivison]]
+395Hz (pitch proposed) boxwood, three sections. Private collection, Paris.
+** 29.   Rippert J.J.
+395Hz , ivory, three sections, (very rare). Coll. privée, Paris.
+** 30.   Lot T.
+420Hz, ebony, original very short middle joint Private coll, Melun, France.
+** 38.   Grenser A.
+415Hz, boxwood, m.joint no : 2. M.Putterman, Montréal.
+** 40.   Lecler.
+415Hz, boxwood, (good tuning). Collection, L. Kaltenback, Paris.
+** 42.   Bizey C.
+392Hz, boxwood, ± 1715. Restauration and coll J.F.Beaudin. Mtl, Qué, Can.
+** 48.   Lot T.
+405Hz, boxwood, piccolo,(very rare). Coll. L.Kaltenback, Paris.
+** 49.   Naust.
+405Hz, ivory, Four sections. Coll.L.Kaltenback.
+** 67.   Quantz J.J.
+410Hz, ebony, one key?. Museum, Burg Hohenzollern, Germany.
+** 96.   Delusse C.
+420Hz, ebony, corps no : 2, (in tune). Collection J.P.Pinet, Metz, France.
+** 101.  Potter.
+430Hz, boxwood, ± 1780, C foot, 4 keys + C#, D#. Coo, C.Guimond, Mtl.
+** 102.  Lot T.
+400 - 420Hz, My own choice of five middle joints from different flutes.
+** 104.  Stanesby, Jr.
+± 410Hz, ivory-silver rings. Miller coll, no : DCM 1125
+** 105.  Rottenburgh J-H.
+415Hz, maple, + corps d'amour 397Hz, Miller DCM 507.
+4 part, drawings [[https://www.loc.gov/resource/dcmflute.0507.0][here]] and [[file:~/Documents/books/bookshelf/Musical-Instruments/Flute/Technical Drawings/Rottenburgh][local]]
+
+
+** 106.  Hotteterre Jacques ?
+very rare, 398Hz, boxwood-ivory. Cité, Paris. E. 999.6.1 
+This looks to be the 6th Hotteterre described here §1909160609 Hotteterre Flute
+
+** 109.  Beaulieu.
+396Hz, ebony and silver rings, rare, Bisey style, coll, M.Arita, Tokyo.
+** 110.  Tortochot.
+415-430Hz , rosewood-ivory, bore 19.4, perfect. Coll, M.Putterman, Montréal.
+** 111.  Tortochot.
+415Hz, ebony-ivory, bore 19.1, foot missing. Collection Joanna Marsden, Montréal.
+** 112.  Anonyme/Bizey style, 
+415Hz, ebony and ivory rings, at Mr. Bissonnet’s store, Paris.
+** 113.  Bizey C.
+400,405 Hz, boxwood ± 1745, Collection J.F.Beaudin, Frelighsburg, Québec.
+** 114.  Palanca C.
+415 Hz, ebony, ivory, tuning slide. Collection Jan De Winne, Belgium.

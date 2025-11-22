@@ -1,0 +1,28 @@
+#+TITLE: book downloads
+# Tags #webbookmark
+https://vk.com/ needs an account although direct links work without ie [[https://vk.com/wall-196255529_6050][the expanse books]]
+https://sci-hub.st/ Accademic papers, no search yet
+https://annas-archive.org/
+https://idoc.pub/
+https://libgen.gs/ timeout
+http://libgen.rs/ timeout
+https://z-lib.io/ site not found
+https://zlibrary-asia.se/ blocked
+https://www.pdfdrive.com/
+https://www.avaxhome.co/ site not found
+https://manybooks.net/
+http://2020ok.com/
+http://rutracker.net/ needs login
+
+http://ebook3000.com/ timeout
+http://gen.lib.rus.ec/ broken
+https://libgen.pw down
+https://www.ebooks333.com/ no response
+http://www.itebookshare.com/ no response
+https://z-lib.is/ no response
+https://vn1lib.org/ seized by the FBI
+https://textbooknova.com/ looks like a reseller
+https://ebookee.com/ download links redirect
+http://en.bookfi.net default web server page
+http://libgen.io/ can't be reached
+http://www.freebookspot.es/ redirects to google

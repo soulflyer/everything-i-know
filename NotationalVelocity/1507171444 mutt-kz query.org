@@ -1,0 +1,4 @@
+#+TITLE: mutt-kz query
+# TAGS #mutt
+
+type X, and then type your query like notmuch://?query=X

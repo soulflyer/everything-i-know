@@ -1,0 +1,72 @@
+#+TITLE: senior developer
+# Tags #talk
+
+* What is a senior developer
+I'm senior, I'm a developer. Is that it? Obviously not.
+Requirements: Everyone wants senior clojure devs. Very few positions offered for junior dev. 
+Mention Ewa Trzemzalska's talk "Clojure? That's a terrible idea!"
+
+** How do we identify one?
+Differing views
+Clues
+Flexiana's attempts at identifying this
+Show the skills column from the developer-assesment table
+Describe the expansive area that is covered.
+Senior dev is not about memorizing all the possible functions/params etc of the choosen language. That is more likely the sign of a dedicated junior dev. Far more important to remember what possibilities exist and rely on an IDE to tell us the precise fn name and what params we need.
+*map* as an example
+ok so I remember that it needs a fn first, but I don't need to, here it is (show the minibuffer illustrating the fn signature)
+Use this to introduce the concept of mind expanding tools.
+Add in the search functions bound to a single key to search through a given project for anything quickly.
+Senior dev will use these fluently.
+But this is still in the area of "code mechanics", senior is wider than that.
+
+*** Peripheral tools
+**** Mind expansion/memory prosthesis
+There is far too much to know to keep it all "in memory" even if you have super-human memory. The wise make use of a range of techniques to expand ther access to information.
+- IDE fn signatures as mentionaed already
+- Note taking (zettelcasten)
+
+**** version control
+No software is static. The ability to handle an ever changing codebase is essential. So is the ability to leave a map of how it changed.
+
+**** Communication tools
+Especially working remotely, skills in conveying information efficiently and effectively.
+
+This leads into the widest and least easily specified area
+
+*** People skills, and other meta skills
+**** cat herding
+
+**** diplomacy
+Or not pissing people off. Some are naturally good at this, but it can be learned. Everything is easier if no-one is pissed off.
+
+**** Covering the bus factor
+
+**** KISS
+Cleverness is a bad idea and actually easier to do than keeping it simple
+
+**** Storytelling
+Code should tell us what it does. Lots of things contribute to this but the biggest is naming Which is acknowledged to be one of the 2 hardest things in comp-sci (cache validation, naming, and off by one errors)
+
+**** The ability to understand what needs to happen and make it happen
+cf junior doing exactly what is asked to the absolute limit of their abilities. This is good, but doesn't take into account the ill specified requirements (that are so common they can probably be considered the norm)
+
+
+** Path to senior
+Once we know what makes a developer senior we can create a path to get there.
+Already in progress
+All our assesment attempts have the side effect of helping to create or identify what is needed in order to learn the skill in question.
+
+Added bonus: pure clojure thinking
+"You can program FORTRAN in any language"
+Turns out this is true of more than just FORTRAN:
+Language spotting. What language did this coder use before they switched to clojure?
+Senior devs coming to clojure from senior level in other languages carry the taint of the programming model of the first language. Some can get past this, although it is usually still visible, like an accent of their mother tongue when someone speaks a second language. In many cases though it is destructive and patterns of an earlier language are carried over. Sometimes even solutions to problems that no longer exist.
+
+Conjecture:
+ Those who start their experience with clojure will make better clojure senior devs.
+ They will develop as devs faster
+ They will have less problems adjusting to more primitive languages than those who make the transition the other way.
+
+I have absolutely no proof as yet that this is the case, although I'm actively seeking it and considering how best to find it and early resulys are promising.
+

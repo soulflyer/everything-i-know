@@ -1,0 +1,31 @@
+#+TITLE: deps and cli
+# Tags #clojure
+
+[[https://clojure.org/reference/deps_and_cli][deps and cli]]
+
+* Installing tools
+#+begin_src shell
+clj -Ttools list
+clj
+
+
+ -Ttools install io.github.seancorfield/deps-new '{:git/tag "v0.5.1"}' :as new
+clj -Ttools show :tool new
+#+end_src
+
+* Find the available versions of a library. 
+#+begin_src shell
+clj -X:deps find-versions :lib metosin/malli
+#+end_src
+
+Can also use *:tool* instead of *:lib* for installed tools 
+#+begin_src shell
+clj -X:deps find-versions :tool new
+#+end_src
+
+* Local Maven Install
+#+begin_src shell
+clj -X:deps mvn-install :jar '"/path/to.jar"'
+#+end_src
+Note the quotes.
+I guess this is not needed when using a git dependancy

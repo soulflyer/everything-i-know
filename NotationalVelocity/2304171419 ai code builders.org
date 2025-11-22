@@ -1,0 +1,6 @@
+#+TITLE: ai code builders
+# Tags #AI
+[[https://github.com/e2b-dev/e2b][e2b]] open source
+[[https://agentgpt.reworkd.ai/][AgentGPT]]
+[[https://blog.parallelo3301.org/blog/creating-a-zulip-bot-with-chatgpt/][Fanda's blog]]
+[[https://www.tabnine.com/getting-started][tabnine]]

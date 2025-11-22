@@ -1,0 +1,11 @@
+#+TITLE: tmux renumber windows
+# TAGS #tmux
+
+Move them all:
+C-q : movew -r
+
+Move window x to window y:
+C-q : movew -s x -t y
+
+Automate it:
+set-option -g renumber-windows on

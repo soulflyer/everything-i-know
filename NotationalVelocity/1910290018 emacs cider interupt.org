@@ -1,0 +1,9 @@
+#+TITLE: emacs cider interupt
+# TAGS #emacs #cider #clojure
+
+https://metaredux.com/posts/2019/05/11/hard-cider-keeping-your-repl-tidy.html
+
+C-c C-o M-x cider-repl-clear-output
+C-u C-c C-o cider-repl-clear-buffer
+
+C-c C-c M-x cider-interupt

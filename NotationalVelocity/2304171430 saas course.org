@@ -1,0 +1,3 @@
+#+TITLE: saas course
+[[https://learn.usegravity.app/courses/take/how-to-build-a-saas-product/]]
+[[https://github.com/donnemartin/system-design-primer#system-design-topics-start-here][System design book]]

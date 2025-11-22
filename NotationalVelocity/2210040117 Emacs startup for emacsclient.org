@@ -1,0 +1,12 @@
+#+TITLE: Emacs startup for emacsclient
+# Tags #emacs
+
+https://stackoverflow.com/a/33128550/1671119
+
+Passing -c/--create-frame to emacsclient should do the trick.
+
+If I run 
+#+begin_src shell
+emacsclient -c --eval "(magit-status \"/path/to/project\")" 
+#+end_src
+I end up with a new emacs frame in a magit-status buffer for the expected project.

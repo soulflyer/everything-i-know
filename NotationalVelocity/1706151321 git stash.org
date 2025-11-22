@@ -1,0 +1,6 @@
+#+TITLE: git stash
+# TAGS #git
+
+git stash
+git stash list
+git stash apply

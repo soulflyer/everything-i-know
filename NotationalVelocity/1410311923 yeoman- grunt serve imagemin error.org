@@ -1,0 +1,4 @@
+#+TITLE: yeoman- grunt serve imagemin error
+# TAGS
+
+npm install grunt-contrib-imagemin –-save-dev

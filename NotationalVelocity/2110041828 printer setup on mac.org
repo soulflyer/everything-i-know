@@ -1,0 +1,9 @@
+#+TITLE: printer setup on mac
+# Tags #printer #mac
+Enable the *CUPS* web interface:
+#+begin_src bash
+  cupsctl WebInterface=Yes
+#+end_src
+visit[[http://127.0.0.1:631/printers][ the local cups page]]
+
+Default printer settings can be changed here

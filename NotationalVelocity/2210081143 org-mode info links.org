@@ -1,0 +1,6 @@
+#+TITLE: org-mode info links
+# Tags #emacs #org-mode
+
+Links can be saved using: M-x org-store-link from the info page and selected when adding a link.
+
+ https://stackoverflow.com/a/10453313/1671119

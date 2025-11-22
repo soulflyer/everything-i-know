@@ -1,0 +1,18 @@
+#+TITLE: screenshare vnc
+# TAGS #vnc
+
+Start remote management from ssh. 
+
+sudo /System/Library/CoreServices/Remot\
+eManagement/ARDAgent.app/Contents/Resou\
+rces/kickstart -activate
+
+...kickstart -configure -access -on -privs -all -users <username>
+
+https://www.macissues.com/2016/04/26/how-to-enable-screen-sharing-services-remotely-in-os-x/
+
+Per user vnc connection:
+
+"The trick to doing this appears to be the following: under Computer Settings you need to enable VNC viewers may control screen with password but NOT enable Anyone may request permission to control screen."
+
+https://apple.stackexchange.com/questions/94666/how-to-use-mac-os-x-per-user-screen-sharing-from-a-windows-pc

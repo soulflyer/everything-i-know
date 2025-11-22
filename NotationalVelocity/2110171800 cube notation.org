@@ -1,0 +1,27 @@
+#+TITLE: cube notation
+# Tags #cube
+# Backlink: §2110141410 rubiks cube
+
+These are not the only possibilities, but adopted here.
+
+* outer layers
+L R U D F B
+
+* double outer layers
+l r u d f b
+
+* multiple outer layers
+Use underline so _2R_ is the same as r
+_3R_ is the outer 3 layers etc.
+
+* inner layers
+M is the centre layer between R and L, no specific shortcuts for the layers between U and D or F and B. Direction is ambiguous, I assume the direction as seen from the right. Most times it doesn't matter. If it does, use the number prefix notation:
+3R is the 3rd layer in from the right etc.
+
+* rotations
+x pitch forwards around an axis parallel to the horizon
+y
+z
+
+* modifiers
+' means reverse. The normal rotation is clockwise if facing directly towards the face being moved. Add ' and it is anticlockwise.

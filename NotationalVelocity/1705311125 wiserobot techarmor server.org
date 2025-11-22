@@ -1,0 +1,7 @@
+#+TITLE: wiserobot techarmor server
+# TAGS #wiserobot
+
+Host:	78.129.158.147
+Port:	22
+user:	techarmor
+pass:	wqGy09@Y2oNqtfxy

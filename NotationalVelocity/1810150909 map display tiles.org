@@ -1,0 +1,5 @@
+#+TITLE: map display tiles
+# TAGS
+
+Pretty and free tiles for use with OpenStreetMap data
+http://maps.stamen.com/#watercolor/12/37.7706/-122.3782

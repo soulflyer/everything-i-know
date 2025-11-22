@@ -1,0 +1,19 @@
+#+TITLE: local copy of clojure library with checkouts link
+# Tags #clojure #leiningen
+
+* Using Leiningen
+
+Turns out that all that is needed to access a local library is to create a link to the local src in checkouts The link name is usually the lib name but it can actually be anything. All links are followed and checked for project.clj files.
+
+Watch out for missmatched version numbers in the host project requires. If the local lib has a different project number I think that the required version will just be downloaded to .m2 and used instead.
+
+https://github.com/technomancy/leiningen/blob/stable/doc/TUTORIAL.md#checkout-dependencies
+
+Note that lein install is not necessary for source changes , but:
+"If you change the dependencies of a checkout project you will still have to run lein install and restart your repl; it's just that source changes will be picked up immediately."
+from the link above.
+
+* Using deps.edn
+
+[[https://ask.clojure.org/index.php/11594/developing-multiple-libraries-applications-simultaneously][Developing multiple libraries simultaneously]]
+[[https://clojure.org/guides/deps_and_cli#_using_local_libraries][Clojure guide]]

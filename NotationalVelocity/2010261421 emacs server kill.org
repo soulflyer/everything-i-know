@@ -1,0 +1,6 @@
+#+TITLE: emacs server kill
+# TAGS #emacs
+
+(server-force-delete)
+
+removes the pid file. Server was refusing to start after copying all of .emacs.d to a new user.

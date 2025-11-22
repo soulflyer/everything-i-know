@@ -1,0 +1,5 @@
+#+TITLE: Taiji forms
+# Tags #taiji #taichi
+
+[[file:~/Dropbox/org-mode/forms/english24.org][English 24 step]]
+[[file:~/Documents/org-mode/forms/chinese24.org][Chinese 24 step]]

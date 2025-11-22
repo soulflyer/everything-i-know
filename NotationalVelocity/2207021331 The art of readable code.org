@@ -1,0 +1,23 @@
+#+TITLE: The art of readable code
+# Tags #book
+Dustin Boswell, Trevor Foucher
+Published 2012
+
+
+Based around a series of *Key Ideas*. Most are useful, but some not so relevant to clojure. The comments section for instance is pretty much redundant when you don't have to work around the inadequacies of C/C++ that the book's code examples are written in.
+
+* Key ideas
+** Code should be easy to understand.
+** Code should be written to minimize the time it would take for someone else to understand it.
+** Pack information into your names.
+** It’s better to be clear and precise than to be cute.
+** Actively scrutinize your names by asking yourself, “What other meanings could someone interpret from this name?”
+** Consistent style is more important than the "right" style.
+** Don't comment on facts that can be derived quickly from the code itself.
+** Comments should have a high information-to-space ratio
+** Make all control flow as natural as possible, ie doesn't make the reader stop and re-read.
+** Look at your code from a fresh perspective when making changes.
+** Break down giant expressions into more digestible pieces.
+** Code should do one thing at a time.
+** The most readable code is no code at all.
+

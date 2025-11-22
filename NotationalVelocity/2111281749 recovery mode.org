@@ -1,0 +1,9 @@
+#+TITLE: disable sip in recovery mode
+# Tags #sip
+
+Shutdown then restart and keep the power button pressed
+
+open utilities:terminal
+#+begin_src shell
+csrutil disable --with kext --with dtrace --with basesystem
+#+end_src

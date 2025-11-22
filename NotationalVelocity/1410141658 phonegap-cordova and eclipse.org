@@ -1,0 +1,16 @@
+#+TITLE: phonegap-cordova and eclipse
+# TAGS #phonegap
+
+Edits in eclipse do not appear in the new build. Need to go to the terminal and do:
+
+cordova build
+
+then try running the project TWICE. First time the old version will run. Second time the edits just made will take effect. 
+
+Go figure.......
+
+no such problems editing in eclipse then running:
+
+cordova build
+adb install -r ........
+

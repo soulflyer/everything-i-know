@@ -1,0 +1,8 @@
+#+TITLE: cider suppress stack trace
+# TAGS #cider
+
+(setq cider-show-error-buffer nil)
+
+https://github.com/clojure-emacs/cider#debugging
+
+visit it with cider-visit-error-buffer

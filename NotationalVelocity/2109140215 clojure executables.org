@@ -1,0 +1,18 @@
+#+TITLE: clojure executables
+# Tags #clojure
+
+lein bin
+old, but works ok for command line tools
+
+packr https://github.com/libgdx/packr
+not old, aimed at apps rather than command line tools
+
+Use graalvm native-image tool to wrap an uberjar
+https://dev.to/kiraemclean/building-a-fast-command-line-app-with-clojure-1kc8
+
+Build it in clojurescript as a nodeJS app and then use nexe https://github.com/nexe/nexe
+§2109171439 Setup clojurescript node project with shadow
+
+Or try https://github.com/eccentric-j/cljs-tui-template
+§2109171255 Setup cljs-tui example
+This gives a full re-frame app, but displaying in a terminal window.

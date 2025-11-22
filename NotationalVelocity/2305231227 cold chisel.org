@@ -1,0 +1,4 @@
+#+TITLE: cold chisel
+# Tags #metalwork
+[[pdf:/Volumes/bookshelf/Metalwork/SN_Chisel_Tutorial.pdf::1++0.00][SN_Chisel_Tutorial]]
+Details of cold chisel use from popular mechanics

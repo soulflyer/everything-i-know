@@ -1,0 +1,3 @@
+#+TITLE: activity monitor for linux
+
+htop on the command line is good. Or System Monitor.

@@ -1,0 +1,26 @@
+#+TITLE: xiana params
+# Tags #clojure
+
+These are the 3 ways Xiana handles parameters
+#+begin_src clojure
+(defn handle-body
+  [state]
+  (let [data (get-in state [:request :body-params])]
+    (assoc state
+           :response
+           (ring/response data))))
+
+(defn handle-query
+  [state]
+  (let [data (get-in state [:request :query-params])]
+    (assoc state
+           :response
+           (ring/response data))))
+
+(defn handle-path
+  [state]
+  (let [data (get-in state [:request-data :match :path-params])]
+    (assoc state
+           :response
+           (ring/response data))))
+#+end_src

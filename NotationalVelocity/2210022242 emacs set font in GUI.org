@@ -1,0 +1,23 @@
+#+TITLE: emacs set font in GUI
+# Tags #emacs
+
+The usual way of setting fonts only applies to existing frames. Terminal emacs handles this ok but GUI doesnt. Customizations are applied though. Might be good to add some things (cursor mods also behave like this )to a hook that gets run on frame creation:
+
+https://emacs.stackexchange.com/a/37483/2666
+
+*after-make-frame-functions* could be the one.
+
+also this from redit:
+
+https://www.reddit.com/r/emacs/comments/3a5kim/emacsclient_does_not_respect_themefont_setting/
+"I had exactly the same problem when I switched to material-theme a few days ago. I solved it with the following code snippet in my init.el:
+#+begin_src emacs-lisp
+(defun load-material-theme (frame)
+  (select-frame frame)
+  (load-theme 'material t))
+
+(if (daemonp)
+	(add-hook 'after-make-frame-functions #'load-material-theme)
+  (load-theme 'material t))
+#+end_src
+It seems that some themes don't load all their colors/fonts when no frame is present during loading time (which is the case when starting in daemon mode). The code snippet explicitely loads the theme after frame creation if emacs runs in daemon mode."

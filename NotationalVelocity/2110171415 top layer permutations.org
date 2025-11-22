@@ -1,0 +1,43 @@
+#+TITLE: top layer permutations
+# Tags #cube
+# Backlink: §2110141410 rubiks cube
+A bunch of useful algorithms, not comprehensive, but sufficent to sort out the top layer when used in conjunction with §2110171433 cube corner rotation
+
+* T-perm
+
+⬛⬛⬛🟥   ⬛⬛⬛🟨
+🟦⬛⬛🟩   🟩⬛⬛🟦
+🟦⬛⬛🟩   🟩⬛⬛🟦
+⬛⬛⬛🟨   ⬛⬛⬛🟥
+
+R  U  R'  U'
+R' F  R2  U'  R'  U'
+R  U  R'  F'
+
+* 3 Corner Cycle
+
+🟩⬛⬛🟥   🟨⬛⬛🟩
+⬛⬛⬛⬛   ⬛⬛⬛⬛
+⬛⬛⬛⬛   ⬛⬛⬛⬛
+⬛⬛⬛🟨   ⬛⬛⬛🟥
+
+R' F  R' B2
+R  F' R' B2
+R2
+
+L  F' L  B2
+L' F  L' B2
+L2
+
+* 3 edge cycle
+
+⬛⬛⬛⬛    ⬛⬛⬛⬛
+🟨⬛⬛🟥    🟥⬛⬛🟦
+🟨⬛⬛🟥    🟥⬛⬛🟦
+⬛🟦🟦⬛    ⬛🟨🟨⬛
+
+R  U' R  U  R  U
+R  U' R' U' R2
+
+L' U  L' U' L' U'
+L' U  L  U  L2 

@@ -1,0 +1,9 @@
+#+TITLE: lsp debug
+# Tags #lsp #emacs
+
+
+Missing packages:
+lsp-treemacs
+lsp-docker
+
+Start again and delete all lsp packages. Run package-install lsp-mode. Error is gone.

@@ -1,0 +1,11 @@
+* Backing up using rsync
+
+rsync with the *-n* option will do a dry run:
+*--delete* will remove anything from the destination that is not present on the source. Use *--backup-dir=/tmp/backup* to preserve these.
+
+This one will copy any master copies of photos that have been added to mimi onto the external disk blue
+#+begin_src shell
+rsync -vaibn /Volumes/OfflinePhotos/ /Volumes/Blue/OfflinePhotos
+#+end_src
+
+#+RESULTS:

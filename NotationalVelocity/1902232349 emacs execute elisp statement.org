@@ -1,0 +1,9 @@
+#+TITLE: emacs execute elisp statement
+# TAGS #emacs #debugger
+
+M-S-;
+M-:
+
+ie to stop the debugger from being annoying:
+
+M-: (setq debug-on-quit nil)

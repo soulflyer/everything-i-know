@@ -1,0 +1,9 @@
+#+TITLE: python lsp
+# Tags #python
+
+installed lsp server with:
+#+begin_src shell
+pip install python-language-server[all]
+#+end_src
+Then added config to *lsp-mode* setup in *iw-lsp.el*
+

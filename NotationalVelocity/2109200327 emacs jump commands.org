@@ -1,0 +1,14 @@
+#+TITLE: emacs jump commands
+# Tags #emacs
+
+*M-x jump-char-forward*
+bound to *M-j*
+Highlights all occurences of the choosen character. Press the same char to move forward, or:
+
+;        next match forwars
+,        next match backwards
+C-c C-c  invokes ace-jump-mode
+
+*M-x avy-goto-char-in-line*
+bound to *C-c C-j*
+highlights all occurences of the given char on the current line, selected by choosing the char that they are temporarily replaced by.

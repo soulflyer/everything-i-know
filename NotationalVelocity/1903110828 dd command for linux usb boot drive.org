@@ -1,0 +1,6 @@
+#+TITLE: dd command for linux usb boot drive
+# TAGS #linux #boot
+
+dd if=lubuntu-16.04.2-desktop-amd64.iso of=/dev/rdisk2 bs=8m
+
+https://apple.stackexchange.com/questions/233559/creating-a-bootable-linux-distro-compatible-with-mac-os-x

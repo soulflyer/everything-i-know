@@ -1,0 +1,6 @@
+#+TITLE: emacs show key bindings
+# TAGS #emacs
+
+helm-descbinds
+
+Didn't set as default, don't like some of the other stuff that comes with it IIRC

@@ -1,0 +1,5 @@
+#+TITLE: bitcoin
+
+[[https://www.travala.com/][travala]] accepts bitcoin payment for airline tickets
+[[https://cryptomaniaks.com/latest-cryptocurrency-news/where-can-i-spend-bitcoin][Blog post]] mentions several others
+  

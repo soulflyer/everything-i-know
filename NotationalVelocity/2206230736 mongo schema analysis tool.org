@@ -1,0 +1,5 @@
+#+TITLE: mongo schema analysis tool
+# Tags #momgo
+
+https://github.com/variety/variety
+https://github.com/variety/variety-cli

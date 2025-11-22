@@ -1,0 +1,14 @@
+#+TITLE: shell rename
+# TAGS #shell #bash
+
+qmv
+installed by:
+brew install renameutils
+
+from https://bluz71.github.io/2018/03/15/bash-shell-tweaks-tips.html
+By default, qmv will use two editor columns, in my experience this consumes too much valuable real-estate for little benefit, hence, I recommend the following Bash alias (force destination-only):
+
+alias qmv='qmv -f do'
+Usage
+qmv **/*.JPG # rename to lowercase '.jpg' extension via substitution
+qmv *.old    # rename to '.BAK' extension also via substitution

@@ -1,0 +1,23 @@
+#+TITLE: exiftool gui
+# TAGS #photo
+
+pyExiftoolGui
+Doesn't do IPTC
+
+Mapivi
+wont run, cant find Tk
+
+FreeezeFrame
+Ok for finding stuff
+
+Photogrok
+crashes on start. No error message given
+
+Setexifdata
+antique and crippled
+
+MacMetaMod
+simple but it's a droplet. Yuk.
+
+GeoNamesTagger
+exif,IPTC and geo, but it's a "docklet" More nasty drag and drop nonsense.

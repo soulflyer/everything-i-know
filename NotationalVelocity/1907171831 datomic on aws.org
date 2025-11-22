@@ -1,0 +1,4 @@
+#+TITLE: datomic on aws
+# TAGS #datomic
+
+https://docs.datomic.com/on-prem/aws.html

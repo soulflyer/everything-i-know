@@ -1,0 +1,6 @@
+#+TITLE: phonegap-cordova console
+# TAGS #phonegap
+
+cordova plugin add org.apache.cordova.console
+
+adb logcat CordovaLog:D *:S

@@ -1,0 +1,4 @@
+#+TITLE: cider jack-in using shadow blog page
+# TAGS #cider #shadow #emacs
+Useful info onsetting up shadow-cljs and using .dir-locals
+https://github.com/codeasone/starter-cider-tools-deps-shadow

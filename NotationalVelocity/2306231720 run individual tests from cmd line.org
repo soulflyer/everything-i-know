@@ -1,0 +1,13 @@
+#+TITLE: run individual tests from cmd line
+# Tags #clojure #make #shell
+
+#+begin_src makefile
+.PHONY: integration-test-focused
+integration-test-focused:
+	$(test_cmd) integration --focus $(TEST)
+#+end_src
+
+Then run:
+#+begin_src shell
+make integration-test-focused TEST=integration.tech-round-test/tech-round-test
+#+end_src

@@ -1,0 +1,8 @@
+#+TITLE: wiserobot tech server
+# TAGS #wiserobot
+
+Host:	78.129.158.147
+user:	wiserobot
+pass:	7o4Tsl@6GFnhglkq
+
+SSH is port 21 and FTP is port 22 , for same user and password

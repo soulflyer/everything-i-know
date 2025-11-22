@@ -1,0 +1,13 @@
+#+TITLE: tmux escape-time
+# Tags #vi #tmux
+
+:healthcheck suggests
+
+## tmux
+  - ERROR: `escape-time` (500) is higher than 300ms
+    - ADVICE:
+      - set escape-time in ~/.tmux.conf:
+          set-option -sg escape-time 10
+      - https://github.com/neovim/neovim/wiki/FAQ
+
+but if I do this then the cursor doesn't display properly. (Intermitent)

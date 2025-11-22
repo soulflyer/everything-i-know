@@ -1,0 +1,115 @@
+#+TITLE: emacs tab bar workspace mangement
+# Tags #emacs 
+
+#+begin_src emacs-lisp
+  (defun tab-create (name)
+    "Create a tab called NAME if it doesn't already exist. Switch to tab NAME."
+    (condition-case nil
+        (unless (equal (alist-get 'name (tab-bar--current-tab))
+                       name)
+          (tab-bar-select-tab-by-name name)
+          (message "**********************Hello from tab-create*********************++"))
+      (error (let (tab-bar-new-tab-choice)
+               (setq tab-bar-new-tab-choice 'window)
+               (message "**********************Hello from tab-create***********************")
+               (tab-new)
+               (split-window-right)
+               (message "**********************Hello from tab-create******************-****"))
+             (message "**********************Hello from tab-create******************--***")
+             (split-window-below -15)
+             (tab-bar-rename-tab name))))
+
+  (defun tab-workspace-new (&optional name)
+    "Create a new workspace on DIRECTORY or the current directory."
+    (let ((directory (expand-file-name (or name default-directory)))
+          (name (file-name-nondirectory (directory-file-name  (or name default-directory)))))
+      (message "Directory is: %s name is %s " directory name)
+      (tab-create name)
+      (dired directory)
+      (split-window-right)
+      (other-window 1)
+      (split-window-below -15)
+      (other-window 1)
+      (eshell t)
+      (cd directory)
+      ))
+
+  (defun test-whut ()
+    (message "****Whut?****"))
+  (tab-bar-tabs)
+  (test-whut)
+  (message "Whut?")
+  (tab-create "Eeeep2")
+  (tab-workspace-new)
+  (tab-workspace-new "~/Code/emacs-iain")
+  (same-window-p "*Org Agenda*")
+  (setq switch-to-buffer-obey-display-actions t)
+  (last (file-name-split "~/Code/Emacs/hello.el"))
+  (pwd)
+  (last (file-name-split default-directory))
+  (file-name-nondirectory (directory-file-name (file-name-directory default-directory)))
+  (file-name-nondirectory (directory-file-name default-directory))
+  (file-name-nondirectory (directory-file-name (file-name-directory "~/Code/")))
+  (file-name-nondirectory default-directory)
+  (expand-file-name "Code")
+  (expand-file-name default-directory)
+  (file-name-directory default-directory)
+#+end_src
+getting file name from directory:
+https://stackoverflow.com/a/27285582/1671119
+
+inspired by
+https://mihaiolteanu.me/emacs-workspace-management.html
+
+#+begin_src emacs-lisp
+  ;; Ensure the needed tabs are created or exist; add extra to your liking
+  (progn (tab-create "files")
+         (tab-create "eshells")
+         (tab-create "exwm"))
+
+  (defun tab-create (name)
+    "Create the NAME tab if it doesn't exist already."
+    (condition-case nil
+        (unless (equal (alist-get 'name (tab-bar--current-tab))
+                       name)
+          (tab-bar-rename-tab-by-name name name))
+      (error (tab-new)
+             (tab-bar-rename-tab name))))
+
+  ;; Hide the tabs since I don't want to click on them.
+  (setf tab-bar-show nil)
+
+  (defun tab-bar-files ()
+    "Select the files tab-bar. Force return `t'."
+    (interactive)
+    (tab-bar-select-tab-by-name "files")
+    t)
+
+  (defun tab-bar-eshells ()
+    "Select the eshells tab-bar. Force return `t'."
+    (interactive)
+    (tab-bar-select-tab-by-name "eshells")
+    t)
+
+  (defun tab-bar-exwm ()
+    "Select the wm tab-bar. Force return `t'."
+    (interactive)
+    (tab-bar-select-tab-by-name "exwm")
+    t)
+
+  (bind-keys
+   ("s-F" . tab-bar-files)
+   ("s-W" . tab-bar-exwm)
+   ("s-Z" . tab-bar-eshells))
+#+end_src
+
+Lots more details on the page linked.
+Also has some stuff about advising functions.
+
+JP recommends:
+https://github.com/fritzgrabo/tab-bar-groups
+https://github.com/fritzgrabo/project-tab-groups
+https://christiantietze.de/posts/2022/02/emacs-tab-bar-numbered-tabs/
+http://www.howardism.org/Technical/Emacs/eshell-present.html
+http://www.howardism.org/Technical/Emacs/eshell-fun.html
+https://emacsconf.org/2022/draft-schedule/

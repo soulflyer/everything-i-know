@@ -1,0 +1,14 @@
+#+TITLE: git branch
+# TAGS #git
+
+Already made edits, not committed, and want to put the edits in a new branch
+
+git branch newfeature
+git checkout newfeature
+git add .
+git commit......
+
+
+or possibly
+
+git checkout -b newbranch

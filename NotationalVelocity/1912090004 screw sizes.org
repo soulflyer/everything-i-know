@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/1912090004 screw sizes-images
+:END:
+#+TITLE: screw sizes
+# TAGS
+
+"By coincidence, the size of an imperial screw head also roughly equates to the gauge. For example an 8-gauge screw has an 8mm wide head…..handy huh?"
+from https://handycrowd.com/screws-explained-gauge-size-pilot-holes-and-wall-plugs/
+[[file:1912090004 screw sizes-images/screw-sizes.png]][[file:1912090004 screw sizes-images/screw-sizes.png]]
+

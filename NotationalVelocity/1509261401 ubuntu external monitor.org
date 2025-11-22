@@ -1,0 +1,23 @@
+#+TITLE: ubuntu external monitor
+# TAGS #linux
+
+http://askubuntu.com/questions/73007/cant-set-a-higher-screen-resolution-in-a-external-display-in-a-dell-mini-10v-la
+
+To know the ModeLine of your resolution, do this:
+
+$ cvt 1650 900
+
+You will get some like this:
+
+# 1656x900 59.93 Hz (CVT) hsync: 55.98 kHz; pclk: 122.25 MHz
+Modeline "1656x900_60.00"  122.25  1656 1752 1920 2184  900 903 913 934 -hsync +vsync
+
+Then, copy the information after the word “Modeline” into the XRandR command:
+
+$ xrandr --newmode "1656x900_60.00"  122.25  1656 1752 1920 2184  900 903 913 934 -hsync +vsync
+
+After the mode is entered, it needs to be added to the output:
+
+xrandr --addmode VGA1 1656x900_60.00
+
+Now you have the new resolution :-)
