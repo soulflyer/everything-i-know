@@ -1,0 +1,6 @@
+* DONE [#H] Open HTML message in browser from pager
+  CLOSED: [2018-01-15 Mon 21:47]
+* DONE [#C] Send mail from different addresses
+  CLOSED: [2018-01-15 Mon 21:47]
+* DONE [#D] Save notmuch searches as virtual mailboxes
+  CLOSED: [2018-01-15 Mon 21:47]

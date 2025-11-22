@@ -1,0 +1,256 @@
+#    -*- mode: org -*-
+
+
+Archived entries from file /Users/iain/Documents/Plans/music.org
+* DONE [#B] try reason 6 on mimi
+  CLOSED: [2013-02-07 Thu 12:56]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-02-07 Thu 17:01
+  :ARCHIVE_FILE: ~/Documents/Plans/music.org
+  :ARCHIVE_CATEGORY: music
+  :ARCHIVE_TODO: DONE
+  :END:
+** DONE [#B] Make it easy to record a bass line
+  CLOSED: [2013-02-07 Thu 12:56]
+** DONE [#B] Investigate recording in reason
+   CLOSED: [2013-02-07 Thu 12:57]
+* DONE [#A] sort out midi control on mimi
+  CLOSED: [2013-02-09 Sat 14:02]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-02-10 Sun 12:25
+  :ARCHIVE_FILE: ~/Documents/Plans/music.org
+  :ARCHIVE_OLPATH: Meta guitar
+  :ARCHIVE_CATEGORY: music
+  :ARCHIVE_TODO: DONE
+  :END:
+* DONE [#A] Learn how to synchronise a 2nd loop
+  CLOSED: [2013-02-23 Sat 21:13]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-03-06 Wed 21:45
+  :ARCHIVE_FILE: ~/Documents/Plans/music.org
+  :ARCHIVE_OLPATH: Meta guitar/Get looping working for live playing [2/3]
+  :ARCHIVE_CATEGORY: music
+  :ARCHIVE_TODO: DONE
+  :END:
+  Set sync to to loop1 and quantize to loop. Set new track to sync (play sync?)
+* Archive                                                           :ARCHIVE:
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-03-31 Sun 18:19
+  :ARCHIVE_FILE: ~/Documents/Plans/music.org
+  :ARCHIVE_OLPATH: Meta guitar/Get looping working for live playing [2/3]/setup sooperlooper on subversion and mimi [1/3]/Startup script for sooperlooper
+  :ARCHIVE_CATEGORY: music
+  :END:
+** DONE [#C] Investigate audio unit method
+   CLOSED: [2013-02-19 Tue 20:02]
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2013-03-31 Sun 18:01
+   :END:
+   Audio unit method is smoother. Allows easy startup, unlike the standalone version.
+* Archive                                                           :ARCHIVE:
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-03-31 Sun 18:19
+  :ARCHIVE_FILE: ~/Documents/Plans/music.org
+  :ARCHIVE_OLPATH: Meta guitar/Get looping working for live playing [2/3]/setup sooperlooper on subversion and mimi [1/3]
+  :ARCHIVE_CATEGORY: music
+  :END:
+** DONE [#A] Synchronise with mpc
+    CLOSED: [2013-02-11 Mon 11:52]
+      :PROPERTIES:
+      :ARCHIVE_TIME: 2013-03-31 Sun 18:01
+      :END:
+    Just don't try and stop and restart it independantly of sooperlooper.
+If you do it runs at the speed of the internal sequencer not the incoming clock signal.
+Also remember to turn off quantise to create drum beats to a long loop...
+* DONE [#A] Learn how to synchronise a 2nd loop
+  CLOSED: [2013-02-23 Sat 21:13]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-03-31 Sun 18:19
+  :ARCHIVE_FILE: ~/Documents/Plans/music.org
+  :ARCHIVE_OLPATH: Meta guitar/Get looping working for live playing [2/3]
+  :ARCHIVE_CATEGORY: music
+  :ARCHIVE_TODO: DONE
+  :END:
+  Set sync to to loop1 and quantize to loop. Set new track to sync (play sync?)
+* Archive                                                           :ARCHIVE:
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-03-31 Sun 18:19
+  :ARCHIVE_FILE: ~/Documents/Plans/music.org
+  :ARCHIVE_OLPATH: Meta guitar/Get looping working for live playing [2/3]
+  :ARCHIVE_CATEGORY: music
+  :END:
+** DONE [#A] Learn how to use a loop as a one shot sample
+   CLOSED: [2013-03-06 Wed 00:45]
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2013-03-31 Sun 18:01
+   :END:
+* Archive                                                           :ARCHIVE:
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-03-31 Sun 18:19
+  :ARCHIVE_FILE: ~/Documents/Plans/music.org
+  :ARCHIVE_OLPATH: Meta guitar/Get phone involved as controller [1/2]
+  :ARCHIVE_CATEGORY: music
+  :END:
+** DONE [#E] Sort out osc to midi
+   CLOSED: [2013-03-01 Fri 15:30]
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2013-03-31 Sun 18:01
+   :END:
+* Archive                                                           :ARCHIVE:
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-04-01 Mon 09:16
+  :ARCHIVE_FILE: ~/Documents/Plans/music.org
+  :ARCHIVE_OLPATH: Meta guitar/Get phone involved as controller [1/2]
+  :ARCHIVE_CATEGORY: music
+  :END:
+** DONE [#E] Sort out osc to midi
+   CLOSED: [2013-03-01 Fri 15:30]
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2013-03-31 Sun 18:01
+   :END:
+* Archive                                                           :ARCHIVE:
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-04-01 Mon 09:16
+  :ARCHIVE_FILE: ~/Documents/Plans/music.org
+  :ARCHIVE_OLPATH: Meta guitar/Get looping working for live playing [2/3]/setup sooperlooper on subversion and mimi [1/3]/Startup script for sooperlooper
+  :ARCHIVE_CATEGORY: music
+  :END:
+** DONE [#C] Investigate audio unit method
+   CLOSED: [2013-02-19 Tue 20:02]
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2013-03-31 Sun 18:01
+   :END:
+   Audio unit method is smoother. Allows easy startup, unlike the standalone version.
+* Archive                                                           :ARCHIVE:
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-04-01 Mon 09:16
+  :ARCHIVE_FILE: ~/Documents/Plans/music.org
+  :ARCHIVE_OLPATH: Meta guitar/Get looping working for live playing [2/3]/setup sooperlooper on subversion and mimi [1/3]
+  :ARCHIVE_CATEGORY: music
+  :END:
+** DONE [#A] Synchronise with mpc
+    CLOSED: [2013-02-11 Mon 11:52]
+      :PROPERTIES:
+      :ARCHIVE_TIME: 2013-03-31 Sun 18:01
+      :END:
+    Just don't try and stop and restart it independantly of sooperlooper.
+If you do it runs at the speed of the internal sequencer not the incoming clock signal.
+Also remember to turn off quantise to create drum beats to a long loop...
+* Archive                                                           :ARCHIVE:
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-04-01 Mon 09:16
+  :ARCHIVE_FILE: ~/Documents/Plans/music.org
+  :ARCHIVE_OLPATH: Meta guitar/Get looping working for live playing [2/3]
+  :ARCHIVE_CATEGORY: music
+  :END:
+** DONE [#A] Learn how to use a loop as a one shot sample
+   CLOSED: [2013-03-06 Wed 00:45]
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2013-03-31 Sun 18:01
+   :END:
+* DONE [#A] Learn how to synchronise a 2nd loop
+  CLOSED: [2013-02-23 Sat 21:13]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-04-01 Mon 09:16
+  :ARCHIVE_FILE: ~/Documents/Plans/music.org
+  :ARCHIVE_OLPATH: Meta guitar/Get looping working for live playing [2/3]
+  :ARCHIVE_CATEGORY: music
+  :ARCHIVE_TODO: DONE
+  :END:
+  Set sync to to loop1 and quantize to loop. Set new track to sync (play sync?)
+* DONE [#B] Test connection from wireless to input 3 on the nord
+  CLOSED: [2013-04-01 Mon 11:11]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-04-01 Mon 11:11
+  :ARCHIVE_FILE: ~/Documents/Plans/music.org
+  :ARCHIVE_OLPATH: Meta guitar/Get nord working as a substitute for GX700 [1/1]
+  :ARCHIVE_CATEGORY: music
+  :ARCHIVE_TODO: DONE
+  :END:
+* DONE [#C] Get nord working as a substitute for GX700 [1/1]
+  CLOSED: [2013-04-10 Wed 00:18]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-04-10 Wed 00:18
+  :ARCHIVE_FILE: ~/Documents/Plans/music.org
+  :ARCHIVE_OLPATH: Meta guitar
+  :ARCHIVE_CATEGORY: music
+  :ARCHIVE_TODO: DONE
+  :END:
+
+* DONE [#G] get nord involved in guitar signal path
+  CLOSED: [2013-04-10 Wed 00:18]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-04-10 Wed 00:18
+  :ARCHIVE_FILE: ~/Documents/Plans/music.org
+  :ARCHIVE_OLPATH: Meta guitar
+  :ARCHIVE_CATEGORY: music
+  :ARCHIVE_TODO: DONE
+  :END:
+* DONE [#I] add fender amp to guitar rig
+  CLOSED: [2013-04-10 Wed 00:18]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-04-10 Wed 00:18
+  :ARCHIVE_FILE: ~/Documents/Plans/music.org
+  :ARCHIVE_OLPATH: Meta guitar
+  :ARCHIVE_CATEGORY: music
+  :ARCHIVE_TODO: DONE
+  :END:
+* TODO [#D] setup sooperlooper on subversion and mimi [2/2]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-04-21 Sun 17:49
+  :ARCHIVE_FILE: ~/Documents/Plans/music.org
+  :ARCHIVE_OLPATH: Meta guitar/Get looping working for live playing [2/3]
+  :ARCHIVE_CATEGORY: music
+  :ARCHIVE_TODO: TODO
+  :END:
+** DONE [#D] build default loop machine (4 channels, mute & record for each?)
+   CLOSED: [2013-04-21 Sun 17:47]
+   2 might be enough for now, build up to 4 if there are enough footswitches.
+** DONE [#D] Sort out foot controls for sooperlooper [1/1]
+   CLOSED: [2013-04-21 Sun 17:47]
+*** DONE [#D] Add in a trigger button. Maybe for each loop.
+    CLOSED: [2013-04-21 Sun 17:47]
+** Startup script for sooperlooper
+* DONE [#A]  Get looping working for live playing [2/3]
+  CLOSED: [2013-04-21 Sun 17:49]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-04-21 Sun 17:49
+  :ARCHIVE_FILE: ~/Documents/Plans/music.org
+  :ARCHIVE_OLPATH: Meta guitar
+  :ARCHIVE_CATEGORY: music
+  :ARCHIVE_TODO: DONE
+  :END:
+
+* DONE [#E] clojure on mimi
+  CLOSED: [2015-09-05 Sat 20:19]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2015-09-05 Sat 20:19
+  :ARCHIVE_FILE: ~/Documents/Plans/music.org
+  :ARCHIVE_CATEGORY: music
+  :ARCHIVE_TODO: DONE
+  :END:
+
+* TODO [#C] renew bindings on wooden flute
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2015-09-05 Sat 20:19
+  :ARCHIVE_FILE: ~/Documents/Plans/music.org
+  :ARCHIVE_CATEGORY: music
+  :ARCHIVE_TODO: TODO
+  :END:
+
+* DONE [#C] renew bindings on wooden flute
+  CLOSED: [2016-04-11 Mon 08:51]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2016-04-11 Mon 08:51
+  :ARCHIVE_FILE: ~/Documents/Plans/music.org
+  :ARCHIVE_CATEGORY: music
+  :ARCHIVE_TODO: DONE
+  :END:
+
+* DONE [#C] renew bindings on wooden flute
+  CLOSED: [2017-10-11 Wed 19:15]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-10-11 Wed 19:15
+  :ARCHIVE_FILE: ~/Documents/Plans/music.org
+  :ARCHIVE_CATEGORY: music
+  :ARCHIVE_TODO: DONE
+  :END:

@@ -1,0 +1,171 @@
+#    -*- mode: org -*-
+
+
+Archived entries from file /Users/iain/Documents/Plans/mutt.org
+
+
+* DONE [#C] Switch space and return
+  CLOSED: [2015-07-19 Sun 14:56]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2015-07-19 Sun 14:56
+  :ARCHIVE_FILE: ~/Documents/Plans/mutt.org
+  :ARCHIVE_CATEGORY: mutt
+  :ARCHIVE_TODO: DONE
+  :END:
+
+* DONE [#C] Sort out dodgy PATH
+  CLOSED: [2015-07-19 Sun 19:23]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2015-07-19 Sun 19:23
+  :ARCHIVE_FILE: ~/Documents/Plans/mutt.org
+  :ARCHIVE_CATEGORY: mutt
+  :ARCHIVE_TODO: DONE
+  :END:
+
+* DONE [#E] Add archive key
+  CLOSED: [2015-07-19 Sun 23:25]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2015-07-19 Sun 23:25
+  :ARCHIVE_FILE: ~/Documents/Plans/mutt.org
+  :ARCHIVE_CATEGORY: mutt
+  :ARCHIVE_TODO: DONE
+  :END:
+
+* DONE [#C] Get rid off menu
+  CLOSED: [2015-07-20 Mon 07:00]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2015-07-20 Mon 07:00
+  :ARCHIVE_FILE: ~/Documents/Plans/mutt.org
+  :ARCHIVE_CATEGORY: mutt
+  :ARCHIVE_TODO: DONE
+  :END:
+
+* DONE [#D] offlineimap
+  CLOSED: [2015-07-20 Mon 11:08]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2015-07-20 Mon 11:08
+  :ARCHIVE_FILE: ~/Documents/Plans/mutt.org
+  :ARCHIVE_OLPATH: Automatic Authentication
+  :ARCHIVE_CATEGORY: mutt
+  :ARCHIVE_TODO: DONE
+  :END:
+
+* DONE [#D] Automatic Authentication
+  CLOSED: [2015-07-20 Mon 13:52]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2015-07-20 Mon 13:52
+  :ARCHIVE_FILE: ~/Documents/Plans/mutt.org
+  :ARCHIVE_CATEGORY: mutt
+  :ARCHIVE_TODO: DONE
+  :END:
+** DONE [#G] sending mail
+   CLOSED: [2015-07-20 Mon 13:51]
+
+* DONE [#F] Swithch from gpg to keychain for smtp authentication
+  CLOSED: [2015-07-20 Mon 21:09]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2015-07-20 Mon 21:10
+  :ARCHIVE_FILE: ~/Documents/Plans/mutt.org
+  :ARCHIVE_CATEGORY: mutt
+  :ARCHIVE_TODO: DONE
+  :END:
+
+* DONE [#D] Forward message with attachments
+  CLOSED: [2015-07-21 Tue 21:14]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2015-07-21 Tue 21:14
+  :ARCHIVE_FILE: ~/Documents/Plans/mutt.org
+  :ARCHIVE_CATEGORY: mutt
+  :ARCHIVE_TODO: DONE
+  :END:
+
+* DONE [#E] Mail attachments
+  CLOSED: [2015-07-21 Tue 21:15]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2015-07-21 Tue 21:15
+  :ARCHIVE_FILE: ~/Documents/Plans/mutt.org
+  :ARCHIVE_CATEGORY: mutt
+  :ARCHIVE_TODO: DONE
+  :END:
+
+* DONE [#C] Save mail to sensibly named mailboxes
+  CLOSED: [2015-08-18 Tue 17:09]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2015-08-18 Tue 17:09
+  :ARCHIVE_FILE: ~/Documents/Plans/mutt.org
+  :ARCHIVE_CATEGORY: mutt
+  :ARCHIVE_TODO: DONE
+  :END:
+
+* DONE [#C] Send mail from different addresses
+  CLOSED: [2015-09-05 Sat 20:18]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2015-09-05 Sat 20:19
+  :ARCHIVE_FILE: ~/Documents/Plans/mutt.org
+  :ARCHIVE_CATEGORY: mutt
+  :ARCHIVE_TODO: DONE
+  :END:
+
+* DONE [#C] Send mail from different addresses
+  CLOSED: [2015-10-05 Mon 10:10]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2015-10-05 Mon 10:11
+  :ARCHIVE_FILE: ~/Documents/Plans/mutt.org
+  :ARCHIVE_CATEGORY: mutt
+  :ARCHIVE_TODO: DONE
+  :END:
+
+* DONE [#C] Save mail to sensibly named mailboxes
+  CLOSED: [2015-10-05 Mon 10:10]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2015-10-05 Mon 10:11
+  :ARCHIVE_FILE: ~/Documents/Plans/mutt.org
+  :ARCHIVE_CATEGORY: mutt
+  :ARCHIVE_TODO: DONE
+  :END:
+
+* [#C] Save mail to sensibly named mailboxes
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-10-10 Tue 20:45
+  :ARCHIVE_FILE: ~/Documents/Plans/mutt.org
+  :ARCHIVE_CATEGORY: mutt
+  :END:
+
+* [#D] Save notmuch searches as virtual mailboxes
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-10-10 Tue 20:46
+  :ARCHIVE_FILE: ~/Documents/Plans/mutt.org
+  :ARCHIVE_CATEGORY: mutt
+  :END:
+
+* [#C] Save mail to sensibly named mailboxes
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-10-11 Wed 19:16
+  :ARCHIVE_FILE: ~/Documents/Plans/mutt.org
+  :ARCHIVE_CATEGORY: mutt
+  :END:
+
+* DONE [#C] Send mail from different addresses
+  CLOSED: [2018-01-12 Fri 20:39]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2018-01-12 Fri 20:39
+  :ARCHIVE_FILE: ~/Documents/Plans/mutt.org
+  :ARCHIVE_CATEGORY: mutt
+  :ARCHIVE_TODO: DONE
+  :END:
+
+* TODO [#D] Save notmuch searches as virtual mailboxes
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2018-01-12 Fri 20:40
+  :ARCHIVE_FILE: ~/Documents/Plans/mutt.org
+  :ARCHIVE_CATEGORY: mutt
+  :ARCHIVE_TODO: TODO
+  :END:
+
+* TODO [#H] Open HTML message in browser from pager
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2018-01-12 Fri 20:40
+  :ARCHIVE_FILE: ~/Documents/Plans/mutt.org
+  :ARCHIVE_CATEGORY: mutt
+  :ARCHIVE_TODO: TODO
+  :END:

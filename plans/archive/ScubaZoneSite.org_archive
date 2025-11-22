@@ -1,0 +1,17 @@
+#    -*- mode: org -*-
+
+
+Archived entries from file /Users/iain/Documents/Plans/ScubaZoneSite.org
+
+
+* Install WordPress
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-10-12 Thu 11:13
+  :ARCHIVE_FILE: ~/Documents/Plans/ScubaZoneSite.org
+  :ARCHIVE_CATEGORY: ScubaZoneSite
+  :END:
+** Install pluggins etc
+***Suffussion
+***QTranslate
+** Check Database
+DB needs to use UTF8 not Latin in order for VN text to be stared correctly

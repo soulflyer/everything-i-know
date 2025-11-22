@@ -1,0 +1,21 @@
+* TODO [#E] clojure on mimi
+* Meta guitar
+** TODO [#B] setup guitar engine
+Connect g2 with GX700 and radio mic.
+** guitar control language
+system listens for certain phrases and interprets them as commands.
+Paramaters can be the note or notes following the recognised command.
+ie listen for octave jump up then down followed by an intermediate note to select patch.
+c2 c3 c2 g2 selects clean tone. c2 c3 c2 f2 selects overdriven tone.
+This doesn't need to be absolute. The key/scale could be specified or detected.
+*** phase 1, midi only
+Use the keyboard and detect the patterns from a sequence of midi notes
+Ignore everything when more than 1 note is playing. Look for patterns in sequences of single notes.
+** transition from soft accoustic to dirt
+** transition voice to guitar
+- feedback triggers guitar string
+- pitch detector starts synth
+- drive string with a pickup connected to synth (built in ebow)
+** TODO [#I] Get phone involved as controller [1/2]
+*** TODO [#E] Sort out tilt sensor to osc
+* TODO [#E] SteamPunk midi controller

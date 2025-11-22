@@ -1,10 +1,11 @@
 #+CATEGORY: vietnamese
 * TODO [#I] Study 10mins
-SCHEDULED: <2025-11-25 Tue .+4d>
+SCHEDULED: <2025-11-26 Wed .+4d>
   :PROPERTIES:
   :STYLE:    habit
-  :LAST_REPEAT: [2025-11-21 Fri 22:14]
+  :LAST_REPEAT: [2025-11-22 Sat 20:12]
   :END:
+  - State "DONE"       from "TODO"       [2025-11-22 Sat 20:12]
   - State "DONE"       from "TODO"       [2025-11-21 Fri 22:14]
   - State "DONE"       from "TODO"       [2025-11-18 Tue 18:32]
   - State "DONE"       from "TODO"       [2025-11-15 Sat 21:15]

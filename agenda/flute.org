@@ -14,6 +14,8 @@ The harmony line I hear must be just in my head. It's not on the original.
 #+ATTR_ORG: :width 800
 [[file:flute-images/Baker-Street.png]]
  [[file:flute-images/soprano-alto-unison.png]]
+** Ekseption Adagio
+[[yt:z-CNTqwDc9M]]
 ** TODO [#I] Windsynth/Sax
 SCHEDULED:  <2025-11-27 Thu .+8d>
 :PROPERTIES:

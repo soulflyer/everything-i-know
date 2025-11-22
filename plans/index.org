@@ -1,0 +1,4 @@
+* [[file:photos.org][photos]]
+* [[file:plan.org][plan]]
+* [[file:taxonomy.org][taxonomy]]
+  [[file:music.org][music]]

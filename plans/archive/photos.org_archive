@@ -1,0 +1,163 @@
+#    -*- mode: org -*-
+
+
+Archived entries from file /Users/iain/Documents/Plans/photos.org
+* DONE [#C] Investigte ways to publish. Can I get a preview on FB with the pic elsewhere?
+  CLOSED: [2013-03-01 Fri 15:23]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-03-06 Wed 21:45
+  :ARCHIVE_FILE: ~/Documents/Plans/photos.org
+  :ARCHIVE_CATEGORY: photos
+  :ARCHIVE_TODO: DONE
+  :END:
+** Archive                                                          :ARCHIVE:
+*** DONE [#C] Try publishing on flikr
+    CLOSED: [2013-03-01 Fri 15:21]
+    :PROPERTIES:
+    :ARCHIVE_TIME: 2013-03-06 Wed 21:44
+    :END:
+* DONE [#E] Add export of thumbnails
+  CLOSED: [2013-02-24 Sun 13:15]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-03-31 Sun 17:55
+  :ARCHIVE_FILE: ~/Documents/Plans/photos.org
+  :ARCHIVE_OLPATH: Export from Aperture [4/5]
+  :ARCHIVE_CATEGORY: photos
+  :ARCHIVE_TODO: DONE
+  :END:
+* Archive                                                           :ARCHIVE:
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-03-31 Sun 18:29
+  :ARCHIVE_FILE: ~/Documents/Plans/photos.org
+  :ARCHIVE_CATEGORY: photos
+  :END:
+** DONE [#C] Investigte ways to publish. Can I get a preview on FB with the pic elsewhere?
+   CLOSED: [2013-03-01 Fri 15:23]
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2013-03-31 Sun 18:01
+   :END:
+*** Archive                                                         :ARCHIVE:
+**** DONE [#C] Try publishing on flikr
+     CLOSED: [2013-03-01 Fri 15:21]
+     :PROPERTIES:
+     :ARCHIVE_TIME: 2013-03-31 Sun 17:57
+     :END:
+* DONE [#D] Find out what photoshop can do
+  CLOSED: [2013-04-10 Wed 00:20]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-04-10 Wed 00:20
+  :ARCHIVE_FILE: ~/Documents/Plans/photos.org
+  :ARCHIVE_OLPATH: Photo Processing/Investigate methods of removing backscatter
+  :ARCHIVE_CATEGORY: photos
+  :ARCHIVE_TODO: DONE
+  :END:
+* Archive                                                           :ARCHIVE:
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-04-10 Wed 00:20
+  :ARCHIVE_FILE: ~/Documents/Plans/photos.org
+  :ARCHIVE_OLPATH: Metadata/Set photographer in metadata and remove taken by from tags
+  :ARCHIVE_CATEGORY: photos
+  :END:
+** DONE [#C] Catch up with tagging UK pics
+   CLOSED: [2013-03-01 Fri 15:21]
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2013-03-31 Sun 17:57
+   :END:
+* Archive                                                           :ARCHIVE:
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-04-10 Wed 00:20
+  :ARCHIVE_FILE: ~/Documents/Plans/photos.org
+  :ARCHIVE_OLPATH: Export from Aperture [4/5]
+  :ARCHIVE_CATEGORY: photos
+  :END:
+** DONE [#D] Add export of watermarked versions
+   CLOSED: [2013-02-25 Mon 01:17]
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2013-03-31 Sun 17:57
+   :END:
+  - 2 stage process, a default export, plus a tailored watermark created as a new version.
+    create a list that contains all the filenames in cursel but not in watermarkedsel
+  - or maybe have the watermarking done on the web server for ones tn't already done in Aperture.
+
+** DONE [#D] Work out how to incorporate custom watermarked copies
+   CLOSED: [2013-02-25 Mon 01:17]
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2013-03-31 Sun 17:57
+   :END:
+** DONE Export notes from the project
+   CLOSED: [2013-03-06 Wed 21:37]
+    :PROPERTIES:
+    :ARCHIVE_TIME: 2013-03-31 Sun 17:57
+    :END:
+~: /usr/bin/sqlite3 /Users/iain/Pictures/test.aplibrary/Database/apdb/Library.apdb
+sqlite> select note from RKNOTE where ATTACHEDTOUUID="lcCds6KxT3K0mFAQ4I+TKg";
+* DONE [#D] Investigate aperture plugins for backscatter removal
+    CLOSED: [2013-05-18 Sat 12:32]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-05-18 Sat 12:32
+  :ARCHIVE_FILE: ~/Documents/Plans/photos.org
+  :ARCHIVE_OLPATH: Photo Processing/Investigate methods of removing backscatter
+  :ARCHIVE_CATEGORY: photos
+  :ARCHIVE_TODO: DONE
+  :END:
+- Noise removal
+  Probably a non starter, although the built in one does help.
+- Detail
+    http://www.topazlabs.com/detail
+* DONE [#E] Find out why some links have spaces in the names
+   CLOSED: [2013-05-18 Sat 16:58]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-05-18 Sat 16:59
+  :ARCHIVE_FILE: ~/Documents/Plans/photos.org
+  :ARCHIVE_OLPATH: Export from Aperture [1/2]
+  :ARCHIVE_CATEGORY: photos
+  :ARCHIVE_TODO: DONE
+  :END:
+look at 2011/08/29-Annabel
+* DONE [#E] Modify modify.scpt so it doesn't re-export projects that have been exported by export.scpt
+  CLOSED: [2013-05-23 Thu 08:10]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-05-23 Thu 08:10
+  :ARCHIVE_FILE: ~/Documents/Plans/photos.org
+  :ARCHIVE_OLPATH: Export from Aperture [1/2]
+  :ARCHIVE_CATEGORY: photos
+  :ARCHIVE_TODO: DONE
+  :END:
+* DONE [#E] Repair updated.scpt so it works with new export arrangement
+  CLOSED: [2013-05-25 Sat 09:09]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-05-25 Sat 09:09
+  :ARCHIVE_FILE: ~/Documents/Plans/photos.org
+  :ARCHIVE_OLPATH: Export from Aperture [1/2]
+  :ARCHIVE_CATEGORY: photos
+  :ARCHIVE_TODO: DONE
+  :END:
+* DONE [#E] write script to export selection
+  CLOSED: [2013-05-25 Sat 16:46]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-05-25 Sat 16:46
+  :ARCHIVE_FILE: ~/Documents/Plans/photos.org
+  :ARCHIVE_OLPATH: Export from Aperture [1/3]
+  :ARCHIVE_CATEGORY: photos
+  :ARCHIVE_TODO: DONE
+  :END:
+
+* DONE [#E] Fix problem where 2 versions from the same master don't get the correct watermarked version
+  CLOSED: [2013-11-01 Fri 11:45]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-11-01 Fri 11:45
+  :ARCHIVE_FILE: ~/Documents/Plans/photos.org
+  :ARCHIVE_OLPATH: Export from Aperture
+  :ARCHIVE_CATEGORY: photos
+  :ARCHIVE_TODO: DONE
+  :END:
+
+* DONE [#E] write script to export selection
+  CLOSED: [2013-11-01 Fri 11:44]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-11-01 Fri 11:45
+  :ARCHIVE_FILE: ~/Documents/Plans/photos.org
+  :ARCHIVE_OLPATH: Export from Aperture
+  :ARCHIVE_CATEGORY: photos
+  :ARCHIVE_TODO: DONE
+  :END:

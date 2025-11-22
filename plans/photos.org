@@ -1,0 +1,21 @@
+* Photo Processing
+** Investigate methods of removing backscatter
+* Metadata
+
+* DONE [#E] Export from Aperture [3/3]
+
+** DONE [#B] clean up modified script
+   CLOSED: [2014-04-14 Mon 23:29]
+** DONE [#B] add in large versions to export
+   CLOSED: [2014-04-14 Mon 23:29]
+
+** DONE [#E] Fix problem where 2 versions from the same master don't get the correct watermarked version
+   CLOSED: [2014-04-11 Fri 11:38]
+* DONE [#C] Recalibrate star ratings [3/3]
+  CLOSED: [2014-04-11 Fri 11:35]
+** DONE [#C] subtract 1 from all ratings < 5
+   CLOSED: [2014-04-11 Fri 11:29]
+** DONE [#C] Adjust scripts to export all photos with rating >= 3
+   CLOSED: [2014-04-11 Fri 11:30]
+** DONE [#C] Edit folders to select all photos with rating >=3
+   CLOSED: [2014-04-11 Fri 11:35]

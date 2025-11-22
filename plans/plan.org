@@ -1,0 +1,24 @@
+* Dayskipper Qualification
+** TODO [#G] Watch dayskipper dvd
+* Photo course
+** Website
+** Course modules
+* [#C] Versions
+** [#C] trigger versions from watermarker
+** DONE [#C] Make versions accept parameters
+   CLOSED: [2018-02-17 Sat 22:48]
+** DONE [#C] Single db access for directory not per file
+   CLOSED: [2018-02-17 Sat 22:48]
+* Improve org mode [1/1]
+** Fix todo states and priories of headers
+   - priority set to the highest priorty of a subtask
+   - status set to done when last subtask is done
+** DONE [#D] Add key binding to open link in browser from mu4e
+   CLOSED: [2018-02-21 Wed 21:26]
+* mu4e
+** Upgrade to version 1.0
+** TODO [#H] Find out how to pour a bearing
+Holtzapfell should have it, makbe in volume 2
+** TODO [#B] Fix yabai command to cycle through spaces
+Should only cycle through spaces on the current display. Get the list with a command something like this:
+yabai -m query --spaces --display 2 | jq 'map(select(.index))[].index'

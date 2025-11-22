@@ -11,3 +11,19 @@ Removed this file that had ended up in the wrong downloads directory and was sto
 
 [[https://stackoverflow.com/a/64563565/1671119][stackoverflow answer]]
 [[https://github.com/newren/git-filter-repo][git-filter-repo source]]
+
+Had problems doing this twice. Needed to do this:
+#+begin_src shell
+git update-ref -d refs/original/refs/heads/main
+#+end_src
+to get past this error:
+Cannot create a new backup.
+A previous backup already exists in refs/original/
+
+Then do these 
+#+begin_src shell
+git config pull.rebase true
+git pull
+git push origin main>
+#+end_src
+from this [[https://stackoverflow.com/a/34177510/1671119][stackoverflow answer]]

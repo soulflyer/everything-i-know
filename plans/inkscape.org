@@ -1,0 +1,5 @@
+* Reflect and Rotate Clones
+
+Compass pattern can be created with the 90'rotation 45'reflection with 2 rows and 4 columns. No shift.
+
+Fill has to be done as part of the fill and stroke properties. Using the fill tool only fills one of the clones.

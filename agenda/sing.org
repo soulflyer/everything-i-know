@@ -419,11 +419,12 @@ SCHEDULED: <2025-12-10 Wed .+28d>
 [[https://www.youtube.com/watch?v=svU6aQPf3X0][Increase range tutorial]]
 
 * TODO [#I] Practice
-SCHEDULED: <2025-11-24 Mon .+3d>
+SCHEDULED: <2025-11-25 Tue .+3d>
   :PROPERTIES:
   :STYLE:    habit
-  :LAST_REPEAT: [2025-11-21 Fri 22:13]
+  :LAST_REPEAT: [2025-11-22 Sat 20:12]
   :END:
+  - State "DONE"       from "TODO"       [2025-11-22 Sat 20:12]
   - State "DONE"       from "TODO"       [2025-11-21 Fri 22:13]
   - State "DONE"       from "TODO"       [2025-11-20 Thu 22:13]
   - State "DONE"       from "TODO"       [2025-11-19 Wed 17:14]

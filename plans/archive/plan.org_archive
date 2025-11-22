@@ -1,0 +1,227 @@
+#    -*- mode: org -*-
+
+
+Archived entries from file /Users/iain/Documents/Plans/plan.org
+* DONE test entry
+  CLOSED: [2013-01-23 Wed 10:15]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-01-23 Wed 16:45
+  :ARCHIVE_FILE: ~/Documents/Plans/plan.org
+  :ARCHIVE_CATEGORY: plan
+  :ARCHIVE_TODO: DONE
+  :END:
+  - Note taken on [2013-01-23 Wed 16:43] \\
+    a note....
+* DONE Visit UK
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-01-23 Wed 16:50
+  :ARCHIVE_FILE: ~/Documents/Plans/plan.org
+  :ARCHIVE_CATEGORY: plan
+  :ARCHIVE_TODO: DONE
+  :END:
+* DONE Visit UK
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-01-23 Wed 16:52
+  :ARCHIVE_FILE: ~/Documents/Plans/plan.org
+  :ARCHIVE_CATEGORY: plan
+  :ARCHIVE_TODO: DONE
+  :END:
+* DONE [#B] ?
+  CLOSED: [2013-01-24 Thu 12:48]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-01-24 Thu 12:49
+  :ARCHIVE_FILE: ~/Documents/Plans/plan.org
+  :ARCHIVE_OLPATH: Specialty Instructor
+  :ARCHIVE_CATEGORY: plan
+  :ARCHIVE_TODO: DONE
+  :END:
+* DONE [#A] talk to coco dive
+  CLOSED: [2013-01-25 Fri 06:51]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-01-26 Sat 06:55
+  :ARCHIVE_FILE: ~/Documents/Plans/plan.org
+  :ARCHIVE_OLPATH: Try diving for VLX
+  :ARCHIVE_CATEGORY: plan
+  :ARCHIVE_TODO: DONE
+  :END:
+* DONE [#C] Rewrite tm window layouts so they work with different size screens
+  CLOSED: [2013-02-18 Mon 12:43]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-03-06 Wed 21:45
+  :ARCHIVE_FILE: ~/Documents/Plans/plan.org
+  :ARCHIVE_CATEGORY: plan
+  :ARCHIVE_TODO: DONE
+  :END:
+** Archive                                                          :ARCHIVE:
+*** DONE [#C] Try mimi version of layout command on subversion
+    CLOSED: [2013-02-18 Mon 12:43]
+    :PROPERTIES:
+    :ARCHIVE_TIME: 2013-03-06 Wed 21:44
+    :END:
+* DONE [#A] Fix backups [2/2]
+  CLOSED: [2013-03-10 Sun 17:05]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-03-10 Sun 17:08
+  :ARCHIVE_FILE: ~/Documents/Plans/plan.org
+  :ARCHIVE_CATEGORY: plan
+  :ARCHIVE_TODO: DONE
+  :END:
+  Music stuff on mimi shouldn't get overwritten, and should be backed up to subversion.
+  Partialy done. Added music/sooperlooper to excludes. Needs a more complete soln.
+** DONE [#A] Pull stuff from mimi before pushing everything from subversion
+   CLOSED: [2013-03-05 Tue 18:49]
+** DONE [#C] Push stuff to blackbook suse. Maybe pull org files too?
+   CLOSED: [2013-03-10 Sun 17:05]
+* DONE [#C] Rewrite tm window layouts so they work with different size screens
+  CLOSED: [2013-02-18 Mon 12:43]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-03-10 Sun 17:08
+  :ARCHIVE_FILE: ~/Documents/Plans/plan.org
+  :ARCHIVE_CATEGORY: plan
+  :ARCHIVE_TODO: DONE
+  :END:
+** DONE [#C] Try mimi version of layout command on subversion
+   CLOSED: [2013-02-18 Mon 12:43]
+* Archive                                                           :ARCHIVE:
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-06-11 Tue 20:10
+  :ARCHIVE_FILE: ~/Documents/Plans/plan.org
+  :ARCHIVE_OLPATH: Improve org mode [1/2]
+  :ARCHIVE_CATEGORY: plan
+  :END:
+** DONE [#D] Fix colours in org mode headings
+   CLOSED: [2013-02-23 Sat 21:05]
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2013-03-31 Sun 17:57
+   :END:
+* Archive                                                           :ARCHIVE:
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2013-06-11 Tue 20:11
+  :ARCHIVE_FILE: ~/Documents/Plans/plan.org
+  :ARCHIVE_CATEGORY: plan
+  :END:
+** DONE [#B] Debug tm startup (switch to startup with org-mode windo)
+   CLOSED: [2013-02-07 Thu 12:58]
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2013-03-31 Sun 17:57
+   :END:
+
+* DONE [#B] Fix tm cd Code; tm nodetest # shouldn't open in ~
+  CLOSED: [2015-07-19 Sun 13:52]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2015-07-19 Sun 13:52
+  :ARCHIVE_FILE: ~/Documents/Plans/plan.org
+  :ARCHIVE_OLPATH: Improve org mode
+  :ARCHIVE_CATEGORY: plan
+  :ARCHIVE_TODO: DONE
+  :END:
+
+* DONE [#B] Fix tm cd Code; tm nodetest # shouldn't open in ~
+  CLOSED: [2015-08-18 Tue 17:09]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2015-08-18 Tue 17:09
+  :ARCHIVE_FILE: ~/Documents/Plans/plan.org
+  :ARCHIVE_OLPATH: Improve org mode
+  :ARCHIVE_CATEGORY: plan
+  :ARCHIVE_TODO: DONE
+  :END:
+
+* DONE [#B] Fix tm cd Code; tm nodetest # shouldn't open in ~
+  CLOSED: [2015-09-05 Sat 20:18]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2015-09-05 Sat 20:18
+  :ARCHIVE_FILE: ~/Documents/Plans/plan.org
+  :ARCHIVE_OLPATH: Improve org mode
+  :ARCHIVE_CATEGORY: plan
+  :ARCHIVE_TODO: DONE
+  :END:
+
+* DONE [#B] Fix tm cd Code; tm nodetest # shouldn't open in ~
+  CLOSED: [2015-10-05 Mon 10:11]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2015-10-05 Mon 10:11
+  :ARCHIVE_FILE: ~/Documents/Plans/plan.org
+  :ARCHIVE_OLPATH: Improve org mode
+  :ARCHIVE_CATEGORY: plan
+  :ARCHIVE_TODO: DONE
+  :END:
+
+* DONE [#B] Fix tm cd Code; tm nodetest # shouldn't open in ~
+  CLOSED: [2016-04-11 Mon 08:50]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2016-04-11 Mon 08:50
+  :ARCHIVE_FILE: ~/Documents/Plans/plan.org
+  :ARCHIVE_OLPATH: Improve org mode
+  :ARCHIVE_CATEGORY: plan
+  :ARCHIVE_TODO: DONE
+  :END:
+
+* [#B] Renew driving licence
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-10-10 Tue 20:44
+  :ARCHIVE_FILE: ~/Documents/Plans/plan.org
+  :ARCHIVE_CATEGORY: plan
+  :END:
+
+* DONE [#B] Fix tm cd Code; tm nodetest # shouldn't open in ~
+  CLOSED: [2017-10-10 Tue 20:47]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-10-10 Tue 20:47
+  :ARCHIVE_FILE: ~/Documents/Plans/plan.org
+  :ARCHIVE_OLPATH: Improve org mode
+  :ARCHIVE_CATEGORY: plan
+  :ARCHIVE_TODO: DONE
+  :END:
+
+* Specialty Instructor
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-10-10 Tue 20:47
+  :ARCHIVE_FILE: ~/Documents/Plans/plan.org
+  :ARCHIVE_CATEGORY: plan
+  :END:
+** Rebreather
+   :PROPERTIES:
+   :END:
+** Self reliant diver
+
+* Try diving for VLX
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-10-10 Tue 20:48
+  :ARCHIVE_FILE: ~/Documents/Plans/plan.org
+  :ARCHIVE_CATEGORY: plan
+  :END:
+
+* [#B] Renew driving licence
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-10-11 Wed 19:14
+  :ARCHIVE_FILE: ~/Documents/Plans/plan.org
+  :ARCHIVE_CATEGORY: plan
+  :END:
+
+* DONE [#B] Fix tm cd Code; tm nodetest # shouldn't open in ~
+  CLOSED: [2017-10-11 Wed 19:15]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-10-11 Wed 19:15
+  :ARCHIVE_FILE: ~/Documents/Plans/plan.org
+  :ARCHIVE_OLPATH: Improve org mode
+  :ARCHIVE_CATEGORY: plan
+  :ARCHIVE_TODO: DONE
+  :END:
+
+* Specialty Instructor
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-10-11 Wed 19:15
+  :ARCHIVE_FILE: ~/Documents/Plans/plan.org
+  :ARCHIVE_CATEGORY: plan
+  :END:
+** Rebreather
+   :PROPERTIES:
+   :END:
+** Self reliant diver
+
+* Try diving for VLX
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-10-12 Thu 10:59
+  :ARCHIVE_FILE: ~/Documents/Plans/plan.org
+  :ARCHIVE_CATEGORY: plan
+  :END:

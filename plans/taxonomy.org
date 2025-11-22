@@ -1,0 +1,56 @@
+* Identify things in my photos
+** DONE [#H] Amphiprion - Is the western skunk a mislabeled pink
+   CLOSED: [2015-03-21 Sat 21:46]
+** DONE [#H] Find a name for the 2 types of frogfish
+   CLOSED: [2015-03-21 Sat 21:46]
+** DONE [#H] Sort out the scorpaenidae
+   CLOSED: [2015-03-21 Sat 21:47]
+** DONE [#H] Sort out the nudibranches
+   CLOSED: [2015-03-21 Sat 21:46]
+** DONE [#H] Get 2nd opinion on the differences between fryeria phllidia, phylidiella and phylidiopsis
+   CLOSED: [2015-03-21 Sat 21:47]
+** DONE [#H] Get 2nd opinion on nembrotha lineolata. Is it actually a hypselodoris
+   CLOSED: [2015-03-21 Sat 21:47]
+* Clues
+* Coral
+** Dendronephythia (Tropical marine life of Indonesia, Allen 1997)
+- Looks like the soft coral "glass tree" photographed feb 2013
+** Tubastrea faulkneri (Tropical marine life of Indonesia, Allen 1997)
+- Looks like the pink and orange soft coral often photogrphed in deeper water
+* Anemones
+** Heteractis crispa - the round one with lilac tinge
+** Heteractis magnifica - I think this is the one amphiprion peridarion favours (pink anemone fish)
+** Colochirus robustus (Asia Pacific reef guide, Deblius pg 312)
+- looks like the yellow sea cucumber thing seen at whale island
+** Stichodactyla Haddoni looks like the anemone that usually has cleaner shrimps and porcelain crabs
+* Tube worms
+** Sabellastarte indica (Coral reef guide, Lieske 2004) looks like the brown one.
+* Fish
+** cetoscarus bicolour (fisch sudoostasien fuhrer, pg 238, debelius 1994)
+- white fish, orange band. Juvenile parrotfish?
+
+** Aspidontus taeniatus, mimic cleaner wrasse (Coral reef guide, Lieske 2004)
+- snout extends past mouth.
+
+** Antennariua commersoni, giant frogfish (Coral reef guide, Lieske 2004)
+- looks like our frogfish, the big red one.
+
+** Chaetodon octofasciatus (the south china sea, Ming and Alino 1992)
+- looks like the chaetodon with white/black/pale/black stripes.
+** coris - the anemonefish coloured wrasse.
+- possibly a juvenile form.
+** Epinephilus fasciatus (fisch sudoostasien fuhrer, debelius 1994)
+-looks like the orange fish with the big eye photographed 2/3/13
+** Amphiprion sebae could be the one photographed on 2/3/13
+- or [[http://eol.org/pages/339952/overview][amphiprion chrysogaster]]
+- or [[http://eol.org/pages/218667/overview][amphiprion chrysopterus]]
+- or [[http://eol.org/pages/213681/overview][amphiprion polymnus]]
+** new butterflyfish                                                   :none:
+ 22?
+**
+
+* Crustacea
+** Neopetrolisthes maculatus (Tropical marine life of Indonesia, Allen 1997)
+- Looks like the porcelain crab we see regularly. Family Porcellanidae.
+* Molluscs
+** ceratosoma alleni - could be nobbly one seen at moray
