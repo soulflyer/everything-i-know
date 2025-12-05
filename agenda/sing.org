@@ -225,9 +225,9 @@ https://www.youtube.com/watch?v=QPAfytlpdAI
 ** Master of the Universe: Hawkwind
 ** Maxwell's Silver Hammer: Beatles
 ** Modesty: Soen
-High A I think. Just in range.
+High A I think. Just in range. "Follow me follow us, because there's no-one coming to help us"
 ** Monarch: Soen
-Range OK?
+Range OK? "Into the fire"
 ** Moonlight Shadow: Mike Oldfield
 ** My Dark Disquiet: Poets of the Fall
 ** No Time To Waste: Anouk
@@ -419,11 +419,17 @@ SCHEDULED: <2025-12-10 Wed .+28d>
 [[https://www.youtube.com/watch?v=svU6aQPf3X0][Increase range tutorial]]
 
 * TODO [#I] Practice
-SCHEDULED: <2025-11-25 Tue .+3d>
+SCHEDULED: <2025-12-08 Mon .+3d>
   :PROPERTIES:
   :STYLE:    habit
-  :LAST_REPEAT: [2025-11-22 Sat 20:12]
+  :LAST_REPEAT: [2025-12-05 Fri 18:37]
   :END:
+  - State "DONE"       from "TODO"       [2025-12-05 Fri 18:37]
+  - State "DONE"       from "TODO"       [2025-12-04 Thu 20:55]
+  - State "DONE"       from "TODO"       [2025-12-03 Wed 20:08]
+  - State "DONE"       from "TODO"       [2025-11-30 Sun 15:28]
+  - State "DONE"       from "TODO"       [2025-11-27 Thu 12:26]
+  - State "DONE"       from "TODO"       [2025-11-23 Sun 21:00]
   - State "DONE"       from "TODO"       [2025-11-22 Sat 20:12]
   - State "DONE"       from "TODO"       [2025-11-21 Fri 22:13]
   - State "DONE"       from "TODO"       [2025-11-20 Thu 22:13]

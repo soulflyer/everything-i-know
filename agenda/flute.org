@@ -17,11 +17,12 @@ The harmony line I hear must be just in my head. It's not on the original.
 ** Ekseption Adagio
 [[yt:z-CNTqwDc9M]]
 ** TODO [#I] Windsynth/Sax
-SCHEDULED:  <2025-11-27 Thu .+8d>
+SCHEDULED:  <2025-12-08 Mon .+8d>
 :PROPERTIES:
 :STYLE: habit
-:LAST_REPEAT: [2025-11-19 Wed 17:14]
+:LAST_REPEAT: [2025-11-30 Sun 11:04]
 :END:
+- State "DONE"       from "TODO"       [2025-11-30 Sun 11:04]
 - State "DONE"       from "TODO"       [2025-11-19 Wed 17:14]
 - State "DONE"       from "TODO"       [2025-11-18 Tue 13:42]
 - State "DONE"       from "TODO"       [2025-11-17 Mon 12:01]
@@ -169,11 +170,12 @@ SCHEDULED:  <2025-11-27 Thu .+8d>
 :END:
 [[file:flute-images/screenshot-20250315-223554.png]]
 ** TODO [#I] Shakuhachi
-SCHEDULED:  <2025-11-23 Sun .+7d>
+SCHEDULED:  <2025-12-07 Sun .+7d>
 :PROPERTIES:
 :STYLE: habit
-:LAST_REPEAT: [2025-11-16 Sun 15:36]
+:LAST_REPEAT: [2025-11-30 Sun 12:11]
 :END:
+- State "DONE"       from "TODO"       [2025-11-30 Sun 12:11]
 - State "DONE"       from "TODO"       [2025-11-16 Sun 15:36]
 - State "DONE"       from "TODO"       [2025-11-10 Mon 11:25]
 - State "DONE"       from "TODO"       [2025-11-03 Mon 10:05]
@@ -300,11 +302,13 @@ SCHEDULED:  <2025-11-23 Sun .+7d>
 [[/Users/iain/Documents/books/bookshelf/Musical-Instruments/Flute/Instruction/Koehler-temp.pdf][Koehler]] [[pdf:/Volumes/bookshelf/Musical-Instruments/Flute/Instruction/Koehler-temp.pdf::25++2.86][excercise 50]]
 
 ** TODO [#I] Traverso
-  SCHEDULED: <2025-11-25 Tue .+1w>
+  SCHEDULED: <2025-12-12 Fri .+1w>
   :PROPERTIES:
   :STYLE:    habit
-  :LAST_REPEAT: [2025-11-18 Tue 18:12]
+  :LAST_REPEAT: [2025-12-05 Fri 18:42]
   :END:
+  - State "DONE"       from "TODO"       [2025-12-05 Fri 18:42]
+  - State "DONE"       from "TODO"       [2025-11-30 Sun 12:14]
   - State "DONE"       from "TODO"       [2025-11-18 Tue 18:12]
   - State "DONE"       from "TODO"       [2025-11-11 Tue 08:35]
   - State "DONE"       from "TODO"       [2025-11-05 Wed 16:42]
@@ -1025,12 +1029,13 @@ SCHEDULED:  <2025-11-23 Sun .+7d>
   - State "DONE"       from "TODO"       [2021-01-05 Tue 21:14]
     
 * Whistle
-** TODO [#I] Whistle
-  SCHEDULED: <2025-11-26 Wed .+1w>
+** TODO [#H] Whistle
+  SCHEDULED: <2025-12-07 Sun .+1w>
   :PROPERTIES:
   :STYLE:   habit
-  :LAST_REPEAT: [2025-11-19 Wed 17:19]
+  :LAST_REPEAT: [2025-11-30 Sun 12:11]
   :END:
+  - State "DONE"       from "TODO"       [2025-11-30 Sun 12:11]
   - State "DONE"       from "TODO"       [2025-11-19 Wed 17:19]
   - State "DONE"       from "TODO"       [2025-11-14 Fri 06:43]
   - State "DONE"       from "TODO"       [2025-11-11 Tue 17:57]
