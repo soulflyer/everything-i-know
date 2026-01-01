@@ -1,4 +1,9 @@
 * FIXME TODOs
+** DONE [#C] Get address for Kathryn
+CLOSED: [2025-12-26 Fri 18:15]
+** DONE [#C] Re-establish dropbox sync
+CLOSED: [2025-12-18 Thu 19:18]
+
 ** DONE [#E] repot turmeric, ginger and pineapples.
 CLOSED: [2025-10-19 Sun 11:23]
 ** TODO [#E] Repot Bougianvilleas

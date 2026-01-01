@@ -58,13 +58,14 @@ G harp, 3rd position [[https://www.tomlinharmonicalessons.com/how-to-play-summer
 [[file:harp-images/screenshot-20250922-103136.png]]
 [[file:harp-images/screenshot-20250922-103213.png]]
 ** TODO [#I] Practice
-  SCHEDULED:   <2025-11-25 Tue .+10d>
-  #+begin_quote
-  #+end_quote
+  SCHEDULED:   <2026-01-08 Thu .+10d>
   :PROPERTIES:
   :STYLE:    habit
-  :LAST_REPEAT: [2025-11-15 Sat 15:47]
+  :LAST_REPEAT: [2025-12-29 Mon 15:40]
   :END:
+  - State "DONE"       from "TODO"       [2025-12-29 Mon 15:40]
+  - State "DONE"       from "TODO"       [2025-12-19 Fri 20:43]
+  - State "DONE"       from "TODO"       [2025-12-09 Tue 11:33]
   - State "DONE"       from "TODO"       [2025-11-15 Sat 15:47]
   - State "DONE"       from "TODO"       [2025-11-08 Sat 11:10]
   - State "DONE"       from "TODO"       [2025-10-31 Fri 17:06]

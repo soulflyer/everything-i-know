@@ -8,20 +8,47 @@
 Actual key is *F*, play in *G* on a Bb instrument (or *D* on an Eb instrument)
 The harmony line I hear must be just in my head. It's not on the original.
 #+ATTR_ORG: :width 800
-[[file:flute-images/screenshot-20250720-120726.png]]
+[[file:flute-images/soprano-alto-unison.png]]
 [[file:flute-images/careless-whisper-tenor.png]]
 ** Baker Street
 #+ATTR_ORG: :width 800
 [[file:flute-images/Baker-Street.png]]
- [[file:flute-images/soprano-alto-unison.png]]
 ** Ekseption Adagio
+[[file:~/Documents/bookshelf/Music/Albinoni/Adagio-in-Gm.pdf][Albinoni, Adagio in Gm]]
 [[yt:z-CNTqwDc9M]]
+*** Sheet music
+[[file:flute-images/screenshot-20251211-212146.png]][[file:flute-images/screenshot-20251211-212225.png]][[file:flute-images/screenshot-20251211-212415.png]]
+[[file:flute-images/screenshot-20251211-212440.png]][[file:flute-images/screenshot-20251211-212645.png]][[file:flute-images/screenshot-20251211-212723.png]]
+[[file:flute-images/screenshot-20251211-212745.png]][[file:flute-images/screenshot-20251211-212804.png]][[file:flute-images/screenshot-20251211-212906.png]]
+[[file:flute-images/screenshot-20251211-212927.png]][[file:flute-images/screenshot-20251211-212946.png]][[file:flute-images/screenshot-20251211-213003.png]]
+
+** Smooth Operator 
+:PROPERTIES:
+:ATTACH_DIR: /home/iain/Documents/org-mode/agenda/flute-images
+:END:
+ [[file:flute-images/screenshot-20251228-173801.png]] [[file:flute-images/screenshot-20251228-173928.png]]
 ** TODO [#I] Windsynth/Sax
-SCHEDULED:  <2025-12-08 Mon .+8d>
+SCHEDULED:  <2026-01-09 Fri .+8d>
 :PROPERTIES:
 :STYLE: habit
-:LAST_REPEAT: [2025-11-30 Sun 11:04]
+:LAST_REPEAT: [2026-01-01 Thu 17:40]
 :END:
+- State "DONE"       from "TODO"       [2026-01-01 Thu 17:40]
+- State "DONE"       from "TODO"       [2025-12-31 Wed 09:50]
+- State "DONE"       from "TODO"       [2025-12-30 Tue 19:49]
+- State "DONE"       from "TODO"       [2025-12-27 Sat 09:31]
+- State "DONE"       from "TODO"       [2025-12-23 Tue 09:47]
+- State "DONE"       from "TODO"       [2025-12-22 Mon 17:47]
+- State "DONE"       from "TODO"       [2025-12-19 Fri 20:38]
+- State "DONE"       from "TODO"       [2025-12-17 Wed 18:27]
+- State "DONE"       from "TODO"       [2025-12-15 Mon 23:50]
+- State "DONE"       from "TODO"       [2025-12-14 Sun 21:59]
+- State "DONE"       from "TODO"       [2025-12-13 Sat 09:41]
+- State "DONE"       from "TODO"       [2025-12-12 Fri 11:18]
+- State "DONE"       from "TODO"       [2025-12-11 Thu 12:07]
+- State "DONE"       from "TODO"       [2025-12-10 Wed 15:56]
+- State "DONE"       from "TODO"       [2025-12-08 Mon 17:29]
+- State "DONE"       from "TODO"       [2025-12-07 Sun 11:25]
 - State "DONE"       from "TODO"       [2025-11-30 Sun 11:04]
 - State "DONE"       from "TODO"       [2025-11-19 Wed 17:14]
 - State "DONE"       from "TODO"       [2025-11-18 Tue 13:42]
@@ -170,11 +197,16 @@ SCHEDULED:  <2025-12-08 Mon .+8d>
 :END:
 [[file:flute-images/screenshot-20250315-223554.png]]
 ** TODO [#I] Shakuhachi
-SCHEDULED:  <2025-12-07 Sun .+7d>
+SCHEDULED:  <2026-01-08 Thu .+7d>
 :PROPERTIES:
 :STYLE: habit
-:LAST_REPEAT: [2025-11-30 Sun 12:11]
+:LAST_REPEAT: [2026-01-01 Thu 17:40]
 :END:
+- State "DONE"       from "TODO"       [2026-01-01 Thu 17:40]
+- State "DONE"       from "TODO"       [2025-12-25 Thu 19:35]
+- State "DONE"       from "TODO"       [2025-12-18 Thu 17:23]
+- State "DONE"       from "TODO"       [2025-12-12 Fri 20:10]
+- State "DONE"       from "TODO"       [2025-12-06 Sat 18:47]
 - State "DONE"       from "TODO"       [2025-11-30 Sun 12:11]
 - State "DONE"       from "TODO"       [2025-11-16 Sun 15:36]
 - State "DONE"       from "TODO"       [2025-11-10 Mon 11:25]
@@ -302,11 +334,18 @@ SCHEDULED:  <2025-12-07 Sun .+7d>
 [[/Users/iain/Documents/books/bookshelf/Musical-Instruments/Flute/Instruction/Koehler-temp.pdf][Koehler]] [[pdf:/Volumes/bookshelf/Musical-Instruments/Flute/Instruction/Koehler-temp.pdf::25++2.86][excercise 50]]
 
 ** TODO [#I] Traverso
-  SCHEDULED: <2025-12-12 Fri .+1w>
+  SCHEDULED: <2026-01-07 Wed .+1w>
   :PROPERTIES:
   :STYLE:    habit
-  :LAST_REPEAT: [2025-12-05 Fri 18:42]
+  :LAST_REPEAT: [2025-12-31 Wed 20:43]
   :END:
+  - State "DONE"       from "TODO"       [2025-12-31 Wed 20:43]
+  - State "DONE"       from "TODO"       [2025-12-25 Thu 19:35]
+  - State "DONE"       from "TODO"       [2025-12-18 Thu 17:09]
+  - State "DONE"       from "TODO"       [2025-12-17 Wed 18:27]
+  - State "DONE"       from "TODO"       [2025-12-17 Wed 11:15]
+  - State "DONE"       from "TODO"       [2025-12-16 Tue 11:15]
+  - State "DONE"       from "TODO"       [2025-12-10 Wed 16:40]
   - State "DONE"       from "TODO"       [2025-12-05 Fri 18:42]
   - State "DONE"       from "TODO"       [2025-11-30 Sun 12:14]
   - State "DONE"       from "TODO"       [2025-11-18 Tue 18:12]
@@ -1030,11 +1069,16 @@ SCHEDULED:  <2025-12-07 Sun .+7d>
     
 * Whistle
 ** TODO [#H] Whistle
-  SCHEDULED: <2025-12-07 Sun .+1w>
+  SCHEDULED: <2026-01-07 Wed .+1w>
   :PROPERTIES:
   :STYLE:   habit
-  :LAST_REPEAT: [2025-11-30 Sun 12:11]
+  :LAST_REPEAT: [2025-12-31 Wed 09:52]
   :END:
+  - State "DONE"       from "TODO"       [2025-12-31 Wed 09:52]
+  - State "DONE"       from "TODO"       [2025-12-24 Wed 23:49]
+  - State "DONE"       from "TODO"       [2025-12-17 Wed 18:27]
+  - State "DONE"       from "TODO"       [2025-12-13 Sat 09:45]
+  - State "DONE"       from "TODO"       [2025-12-07 Sun 17:33]
   - State "DONE"       from "TODO"       [2025-11-30 Sun 12:11]
   - State "DONE"       from "TODO"       [2025-11-19 Wed 17:19]
   - State "DONE"       from "TODO"       [2025-11-14 Fri 06:43]

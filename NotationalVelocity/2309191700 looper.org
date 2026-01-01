@@ -27,6 +27,8 @@ Open source plugin host. Handles *Mobius* well, but there is a problem getting m
 [[http://www.livelooping.org/][Livelooping]]
 
 * Software
+** VCV Buffersludger
+Looks like it might do some interesting repeats and manipulations of audio. Not a traditional looper.
 ** [[https://www.mobiuslooper.com/][Möbius]]
 looks good. Standalone and VST. Based on the *Echoplex* but not a strict emulation
 [[https://schrodingerscat-mobius.github.io/Mobius3/][Schrodingers Cat]] info on using scripting in Mobius.`

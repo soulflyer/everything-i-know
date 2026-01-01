@@ -1,10 +1,14 @@
 #+CATEGORY: taichi
 * TODO [#I] Practice 24step
-  SCHEDULED: <2025-12-09 Tue .+1w>
+  SCHEDULED: <2026-01-03 Sat .+1w>
   :PROPERTIES:
   :STYLE:    habit
-  :LAST_REPEAT: [2025-12-02 Tue 22:10]
+  :LAST_REPEAT: [2025-12-27 Sat 16:13]
   :END:
+  - State "DONE"       from "TODO"       [2025-12-27 Sat 16:13]
+  - State "DONE"       from "TODO"       [2025-12-23 Tue 09:46]
+  - State "DONE"       from "TODO"       [2025-12-16 Tue 15:47]
+  - State "DONE"       from "TODO"       [2025-12-09 Tue 21:29]
   - State "DONE"       from "TODO"       [2025-12-02 Tue 22:10]
   - State "DONE"       from "TODO"       [2025-11-24 Mon 14:14]
   - State "DONE"       from "TODO"       [2025-11-18 Tue 18:23]

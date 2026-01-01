@@ -1,4 +1,7 @@
 * FIXME TODOs
+** DONE [#D] Make drone machine that steps through the circle of 5ths
+CLOSED: [2025-12-27 Sat 23:58]
+Drone could contain major or minor 3rds and fifths to practice major and minor scales/arpeggios. Single key press should step to the next key in the circle.
 ** DONE [#D] FIX metadata editing for FLAC
 CLOSED: [2025-11-07 Fri 10:18]
 *sudo apt install flac* installs metaflac

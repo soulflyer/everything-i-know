@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ATTACH_DIR: /home/iain/Documents/org-mode/NotationalVelocity/2512101603 circle of fifths-images
+:END:
+#+TITLE: circle of fifths
+# Tags #music
+#+ATTR_ORG: :width 800
+[[file:2512101603 circle of fifths-images/circle-of-fifths.png]]
+

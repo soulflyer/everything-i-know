@@ -1,12 +1,12 @@
 #+TITLE: Hasluck cabinetmakers handybook
 # Tags #woodwork #book
 
-[[file:~/Documents/books/bookshelf/Woodwork/Old-Books/Hasluck/cabinetworkersha00hasl.pdf][Cabinetmakers Handybook]]
+[[file:~/Documents/bookshelf/Woodwork/Old-Books/Hasluck/cabinetworkersha00hasl.pdf][Cabinetmakers Handybook]]
 
-[[pdf:~/Documents/books/bookshelf/Woodwork/Old-Books/Hasluck/cabinetworkersha00hasl.pdf::90++0.00][Page 78]] has a "puzzle dovetail" that may be a clue to Kintaro Yazamo's puzzle joint.
+[[pdf:~/Documents/bookshelf/Woodwork/Old-Books/Hasluck/cabinetworkersha00hasl.pdf::90++0.00][Page 78]] has a "puzzle dovetail" that may be a clue to Kintaro Yazamo's puzzle joint.
 
 see:
 §1905222236 kintaro yazawa puzzle joint
 §2012152358 impossible dovetail
 
-Also has a section on making a [[pdf:~/Documents/books/bookshelf/Woodwork/Old-Books/Hasluck/cabinetworkersha00hasl.pdf::138++0.00][carpenters toolchest]]
+Also has a section on making a [[pdf:~/Documents/bookshelf/Woodwork/Old-Books/Hasluck/cabinetworkersha00hasl.pdf::138++0.00][carpenters toolchest]]

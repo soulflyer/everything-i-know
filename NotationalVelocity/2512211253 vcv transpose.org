@@ -1,0 +1,9 @@
+#+TITLE: vcv transpose
+# Tags #music #vcv
+* Transposing a whole patch
+:PROPERTIES:
+:ATTACH_DIR: /home/iain/Documents/org-mode/NotationalVelocity/2512211253 vcv transpose-images
+:END:
+I like the *Befaco* *Voltio* as a master pitch changer because of the large knob with the note names around it. However the range doesn't suit the *Bogaudio* *Stack* which seems to be the obvious choice for a transposer. Feeding it through a *Bogaudio* *Offset* first with the scale set to =1.2= fixes that, and everything transposes correctly:
+[[file:VCV-Patches/Transpose.vcv][patch]]
+[[file:2512211253 vcv transpose-images/screenshot-20251221-125552.png]]
