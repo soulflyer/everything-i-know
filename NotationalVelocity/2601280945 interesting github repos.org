@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ATTACH_DIR: /home/iain/Documents/org-mode/NotationalVelocity/2601280945 interesting github repos-images
+:END:
+#+TITLE: interesting github repos
+
+[[file:2601280945 interesting github repos-images/screenshot-20260128-094552.png]]
+from Byteclave on Facebook

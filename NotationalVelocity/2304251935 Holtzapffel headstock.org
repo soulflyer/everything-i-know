@@ -1,8 +1,8 @@
+#+TITLE: Holtzapffel headstock
 :PROPERTIES:
 :ATTACH_DIR: /Users/iain/Dropbox/org-mode/NotationalVelocity/2304251935 Holtzapffel headstock-images
 :END:
-#+TITLE: Holtzapffel headstock
-# Tags #lathe
+# Tags #lathe 
 [[file:2304251935 Holtzapffel headstock-images/headstock1.png]]
 [[file:2304251935 Holtzapffel headstock-images/dead-centre-oiler.png]]
 [[file:2304251935 Holtzapffel headstock-images/dead-centre-oiler2.png]]

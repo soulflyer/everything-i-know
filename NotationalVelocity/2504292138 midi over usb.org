@@ -10,3 +10,4 @@
 
 or run "Arduino\ IDE" and edit in emacs.
 
+On linux I installed *Arduino-IDE* via snap. The apt install version is old. Installed *arduino-mk* by *sudo apt install arduino-mk* to get the *arduino* executable which is called by *arduino-mode* to verify a sketch etc.

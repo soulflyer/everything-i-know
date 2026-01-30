@@ -323,6 +323,9 @@ Installed for the example programs which appear to work. Appeared to start worki
 ** Syntorial
 Trying with *wine*
 Problems with entering an authentication code. [[https://www.reddit.com/r/winehq/comments/1eyeku5/has_anyone_gotten_syntorial_2_to_work_properly/][Reddit thread]] may help, something to do with *Winetricks*
+** KDE
+Set keyboard type to Apple Aluminium (ANSI) and layout to *gb* gets most of the mappings right, but there is no *#* symbol. Get this by adding a *~/.Xmodmap* file. This only needs the changed keys, and using a complete file created by dumping the whole map by runing *xmodmap -pke > ~/.Xmodmap* and then editing it as per [[https://linuxconfig.org/reprogram-keyboard-keys-with-xmodmap][this blog]] ends up causing =huge delays when waking from sleep=. I don't think the entry in *bashrc* is necessary, as changing *.Xmodmap* while debugging this was effective immediately without re-running it.
+
 
 
 

@@ -1,0 +1,4 @@
+#+TITLE: guitarrig setup
+# Tags #music
+** getting stereo output from mono input
+need to enable stereo input even though only l channel is receiving input. Maybe nexting *split mix* modules will allow stereo output with echoes from one amp and mono output without echos from another 

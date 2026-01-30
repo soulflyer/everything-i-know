@@ -8,4 +8,4 @@ The openwith associations cause the images to be opened externaly rather than in
 
 C-c C-x C-v to toggle inline image display
 
-Linux waits for the external app to close. Using openwith and providing =eog&= as the guess works correctly
+Linux waits for the external app to close. Using openwith and providing =eog&= as the guess works correctly.

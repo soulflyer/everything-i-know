@@ -76,3 +76,35 @@ Replacing the keyboard input for *Scale* with a knob that selects pre-programmed
 
 Why not give each board its own multiplexer and use all 16 pins for something?
 Need to experiment with reading momentary buttons. will they need something to ensure they stay high long enough to  always be read? Perhaps a capacitor would do this?
+*** Multiplexer
+[[file:2505211814 arduino projects-images/multiplexer.jpg]]
+[[https://www.instructables.com/Arduino-Interfacing-With-CD74HC4067-16-channel-MUX/][Code from Instructables]] 
+#+begin_src cpp
+#include <light_CD74HC4067.h>
+
+CD74HC4067 mux(2, 3, 4, 5);
+
+const int signal_pin = A0;
+
+void setup()
+{
+  Serial.begin(9600);
+  pinMode(signal_pin, INPUT);
+}
+
+
+void loop()
+{
+  Serial.println("*******************************************");
+  for (byte i = 0; i < 16; i++) {
+    mux.channel(i);
+    int val = analogRead(signal_pin);                       // Read analog value
+    Serial.println("Channel "+String(i)+": "+String(val));  // Print value
+    delay(50);
+  }
+  delay(2000);
+}
+#+end_src
+The values read from the pots are different from those read directly, maximum is about 800 rather than 1024 so this will need to be accounted for in the call to *scaledValue*. The output from pin 1 is different from the others, topping out at only 470ish. Maybe its a soldering fault, but there are a few spare pins in several of the proposed sub-units so it shouldn't be a problem.
+*** Sending Midi
+[[https://github.com/arduino-libraries/MIDIUSB/blob/master/examples/MIDIUSB_write/MIDIUSB_write.ino][MidiUSB Example]]

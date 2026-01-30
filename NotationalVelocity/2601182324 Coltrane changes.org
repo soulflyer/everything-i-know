@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ATTACH_DIR: /home/iain/Documents/org-mode/NotationalVelocity/2601182324 modulation-images
+:END:
+#+TITLE: modulation
+# Tags #music
+[[https://www.thejazzpianosite.com/jazz-piano-lessons/jazz-chord-progressions/coltrane-changes/][Coltrane Changes]]
+#+ATTR_ORG: :width 800
+[[file:2601182324 modulation-images/screenshot-20260118-232615.png]]
+
+[[yt:64xv1FeU1rY]]

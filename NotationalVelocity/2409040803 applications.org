@@ -10,7 +10,7 @@ ReCycle, old mac only. Looks like it is also available for apple silicon. Just n
 Etcher or BalenaEtcher for making bootable USB drives
 * Disk usage
 Grandperspective
-
+gdmap on linux
 * Mobi, epub Reader
 Okular seems to be the least crap.
 * Editing Audio

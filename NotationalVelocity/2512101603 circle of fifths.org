@@ -6,3 +6,6 @@
 #+ATTR_ORG: :width 800
 [[file:2512101603 circle of fifths-images/circle-of-fifths.png]]
 
+[[yt:B-bB9cv-618]]
+#+ATTR_ORG: :width 600
+[[file:2512101603 circle of fifths-images/clever-giants.png]]
